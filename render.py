@@ -18,9 +18,21 @@ CREME = (247, 238, 222)
 OURO = (243, 196, 110)
 SOMBRA = (10, 6, 3)
 
-f_titulo = ImageFont.truetype(f"{FONT}/GreatVibes.ttf", 150)
-f_texto = ImageFont.truetype(f"{FONT}/EBGaramond-Bold.ttf", 80)
-f_ref = ImageFont.truetype(f"{FONT}/EBGaramond-SemiBoldItalic.ttf", 48)
+ESTILOS = {
+    "montserrat": {"titulo": "Montserrat-ExtraBold.ttf", "titulo_tam": 84, "caixa_alta": True, "track": 6,
+                   "texto": "Montserrat-SemiBold.ttf", "texto_tam": 66, "entre": 1.35,
+                   "ref": "Montserrat-MediumItalic.ttf", "ref_tam": 40},
+    "poppins": {"titulo": "Poppins-ExtraBold.ttf", "titulo_tam": 96, "caixa_alta": False, "track": 0,
+                "texto": "Poppins-SemiBold.ttf", "texto_tam": 66, "entre": 1.30,
+                "ref": "Poppins-MediumItalic.ttf", "ref_tam": 40},
+    "classico": {"titulo": "GreatVibes.ttf", "titulo_tam": 150, "caixa_alta": False, "track": 0,
+                 "texto": "EBGaramond-Bold.ttf", "texto_tam": 80, "entre": 1.22,
+                 "ref": "EBGaramond-SemiBoldItalic.ttf", "ref_tam": 48},
+}
+ESTILO = ESTILOS[os.environ.get("CANDEIA_ESTILO", "montserrat")]
+f_titulo = ImageFont.truetype(f"{FONT}/{ESTILO['titulo']}", ESTILO["titulo_tam"])
+f_texto = ImageFont.truetype(f"{FONT}/{ESTILO['texto']}", ESTILO["texto_tam"])
+f_ref = ImageFont.truetype(f"{FONT}/{ESTILO['ref']}", ESTILO["ref_tam"])
 f_marca = ImageFont.truetype(f"{FONT}/Cinzel-SemiBold.ttf", 34)
 
 
@@ -209,13 +221,27 @@ def tokens(linha):
     return out
 
 
-def camada_texto(linha, fonte, largura=900, entre=1.22):
+def _larg(fonte, w, track):
+    return fonte.getlength(w) + track * max(0, len(w) - 1)
+
+
+def _escreve(draw, xy, w, fonte, fill, track):
+    if not track:
+        draw.text(xy, w, font=fonte, fill=fill); return
+    x, y = xy
+    for ch in w:
+        draw.text((x, y), ch, font=fonte, fill=fill)
+        x += fonte.getlength(ch) + track
+
+
+def camada_texto(linha, fonte, largura=900, entre=None, track=0):
+    entre = entre or ESTILO["entre"]
     """Renderiza uma frase (quebrada e centralizada) numa camada RGBA com sombra e brilho."""
     toks = tokens(linha)
     esp = fonte.getlength(" ")
     linhas, atual, wa = [], [], 0
     for pedacos in toks:
-        lw = sum(fonte.getlength(w) for w, _ in pedacos)
+        lw = sum(_larg(fonte, w, track) for w, _ in pedacos)
         if atual and wa + esp + lw > largura:
             linhas.append(atual); atual, wa = [], 0
         wa += (esp if atual else 0) + lw
@@ -235,10 +261,10 @@ def camada_texto(linha, fonte, largura=900, entre=1.22):
         x = (cw - tot) / 2
         for pedacos, lw in ln:
             for w, d in pedacos:
-                dt.text((x, y), w, font=fonte, fill=(OURO if d else CREME) + (255,))
+                _escreve(dt, (x, y), w, fonte, (OURO if d else CREME) + (255,), track)
                 if d:
-                    dg.text((x, y), w, font=fonte, fill=(255, 170, 70, 220))
-                x += fonte.getlength(w)
+                    _escreve(dg, (x, y), w, fonte, (255, 170, 70, 220), track)
+                x += _larg(fonte, w, track)
             x += esp
         y += lh
     sombra = Image.new("RGBA", (cw, ch), SOMBRA + (0,))
@@ -293,10 +319,12 @@ def montar(roteiro, saida, fundo_spec="procedural", audio=None, narracao=None, p
     else:
         fundo = FundoProcedural(dur)
 
-    tam = 150
-    while tam > 90 and ImageFont.truetype(f"{FONT}/GreatVibes.ttf", tam).getlength(r["serie"]) > 960:
-        tam -= 6
-    cam_titulo = camada_texto(r["serie"], ImageFont.truetype(f"{FONT}/GreatVibes.ttf", tam), largura=1000, entre=1.0)
+    titulo = r["serie"].upper() if ESTILO["caixa_alta"] else r["serie"]
+    tam, tr = ESTILO["titulo_tam"], ESTILO["track"]
+    minimo = int(ESTILO["titulo_tam"] * 0.82)   # abaixo disso, quebra em duas linhas
+    while tam > minimo and _larg(ImageFont.truetype(f"{FONT}/{ESTILO['titulo']}", tam), titulo, tr) > 940:
+        tam -= 4
+    cam_titulo = camada_texto(titulo, ImageFont.truetype(f"{FONT}/{ESTILO['titulo']}", tam), largura=940, entre=1.12, track=tr)
     cams = [camada_texto(l, f_texto) for l in linhas]
     ref = r.get("referencia")
     cam_ref = camada_texto(ref["texto"], f_ref) if ref else None
@@ -316,7 +344,7 @@ def montar(roteiro, saida, fundo_spec="procedural", audio=None, narracao=None, p
         t = i / FPS
         im = fundo.frame(i).convert("RGBA")
         a_tit = ease(t / 1.2) * (1 - ease((t - t_cta0 + 0.2) / 0.6))
-        cola(im, cam_titulo, W / 2, 330, a_tit)
+        cola(im, cam_titulo, W / 2, 300 + cam_titulo.height / 2 - 60, a_tit)
         for k, (cam, t0) in enumerate(zip(cams, inicios)):
             t1 = t0 + por_linha[k]
             if t0 - 0.1 <= t <= t1 + 0.1:
