@@ -293,7 +293,10 @@ def montar(roteiro, saida, fundo_spec="procedural", audio=None, narracao=None, p
     else:
         fundo = FundoProcedural(dur)
 
-    cam_titulo = camada_texto(r["serie"], f_titulo, largura=1000, entre=1.0)
+    tam = 150
+    while tam > 90 and ImageFont.truetype(f"{FONT}/GreatVibes.ttf", tam).getlength(r["serie"]) > 960:
+        tam -= 6
+    cam_titulo = camada_texto(r["serie"], ImageFont.truetype(f"{FONT}/GreatVibes.ttf", tam), largura=1000, entre=1.0)
     cams = [camada_texto(l, f_texto) for l in linhas]
     ref = r.get("referencia")
     cam_ref = camada_texto(ref["texto"], f_ref) if ref else None

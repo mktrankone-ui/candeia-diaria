@@ -1,0 +1,38 @@
+{
+  "_licenca": "SnipSound Royalty-Free: uso comercial e monetizado permitido, sem crédito obrigatório, sem Content ID. NÃO redistribuir os arquivos: por isso só os links ficam aqui e o áudio é baixado na hora de montar o vídeo. https://snipsound.com/licensing/",
+  "amanhecer": [
+    {"id": 117, "titulo": "New Dawn (Uplifting)", "url": "https://media.snipsound.com/audio/rf_cin02b_new_dawn_uplifting.mp3"},
+    {"id": 115, "titulo": "New Dawn (Hopeful)", "url": "https://media.snipsound.com/audio/rf_cin02a_new_dawn_hopeful.mp3"},
+    {"id": 119, "titulo": "New Dawn (Inspiring)", "url": "https://media.snipsound.com/audio/rf_cin02c_new_dawn_inspiring.mp3"},
+    {"id": 114, "titulo": "Horizon Line (Hopeful)", "url": "https://media.snipsound.com/audio/rf_cin02a_2_horizon_line_hopeful.mp3"}
+  ],
+  "esperanca": [
+    {"id": 116, "titulo": "Horizon Line (Uplifting)", "url": "https://media.snipsound.com/audio/rf_cin02b_2_horizon_line_uplifting.mp3"},
+    {"id": 118, "titulo": "Horizon Line (Inspiring)", "url": "https://media.snipsound.com/audio/rf_cin02c_2_horizon_line_inspiring.mp3"},
+    {"id": 509, "titulo": "Forever (Hopeful)", "url": "https://media.snipsound.com/audio/rf_wed01c_forever_hopeful.mp3"},
+    {"id": 510, "titulo": "The First Dance (Hopeful)", "url": "https://media.snipsound.com/audio/rf_wed01c_2_the_first_dance_hopeful.mp3"}
+  ],
+  "noite": [
+    {"id": 466, "titulo": "Night Light (Calm)", "url": "https://media.snipsound.com/audio/rf_med02b_2_night_light_calm.mp3"},
+    {"id": 465, "titulo": "Drifting Off (Calm)", "url": "https://media.snipsound.com/audio/rf_med02b_drifting_off_calm.mp3"},
+    {"id": 464, "titulo": "Night Light (Sleepy)", "url": "https://media.snipsound.com/audio/rf_med02a_2_night_light_sleepy.mp3"},
+    {"id": 96, "titulo": "Floating Light (Peaceful)", "url": "https://media.snipsound.com/audio/rf_amb01a_floating_light_peaceful.mp3"}
+  ],
+  "paz": [
+    {"id": 97, "titulo": "Weightless (Peaceful)", "url": "https://media.snipsound.com/audio/rf_amb01a_2_weightless_peaceful.mp3"},
+    {"id": 457, "titulo": "Inner Calm (Peaceful)", "url": "https://media.snipsound.com/audio/rf_med01a_inner_calm_peaceful.mp3"},
+    {"id": 458, "titulo": "Still Waters (Peaceful)", "url": "https://media.snipsound.com/audio/rf_med01a_2_still_waters_peaceful.mp3"},
+    {"id": 96, "titulo": "Floating Light (Peaceful)", "url": "https://media.snipsound.com/audio/rf_amb01a_floating_light_peaceful.mp3"}
+  ],
+  "dificil": [
+    {"id": 281, "titulo": "Goodbye (Emotional)", "url": "https://media.snipsound.com/audio/rf_pno02c_goodbye_emotional.mp3"},
+    {"id": 282, "titulo": "The Last Letter (Emotional)", "url": "https://media.snipsound.com/audio/rf_pno02c_2_the_last_letter_emotional.mp3"},
+    {"id": 215, "titulo": "One More Mile (Emotional)", "url": "https://media.snipsound.com/audio/rf_cin04c_2_one_more_mile_emotional.mp3"},
+    {"id": 216, "titulo": "Against All Odds (Emotional)", "url": "https://media.snipsound.com/audio/rf_cin04c_against_all_odds_emotional.mp3"}
+  ],
+  "familia": [
+    {"id": 509, "titulo": "Forever (Hopeful)", "url": "https://media.snipsound.com/audio/rf_wed01c_forever_hopeful.mp3"},
+    {"id": 510, "titulo": "The First Dance (Hopeful)", "url": "https://media.snipsound.com/audio/rf_wed01c_2_the_first_dance_hopeful.mp3"},
+    {"id": 116, "titulo": "Horizon Line (Uplifting)", "url": "https://media.snipsound.com/audio/rf_cin02b_2_horizon_line_uplifting.mp3"}
+  ]
+}

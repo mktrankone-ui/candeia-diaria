@@ -18,6 +18,25 @@ sys.path.insert(0, BASE)
 import buscar_fundo, narrar, render  # noqa: E402
 
 
+def escolher_trilha(r, destino):
+    """Sorteia uma trilha do tema na lista da SnipSound e baixa para a pasta de trabalho."""
+    import urllib.request
+    try:
+        lista = json.load(open(os.path.join(BASE, "trilhas", "lista.json")))
+        opcoes = lista.get(r.get("tema", ""), []) or [t for k, v in lista.items() if not k.startswith("_") for t in v]
+        if r.get("trilha_id"):
+            opcoes = [t for k, v in lista.items() if not k.startswith("_") for t in v if t["id"] == r["trilha_id"]] or opcoes
+        t = random.choice(opcoes)
+        req = urllib.request.Request(t["url"], headers={"User-Agent": "candeia-diaria/1.0"})
+        with urllib.request.urlopen(req, timeout=60) as resp, open(destino, "wb") as f:
+            f.write(resp.read())
+        print("trilha", t["id"], t["titulo"], flush=True)
+        return destino, t
+    except Exception as e:
+        print("trilha da lista falhou:", e, flush=True)
+        return None, None
+
+
 def main(apenas=None):
     os.makedirs(PUB, exist_ok=True)
     idx_path = os.path.join(PUB, "indice.json")
@@ -27,7 +46,9 @@ def main(apenas=None):
     feitos = 0
     for k, rp in enumerate(roteiros):
         rid = os.path.splitext(os.path.basename(rp))[0]
-        if rid in indice or (apenas and rid not in apenas):
+        if apenas and rid not in apenas:
+            continue
+        if rid in indice and not apenas:
             continue
         r = json.load(open(rp, encoding="utf-8"))
         print(f"== {rid}", flush=True)
@@ -42,12 +63,15 @@ def main(apenas=None):
                     fundo = f"{modo}:{os.path.join(trab, 'fundo')}"
             voz = os.path.join(trab, "voz.mp3")
             narrar.narrar(rp, voz)
-            trilha = random.choice(trilhas) if trilhas else None
+            trilha, info_trilha = escolher_trilha(r, os.path.join(trab, "trilha.mp3"))
+            if not trilha:
+                trilha = random.choice(trilhas) if trilhas else None
+                info_trilha = {"titulo": os.path.basename(trilha)} if trilha else None
             saida = os.path.join(PUB, f"{rid}.mp4")
             dur = render.montar(rp, saida, fundo, trilha, voz)
             indice[rid] = {"arquivo": f"{rid}.mp4", "url": RAW + f"{rid}.mp4", "serie": r.get("serie"),
                            "legenda": r.get("legenda", ""), "duracao": round(dur, 1), "fundo": fundo.split(":")[0],
-                           "trilha": os.path.basename(trilha) if trilha else None}
+                           "trilha": info_trilha}
             json.dump(indice, open(idx_path, "w"), ensure_ascii=False, indent=1)
             feitos += 1
             print(f"ok {rid} ({dur:.1f}s, fundo={fundo.split(':')[0]})", flush=True)
