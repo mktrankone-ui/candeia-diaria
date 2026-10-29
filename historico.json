@@ -9,5 +9,41 @@
   "fundo": "procedural",
   "trilha": "sintética (piloto, sem narração)",
   "metricool_id": 410324974
+ },
+ {
+  "id": "oracao-noite-01",
+  "data": "2026-10-29",
+  "slot": "noite",
+  "serie": "Oração da noite",
+  "tema": "noite",
+  "referencia": "Salmo 4,9",
+  "fundo": "fotos",
+  "trilha": "Drifting Off (Calm)",
+  "duracao": 42.1,
+  "metricool_id": 410367688
+ },
+ {
+  "id": "oracao-manha-02",
+  "data": "2026-10-30",
+  "slot": "manha",
+  "serie": "Oração da manhã",
+  "tema": "amanhecer",
+  "referencia": "Salmo 118(117),24",
+  "fundo": "fotos",
+  "trilha": "New Dawn (Uplifting)",
+  "duracao": 45.1,
+  "metricool_id": 410367732
+ },
+ {
+  "id": "oracao-ansiedade-01",
+  "data": "2026-10-30",
+  "slot": "noite",
+  "serie": "Oração contra a ansiedade",
+  "tema": "paz",
+  "referencia": "Filipenses 4,6-7",
+  "fundo": "videos",
+  "trilha": "Floating Light (Peaceful)",
+  "duracao": 40.7,
+  "metricool_id": 410367808
  }
 ]
