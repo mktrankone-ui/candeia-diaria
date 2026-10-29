@@ -84,43 +84,109 @@ class FundoProcedural:
         return im
 
 
+def _grade_mask():
+    y = np.linspace(-1, 1, H)[:, None]; x = np.linspace(-1, 1, W)[None, :]
+    vig = np.clip(1 - 0.35 * (x ** 2) - 0.30 * (y ** 2), 0.55, 1)
+    centro = 1 - 0.22 * np.exp(-((y + 0.12) / 0.45) ** 2)   # escurece a faixa do texto
+    return (vig * centro)[..., None].astype(np.float32)
+
+
+_MASK = None
+
+
+def gradear(arr):
+    """Filtro quente, escurecido e com vinheta para o texto ficar legível."""
+    global _MASK
+    if _MASK is None:
+        _MASK = _grade_mask()
+    arr = arr.astype(np.float32) * np.array([1.06, 0.96, 0.84], dtype=np.float32) * 0.66 * _MASK
+    return Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8))
+
+
 class FundoFotos:
     """Slideshow de fotos com zoom lento (Ken Burns) e crossfade."""
 
-    def __init__(self, dur, pasta, por_foto=5.0, fade=1.0):
+    def __init__(self, dur, pasta, por_foto=5.5, fade=1.1):
         fotos = sorted(glob.glob(os.path.join(pasta, "*.jp*g")) + glob.glob(os.path.join(pasta, "*.png")))
         assert fotos, f"nenhuma foto em {pasta}"
         self.dur, self.por, self.fade = dur, por_foto, fade
-        n = int(math.ceil(dur / (por_foto - fade))) + 1
+        self.passo = por_foto - fade
+        n = int(math.ceil(dur / self.passo)) + 1
         self.imgs = []
         for k in range(n):
             im = Image.open(fotos[k % len(fotos)]).convert("RGB")
-            s = max(W * 1.18 / im.width, H * 1.18 / im.height)
+            s = max(W * 1.15 / im.width, H * 1.15 / im.height)
             im = im.resize((int(im.width * s), int(im.height * s)), Image.LANCZOS)
             self.imgs.append(im)
 
     def _quadro(self, k, local):
         im = self.imgs[k]
-        z = 1.0 + 0.12 * (local / self.por)
-        cw, ch = W * 1.18 / z, H * 1.18 / z
-        dx = (im.width - cw) * (0.5 + (0.08 if k % 2 else -0.08) * local / self.por)
+        p = min(1.0, local / self.por)
+        z = 1.0 + 0.10 * (p if k % 2 == 0 else 1 - p)
+        cw, ch = W * 1.15 / z, H * 1.15 / z
+        dx = (im.width - cw) / 2 + (im.width - cw) * 0.35 * (p - 0.5) * (1 if k % 3 else -1)
         dy = (im.height - ch) / 2
-        crop = im.crop((dx, dy, dx + cw, dy + ch)).resize((W, H), Image.BICUBIC)
-        return crop
+        return im.crop((dx, dy, dx + cw, dy + ch)).resize((W, H), Image.BICUBIC)
 
     def frame(self, i):
         t = i / FPS
-        passo = self.por - self.fade
-        k = int(t // passo)
-        local = t - k * passo
+        k = min(int(t // self.passo), len(self.imgs) - 1)
+        local = t - k * self.passo
         a = self._quadro(k, local)
-        if local > passo and k + 1 < len(self.imgs):
-            b = self._quadro(k + 1, local - passo)
-            a = Image.blend(a, b, (local - passo) / self.fade)
-        # filtro quente + escurecido para legibilidade
-        arr = np.asarray(a).astype(np.float32)
-        arr = arr * np.array([1.05, 0.95, 0.82]) * 0.62
-        return Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8))
+        if k > 0 and local < self.fade:
+            prev = self._quadro(k - 1, local + self.passo)
+            a = Image.blend(prev, a, local / self.fade)
+        return gradear(np.asarray(a))
+
+
+class _Leitor:
+    def __init__(self, arquivo, seg):
+        vf = (f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},"
+              f"setpts=PTS*1.15")  # levemente mais lento: sensação contemplativa
+        self.p = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-stream_loop", "-1", "-i", arquivo,
+                                   "-t", f"{seg + 1:.2f}", "-vf", vf, "-an", "-f", "rawvideo",
+                                   "-pix_fmt", "rgb24", "-"], stdout=subprocess.PIPE)
+        self.ult = np.zeros((H, W, 3), np.uint8)
+
+    def proximo(self):
+        b = self.p.stdout.read(W * H * 3)
+        if len(b) == W * H * 3:
+            self.ult = np.frombuffer(b, np.uint8).reshape(H, W, 3)
+        return self.ult
+
+    def fechar(self):
+        try:
+            self.p.stdout.close(); self.p.kill()
+        except Exception:
+            pass
+
+
+class FundoVideos:
+    """Sequência de clipes recortados para 9:16, com crossfade."""
+
+    def __init__(self, dur, pasta, seg=6.5, fade=1.0):
+        self.clips = sorted(glob.glob(os.path.join(pasta, "*.mp4")))
+        assert self.clips, f"nenhum vídeo em {pasta}"
+        self.seg, self.fade, self.passo = seg, fade, seg - fade
+        self.ativos = {}
+
+    def _leitor(self, k):
+        if k not in self.ativos:
+            self.ativos[k] = _Leitor(self.clips[k % len(self.clips)], self.seg)
+        return self.ativos[k]
+
+    def frame(self, i):
+        t = i / FPS
+        k = int(t // self.passo)
+        local = t - k * self.passo
+        a = self._leitor(k).proximo().astype(np.float32)
+        if k > 0 and local < self.fade and (k - 1) in self.ativos:
+            b = self.ativos[k - 1].proximo().astype(np.float32)
+            al = local / self.fade
+            a = b * (1 - al) + a * al
+        elif (k - 1) in self.ativos:
+            self.ativos.pop(k - 1).fechar()
+        return gradear(a)
 
 
 # ---------------------------------------------------------------- texto
@@ -203,6 +269,14 @@ def montar(roteiro, saida, fundo_spec="procedural", audio=None, narracao=None, p
     r = json.load(open(roteiro, encoding="utf-8"))
     linhas = r["linhas"]
     intro, t_cta = 1.8, 4.5
+    tempos_voz = None
+    if narracao:
+        tj = os.path.splitext(narracao)[0] + ".json"
+        if os.path.exists(tj):
+            tempos_voz = json.load(open(tj))
+            intro = tempos_voz["intro"]
+            por_linha = tempos_voz["por_linha"]
+            t_cta = max(4.5, tempos_voz["cta_duracao"] + 3.0)
     if por_linha is None:
         por_linha = [max(3.2, 1.6 + 0.075 * len(l.replace("*", ""))) for l in linhas]
     inicios, t = [], intro
@@ -214,6 +288,8 @@ def montar(roteiro, saida, fundo_spec="procedural", audio=None, narracao=None, p
 
     if fundo_spec.startswith("fotos:"):
         fundo = FundoFotos(dur, fundo_spec[6:])
+    elif fundo_spec.startswith("videos:"):
+        fundo = FundoVideos(dur, fundo_spec[7:])
     else:
         fundo = FundoProcedural(dur)
 
@@ -231,7 +307,7 @@ def montar(roteiro, saida, fundo_spec="procedural", audio=None, narracao=None, p
     tmp = saida + ".video.mp4"
     ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
                            "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "veryfast",
-                           "-crf", "25", "-maxrate", "8M", "-bufsize", "16M", "-pix_fmt", "yuv420p", tmp], stdin=subprocess.PIPE)
+                           "-crf", "27", "-maxrate", "4M", "-bufsize", "8M", "-pix_fmt", "yuv420p", tmp], stdin=subprocess.PIPE)
     fd = 0.55
     for i in range(nframes):
         t = i / FPS
@@ -263,7 +339,11 @@ def montar(roteiro, saida, fundo_spec="procedural", audio=None, narracao=None, p
     if narracao:
         ins += ["-i", narracao]
     if audio and narracao:
-        filt = ["-filter_complex", f"[1:a]volume=0.22,afade=t=out:st={dur-2:.2f}:d=2[m];[2:a]adelay=1500|1500[v];[m][v]amix=inputs=2:duration=first[a]", "-map", "0:v", "-map", "[a]"]
+        filt = ["-filter_complex",
+                f"[1:a]volume=0.20,afade=t=in:d=1.5,afade=t=out:st={dur-2.5:.2f}:d=2.5[m];"
+                f"[2:a]aresample=44100,volume=1.0,acompressor=threshold=-18dB:ratio=3:attack=5:release=120,apad[v];"
+                f"[m][v]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]",
+                "-map", "0:v", "-map", "[a]"]
     elif audio:
         filt = ["-filter_complex", f"[1:a]volume=0.8,afade=t=in:d=1.5,afade=t=out:st={dur-2.5:.2f}:d=2.5[a]", "-map", "0:v", "-map", "[a]"]
     if audio or narracao:

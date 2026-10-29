@@ -1,0 +1,53 @@
+name: Gerar vídeos
+on:
+  push:
+    branches: [main]
+    paths: ["roteiros/**.json"]
+  workflow_dispatch:
+    inputs:
+      roteiros:
+        description: "IDs de roteiros (separados por espaço). Vazio = todos os pendentes"
+        required: false
+permissions:
+  contents: write
+concurrency:
+  group: gerar-videos
+  cancel-in-progress: false
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Dependências
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          pip install -q edge-tts numpy pillow
+      - name: Traz o índice de vídeos já publicados
+        run: |
+          mkdir -p publicados
+          git fetch -q origin videos:videos || true
+          git show videos:indice.json > publicados/indice.json 2>/dev/null || echo '{}' > publicados/indice.json
+      - name: Gera vídeos pendentes
+        env:
+          PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
+        run: python3 gerar.py ${{ github.event.inputs.roteiros }}
+      - name: Publica no ramo videos
+        run: |
+          git config user.name "candeia-bot"; git config user.email "actions@github.com"
+          # registra mídias usadas no main (evita repetir fundos)
+          if [ -f usados.json ]; then
+            git add usados.json
+            git diff --cached --quiet || { git commit -qm "Atualiza mídias usadas [skip ci]"; git pull -q --rebase origin main && git push -q origin HEAD:main || true; }
+          fi
+          mkdir -p /tmp/pub && cp publicados/* /tmp/pub/
+          if ! git checkout -q videos 2>/dev/null; then
+            git checkout -q --orphan videos
+            git rm -rq --cached . > /dev/null 2>&1 || true
+          fi
+          cp /tmp/pub/* .
+          git add -f *.mp4 indice.json
+          git commit -qm "Vídeos gerados $(date -u +%F-%H%M)" || echo "nada novo"
+          git push -q origin videos
