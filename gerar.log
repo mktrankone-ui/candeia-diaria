@@ -1,32 +1,64 @@
 == oracao-ansiedade-01
-ok light through trees 107283 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-ansiedade-01/fundo/00-107283.mp4
-ok light through trees 123304 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-ansiedade-01/fundo/01-123304.mp4
-ok light through trees 147165 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-ansiedade-01/fundo/02-147165.mp4
-ok light through trees 1089 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-ansiedade-01/fundo/03-1089.mp4
-ok light through trees 3735 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-ansiedade-01/fundo/04-3735.mp4
-ok light through trees 104116 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-ansiedade-01/fundo/05-104116.mp4
-trilha 97 Weightless (Peaceful)
-[vost#0:0/rawvideo @ 0x55d72ff41c00] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55d72fee3380] Error muxing a packet
-[vost#0:0/rawvideo @ 0x56501a670ac0] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x56501a67ba40] Error muxing a packet
-[vost#0:0/rawvideo @ 0x562c740cb2c0] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x562c740aca80] Error muxing a packet
+ok ocean waves sunset 275633 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-ansiedade-01/fundo/00-275633.mp4
+ok ocean waves sunset 28852 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-ansiedade-01/fundo/01-28852.mp4
+ok ocean waves sunset 348904 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-ansiedade-01/fundo/02-348904.mp4
+ok ocean waves sunset 365737 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-ansiedade-01/fundo/03-365737.mp4
+ok ocean waves sunset 18853 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-ansiedade-01/fundo/04-18853.mp4
+ok ocean waves sunset 22183 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-ansiedade-01/fundo/05-22183.mp4
+trilha 457 Inner Calm (Peaceful)
+[vost#0:0/rawvideo @ 0x5649e86cdcc0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5649e87c6700] Error muxing a packet
+[vost#0:0/rawvideo @ 0x56438338ecc0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x564383487700] Error muxing a packet
 ok oracao-ansiedade-01 (40.7s, fundo=videos)
 == oracao-noite-01
-ok moon clouds night 4838248 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/00-4838248.jpg
-ok moon clouds night 4933150 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/01-4933150.jpg
-ok moon clouds night 5738088 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/02-5738088.jpg
-ok moon clouds night 7542590 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/03-7542590.jpg
-ok moon clouds night 6240045 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/04-6240045.jpg
-ok moon clouds night 2551651 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/05-2551651.jpg
-ok moon clouds night 1609575 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/06-1609575.jpg
-ok moon clouds night 3943498 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/07-3943498.jpg
-ok moon clouds night 4649796 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/08-4649796.jpg
-trilha 464 Night Light (Sleepy)
-ok oracao-noite-01 (42.1s, fundo=fotos)
-2 vídeo(s) gerado(s)
-[vost#0:0/rawvideo @ 0x56553bd16c00] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x56553bcb8380] Error muxing a packet
-[out#0/rawvideo @ 0x56553bcb8380] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x56553bcb8380] Error closing file: Broken pipe
+ok night lake moon 4245432 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/00-4245432.jpg
+download falhou 6287918 HTTP Error 429: Too Many Requests
+download falhou 6944035 HTTP Error 429: Too Many Requests
+ok night lake moon 8327691 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/01-8327691.jpg
+ok night lake moon 5362703 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/02-5362703.jpg
+ok night lake moon 7010821 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/03-7010821.jpg
+download falhou 6388381 HTTP Error 429: Too Many Requests
+download falhou 7419913 HTTP Error 429: Too Many Requests
+download falhou 6587834 HTTP Error 429: Too Many Requests
+download falhou 7603845 HTTP Error 429: Too Many Requests
+download falhou 5995254 HTTP Error 429: Too Many Requests
+download falhou 8639672 HTTP Error 429: Too Many Requests
+download falhou 5048666 HTTP Error 429: Too Many Requests
+download falhou 6918631 HTTP Error 429: Too Many Requests
+download falhou 5596571 HTTP Error 429: Too Many Requests
+download falhou 8290246 HTTP Error 429: Too Many Requests
+download falhou 5992274 HTTP Error 429: Too Many Requests
+download falhou 7379189 HTTP Error 429: Too Many Requests
+download falhou 6714872 HTTP Error 429: Too Many Requests
+download falhou 7294102 HTTP Error 429: Too Many Requests
+download falhou 5880083 HTTP Error 429: Too Many Requests
+ok night lake moon 4544929 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/04-4544929.jpg
+ok night lake moon 4737942 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/05-4737942.jpg
+ok night lake moon 8312902 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/06-8312902.jpg
+ok night lake moon 7708548 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/07-7708548.jpg
+download falhou 7468634 HTTP Error 429: Too Many Requests
+download falhou 6897144 HTTP Error 429: Too Many Requests
+download falhou 9478839 HTTP Error 429: Too Many Requests
+download falhou 1902260 HTTP Error 429: Too Many Requests
+download falhou 8726358 HTTP Error 429: Too Many Requests
+ok night lake moon 7337818 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/08-7337818.jpg
+trilha 466 Night Light (Calm)
+Traceback (most recent call last):
+  File "/home/runner/work/candeia-diaria/candeia-diaria/gerar.py", line 71, in main
+    dur = render.montar(rp, saida, fundo, trilha, voz)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/candeia-diaria/candeia-diaria/render.py", line 316, in montar
+    fundo = FundoFotos(dur, fundo_spec[6:])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/candeia-diaria/candeia-diaria/render.py", line 129, in __init__
+    im = Image.open(fotos[k % len(fotos)]).convert("RGB")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/PIL/Image.py", line 3730, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file '/home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/01-6287918.jpg'
+1 vídeo(s) gerado(s)
+[vost#0:0/rawvideo @ 0x5593faf19740] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5593faef3c80] Error muxing a packet
+[out#0/rawvideo @ 0x5593faef3c80] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5593faef3c80] Error closing file: Broken pipe
