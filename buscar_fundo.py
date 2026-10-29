@@ -11,12 +11,32 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 USADOS = os.path.join(BASE, "usados.json")
 
 BUSCAS_PADRAO = {
-    "amanhecer": ["sunrise mountains", "sunrise clouds", "morning light field", "golden sunrise sky", "dawn landscape"],
-    "noite": ["night sky stars", "moon clouds night", "candle light dark", "starry sky", "night lake moon"],
-    "paz": ["calm lake", "peaceful nature", "soft clouds sky", "meadow sunset", "quiet forest light"],
-    "esperanca": ["sun rays clouds", "light through trees", "sunrise ocean", "rainbow sky", "golden field sunset"],
-    "dificil": ["storm clouds light", "rain window", "lonely road sunset", "sunbeam dark clouds", "lighthouse sea"],
-    "familia": ["family walking sunset", "hands holding sunset", "home warm light", "children field sunset"],
+    # estética: cristã/católica, leão (Leão de Judá), pessoas felizes, paisagens, cidades, tons neutros e calmos
+    "amanhecer": ["sunrise field", "sunrise cross", "morning light church", "golden hour countryside",
+                  "sunrise mountains", "morning window light", "dawn city skyline"],
+    "gratidao": ["happy people nature", "family sunset field", "wheat field golden", "hands holding sunset",
+                 "woman smiling sunlight", "friends laughing outdoors"],
+    "familia": ["happy family walking", "mother child sunset", "family home warm light", "grandparents grandchildren",
+                "couple holding hands sunset"],
+    "trabalho": ["city morning sunrise", "city skyline dawn", "people walking city morning", "coffee window morning",
+                 "office window sunrise"],
+    "esperanca": ["sun rays clouds", "lion sunset", "light through trees", "arms raised sunset", "sunrise ocean",
+                  "lion portrait golden"],
+    "forca": ["lion portrait", "lion sunset", "mountain peak sunrise", "lighthouse storm", "eagle flying sky"],
+    "fe": ["cross sunset", "church interior light", "cathedral light", "rosary hands", "candles church",
+           "praying hands light", "chapel countryside"],
+    "nossa_senhora": ["virgin mary statue", "rosary", "church candles", "cathedral interior", "white roses light",
+                      "chapel candles"],
+    "noite": ["night sky stars", "candle light dark", "moon clouds night", "city night lights", "starry sky mountains",
+              "night lake moon"],
+    "paz": ["calm lake", "soft clouds sky", "ocean waves sunset", "peaceful nature neutral", "beige minimal nature",
+            "fog forest calm", "dandelion field sunset"],
+    "ansiedade": ["calm lake", "soft clouds sky", "breathing nature calm", "ocean waves gentle", "fog mountains calm",
+                  "rain window calm"],
+    "cura": ["light through window", "hands holding", "candle light", "church interior light", "sunbeam forest",
+             "flowers soft light"],
+    "dificil": ["storm clouds light", "lighthouse sea", "rain window", "lonely road sunset", "sunbeam dark clouds",
+                "lion portrait"],
 }
 
 
@@ -29,6 +49,23 @@ def get(url):
 def baixar(url, destino):
     with open(destino, "wb") as f:
         f.write(get(url))
+
+
+def valido(arq, modo):
+    if os.path.getsize(arq) < 20000:
+        return False
+    if modo == "fotos":
+        try:
+            from PIL import Image
+            with Image.open(arq) as t:
+                t.verify()
+            return True
+        except Exception:
+            return False
+    import subprocess
+    r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width",
+                        "-of", "csv=p=0", arq], capture_output=True, text=True)
+    return r.returncode == 0 and r.stdout.strip() != ""
 
 
 def carregar_usados():
@@ -81,6 +118,8 @@ def buscar(roteiro, destino, modo="fotos", qtd=None):
                     link = esc["url"]
                     arq = os.path.join(destino, f"{len(pegos):02d}-{h['id']}.mp4")
                 baixar(link, arq)
+                if not valido(arq, modo):
+                    os.remove(arq); print("arquivo inválido descartado", h["id"]); continue
                 pegos.append(h["id"]); usados[modo].append(h["id"])
                 print("ok", termo, h["id"], arq)
             except Exception as e:

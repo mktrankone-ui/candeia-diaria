@@ -119,8 +119,15 @@ class FundoFotos:
     """Slideshow de fotos com zoom lento (Ken Burns) e crossfade."""
 
     def __init__(self, dur, pasta, por_foto=5.5, fade=1.1):
-        fotos = sorted(glob.glob(os.path.join(pasta, "*.jp*g")) + glob.glob(os.path.join(pasta, "*.png")))
-        assert fotos, f"nenhuma foto em {pasta}"
+        fotos = []
+        for p in sorted(glob.glob(os.path.join(pasta, "*.jp*g")) + glob.glob(os.path.join(pasta, "*.png"))):
+            try:
+                with Image.open(p) as t:
+                    t.verify()
+                fotos.append(p)
+            except Exception:
+                print("foto inválida ignorada:", p)
+        assert fotos, f"nenhuma foto válida em {pasta}"
         self.dur, self.por, self.fade = dur, por_foto, fade
         self.passo = por_foto - fade
         n = int(math.ceil(dur / self.passo)) + 1

@@ -23,7 +23,7 @@ def escolher_trilha(r, destino):
     import urllib.request
     try:
         lista = json.load(open(os.path.join(BASE, "trilhas", "lista.json")))
-        opcoes = lista.get(r.get("tema", ""), []) or [t for k, v in lista.items() if not k.startswith("_") for t in v]
+        opcoes = lista.get(r.get("trilha_tema") or r.get("tema", ""), []) or [t for k, v in lista.items() if not k.startswith("_") for t in v]
         if r.get("trilha_id"):
             opcoes = [t for k, v in lista.items() if not k.startswith("_") for t in v if t["id"] == r["trilha_id"]] or opcoes
         t = random.choice(opcoes)

@@ -1,0 +1,16 @@
+{
+  "atualizado_em": "2026-10-29",
+  "horarios": {"manha": "08:00", "noite": "20:30", "fuso": "America/Sao_Paulo"},
+  "pesos_series": {
+    "Oração da manhã": 1.0, "Oração da noite": 1.0, "Oração contra a ansiedade": 1.0, "Oração pela família": 1.0,
+    "Oração pelos filhos": 1.0, "Oração de cura": 1.0, "Oração pelo trabalho": 1.0, "Salmo do dia": 1.0,
+    "Oração a Nossa Senhora": 1.0, "Oração ao Santo Anjo": 1.0, "Oração de proteção": 1.0,
+    "Oração para dormir em paz": 1.0, "Oração de entrega": 1.0, "Oração do perdão": 1.0
+  },
+  "pesos_fundo": {"fotos": 1.0, "videos": 1.0},
+  "evitar": [],
+  "observacoes": [
+    "Início do perfil: testar variedade de séries e fundos nas primeiras 2 semanas antes de concentrar.",
+    "Duração atual ~40 s. Para o Creator Rewards do TikTok, migrar para 60–75 s quando o perfil se aproximar de 10 mil seguidores."
+  ]
+}

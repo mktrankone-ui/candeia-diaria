@@ -1,0 +1,36 @@
+{
+  "id": "oracao-manha-02",
+  "serie": "Oração da manhã",
+  "tema": "amanhecer",
+  "trilha_tema": "amanhecer",
+  "fundo": "fotos",
+  "busca": [
+    "sunrise cross",
+    "morning light church",
+    "sunrise field",
+    "golden hour countryside",
+    "sunrise mountains"
+  ],
+  "linhas": [
+    "Bom dia, Senhor. Obrigado por me acordar com *vida*.",
+    "Eu Te ofereço este dia: meus passos, meu trabalho e meu *cansaço*.",
+    "Abençoa a minha família e cada pessoa que eu *encontrar*.",
+    "Nossa Senhora, passa à minha frente e abre os meus *caminhos*.",
+    "Santo Anjo do Senhor, guarda-me de todo *mal*.",
+    "Este é o dia que o Senhor fez:",
+    "nele vamos nos *alegrar*.",
+    "Por Cristo, nosso Senhor, *amém*."
+  ],
+  "referencia": {
+    "linha": 6,
+    "texto": "Salmo 118(117),24"
+  },
+  "cta": [
+    "Se você crê, escreva *AMÉM*",
+    "Siga para orar todos os dias"
+  ],
+  "cta_falado": "Se você crê, escreva amém nos comentários.",
+  "legenda": "Antes de qualquer coisa, ofereça o seu dia a Deus e peça a Nossa Senhora que vá à sua frente. 🙏🕯️\n\nEscreva AMÉM e envie para alguém que você quer ver abençoado hoje.\n\n#oracaodamanha #bomdia #oração #catolico #igrejacatolica #nossasenhora #santoanjo #fé #candeiadiaria",
+  "slot": "manha",
+  "data": "2026-10-30"
+}

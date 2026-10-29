@@ -3,7 +3,13 @@
   "serie": "Oração da noite",
   "tema": "noite",
   "fundo": "fotos",
-  "busca": ["night sky stars", "moon clouds night", "starry sky mountains", "night lake moon", "candle light dark"],
+  "busca": [
+    "night sky stars",
+    "moon clouds night",
+    "starry sky mountains",
+    "night lake moon",
+    "candle light dark"
+  ],
   "linhas": [
     "Senhor, chegou o fim de mais um *dia*.",
     "Obrigado por cada passo que me sustentaste até *aqui*.",
@@ -14,8 +20,17 @@
     "porque só Tu, Senhor, me fazes habitar em *segurança*.",
     "Em nome de Jesus, *amém*."
   ],
-  "referencia": {"linha": 6, "texto": "Salmos 4:8"},
-  "cta": ["Se você crê, escreva *AMÉM*", "Siga para orar todos os dias"],
+  "referencia": {
+    "linha": 6,
+    "texto": "Salmo 4,9"
+  },
+  "cta": [
+    "Se você crê, escreva *AMÉM*",
+    "Siga para orar todos os dias"
+  ],
   "cta_falado": "Se você crê, escreva amém nos comentários.",
-  "legenda": "Antes de dormir, entregue a Deus tudo o que pesou hoje. 🌙🕯️\n\nEscreva AMÉM e compartilhe com alguém que precisa de uma noite de paz.\n\n#oracaodanoite #oração #fé #Deus #Jesus #boanoite #paz #salmos #candeiadiaria"
+  "legenda": "Antes de dormir, entregue a Deus tudo o que pesou hoje. 🌙🕯️\n\nEscreva AMÉM e compartilhe com alguém que precisa de uma noite de paz.\n\n#oracaodanoite #oração #fé #Deus #Jesus #boanoite #paz #catolico #salmos #candeiadiaria",
+  "slot": "noite",
+  "data": "2026-10-29",
+  "trilha_tema": "noite"
 }
