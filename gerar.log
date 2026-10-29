@@ -1,0 +1,30 @@
+== oracao-ansiedade-01
+ok peaceful nature 134451 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-ansiedade-01/fundo/00-134451.mp4
+ok peaceful nature 154787 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-ansiedade-01/fundo/01-154787.mp4
+ok peaceful nature 189692 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-ansiedade-01/fundo/02-189692.mp4
+ok peaceful nature 87285 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-ansiedade-01/fundo/03-87285.mp4
+ok peaceful nature 62249 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-ansiedade-01/fundo/04-62249.mp4
+ok peaceful nature 292827 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-ansiedade-01/fundo/05-292827.mp4
+[vost#0:0/rawvideo @ 0x55eba143ac40] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55eba13d5ec0] Error muxing a packet
+[vost#0:0/rawvideo @ 0x56332f50e780] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x56332f4d2540] Error muxing a packet
+[vost#0:0/rawvideo @ 0x562a44cdcc40] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x562a44c77ec0] Error muxing a packet
+ok oracao-ansiedade-01 (40.7s, fundo=videos)
+== oracao-noite-01
+ok starry sky mountains 7758389 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/00-7758389.jpg
+ok starry sky mountains 7441218 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/01-7441218.jpg
+ok starry sky mountains 7526028 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/02-7526028.jpg
+ok starry sky mountains 5507177 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/03-5507177.jpg
+ok starry sky mountains 7764749 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/04-7764749.jpg
+ok starry sky mountains 10322414 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/05-10322414.jpg
+ok starry sky mountains 820431 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/06-820431.jpg
+ok starry sky mountains 6099842 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/07-6099842.jpg
+ok starry sky mountains 7010442 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/oracao-noite-01/fundo/08-7010442.jpg
+ok oracao-noite-01 (42.1s, fundo=fotos)
+2 vídeo(s) gerado(s)
+[vost#0:0/rawvideo @ 0x55bab4de0d40] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55bab4d69980] Error muxing a packet
+[out#0/rawvideo @ 0x55bab4d69980] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x55bab4d69980] Error closing file: Broken pipe

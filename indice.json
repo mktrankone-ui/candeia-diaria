@@ -1,1 +1,20 @@
-{}
+{
+ "oracao-ansiedade-01": {
+  "arquivo": "oracao-ansiedade-01.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/oracao-ansiedade-01.mp4",
+  "serie": "Oração contra a ansiedade",
+  "legenda": "Se a ansiedade apertou hoje, pare um minuto e ore comigo. 🙏🕯️\n\nVocê não precisa carregar tudo sozinho. Escreva AMÉM e envie para alguém que está passando por isso.\n\n#ansiedade #oração #paz #fé #Deus #Jesus #filipenses #palavradedeus #candeiadiaria",
+  "duracao": 40.7,
+  "fundo": "videos",
+  "trilha": "ambiente-01.mp3"
+ },
+ "oracao-noite-01": {
+  "arquivo": "oracao-noite-01.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/oracao-noite-01.mp4",
+  "serie": "Oração da noite",
+  "legenda": "Antes de dormir, entregue a Deus tudo o que pesou hoje. 🌙🕯️\n\nEscreva AMÉM e compartilhe com alguém que precisa de uma noite de paz.\n\n#oracaodanoite #oração #fé #Deus #Jesus #boanoite #paz #salmos #candeiadiaria",
+  "duracao": 42.1,
+  "fundo": "fotos",
+  "trilha": "ambiente-01.mp3"
+ }
+}
