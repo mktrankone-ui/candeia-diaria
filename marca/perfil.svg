@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="46%" r="62%">
+      <stop offset="0%" stop-color="#2B1D12"/>
+      <stop offset="55%" stop-color="#16100B"/>
+      <stop offset="100%" stop-color="#0B0806"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD28A" stop-opacity="0.75"/>
+      <stop offset="35%" stop-color="#F2994A" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#F2994A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="flame" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#F2784A"/>
+      <stop offset="45%" stop-color="#F7B955"/>
+      <stop offset="100%" stop-color="#FFF4D6"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F3D08F"/>
+      <stop offset="55%" stop-color="#D9A456"/>
+      <stop offset="100%" stop-color="#9E6E32"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <g transform="translate(540 540) scale(1.25) translate(-522 -456)">
+  <!-- glow -->
+  <circle cx="676" cy="410" r="330" fill="url(#glow)"/>
+  <!-- flame -->
+  <path d="M676 250 C 640 330, 630 380, 652 420 C 664 442, 690 446, 704 424 C 726 388, 712 320, 676 250 Z" fill="url(#flame)"/>
+  <path d="M677 330 C 662 370, 660 398, 670 414 C 676 424, 688 424, 693 412 C 700 392, 694 362, 677 330 Z" fill="#FFF9EC" opacity="0.9"/>
+  <!-- lamp body (biblical clay oil lamp, side view) -->
+  <path d="M300 560
+           C 300 490, 400 452, 520 452
+           C 590 452, 640 462, 690 446
+           C 720 436, 748 446, 744 470
+           C 740 494, 712 502, 690 504
+           C 668 506, 650 520, 640 548
+           C 626 600, 560 640, 470 640
+           C 370 640, 300 610, 300 560 Z" fill="url(#gold)"/>
+  <!-- top filling hole -->
+  <ellipse cx="480" cy="478" rx="58" ry="14" fill="#5A3B1A" opacity="0.85"/>
+  <!-- handle -->
+  <path d="M310 548 C 250 548, 236 486, 284 474 C 300 470, 312 478, 318 488" fill="none" stroke="url(#gold)" stroke-width="22" stroke-linecap="round"/>
+  <!-- foot -->
+  <path d="M410 636 L 530 636 L 520 662 L 420 662 Z" fill="#9E6E32"/>
+    </g>
+</svg>
