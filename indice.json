@@ -3,26 +3,39 @@
   "arquivo": "oracao-ansiedade-01.mp4",
   "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/oracao-ansiedade-01.mp4",
   "serie": "Oração contra a ansiedade",
-  "legenda": "Se a ansiedade apertou hoje, pare um minuto e ore comigo. 🙏🕯️\n\nVocê não precisa carregar tudo sozinho. Escreva AMÉM e envie para alguém que está passando por isso.\n\n#ansiedade #oração #paz #fé #Deus #Jesus #filipenses #palavradedeus #candeiadiaria",
+  "legenda": "Se a ansiedade apertou hoje, pare um minuto e ore comigo. 🙏🕯️\n\nVocê não precisa carregar tudo sozinho. Escreva AMÉM e envie para alguém que está passando por isso.\n\n#ansiedade #oração #paz #fé #Deus #Jesus #catolico #igrejacatolica #palavradedeus #candeiadiaria",
   "duracao": 40.7,
   "fundo": "videos",
   "trilha": {
-   "id": 457,
-   "titulo": "Inner Calm (Peaceful)",
-   "url": "https://media.snipsound.com/audio/rf_med01a_inner_calm_peaceful.mp3"
+   "id": 96,
+   "titulo": "Floating Light (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_amb01a_floating_light_peaceful.mp3"
   }
  },
  "oracao-noite-01": {
   "arquivo": "oracao-noite-01.mp4",
   "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/oracao-noite-01.mp4",
   "serie": "Oração da noite",
-  "legenda": "Antes de dormir, entregue a Deus tudo o que pesou hoje. 🌙🕯️\n\nEscreva AMÉM e compartilhe com alguém que precisa de uma noite de paz.\n\n#oracaodanoite #oração #fé #Deus #Jesus #boanoite #paz #salmos #candeiadiaria",
+  "legenda": "Antes de dormir, entregue a Deus tudo o que pesou hoje. 🌙🕯️\n\nEscreva AMÉM e compartilhe com alguém que precisa de uma noite de paz.\n\n#oracaodanoite #oração #fé #Deus #Jesus #boanoite #paz #catolico #salmos #candeiadiaria",
   "duracao": 42.1,
   "fundo": "fotos",
   "trilha": {
-   "id": 464,
-   "titulo": "Night Light (Sleepy)",
-   "url": "https://media.snipsound.com/audio/rf_med02a_2_night_light_sleepy.mp3"
+   "id": 465,
+   "titulo": "Drifting Off (Calm)",
+   "url": "https://media.snipsound.com/audio/rf_med02b_drifting_off_calm.mp3"
+  }
+ },
+ "oracao-manha-02": {
+  "arquivo": "oracao-manha-02.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/oracao-manha-02.mp4",
+  "serie": "Oração da manhã",
+  "legenda": "Antes de qualquer coisa, ofereça o seu dia a Deus e peça a Nossa Senhora que vá à sua frente. 🙏🕯️\n\nEscreva AMÉM e envie para alguém que você quer ver abençoado hoje.\n\n#oracaodamanha #bomdia #oração #catolico #igrejacatolica #nossasenhora #santoanjo #fé #candeiadiaria",
+  "duracao": 45.1,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 117,
+   "titulo": "New Dawn (Uplifting)",
+   "url": "https://media.snipsound.com/audio/rf_cin02b_new_dawn_uplifting.mp3"
   }
  }
 }
