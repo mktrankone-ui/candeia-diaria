@@ -33,7 +33,7 @@ jobs:
       - name: Gera vídeos pendentes
         env:
           PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
-        run: python3 gerar.py ${{ github.event.inputs.roteiros }}
+        run: python3 -u gerar.py ${{ github.event.inputs.roteiros }} 2>&1 | tee publicados/gerar.log
       - name: Publica no ramo videos
         run: |
           git config user.name "candeia-bot"; git config user.email "actions@github.com"
@@ -48,6 +48,6 @@ jobs:
             git rm -rq --cached . > /dev/null 2>&1 || true
           fi
           cp /tmp/pub/* .
-          git add -f *.mp4 indice.json
+          git add -f *.mp4 indice.json gerar.log 2>/dev/null || git add -f indice.json gerar.log
           git commit -qm "Vídeos gerados $(date -u +%F-%H%M)" || echo "nada novo"
           git push -q origin videos
