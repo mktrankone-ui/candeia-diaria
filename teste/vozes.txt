@@ -1,0 +1,3 @@
+pt-BR-AntonioNeural                Male      General                Friendly, Positive
+pt-BR-FranciscaNeural              Female    General                Friendly, Positive
+pt-BR-ThalitaMultilingualNeural    Female    General                Friendly, Positive
