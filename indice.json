@@ -37,5 +37,44 @@
    "titulo": "New Dawn (Uplifting)",
    "url": "https://media.snipsound.com/audio/rf_cin02b_new_dawn_uplifting.mp3"
   }
+ },
+ "dormir-20261031-noite": {
+  "arquivo": "dormir-20261031-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/dormir-20261031-noite.mp4",
+  "serie": "Oração para dormir em paz",
+  "legenda": "Antes de fechar os olhos, entregue a Jesus o cansaço da semana. Ele mesmo convida você a descansar nele. 🌙🕯️\n\nEscreva AMÉM e compartilhe com alguém que anda dormindo mal.\n\n#oraçãoparadormir #boanoite #oraçãodanoite #paz #Jesus #fé #catolico #igrejacatolica #candeiadiaria",
+  "duracao": 42.1,
+  "fundo": "videos",
+  "trilha": {
+   "id": 466,
+   "titulo": "Night Light (Calm)",
+   "url": "https://media.snipsound.com/audio/rf_med02b_2_night_light_calm.mp3"
+  }
+ },
+ "finados-20261102-manha": {
+  "arquivo": "finados-20261102-manha.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/finados-20261102-manha.mp4",
+  "serie": "Oração pelos falecidos",
+  "legenda": "Neste Dia de Finados, a Igreja nos convida a rezar pelos nossos falecidos. O amor não termina: ele se torna oração. 🕯️🤍\n\nEscreva nos comentários o nome de quem você quer que a gente reze junto, e compartilhe com quem está com saudade.\n\n#finados #diadefinados #oraçãopelosfalecidos #descansoeterno #catolico #igrejacatolica #oração #fé #candeiadiaria",
+  "duracao": 42.5,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 458,
+   "titulo": "Still Waters (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_med01a_2_still_waters_peaceful.mp3"
+  }
+ },
+ "santos-20261101-manha": {
+  "arquivo": "santos-20261101-manha.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/santos-20261101-manha.mp4",
+  "serie": "Oração da manhã",
+  "legenda": "Hoje é Solenidade de Todos os Santos! Eles nos lembram que a santidade é para todos, no dia a dia. ✨🙏\n\nEscreva AMÉM e conte nos comentários qual é o seu santo de devoção. Compartilhe com quem caminha com você na fé.\n\n#todosossantos #bomdia #domingo #oraçãodamanhã #santos #catolico #igrejacatolica #fé #candeiadiaria",
+  "duracao": 43.8,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 114,
+   "titulo": "Horizon Line (Hopeful)",
+   "url": "https://media.snipsound.com/audio/rf_cin02a_2_horizon_line_hopeful.mp3"
+  }
  }
 }
