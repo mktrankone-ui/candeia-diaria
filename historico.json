@@ -45,5 +45,77 @@
   "trilha": "Floating Light (Peaceful)",
   "duracao": 40.7,
   "metricool_id": 410367808
+ },
+ {
+  "id": "nossasenhora-20261031-manha",
+  "data": "2026-10-31",
+  "slot": "manha",
+  "serie": "Oração a Nossa Senhora",
+  "tema": "nossa_senhora",
+  "referencia": "Lucas 1,45",
+  "fundo": "fotos",
+  "trilha": "The First Dance (Hopeful)",
+  "duracao": 46.1,
+  "metricool_id": 411219318
+ },
+ {
+  "id": "dormir-20261031-noite",
+  "data": "2026-10-31",
+  "slot": "noite",
+  "serie": "Oração para dormir em paz",
+  "tema": "noite",
+  "referencia": "Mateus 11,28",
+  "fundo": "videos",
+  "trilha": "Floating Light (Peaceful)",
+  "duracao": 42.1,
+  "metricool_id": 411234077
+ },
+ {
+  "id": "santos-20261101-manha",
+  "data": "2026-11-01",
+  "slot": "manha",
+  "serie": "Oração da manhã",
+  "tema": "esperanca",
+  "referencia": "Mateus 5,8",
+  "fundo": "fotos",
+  "trilha": "New Dawn (Hopeful)",
+  "duracao": 43.8,
+  "metricool_id": 411234112
+ },
+ {
+  "id": "perdao-20261101-noite",
+  "data": "2026-11-01",
+  "slot": "noite",
+  "serie": "Oração do perdão",
+  "tema": "cura",
+  "referencia": "Efésios 4,32",
+  "fundo": "videos",
+  "trilha": "Weightless (Peaceful)",
+  "duracao": 43.3,
+  "metricool_id": 411219395
+ },
+ {
+  "id": "finados-20261102-manha",
+  "data": "2026-11-02",
+  "slot": "manha",
+  "serie": "Oração pelos falecidos",
+  "tema": "paz",
+  "referencia": "João 11,25",
+  "fundo": "fotos",
+  "trilha": "Still Waters (Peaceful)",
+  "duracao": 42.5,
+  "metricool_id": 411207485
+ },
+ {
+  "id": "saudade-20261102-noite",
+  "data": "2026-11-02",
+  "slot": "noite",
+  "serie": "Oração de cura",
+  "tema": "dificil",
+  "referencia": "Apocalipse 21,4",
+  "fundo": "videos",
+  "trilha": "The Last Letter (Emotional)",
+  "duracao": 44.0,
+  "metricool_id": 411228500
  }
 ]
