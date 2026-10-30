@@ -76,5 +76,44 @@
    "titulo": "Horizon Line (Hopeful)",
    "url": "https://media.snipsound.com/audio/rf_cin02a_2_horizon_line_hopeful.mp3"
   }
+ },
+ "nossasenhora-20261031-manha": {
+  "arquivo": "nossasenhora-20261031-manha.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/nossasenhora-20261031-manha.mp4",
+  "serie": "Oração a Nossa Senhora",
+  "legenda": "Sábado é dia de Nossa Senhora. Entregue o seu dia nas mãos da Mãe e deixe que ela passe à sua frente. 🌹🙏\n\nEscreva AMÉM e envie para alguém que você quer colocar sob o manto de Maria.\n\n#nossasenhora #oraçãodamanhã #bomdia #mariasantissima #catolico #igrejacatolica #fé #oração #candeiadiaria",
+  "duracao": 46.1,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 510,
+   "titulo": "The First Dance (Hopeful)",
+   "url": "https://media.snipsound.com/audio/rf_wed01c_2_the_first_dance_hopeful.mp3"
+  }
+ },
+ "perdao-20261101-noite": {
+  "arquivo": "perdao-20261101-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/perdao-20261101-noite.mp4",
+  "serie": "Oração do perdão",
+  "legenda": "Perdoar não é esquecer nem dizer que não doeu. É entregar a Deus o peso que está te prendendo. 🕊️🕯️\n\nEscreva AMÉM se você quer ser livre dessa mágoa, e envie para alguém que precisa dessa oração.\n\n#perdão #oraçãodanoite #curainterior #oração #Jesus #sagradocoraçãodejesus #catolico #fé #candeiadiaria",
+  "duracao": 43.3,
+  "fundo": "videos",
+  "trilha": {
+   "id": 97,
+   "titulo": "Weightless (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_amb01a_2_weightless_peaceful.mp3"
+  }
+ },
+ "saudade-20261102-noite": {
+  "arquivo": "saudade-20261102-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/saudade-20261102-noite.mp4",
+  "serie": "Oração de cura",
+  "legenda": "A saudade é o amor que continua. Hoje, entregue a Deus a sua dor e deixe que Ele console o seu coração. 🤍🕯️\n\nEscreva AMÉM e envie para alguém que perdeu uma pessoa querida. Se o luto estiver pesado demais, procure ajuda: um padre, um psicólogo ou o CVV (188).\n\n#luto #saudade #finados #oraçãodecura #consolo #oração #catolico #fé #candeiadiaria",
+  "duracao": 44.0,
+  "fundo": "videos",
+  "trilha": {
+   "id": 281,
+   "titulo": "Goodbye (Emotional)",
+   "url": "https://media.snipsound.com/audio/rf_pno02c_goodbye_emotional.mp3"
+  }
  }
 }

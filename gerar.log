@@ -1,164 +1,51 @@
-== dormir-20261031-noite
-ok moon clouds night 124373 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/dormir-20261031-noite/fundo/00-124373.mp4
-ok moon clouds night 278285 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/dormir-20261031-noite/fundo/01-278285.mp4
-ok moon clouds night 1373 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/dormir-20261031-noite/fundo/02-1373.mp4
-ok moon clouds night 25613 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/dormir-20261031-noite/fundo/03-25613.mp4
-ok moon clouds night 6435 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/dormir-20261031-noite/fundo/04-6435.mp4
-ok moon clouds night 145093 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/dormir-20261031-noite/fundo/05-145093.mp4
-trilha 466 Night Light (Calm)
-[vost#0:0/rawvideo @ 0x56180af52a00] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x56180af53dc0] Error muxing a packet
-[vost#0:0/rawvideo @ 0x56109e11b540] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x56109e11c580] Error muxing a packet
-ok dormir-20261031-noite (42.1s, fundo=videos)
-== finados-20261102-manha
-ok sunrise cross 2857704 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/finados-20261102-manha/fundo/00-2857704.jpg
-ok sunrise cross 399897 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/finados-20261102-manha/fundo/01-399897.jpg
-ok sunrise cross 4752349 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/finados-20261102-manha/fundo/02-4752349.jpg
-ok sunrise cross 4765594 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/finados-20261102-manha/fundo/03-4765594.jpg
-ok sunrise cross 4254999 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/finados-20261102-manha/fundo/04-4254999.jpg
-ok sunrise cross 2562581 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/finados-20261102-manha/fundo/05-2562581.jpg
-ok sunrise cross 4700876 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/finados-20261102-manha/fundo/06-4700876.jpg
-ok sunrise cross 4440398 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/finados-20261102-manha/fundo/07-4440398.jpg
-ok sunrise cross 2104380 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/finados-20261102-manha/fundo/08-2104380.jpg
-trilha 458 Still Waters (Peaceful)
-ok finados-20261102-manha (42.5s, fundo=fotos)
 == nossasenhora-20261031-manha
-ok rosary hands light 7810441 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/nossasenhora-20261031-manha/fundo/00-7810441.jpg
-ok rosary hands light 7895953 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/nossasenhora-20261031-manha/fundo/01-7895953.jpg
-download falhou 10201747 HTTP Error 429: Too Many Requests
-download falhou 3827857 HTTP Error 429: Too Many Requests
-download falhou 5929947 HTTP Error 429: Too Many Requests
-download falhou 773024 HTTP Error 429: Too Many Requests
-download falhou 7843874 HTTP Error 429: Too Many Requests
-download falhou 3361410 HTTP Error 429: Too Many Requests
-download falhou 2390298 HTTP Error 429: Too Many Requests
-download falhou 5176740 HTTP Error 429: Too Many Requests
-download falhou 5493681 HTTP Error 429: Too Many Requests
-download falhou 2549533 HTTP Error 429: Too Many Requests
-download falhou 7948563 HTTP Error 429: Too Many Requests
-download falhou 4499204 HTTP Error 429: Too Many Requests
-ok rosary hands light 841168 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/nossasenhora-20261031-manha/fundo/02-841168.jpg
-ok rosary hands light 822550 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/nossasenhora-20261031-manha/fundo/03-822550.jpg
-ok rosary hands light 9210799 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/nossasenhora-20261031-manha/fundo/04-9210799.jpg
-download falhou 2568126 HTTP Error 429: Too Many Requests
-ok rosary hands light 2300099 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/nossasenhora-20261031-manha/fundo/05-2300099.jpg
-download falhou 7889301 HTTP Error 429: Too Many Requests
-download falhou 3534460 HTTP Error 429: Too Many Requests
-download falhou 5084284 HTTP Error 429: Too Many Requests
-download falhou 1452994 HTTP Error 429: Too Many Requests
-ok rosary hands light 5000549 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/nossasenhora-20261031-manha/fundo/06-5000549.jpg
-ok rosary hands light 8560196 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/nossasenhora-20261031-manha/fundo/07-8560196.jpg
-download falhou 8074997 HTTP Error 429: Too Many Requests
-download falhou 706643 HTTP Error 429: Too Many Requests
-download falhou 2390307 HTTP Error 429: Too Many Requests
-download falhou 774531 HTTP Error 429: Too Many Requests
-download falhou 5366493 HTTP Error 429: Too Many Requests
-download falhou 5336940 HTTP Error 429: Too Many Requests
-download falhou 1080174 HTTP Error 429: Too Many Requests
-download falhou 4560482 HTTP Error 429: Too Many Requests
-download falhou 6002642 HTTP Error 429: Too Many Requests
-download falhou 6976409 HTTP Error 429: Too Many Requests
-download falhou 1717195 HTTP Error 429: Too Many Requests
-download falhou 706667 HTTP Error 429: Too Many Requests
-ok rosary hands light 6924190 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/nossasenhora-20261031-manha/fundo/08-6924190.jpg
-Traceback (most recent call last):
-  File "/home/runner/work/candeia-diaria/candeia-diaria/gerar.py", line 65, in main
-    narrar.narrar(rp, voz)
-  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 39, in narrar
-    asyncio.run(tts(f, p))
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/runners.py", line 195, in run
-    return runner.run(main)
-           ^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/runners.py", line 118, in run
-    return self._loop.run_until_complete(task)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
-    return future.result()
-           ^^^^^^^^^^^^^^^
-  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 24, in tts
-    await edge_tts.Communicate(texto, VOZ, rate=RATE, pitch=PITCH).save(destino)
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/edge_tts/communicate.py", line 613, in save
-    async for message in self.stream():
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/edge_tts/communicate.py", line 588, in stream
-    async for message in self.__stream():
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/edge_tts/communicate.py", line 562, in __stream
-    raise NoAudioReceived(
-edge_tts.exceptions.NoAudioReceived: No audio was received. Please verify that your parameters are correct.
+ok rosary hands light 774531 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/nossasenhora-20261031-manha/fundo/00-774531.jpg
+ok rosary hands light 3534460 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/nossasenhora-20261031-manha/fundo/01-3534460.jpg
+ok rosary hands light 3827857 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/nossasenhora-20261031-manha/fundo/02-3827857.jpg
+ok rosary hands light 5336940 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/nossasenhora-20261031-manha/fundo/03-5336940.jpg
+ok rosary hands light 10201747 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/nossasenhora-20261031-manha/fundo/04-10201747.jpg
+ok rosary hands light 3361410 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/nossasenhora-20261031-manha/fundo/05-3361410.jpg
+ok rosary hands light 706667 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/nossasenhora-20261031-manha/fundo/06-706667.jpg
+ok rosary hands light 5366493 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/nossasenhora-20261031-manha/fundo/07-5366493.jpg
+ok rosary hands light 1452994 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/nossasenhora-20261031-manha/fundo/08-1452994.jpg
+trilha 510 The First Dance (Hopeful)
+ok nossasenhora-20261031-manha (46.1s, fundo=fotos)
 == perdao-20261101-noite
-ok rain window night 374818 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/perdao-20261101-noite/fundo/00-374818.mp4
-ok rain window night 375161 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/perdao-20261101-noite/fundo/01-375161.mp4
-ok rain window night 375155 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/perdao-20261101-noite/fundo/02-375155.mp4
-ok rain window night 375151 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/perdao-20261101-noite/fundo/03-375151.mp4
-ok rain window night 375153 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/perdao-20261101-noite/fundo/04-375153.mp4
-ok rain window night 375154 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/perdao-20261101-noite/fundo/05-375154.mp4
-Traceback (most recent call last):
-  File "/home/runner/work/candeia-diaria/candeia-diaria/gerar.py", line 65, in main
-    narrar.narrar(rp, voz)
-  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 39, in narrar
-    asyncio.run(tts(f, p))
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/runners.py", line 195, in run
-    return runner.run(main)
-           ^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/runners.py", line 118, in run
-    return self._loop.run_until_complete(task)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
-    return future.result()
-           ^^^^^^^^^^^^^^^
-  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 24, in tts
-    await edge_tts.Communicate(texto, VOZ, rate=RATE, pitch=PITCH).save(destino)
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/edge_tts/communicate.py", line 613, in save
-    async for message in self.stream():
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/edge_tts/communicate.py", line 588, in stream
-    async for message in self.__stream():
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/edge_tts/communicate.py", line 562, in __stream
-    raise NoAudioReceived(
-edge_tts.exceptions.NoAudioReceived: No audio was received. Please verify that your parameters are correct.
-== santos-20261101-manha
-ok sunrise church 5213786 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/santos-20261101-manha/fundo/00-5213786.jpg
-ok sunrise church 6465 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/santos-20261101-manha/fundo/01-6465.jpg
-ok sunrise church 4790713 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/santos-20261101-manha/fundo/02-4790713.jpg
-ok sunrise church 3880979 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/santos-20261101-manha/fundo/03-3880979.jpg
-ok sunrise church 2800710 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/santos-20261101-manha/fundo/04-2800710.jpg
-ok sunrise church 183252 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/santos-20261101-manha/fundo/05-183252.jpg
-ok sunrise church 2657636 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/santos-20261101-manha/fundo/06-2657636.jpg
-ok sunrise church 2807932 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/santos-20261101-manha/fundo/07-2807932.jpg
-ok sunrise church 1801219 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/santos-20261101-manha/fundo/08-1801219.jpg
-trilha 114 Horizon Line (Hopeful)
-ok santos-20261101-manha (43.8s, fundo=fotos)
+ok hands prayer candle 65150 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/perdao-20261101-noite/fundo/00-65150.mp4
+ok hands prayer candle 4926 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/perdao-20261101-noite/fundo/01-4926.mp4
+ok hands prayer candle 175213 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/perdao-20261101-noite/fundo/02-175213.mp4
+ok hands prayer candle 107255 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/perdao-20261101-noite/fundo/03-107255.mp4
+ok hands prayer candle 165063 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/perdao-20261101-noite/fundo/04-165063.mp4
+ok hands prayer candle 71431 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/perdao-20261101-noite/fundo/05-71431.mp4
+trilha 97 Weightless (Peaceful)
+[vost#0:0/rawvideo @ 0x55ebc41467c0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55ebc40c4240] Error muxing a packet
+[vost#0:0/rawvideo @ 0x5593a2d9fb80] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5593a2d40700] Error muxing a packet
+[vost#0:0/rawvideo @ 0x562f29c4b9c0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x562f29bd0e80] Error muxing a packet
+[vost#0:0/rawvideo @ 0x557c5bf1bb40] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x557c5be7ed80] Error muxing a packet
+ok perdao-20261101-noite (43.3s, fundo=videos)
 == saudade-20261102-noite
-ok sunset clouds sky 182176 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/saudade-20261102-noite/fundo/00-182176.mp4
-ok sunset clouds sky 189930 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/saudade-20261102-noite/fundo/01-189930.mp4
-ok sunset clouds sky 117500 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/saudade-20261102-noite/fundo/02-117500.mp4
-ok sunset clouds sky 153999 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/saudade-20261102-noite/fundo/03-153999.mp4
-ok sunset clouds sky 222163 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/saudade-20261102-noite/fundo/04-222163.mp4
-ok sunset clouds sky 189925 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/saudade-20261102-noite/fundo/05-189925.mp4
-Traceback (most recent call last):
-  File "/home/runner/work/candeia-diaria/candeia-diaria/gerar.py", line 65, in main
-    narrar.narrar(rp, voz)
-  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 39, in narrar
-    asyncio.run(tts(f, p))
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/runners.py", line 195, in run
-    return runner.run(main)
-           ^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/runners.py", line 118, in run
-    return self._loop.run_until_complete(task)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
-    return future.result()
-           ^^^^^^^^^^^^^^^
-  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 24, in tts
-    await edge_tts.Communicate(texto, VOZ, rate=RATE, pitch=PITCH).save(destino)
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/edge_tts/communicate.py", line 613, in save
-    async for message in self.stream():
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/edge_tts/communicate.py", line 588, in stream
-    async for message in self.__stream():
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/edge_tts/communicate.py", line 562, in __stream
-    raise NoAudioReceived(
-edge_tts.exceptions.NoAudioReceived: No audio was received. Please verify that your parameters are correct.
+ok rain window 118070 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/saudade-20261102-noite/fundo/00-118070.mp4
+ok rain window 238143 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/saudade-20261102-noite/fundo/01-238143.mp4
+ok rain window 131567 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/saudade-20261102-noite/fundo/02-131567.mp4
+ok rain window 165164 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/saudade-20261102-noite/fundo/03-165164.mp4
+ok rain window 340848 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/saudade-20261102-noite/fundo/04-340848.mp4
+ok rain window 71291 /home/runner/work/candeia-diaria/candeia-diaria/trabalho/saudade-20261102-noite/fundo/05-71291.mp4
+trilha 281 Goodbye (Emotional)
+[vost#0:0/rawvideo @ 0x5574946ba7c0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55749464cc40] Error muxing a packet
+[vost#0:0/rawvideo @ 0x557bba3717c0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x557bba31b500] Error muxing a packet
+ok saudade-20261102-noite (44.0s, fundo=videos)
 3 vídeo(s) gerado(s)
-[vost#0:0/rawvideo @ 0x5631ea5d4340] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x5631ea550ac0] Error muxing a packet
-[out#0/rawvideo @ 0x5631ea550ac0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5631ea550ac0] Error closing file: Broken pipe
+[vost#0:0/rawvideo @ 0x5641d269ed40] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5641d2790380] Error muxing a packet
+[vost#0:0/rawvideo @ 0x5635070b89c0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5635070b8d80] Error muxing a packet
+[out#0/rawvideo @ 0x5641d2790380] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5641d2790380] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5635070b8d80] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5635070b8d80] Error closing file: Broken pipe
