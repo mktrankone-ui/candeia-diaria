@@ -1,0 +1,36 @@
+{
+  "id": "nossasenhora-20261031-manha",
+  "serie": "Oração a Nossa Senhora",
+  "tema": "nossa_senhora",
+  "trilha_tema": "esperanca",
+  "fundo": "fotos",
+  "busca": [
+    "virgin mary statue",
+    "mary statue flowers",
+    "church candles morning",
+    "rosary hands light",
+    "sunrise chapel"
+  ],
+  "linhas": [
+    "Bom dia! Neste sábado, eu me coloco no colo de *Maria*.",
+    "Mãe querida, toma este dia nas tuas *mãos*.",
+    "Ensina-me a dizer \"sim\" a Deus, como tu *disseste*.",
+    "Quando eu não entender os planos do Céu, ajuda-me a *confiar*.",
+    "Feliz aquela que acreditou,",
+    "porque se cumprirá o que o Senhor lhe *prometeu*.",
+    "Passa à frente da minha família e guarda os meus *caminhos*.",
+    "Ave Maria, cheia de graça, rogai por nós. *Amém*."
+  ],
+  "referencia": {
+    "linha": 5,
+    "texto": "Lucas 1,45"
+  },
+  "legenda": "Sábado é dia de Nossa Senhora. Entregue o seu dia nas mãos da Mãe e deixe que ela passe à sua frente. 🌹🙏\n\nEscreva AMÉM e envie para alguém que você quer colocar sob o manto de Maria.\n\n#nossasenhora #oraçãodamanhã #bomdia #mariasantissima #catolico #igrejacatolica #fé #oração #candeiadiaria",
+  "slot": "manha",
+  "data": "2026-10-31",
+  "cta": [
+    "Se você crê, escreva *AMÉM*",
+    "Siga para orar todos os dias"
+  ],
+  "cta_falado": "Se você crê, escreva amém nos comentários."
+}

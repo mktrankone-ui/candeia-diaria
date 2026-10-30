@@ -1,0 +1,36 @@
+{
+  "id": "santos-20261101-manha",
+  "serie": "Oração da manhã",
+  "tema": "esperanca",
+  "trilha_tema": "amanhecer",
+  "fundo": "fotos",
+  "busca": [
+    "sunrise church",
+    "stained glass light",
+    "sunlight through clouds",
+    "cathedral morning light",
+    "sunrise cross hill"
+  ],
+  "linhas": [
+    "Bom dia! Hoje a Igreja celebra *Todos os Santos*.",
+    "Senhor, obrigado por este domingo e pela *missa*.",
+    "Os santos foram pessoas como eu, que Te amaram até o *fim*.",
+    "Dá-me um coração simples e *limpo* para Te seguir.",
+    "Bem-aventurados os puros de coração,",
+    "porque verão a *Deus*.",
+    "Todos os santos e santas de Deus, rogai por *nós*.",
+    "Por Cristo, nosso Senhor, *amém*."
+  ],
+  "referencia": {
+    "linha": 5,
+    "texto": "Mateus 5,8"
+  },
+  "legenda": "Hoje é Solenidade de Todos os Santos! Eles nos lembram que a santidade é para todos, no dia a dia. ✨🙏\n\nEscreva AMÉM e conte nos comentários qual é o seu santo de devoção. Compartilhe com quem caminha com você na fé.\n\n#todosossantos #bomdia #domingo #oraçãodamanhã #santos #catolico #igrejacatolica #fé #candeiadiaria",
+  "slot": "manha",
+  "data": "2026-11-01",
+  "cta": [
+    "Se você crê, escreva *AMÉM*",
+    "Siga para orar todos os dias"
+  ],
+  "cta_falado": "Se você crê, escreva amém nos comentários."
+}

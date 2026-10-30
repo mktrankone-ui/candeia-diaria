@@ -1,0 +1,36 @@
+{
+  "id": "finados-20261102-manha",
+  "serie": "Oração pelos falecidos",
+  "tema": "paz",
+  "trilha_tema": "paz",
+  "fundo": "fotos",
+  "busca": [
+    "cemetery flowers candles",
+    "candles church dark",
+    "white flowers light",
+    "sunrise cross",
+    "memorial candle"
+  ],
+  "linhas": [
+    "Hoje é dia de rezar por quem já *partiu*.",
+    "Senhor, eu Te confio as pessoas que eu amei e que *perdi*.",
+    "Tu disseste: Eu sou a ressurreição e a *vida*.",
+    "Quem crê em mim, ainda que morra, *viverá*.",
+    "Purifica as suas almas e acolhe-as na Tua *paz*.",
+    "Dai-lhes, Senhor, o descanso *eterno*,",
+    "e a luz perpétua os *ilumine*.",
+    "Descansem em paz. *Amém*."
+  ],
+  "referencia": {
+    "linha": 3,
+    "texto": "João 11,25"
+  },
+  "legenda": "Neste Dia de Finados, a Igreja nos convida a rezar pelos nossos falecidos. O amor não termina: ele se torna oração. 🕯️🤍\n\nEscreva nos comentários o nome de quem você quer que a gente reze junto, e compartilhe com quem está com saudade.\n\n#finados #diadefinados #oraçãopelosfalecidos #descansoeterno #catolico #igrejacatolica #oração #fé #candeiadiaria",
+  "slot": "manha",
+  "data": "2026-11-02",
+  "cta": [
+    "Se você crê, escreva *AMÉM*",
+    "Siga para orar todos os dias"
+  ],
+  "cta_falado": "Se você crê, escreva amém nos comentários."
+}
