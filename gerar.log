@@ -1,90 +1,45 @@
-== finados-20261102-manha
-ok 0 cemetery flowers 6265142 | military cemetery, tombstone, flowers, gravestone, fallen heroes, first world war, flanders, history, soldiers, belgium
-ok 1 candle light dark 3358546 | burnt, flame, candle, dark, wax, burn, heat, black candle, black candles
-ok 2 cross sunset 6910668 | trees, nature, dusk, outdoors, cross, monument, sunset
-ok 3 sun rays clouds 7391479 | sunset, nature, mountains, sun, clouds, landscape, glow
-ok 4 calm lake 8843868 | hut, lake, forest, sea, reflection, nature, trees, tranquil, meditation, calm, nature, nature, nature, nature, nature
-ok 5 white roses 5405098 | roses, white, bouquet, flowers, bloom, pink, flower, flower background, plants, of nature, romantic, beauty, romance, close up, nature, gardens, scent, beautifully, beautiful flowers, flora, flower wallpaper, summer, beautiful, bush, country, outdoor, bud
-ok 6 church candles 10168810 | candles, flame, light, dark, church, prayer, sacred, spiritual, romantic, meditation, firelight, romance, peaceful, tealight, silence, reflection, atmosphere, warmth, intimacy
-ok 7 sunrise sky clouds 9190139 | clouds, sunrise, cumulus, altostratus, altocumulus, beautiful, sky, nature, morning
-ok 8 sunrise ocean 7952904 | beach, nature, ocean, sunset, waves, sky, malta, sunrise
-trilha 457 Inner Calm (Peaceful)
-ok finados-20261102-manha (36.6s, fundo=fotos, voz=pt-BR-ThalitaMultilingualNeural)
-== perdao-20261101-noite
-ok 0 sunbeam forest 50748 | forest, fog, morning, water, nature, trees, sunrise, pond, sunbeam, bushes
-ok 1 rain window 94680 | rain, glass, window glass, water, raindrop, rainy weather, wet, drops, drips, rainy
-ok 2 person walking forest 260318 | man, trees, fog, netherlands, drenthe, dwingelderveld, winter, cold, morning, hiker, walking, hiking, nature, forest, landscape
-ok 3 storm clouds light 226622 | sky, clouds, cloudy, weather, wind, sun, skyscape, light, summer, spring, outdoors, scenic, sunlight, peaceful, storm, atmosphere, cloudscape, daylight, fog, mist, nature
-ok 4 man thinking nature 36702 | handsome, man, male, emotional, heartbroken, in thought, feelings, thinking, attractive
-ok 5 couple hug sunset 119787 | path, summer, daylight, nature, landscape, grass, trees, field, water, plants, afternoon, sunset, peaceful, beautiful, cyclist, cycling, bicycle, transport, people talking, cute, couple, relaxing smooth, cycling girl, girl
-ok 6 cross sunset 11748 | sunset, south-tirol, mountains, nature, clouds, landscape, heaven, rockclimbing, freedom, summit cross, cross
-ok 7 candle light dark 99243 | candle flame, bokeh, burning candle, candlelight, light, three, 4k, diorama, christmas, candle
-ok 8 sun rays clouds 16163 | clouds, west, sunset, light, twilight, evening, orange, the sun, sky, the rays, period of time, nature, rapid, drama, quick, cloudy, clear skies
-trilha 96 Floating Light (Peaceful)
-[vost#0:0/rawvideo @ 0x630d82814000] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x630d827a3c00] Error muxing a packet
-[out#0/rawvideo @ 0x630d827a3c00] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x630d827a3c00] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5b65bdd5cec0] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5b65bdd36e00] Error muxing a packet
-[out#0/rawvideo @ 0x5b65bdd36e00] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5b65bdd36e00] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5aa71d2f9200] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5aa71d25b200] Error muxing a packet
-[out#0/rawvideo @ 0x5aa71d25b200] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5aa71d25b200] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x6494ebc3e880] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x6494ebc3e500] Error muxing a packet
-[out#0/rawvideo @ 0x6494ebc3e500] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x6494ebc3e500] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5d74f90aacc0] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5d74f9056100] Error muxing a packet
-[out#0/rawvideo @ 0x5d74f9056100] Task finished with error code: -32 (Broken pipe)
-ok perdao-20261101-noite (36.0s, fundo=videos, voz=pt-BR-AntonioNeural)
 == saudade-20261102-noite
-ok 0 woman sitting lake 211236 | lake, sunset, dusk, beach, woman, orange, tree, sun, sky, drone view, drone, forest, adventure, aerial view, nature, landscape
-ok 1 person standing ocean sunset 23070 | sunset, palm, beach, summer, ocean, sky, tropical, romantic, sunrise, nature, island, paradise, water, vacation
-ok 2 lighthouse waves 37885 | boat, beach, sea, vacation, nature, sand, landscape, calm, summer, costa, fishing, sunrise, travel, tropical, navy, island, paradise, waves, tourism, peace, caribbean, cliff, lighthouse, aerial video, ocean
-ok 3 rain window 238449 | rain on glass, city lights at night, rainy cityscape, skyscrapers in rain, urban skyline at night, reflections on glass, city lights reflections, tall buildings in fog, nighttime rain, wet glass aesthetic, rain droplets on window, illuminated high-rises, foggy skyline, dark urban landscape, gloomy weather, towering skyscrapers, raindrops on window glass, rain-soaked city view, urban rainstorm, misty skyscrapers, rainy night ambiance, glowing windows
-ok 4 sun rays clouds 325636 | alps, mountains, sea of fog, switzerland, fog, clouds, sun, light
-ok 5 sunset clouds 136322 | sunset, ocean, sun, clouds, dusk, sea, nature
-ok 6 virgin mary statue 153690 | leaves, statue, holy mary of the angels, assisi, virgin mary, virgin, miracle, autumn
-ok 7 candle light dark 8388 | candle, macro, lighting, burn, tea light
-ok 8 starry sky mountains 205427 | starry sky, night sky, mountains, mist, nature, landscape
-trilha 216 Against All Odds (Emotional)
-[vost#0:0/rawvideo @ 0x5bc596c3c880] Error submitting a packet to the muxer: Broken pipe
+ok 0 woman sitting lake 74178 | heron, bird, feathers, lake, sitting, animal, nature, landscape
+ok 1 person standing ocean sunset 264963 | sunset, nature, sea, ocean, dawn
+ok 2 lonely road sunset 279656 | sea, nature, ocean, beach, sunset, colorful, landscape, drone, aerial, intro, orange, lonely
+ok 3 rain window 12779 | rain, thunderstorm, lightning, autumn, clouds, drop, window, windows, sky, nature
+ok 4 sun rays clouds 39220 | clouds, light, sea, sunrise, sun rays, la palma, cc0
+ok 5 sunset clouds 3057 | clouds, sky, cloud, evening sky, sunset
+ok 6 virgin mary statue 102703 | statue, mary, sunset, ocean, waves, beach, sea, water, clouds, beautiful, calm, peace, spiritual, jesus, religion, mother of god, healing, angel, compassion, forgiveness, love, madonna, maria
+ok 7 candle light dark 48570 | candlestick, burns, fire, supplication, candle, decorations, dark, lighting, iron, old, rusty, decoration, illumination, bright, lights, glowing
+ok 8 starry sky mountains 181015 | starry sky, mountains, universe, summer, long exposure, night, orion, sirius, landscape
+trilha 215 One More Mile (Emotional)
+[vost#0:0/rawvideo @ 0x64fc59e07b00] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x5bc596c3c500] Error muxing a packet
-[out#0/rawvideo @ 0x5bc596c3c500] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5bc596c3c500] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x570c4a4fd200] [vost#0:0/rawvideo @ 0x608be4d2ca00] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x64fc59e07e80] Error muxing a packet
+[out#0/rawvideo @ 0x64fc59e07e80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x64fc59e07e80] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5afb107f1940] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x608be4d4c040] Error muxing a packet
-[out#0/rawvideo @ 0x608be4d4c040] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x608be4d4c040] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x60437b4878c0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5afb107f15c0] Error muxing a packet
+[out#0/rawvideo @ 0x5afb107f15c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5afb107f15c0] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5aecb207ca80] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x60437b486e00] Error muxing a packet
-[out#0/rawvideo @ 0x60437b486e00] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x60437b486e00] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5aecb207c700] Error muxing a packet
+[out#0/rawvideo @ 0x5aecb207c700] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5aecb207c700] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x63a11c2ccd80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x63a11c2e5f00] Error muxing a packet
+[out#0/rawvideo @ 0x63a11c2e5f00] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x63a11c2e5f00] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5ec2a2b64780] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5ec2a2b1b9c0] Error muxing a packet
+[out#0/rawvideo @ 0x5ec2a2b1b9c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5ec2a2b1b9c0] Terminating thread with return code -32 (Broken pipe)
 ok saudade-20261102-noite (37.0s, fundo=videos, voz=pt-BR-AntonioNeural)
-3 vídeo(s) gerado(s)
-[vost#0:0/rawvideo @ 0x59d843d9cb80] [vost#0:0/rawvideo @ 0x61f03980fdc0] Error submitting a packet to the muxer: Broken pipe
-Error submitting a packet to the muxer: Broken pipe
+1 vídeo(s) gerado(s)
+[vost#0:0/rawvideo @ 0x6480119c1b00] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x61f03980f880] [out#0/rawvideo @ 0x59d843d61e00] Error muxing a packet
-Error muxing a packet
-[out#0/rawvideo @ 0x61f03980f880] [out#0/rawvideo @ 0x59d843d61e00] Task finished with error code: -32 (Broken pipe)
-Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x61f03980f880] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x59d843d61e00] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x61f03980f880] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x61f03980f880] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x59d843d61e00] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x59d843d61e00] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x6480119c3140] Error muxing a packet
+[out#0/rawvideo @ 0x6480119c3140] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x6480119c3140] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x6480119c3140] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x6480119c3140] Error closing file: Broken pipe
