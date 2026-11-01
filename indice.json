@@ -56,13 +56,16 @@
   "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/finados-20261102-manha.mp4",
   "serie": "Oração pelos falecidos",
   "legenda": "Neste Dia de Finados, a Igreja nos convida a rezar pelos nossos falecidos. O amor não termina: ele se torna oração. 🕯️🤍\n\nEscreva nos comentários o nome de quem você quer que a gente reze junto, e compartilhe com quem está com saudade.\n\n#finados #diadefinados #oraçãopelosfalecidos #descansoeterno #catolico #igrejacatolica #oração #fé #candeiadiaria",
-  "duracao": 42.5,
+  "duracao": 36.6,
   "fundo": "fotos",
   "trilha": {
-   "id": 458,
-   "titulo": "Still Waters (Peaceful)",
-   "url": "https://media.snipsound.com/audio/rf_med01a_2_still_waters_peaceful.mp3"
-  }
+   "id": 457,
+   "titulo": "Inner Calm (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_med01a_inner_calm_peaceful.mp3"
+  },
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "nome"
  },
  "santos-20261101-manha": {
   "arquivo": "santos-20261101-manha.mp4",
@@ -95,25 +98,31 @@
   "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/perdao-20261101-noite.mp4",
   "serie": "Oração do perdão",
   "legenda": "Perdoar não é esquecer nem dizer que não doeu. É entregar a Deus o peso que está te prendendo. 🕊️🕯️\n\nEscreva AMÉM se você quer ser livre dessa mágoa, e envie para alguém que precisa dessa oração.\n\n#perdão #oraçãodanoite #curainterior #oração #Jesus #sagradocoraçãodejesus #catolico #fé #candeiadiaria",
-  "duracao": 43.3,
+  "duracao": 36.0,
   "fundo": "videos",
   "trilha": {
-   "id": 97,
-   "titulo": "Weightless (Peaceful)",
-   "url": "https://media.snipsound.com/audio/rf_amb01a_2_weightless_peaceful.mp3"
-  }
+   "id": 96,
+   "titulo": "Floating Light (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_amb01a_floating_light_peaceful.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "amem"
  },
  "saudade-20261102-noite": {
   "arquivo": "saudade-20261102-noite.mp4",
   "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/saudade-20261102-noite.mp4",
   "serie": "Oração de cura",
   "legenda": "A saudade é o amor que continua. Hoje, entregue a Deus a sua dor e deixe que Ele console o seu coração. 🤍🕯️\n\nEscreva AMÉM e envie para alguém que perdeu uma pessoa querida. Se o luto estiver pesado demais, procure ajuda: um padre, um psicólogo ou o CVV (188).\n\n#luto #saudade #finados #oraçãodecura #consolo #oração #catolico #fé #candeiadiaria",
-  "duracao": 44.0,
+  "duracao": 37.0,
   "fundo": "videos",
   "trilha": {
-   "id": 282,
-   "titulo": "The Last Letter (Emotional)",
-   "url": "https://media.snipsound.com/audio/rf_pno02c_2_the_last_letter_emotional.mp3"
-  }
+   "id": 216,
+   "titulo": "Against All Odds (Emotional)",
+   "url": "https://media.snipsound.com/audio/rf_cin04c_against_all_odds_emotional.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "enviar"
  }
 }
