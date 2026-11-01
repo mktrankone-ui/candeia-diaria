@@ -10,7 +10,7 @@ rel = []
 m = narrar._modelo()
 
 # 1) auditoria dos vídeos publicados: idioma de cada trecho falado
-for mp4 in sorted(glob.glob("pub/*.mp4")):
+for mp4 in sorted(glob.glob("pub/perdao*.mp4")):
     audio = narrar.audio16k(mp4)
     segs, info = m.transcribe(audio, beam_size=1, vad_filter=True, multilingual=True)
     rel.append(f"## {os.path.basename(mp4)} (idioma geral {info.language})")
@@ -21,11 +21,20 @@ for mp4 in sorted(glob.glob("pub/*.mp4")):
     rel.append("")
 
 # 2) amostras das vozes com um roteiro real
-rot = "roteiros/publicados/santos-20261101-manha.json"
+# o roteiro do perdão é o que teve o "Amém!" lido em outro idioma
+rot = "roteiros/publicados/perdao-20261101-noite.json"
 for tipo in ("feminina", "masculina"):
     os.environ["CANDEIA_VOZ"] = tipo
-    t = narrar.narrar(rot, f"{OUT}/amostra-{tipo}.mp3")
-    rel.append(f"amostra {tipo}: {json.dumps(t)}")
-rel.append(f"pt-BR forçado no SSML aceito pelo serviço: {narrar.FORCAR_PT}")
+    arq = f"{OUT}/amostra-{tipo}.mp3"
+    t = narrar.narrar(rot, arq)
+    rel.append(f"## amostra {tipo}: {json.dumps(t)}")
+    audio = narrar.audio16k(arq)
+    ini = t["intro"]
+    for k, d in enumerate(t["por_linha"] + [t["cta_duracao"] + t["cta_inicio"] - ini - sum(t["por_linha"])]):
+        trecho = audio[int(ini * 16000):int((ini + d) * 16000)]
+        lang, p = narrar.idioma(trecho)
+        segs, _ = m.transcribe(trecho, beam_size=1, language="pt", without_timestamps=True)
+        rel.append(f"{ini:6.2f}s [{lang} pt={p:.2f}] {''.join(s.text for s in segs).strip()}")
+        ini += d
 open(f"{OUT}/relatorio.txt", "w").write("\n".join(rel))
 print("\n".join(rel))

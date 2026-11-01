@@ -4,13 +4,17 @@
 Uso: python3 narrar.py roteiros/x.json saida/x-voz.mp3  → grava também saida/x-voz.json com os tempos
 
 Vozes (campo "voz" do roteiro): "feminina" (Thalita) ou "masculina" (Antonio).
-Toda frase é conferida com o Whisper: se não sair em português, é refeita; se insistir,
-a narração inteira passa para a voz de reserva (monolíngue, não troca de idioma).
+
+Idioma: a Thalita é "multilingual" e, numa frase muito curta e solta ("Amém!"), pode ler em outro
+idioma. Por isso:
+  1. frases curtas (até 3 palavras) são sintetizadas junto da frase vizinha, para a voz ter
+     contexto de português, e depois separadas pelo tempo exato das palavras;
+  2. cada trecho é conferido com o Whisper; se não sair em português é refeito e, se insistir,
+     a narração inteira passa para a voz de reserva (Francisca, monolíngue pt-BR).
 """
-import asyncio, json, os, subprocess, sys, tempfile
+import asyncio, json, os, re, subprocess, sys, tempfile
 
 VOZES = {
-    # Thalita é "multilingual": sem dica de idioma ela pode ler uma frase curta em francês/espanhol.
     "feminina": {"voz": "pt-BR-ThalitaMultilingualNeural", "rate": "-12%", "pitch": "-2Hz",
                  "reserva": "pt-BR-FranciscaNeural"},
     # Antonio é monolíngue pt-BR. Mais lento e mais grave: voz grossa e suave.
@@ -19,7 +23,8 @@ VOZES = {
 INTRO = 0.15     # a voz entra já no primeiro segundo (gancho falado imediatamente)
 PAUSA = 0.70     # respiro depois de cada frase
 CTA_PAUSA = 0.5
-TENTATIVAS = 3
+CURTA = 3        # frases com até 3 palavras são sintetizadas junto da vizinha
+TENTATIVAS = 2
 
 
 def duracao(p):
@@ -28,51 +33,33 @@ def duracao(p):
     return float(out.strip())
 
 
-_ORIGINAL = None
-FORCAR_PT = True
+def palavras(t):
+    return re.findall(r"[0-9A-Za-zÀ-ÿ]+", t)
 
 
-def _ssml(forcar):
-    """Faz o edge-tts declarar pt-BR no SSML (o padrão é en-US, o que deixa a voz multilíngue 'adivinhar')."""
-    global _ORIGINAL
-    from edge_tts import communicate as c
-    if _ORIGINAL is None:
-        _ORIGINAL = c.mkssml
-    if not forcar:
-        c.mkssml = _ORIGINAL
-        return
-    def mkssml(tc, escaped_text):
-        if isinstance(escaped_text, bytes):
-            escaped_text = escaped_text.decode("utf-8")
-        return ("<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='pt-BR'>"
-                f"<voice name='{tc.voice}'><lang xml:lang='pt-BR'>"
-                f"<prosody pitch='{tc.pitch}' rate='{tc.rate}' volume='{tc.volume}'>{escaped_text}</prosody>"
-                "</lang></voice></speak>")
-    c.mkssml = mkssml
+def norm(t):
+    return "".join(palavras(t)).lower()
 
 
 async def _tts(texto, destino, voz, rate, pitch):
+    """Sintetiza e devolve as marcas de tempo de cada palavra [(inicio_s, fim_s, texto)]."""
     import edge_tts
-    await edge_tts.Communicate(texto, voz, rate=rate, pitch=pitch).save(destino)
+    com = edge_tts.Communicate(texto, voz, rate=rate, pitch=pitch, boundary="WordBoundary")
+    marcas = []
+    with open(destino, "wb") as f:
+        async for ch in com.stream():
+            if ch["type"] == "audio":
+                f.write(ch["data"])
+            elif ch["type"] == "WordBoundary":
+                marcas.append((ch["offset"] / 1e7, (ch["offset"] + ch["duration"]) / 1e7, ch["text"]))
+    return marcas
 
 
 def tts(texto, destino, voz, rate, pitch):
-    global FORCAR_PT
-    if os.path.exists(destino):
-        os.remove(destino)
-    try:
-        _ssml(FORCAR_PT)
-        asyncio.run(_tts(texto, destino, voz, rate, pitch))
-    except Exception as e:
-        if not FORCAR_PT:
-            raise
-        # o serviço recusou o SSML com <lang>: segue no padrão (o Whisper confere o idioma de cada frase)
-        print("AVISO: pt-BR forçado no SSML recusado, usando padrão:", e, flush=True)
-        FORCAR_PT = False
-        _ssml(False)
-        asyncio.run(_tts(texto, destino, voz, rate, pitch))
+    marcas = asyncio.run(_tts(texto, destino, voz, rate, pitch))
     if not os.path.exists(destino) or os.path.getsize(destino) < 2000:
         raise RuntimeError(f"áudio vazio para: {texto}")
+    return marcas
 
 
 # ---------------------------------------------------------------- conferência de idioma
@@ -111,23 +98,75 @@ def idioma(arquivo):
 
 def em_portugues(arquivo):
     lang, p = idioma(arquivo)
-    ok = lang in ("pt", "?") and p >= 0.5
-    return ok, lang, p
+    return lang in ("pt", "?") and p >= 0.5, lang, p
 
 
-def frase_ok(texto, destino, cfg, voz):
-    for n in range(TENTATIVAS):
-        tts(texto, destino, voz, cfg["rate"], cfg["pitch"])
-        ok, lang, p = em_portugues(destino)
-        if ok:
-            return True
-        print(f"  idioma errado ({lang}, pt={p:.2f}) tentativa {n + 1}: {texto}", flush=True)
-    return False
-
-
-# ---------------------------------------------------------------- montagem
+# ---------------------------------------------------------------- frases e grupos
 def limpar(t):
     return t.replace("*", "").strip()
+
+
+def curta(t):
+    return len(palavras(t)) <= CURTA
+
+
+def agrupar(textos):
+    """Junta cada frase curta à anterior (a primeira, se curta, vai com a segunda). Devolve listas de índices."""
+    grupos = []
+    for k, t in enumerate(textos):
+        if grupos and len(grupos[-1]) == 1 and (curta(t) or (k == 1 and curta(textos[0]))):
+            grupos[-1].append(k)
+        else:
+            grupos.append([k])
+    return grupos
+
+
+def _corte(marcas, segunda):
+    """Instante para separar o áudio antes da frase `segunda` (pelas marcas das palavras)."""
+    alvo, acc = norm(segunda), ""
+    for i in range(len(marcas) - 1, 0, -1):
+        acc = norm(marcas[i][2]) + acc
+        if acc == alvo:
+            return (marcas[i - 1][1] + marcas[i][0]) / 2
+        if len(acc) > len(alvo):
+            break
+    return None
+
+
+def _recorta(src, dst, ini=None, fim=None):
+    corte = (["-ss", f"{ini:.3f}"] if ini is not None else []) + (["-to", f"{fim:.3f}"] if fim is not None else [])
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", src, *corte, "-ar", "24000", "-ac", "1", dst],
+                   check=True)
+
+
+def sintetiza_grupo(textos, idx, cfg, voz, tmp):
+    """Gera o áudio de um grupo (1 ou 2 frases), confere o idioma e devolve um wav por frase."""
+    texto = " ".join(textos[i] for i in idx)
+    base = os.path.join(tmp, f"{voz}-{idx[0]:02d}-{len(idx)}")
+    for n in range(TENTATIVAS):
+        marcas = tts(texto, base + ".mp3", voz, cfg["rate"], cfg["pitch"])
+        ok, lang, p = em_portugues(base + ".mp3")
+        if ok:
+            break
+        print(f"  idioma errado ({lang}, pt={p:.2f}) tentativa {n + 1}: {texto}", flush=True)
+    else:
+        return None
+    if len(idx) == 1:
+        _recorta(base + ".mp3", base + "-a.wav")
+        return [base + "-a.wav"]
+    c = _corte(marcas, textos[idx[1]])
+    if c is None:  # não achou o ponto de corte: sintetiza separado (cada um conferido)
+        print("  sem marca de corte, separando:", texto, flush=True)
+        out = []
+        for i in idx:
+            r = sintetiza_grupo(textos, [i], cfg, voz, tmp)
+            if r is None:
+                return None
+            out += r
+        return out
+    _recorta(base + ".mp3", base + "-a.wav", fim=c)
+    _recorta(base + ".mp3", base + "-b.wav", ini=c)
+    return [base + "-a.wav", base + "-b.wav"]
 
 
 def escolher_voz(r):
@@ -143,14 +182,15 @@ def narrar(roteiro, saida):
     falas = [limpar(l) for l in r["linhas"]]
     cta = r.get("cta_falado") or limpar(r["cta"][0]) + "."
     textos = falas + [cta]
+    grupos = agrupar(falas) + [[len(falas)]]
 
     def gerar_todas(voz):
         partes = []
-        for k, f in enumerate(textos):
-            p = os.path.join(tmp, f"{voz}-{k:02d}.mp3")
-            if not frase_ok(f, p, cfg, voz):
+        for g in grupos:
+            res = sintetiza_grupo(textos, g, cfg, voz, tmp)
+            if res is None:
                 return None
-            partes.append(p)
+            partes += res
         return partes
 
     voz_usada = cfg["voz"]
@@ -168,22 +208,20 @@ def narrar(roteiro, saida):
                         "-t", f"{seg:.3f}", "-c:a", "pcm_s16le", p], check=True)
         return p
 
-    # corta o silêncio que o TTS deixa no começo de cada frase (deixa a fala colada no início)
+    # tira o silêncio do começo e do fim de cada frase: a fala começa colada e o respiro é sempre o mesmo
     aparadas = []
+    filtro = ("silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.02,"
+              "areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05,areverse")
     for k, p in enumerate(partes):
         q = os.path.join(tmp, f"ap-{k:02d}.wav")
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", p, "-af",
-                        "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.02",
-                        "-ar", "24000", "-ac", "1", q], check=True)
-        if duracao(q) < 0.3:  # filtro comeu demais: usa a frase inteira
-            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", p, "-ar", "24000", "-ac", "1", q], check=True)
-        aparadas.append(q)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", p, "-af", filtro, "-ar", "24000", "-ac", "1", q],
+                       check=True)
+        aparadas.append(q if duracao(q) > 0.25 else p)
 
     lista, por_linha = [silencio(INTRO, "intro.wav")], []
     sp = silencio(PAUSA, "pausa.wav")
     for p in aparadas[:-1]:
-        d = duracao(p)
-        por_linha.append(round(d + PAUSA, 3))
+        por_linha.append(round(duracao(p) + PAUSA, 3))
         lista += [p, sp]
     lista += [silencio(CTA_PAUSA, "pcta.wav"), aparadas[-1]]
     cat = os.path.join(tmp, "lista.txt")
