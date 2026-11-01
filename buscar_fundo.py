@@ -61,7 +61,8 @@ PROIBIDAS = {
     "computer", "laptop", "phone", "smartphone", "business", "office", "shopping", "cat", "dog", "pet", "selfie",
     "covid", "covid-19", "coronavirus", "virus", "soap", "hygiene", "washing", "bathroom", "mask", "strawberry",
     "fruit", "abstract", "digital", "technology", "brain", "intelligence", "artificial", "cyber", "futuristic",
-    "fantasy", "particles", "network", "data", "honeymoon", "lovers", "kiss", "wedding dress", "graffiti", "text", "lettering", "sign", "logo", "advertisement", "cartoon", "illustration", "3d", "render",
+    "fantasy", "particles", "network", "data", "city", "skyline", "skyscraper", "skyscrapers", "building",
+    "buildings", "urban", "street", "traffic", "honeymoon", "lovers", "kiss", "wedding dress", "graffiti", "text", "lettering", "sign", "logo", "advertisement", "cartoon", "illustration", "3d", "render",
 }
 # Palavras genéricas da busca que não servem para confirmar se a mídia tem a ver com o termo.
 GENERICAS = {"light", "sky", "nature", "people", "person", "golden", "hour", "calm", "gentle", "dark", "soft"}
@@ -104,6 +105,8 @@ def adequado(hit, termo):
     t = termo.lower()
     if palavras & {"statue", "sculpture", "figure"} and not ("statue" in t or "mary" in t or "lady" in t):
         return False                            # estátua só quando a cena pede (Nossa Senhora)
+    if ("mary" in t or "lady" in t) and not palavras & {"mary", "madonna", "virgin", "lady", "maria", "rosary"}:
+        return False                            # "Nossa Senhora" tem que ser Nossa Senhora, não qualquer estátua
     chave = {w for w in termo.lower().split() if w not in GENERICAS} or set(termo.lower().split())
     # exige quase todas as palavras-chave: "praying hands" não pode virar "lavando as mãos"
     precisa = len(chave) if len(chave) <= 2 else math.ceil(len(chave) * 2 / 3)

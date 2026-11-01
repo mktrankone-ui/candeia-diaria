@@ -2,7 +2,7 @@ name: Gerar vídeos
 on:
   push:
     branches: [main]
-    paths: ["roteiros/**.json"]
+    paths: ["roteiros/**.json", "!roteiros/publicados/**"]
   workflow_dispatch:
     inputs:
       roteiros:
