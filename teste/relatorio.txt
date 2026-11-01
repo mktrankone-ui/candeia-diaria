@@ -1,50 +1,3 @@
-## nossasenhora-20261031-manha.mp4 (idioma geral pt)
-   1.4s Bom dia! Neste sábado eu me coloco no colo de Maria.
-   7.0s Mãe querida, toma este dia nas Tuas mãos.
-  11.6s Ensina-me a dizer sim a Deus como Tu disseste.
-  16.2s Quando eu não entender os planos do céu, ajuda-me a confiar.
-  21.2s Feliz aquela que acreditou,
-  24.4s porque se cumprirá o que o Senhor lhe prometeu.
-  28.4s Passa frente da minha família e guarda os meus caminhos.
-  33.4s Ave Maria, cheia de graça,
-  36.4s rogar e por nós. Amém!
-  40.6s Se você crê, escreva a mim nos comentários.
-
-## oracao-ansiedade-01.mp4 (idioma geral pt)
-   1.4s Senhor, Tu conheces o aperto que eu sinto no peito.
-   5.7s Os pensamentos correm rápido e eu não consigo descansar.
-  10.7s Hoje, eu escolho não carregar isso sozinho.
-  14.6s Eu entrego à Ticada preocupação, uma por uma.
-  19.3s Respire em mim à Tua calma,
-  22.5s que à Tua paz, que excede todo o entendimento.
-  26.9s Guarde meu coração e a minha mente.
-  30.5s Em nome de Jesus, amém.
-  32.8s Se você crer, escreva-me em nos comentários.
-
-## oracao-manha-01.mp4 (idioma geral en)
-
-## oracao-manha-02.mp4 (idioma geral pt)
-   1.3s Bom dia, Senhor! Obrigado por me acordar com vida.
-   6.3s Eu te ofereço este dia, meus passos, meu trabalho e meu cansaço.
-  12.3s Abençoe a minha família e cada pessoa que eu encontrar.
-  17.3s Nossa Senhora, passe minha frente e abra os meus caminhos.
-  22.3s Santo Anjo do Senhor, guarda-me de todo mal.
-  27.3s Este é o dia que o Senhor fez.
-  31.3s Nele vamos nos alegrar.
-  33.3s Por Cristo, nosso Senhor. Amém.
-  37.3s Se você crê, escreva-me nos comentários.
-
-## oracao-noite-01.mp4 (idioma geral pt)
-   1.5s Senhor, chegou o fim de mais um dia.
-   5.5s Obrigado por cada passo que me sustentaste até aqui.
-  10.1s O que eu não consegui resolver, eu deixo em Tuas mãos.
-  14.8s Perdoa as minhas falhas e acalma o meu coração.
-  19.3s Guarda minha casa e todos que eu amo.
-  22.9s Em paz eu me deito e logo durmo.
-  26.5s Porque só Tu, Senhor, me fases habitar em segurança.
-  32.0s Em nome de Jesus, amém.
-  35.9s Se você crê, escreva a mim nos comentários.
-
 ## perdao-20261101-noite.mp4 (idioma geral pt)
    1.5s Se existe uma mágoa que ainda dói aí dentro, ore comigo.
    5.9s Senhor, tu conheces a ferida que eu carrego.
@@ -57,28 +10,23 @@
   34.6s Amém!   <<< en (pt=0.12)
   35.6s Se você crê, escreva a mim nos comentários.
 
-## santos-20261101-manha.mp4 (idioma geral pt)
-   1.4s Bom dia! Hoje a igreja celebra todos os santos.
-   6.4s Senhor, obrigado por este domingo e pela missa.
-  11.4s Os santos foram pessoas como eu, que te amaram até o fim.
-  16.4s Dá-me um coração simples e limpo para te seguir.
-  21.4s Bem-aventurados os puros de coração,
-  25.4s porque verão a Deus.
-  28.4s Todos os santos e santas de Deus, rogai por nós.
-  32.4s Por Cristo, nosso Senhor. Amém!
-  37.6s Se você crê, escreva-me em nos comentários.
-
-## saudade-20261102-noite.mp4 (idioma geral pt)
-   1.5s Se a saudade aperta hoje, você não está sozinho.
-   5.5s Senhor, tu choraste junto ao túmulo do teu amigo Lázaro.
-  11.5s Tu conheces a dor que mora no meu peito.
-  14.5s Consola o meu coração e enxugas minhas lágrimas.
-  19.5s Deus enxugará toda a lágrima dos nossos olhos.
-  24.5s E a morte não existirá mais.
-  27.5s Nossa Senhora das Dores, segura minha mão esta noite.
-  32.5s Por Cristo, nosso Senhor. Amém.
-  37.8s Se você crê, escreva aém nos comentários.
-
-amostra feminina: {"intro": 0.15, "por_linha": [5.075, 4.556, 4.741, 4.173, 3.815, 2.584, 4.488, 3.779], "cta_inicio": 33.861, "cta_duracao": 3.775292, "total": 37.6378, "voz": "pt-BR-ThalitaMultilingualNeural", "tipo_voz": "feminina"}
-amostra masculina: {"intro": 0.15, "por_linha": [6.274, 4.98, 5.587, 4.651, 4.24, 3.0, 5.406, 4.125], "cta_inicio": 38.913, "cta_duracao": 4.20475, "total": 43.117347, "voz": "pt-BR-AntonioNeural", "tipo_voz": "masculina"}
-pt-BR forçado no SSML aceito pelo serviço: False
+## amostra feminina: {"intro": 0.15, "por_linha": [4.594, 3.572, 4.176, 3.228, 3.553, 2.924, 3.059, 4.848], "cta_inicio": 30.604, "cta_duracao": 3.303917, "total": 33.908005, "voz": "pt-BR-ThalitaMultilingualNeural", "tipo_voz": "feminina"}
+  0.15s [pt pt=1.00] Se existe uma mágoa que ainda dói aí dentro, ore comigo.
+  4.74s [pt pt=1.00] Senhor, Tu conheces a ferida que eu carrego.
+  8.32s [pt pt=1.00] Eu não consigo perdoar sozinho. Dá-me a tua graça.
+ 12.49s [pt pt=0.99] Tira do meu peito o rancor e a amargura.
+ 15.72s [pt pt=1.00] E perdoa também às vezes em que eu ferir alguém.
+ 19.27s [pt pt=0.99] Perdoaivos uns aos outros.
+ 22.20s [pt pt=0.98] Como Deus vos perdoou em Cristo.
+ 25.26s [pt pt=0.98] Sagrado Coração de Jesus, Cura o meu coração. Amém.
+ 30.10s [pt pt=0.99] Se você crê, escreva a menos comentários.
+## amostra masculina: {"intro": 0.15, "por_linha": [4.365, 3.798, 4.219, 3.174, 3.713, 2.537, 2.869, 4.945], "cta_inicio": 30.27, "cta_duracao": 3.243625, "total": 33.513265, "voz": "pt-BR-AntonioNeural", "tipo_voz": "masculina"}
+  0.15s [pt pt=1.00] Se existe uma mágoa que ainda dói aí dentro, ore comigo!
+  4.52s [pt pt=1.00] Senhor, Tu conheces a ferida que eu carrego.
+  8.31s [pt pt=1.00] Eu não consigo perdoar sozinho, dá-me a tua graça.
+ 12.53s [pt pt=0.99] Tira do meu peito o rancor e a amargura.
+ 15.71s [pt pt=0.99] e perdoa também às vezes em que eu ferir alguém.
+ 19.42s [pt pt=0.95] Perdoa-vos uns aos outros.
+ 21.96s [pt pt=0.99] Como Deus vos perdoou em Cristo.
+ 24.82s [pt pt=0.99] Sagrado Coração de Jesus, Cura o meu coração. Amém.
+ 29.77s [pt pt=0.99] Se você quer, escreva-me nos comentários.
