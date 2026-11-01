@@ -43,6 +43,8 @@ def main(apenas=None):
     indice = json.load(open(idx_path)) if os.path.exists(idx_path) else {}
     trilhas = sorted(glob.glob(os.path.join(BASE, "trilhas", "*.mp3")) + glob.glob(os.path.join(BASE, "trilhas", "*.wav")))
     roteiros = sorted(glob.glob(os.path.join(BASE, "roteiros", "*.json")))
+    if apenas:  # refazer um vídeo já publicado/agendado
+        roteiros += sorted(glob.glob(os.path.join(BASE, "roteiros", "publicados", "*.json")))
     feitos = 0
     for k, rp in enumerate(roteiros):
         rid = os.path.splitext(os.path.basename(rp))[0]

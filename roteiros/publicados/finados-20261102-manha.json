@@ -4,13 +4,6 @@
   "tema": "paz",
   "trilha_tema": "paz",
   "fundo": "fotos",
-  "busca": [
-    "cemetery flowers candles",
-    "candles church dark",
-    "white flowers light",
-    "sunrise cross",
-    "memorial candle"
-  ],
   "linhas": [
     "Hoje é dia de rezar por quem já *partiu*.",
     "Senhor, eu Te confio as pessoas que eu amei e que *perdi*.",
@@ -29,8 +22,21 @@
   "slot": "manha",
   "data": "2026-11-02",
   "cta": [
-    "Se você crê, escreva *AMÉM*",
-    "Siga para orar todos os dias"
+    "Escreva o *nome* de quem você quer lembrar",
+    "Vamos rezar juntos"
   ],
-  "cta_falado": "Se você crê, escreva amém nos comentários."
+  "cta_falado": "Escreva nos comentários o nome de quem você quer que a gente reze junto.",
+  "voz": "feminina",
+  "cta_tipo": "nome",
+  "cenas": [
+    "cemetery flowers",
+    "candle light dark",
+    "cross sunset",
+    "sun rays clouds",
+    "calm lake",
+    "white roses",
+    "church candles",
+    "sunrise sky clouds",
+    "sunrise ocean"
+  ]
 }
