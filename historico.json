@@ -91,8 +91,10 @@
   "referencia": "Efésios 4,32",
   "fundo": "videos",
   "trilha": "Weightless (Peaceful)",
-  "duracao": 43.3,
-  "metricool_id": 411219395
+  "duracao": 36.0,
+  "metricool_id": 412828359,
+  "voz": "masculina",
+  "cta_tipo": "amem"
  },
  {
   "id": "finados-20261102-manha",
@@ -103,8 +105,10 @@
   "referencia": "João 11,25",
   "fundo": "fotos",
   "trilha": "Still Waters (Peaceful)",
-  "duracao": 42.5,
-  "metricool_id": 411207485
+  "duracao": 36.6,
+  "metricool_id": 412828384,
+  "voz": "feminina",
+  "cta_tipo": "nome"
  },
  {
   "id": "saudade-20261102-noite",
@@ -115,7 +119,9 @@
   "referencia": "Apocalipse 21,4",
   "fundo": "videos",
   "trilha": "The Last Letter (Emotional)",
-  "duracao": 44.0,
-  "metricool_id": 411228500
+  "duracao": 37.0,
+  "metricool_id": 412828398,
+  "voz": "masculina",
+  "cta_tipo": "enviar"
  }
 ]
