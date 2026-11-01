@@ -106,6 +106,19 @@ def limpar(t):
     return t.replace("*", "").strip()
 
 
+def texto_tts(t):
+    """Cola frases curtas na anterior com vírgula ("…coração. Amém." → "…coração, amém.").
+    O TTS lê cada frase separadamente; um "Amém." solto sem contexto pode sair em outro idioma."""
+    frases = [f.strip() for f in re.findall(r"[^.!?…]+[.!?…]*", t) if f.strip()]
+    out = []
+    for f in frases:
+        if out and len(palavras(f)) <= CURTA:
+            out[-1] = out[-1].rstrip(".!?… ") + ", " + f[0].lower() + f[1:]
+        else:
+            out.append(f)
+    return " ".join(out)
+
+
 def curta(t):
     return len(palavras(t)) <= CURTA
 
@@ -141,7 +154,7 @@ def _recorta(src, dst, ini=None, fim=None):
 
 def sintetiza_grupo(textos, idx, cfg, voz, tmp):
     """Gera o áudio de um grupo (1 ou 2 frases), confere o idioma e devolve um wav por frase."""
-    texto = " ".join(textos[i] for i in idx)
+    texto = texto_tts(" ".join(textos[i] for i in idx))
     base = os.path.join(tmp, f"{voz}-{idx[0]:02d}-{len(idx)}")
     for n in range(TENTATIVAS):
         marcas = tts(texto, base + ".mp3", voz, cfg["rate"], cfg["pitch"])

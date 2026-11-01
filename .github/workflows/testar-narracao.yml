@@ -25,12 +25,13 @@ jobs:
           mkdir -p pub
           for f in $(git ls-tree --name-only videos | grep '\.mp4$' | tail -8); do git show videos:$f > pub/$f; done
       - name: Teste
+        env:
+          PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
         run: python3 -u ferramentas/teste_narracao.py
       - name: Salva resultado no ramo testes
         run: |
           git config user.name "candeia-bot"; git config user.email "actions@github.com"
-          cp -r teste /tmp/teste
-          git fetch -q origin testes:testes || true
-          git checkout -q testes 2>/dev/null || git checkout -q --orphan testes
+          cp -r teste /tmp/teste && rm -rf teste pub
+          git fetch -q origin testes && git checkout -q -f -B testes FETCH_HEAD || git checkout -q --orphan testes
           rm -rf teste && cp -r /tmp/teste teste
           git add -f teste && git commit -qm "Teste de narração $(date -u +%F-%H%M)" && git push -q origin testes

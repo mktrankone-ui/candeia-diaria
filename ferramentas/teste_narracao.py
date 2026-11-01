@@ -38,3 +38,22 @@ for tipo in ("feminina", "masculina"):
         ini += d
 open(f"{OUT}/relatorio.txt", "w").write("\n".join(rel))
 print("\n".join(rel))
+
+# 3) vídeo completo de exemplo com voz masculina e fundo por cena
+import buscar_fundo, render, shutil
+r = json.load(open(rot, encoding="utf-8"))
+r.update({"id": "teste-cenas", "voz": "masculina", "fundo": "videos", "cta_tipo": "enviar",
+          "cta": ["Envie para quem *precisa*", "Uma oração pode mudar o dia de alguém"],
+          "cta_falado": "Envie esta oração para alguém que precisa dela hoje.",
+          "cenas": ["person standing ocean sunset", "man thinking nature", "praying hands light", "storm clouds light",
+                    "sunbeam forest", "couple hug sunset", "cross sunset", "crucifix church", "sun rays clouds"]})
+rp = f"{OUT}/teste-cenas.json"
+json.dump(r, open(rp, "w"), ensure_ascii=False, indent=1)
+if os.environ.get("PIXABAY_KEY"):
+    shutil.rmtree("trab-teste", ignore_errors=True)
+    buscar_fundo.USADOS = "/tmp/usados-teste.json"
+    buscar_fundo.buscar(rp, "trab-teste/fundo", "videos")
+    os.environ.pop("CANDEIA_VOZ", None)
+    narrar.narrar(rp, "trab-teste/voz.mp3")
+    dur = render.montar(rp, f"{OUT}/teste-cenas.mp4", "videos:trab-teste/fundo", None, "trab-teste/voz.mp3")
+    print("vídeo de teste", dur)
