@@ -1,8 +1,0 @@
-pixabay api: 400
-pixabay cdn: 200
-freesound: 401
-jamendo: 200
-elevenlabs: 404
-tts pt-BR-AntonioNeural: ok
-tts pt-BR-FranciscaNeural: ok
-tts pt-BR-ThalitaMultilingualNeural: ok

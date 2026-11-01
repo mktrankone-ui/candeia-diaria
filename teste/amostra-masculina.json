@@ -1,0 +1,18 @@
+{
+ "intro": 0.15,
+ "por_linha": [
+  6.274,
+  4.98,
+  5.587,
+  4.651,
+  4.24,
+  3.0,
+  5.406,
+  4.125
+ ],
+ "cta_inicio": 38.913,
+ "cta_duracao": 4.20475,
+ "total": 43.117347,
+ "voz": "pt-BR-AntonioNeural",
+ "tipo_voz": "masculina"
+}

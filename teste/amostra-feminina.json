@@ -1,0 +1,18 @@
+{
+ "intro": 0.15,
+ "por_linha": [
+  5.075,
+  4.556,
+  4.741,
+  4.173,
+  3.815,
+  2.584,
+  4.488,
+  3.779
+ ],
+ "cta_inicio": 33.861,
+ "cta_duracao": 3.775292,
+ "total": 37.6378,
+ "voz": "pt-BR-ThalitaMultilingualNeural",
+ "tipo_voz": "feminina"
+}
