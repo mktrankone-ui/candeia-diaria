@@ -1,25 +1,25 @@
 ## perdao-20261101-noite.mp4 (idioma geral pt)
    1.5s Se existe uma mágoa que ainda dói aí dentro, ore comigo.
    5.9s Senhor, tu conheces a ferida que eu carrego.
-  10.1s Eu não consigo perdoar sozinho, dá-me a tua graça.
+  10.2s Eu não consigo perdoar sozinho, dá-me a tua graça.
   14.8s Tira do meu peito o rancor e a margura.
-  18.8s E perdoa também às vezes em que eu feri alguém.
-  22.8s Perdoa-vos uns aos outros.
-  26.3s Como Deus vos perdoou em Cristo.
-  30.6s Sagrado coração de Jesus, cura o meu coração.
-  34.6s Amém!   <<< en (pt=0.12)
-  35.6s Se você crê, escreva a mim nos comentários.
+  18.8s E perdoa também as vezes em que eu feri alguém.
+  22.9s Perdoa-vos uns aos outros.
+  26.4s Como Deus vos perdoou em Cristo.
+  30.7s Sagrado coração de Jesus, cura o meu coração.
+  34.6s Amém!   <<< fr (pt=0.08)
+  37.0s Se você crê, escreva a mim nos comentários.
 
 ## amostra feminina: {"intro": 0.15, "por_linha": [4.594, 3.572, 4.176, 3.228, 3.553, 2.924, 3.059, 4.848], "cta_inicio": 30.604, "cta_duracao": 3.303917, "total": 33.908005, "voz": "pt-BR-ThalitaMultilingualNeural", "tipo_voz": "feminina"}
   0.15s [pt pt=1.00] Se existe uma mágoa que ainda dói aí dentro, ore comigo.
   4.74s [pt pt=1.00] Senhor, Tu conheces a ferida que eu carrego.
   8.32s [pt pt=1.00] Eu não consigo perdoar sozinho. Dá-me a tua graça.
  12.49s [pt pt=0.99] Tira do meu peito o rancor e a amargura.
- 15.72s [pt pt=1.00] E perdoa também às vezes em que eu ferir alguém.
- 19.27s [pt pt=0.99] Perdoaivos uns aos outros.
+ 15.72s [pt pt=1.00] e perdoa também às vezes em que eu ferir alguém.
+ 19.27s [pt pt=0.98] Perdoaivos uns aos outros.
  22.20s [pt pt=0.98] Como Deus vos perdoou em Cristo.
- 25.26s [pt pt=0.98] Sagrado Coração de Jesus, Cura o meu coração. Amém.
- 30.10s [pt pt=0.99] Se você crê, escreva a menos comentários.
+ 25.26s [pt pt=0.99] Sagrado coração de Jesus, cura o meu coração. Amém.
+ 30.10s [pt pt=0.99] Se você quer, escreva menos comentários.
 ## amostra masculina: {"intro": 0.15, "por_linha": [4.365, 3.798, 4.219, 3.174, 3.713, 2.537, 2.869, 4.945], "cta_inicio": 30.27, "cta_duracao": 3.243625, "total": 33.513265, "voz": "pt-BR-AntonioNeural", "tipo_voz": "masculina"}
   0.15s [pt pt=1.00] Se existe uma mágoa que ainda dói aí dentro, ore comigo!
   4.52s [pt pt=1.00] Senhor, Tu conheces a ferida que eu carrego.
@@ -27,6 +27,6 @@
  12.53s [pt pt=0.99] Tira do meu peito o rancor e a amargura.
  15.71s [pt pt=0.99] e perdoa também às vezes em que eu ferir alguém.
  19.42s [pt pt=0.95] Perdoa-vos uns aos outros.
- 21.96s [pt pt=0.99] Como Deus vos perdoou em Cristo.
- 24.82s [pt pt=0.99] Sagrado Coração de Jesus, Cura o meu coração. Amém.
+ 21.96s [pt pt=0.99] como Deus vos perdoou em Cristo.
+ 24.82s [pt pt=0.99] Sagrado coração de Jesus, cura o meu coração. Amém.
  29.77s [pt pt=0.99] Se você quer, escreva-me nos comentários.
