@@ -115,10 +115,32 @@ def gradear(arr):
     return Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8))
 
 
-class FundoFotos:
-    """Slideshow de fotos com zoom lento (Ken Burns) e crossfade."""
+def _marcas_fixas(dur, passo):
+    return [k * passo for k in range(int(math.ceil(dur / passo)) + 1)]
 
-    def __init__(self, dur, pasta, por_foto=5.5, fade=1.1):
+
+class _Cenas:
+    """Divide a duração em cenas: cena k vai de marcas[k] até marcas[k+1] (+fade de sobreposição)."""
+
+    def _prepara(self, dur, marcas, passo, fade):
+        self.dur, self.fade = dur, fade
+        self.marcas = list(marcas) if marcas else _marcas_fixas(dur, passo)
+        self.fins = self.marcas[1:] + [dur + 1]
+
+    def cena(self, t):
+        k = 0
+        while k + 1 < len(self.marcas) and t >= self.marcas[k + 1]:
+            k += 1
+        return k, t - self.marcas[k]
+
+    def duracao_cena(self, k):
+        return self.fins[k] - self.marcas[k] + self.fade
+
+
+class FundoFotos(_Cenas):
+    """Slideshow de fotos com zoom lento (Ken Burns) e crossfade. Com `marcas`, troca a foto junto da narração."""
+
+    def __init__(self, dur, pasta, por_foto=5.5, fade=1.0, marcas=None):
         fotos = []
         for p in sorted(glob.glob(os.path.join(pasta, "*.jp*g")) + glob.glob(os.path.join(pasta, "*.png"))):
             try:
@@ -128,11 +150,9 @@ class FundoFotos:
             except Exception:
                 print("foto inválida ignorada:", p)
         assert fotos, f"nenhuma foto válida em {pasta}"
-        self.dur, self.por, self.fade = dur, por_foto, fade
-        self.passo = por_foto - fade
-        n = int(math.ceil(dur / self.passo)) + 1
+        self._prepara(dur, marcas, por_foto - fade, fade)
         self.imgs = []
-        for k in range(n):
+        for k in range(len(self.marcas)):
             im = Image.open(fotos[k % len(fotos)]).convert("RGB")
             s = max(W * 1.15 / im.width, H * 1.15 / im.height)
             im = im.resize((int(im.width * s), int(im.height * s)), Image.LANCZOS)
@@ -140,7 +160,7 @@ class FundoFotos:
 
     def _quadro(self, k, local):
         im = self.imgs[k]
-        p = min(1.0, local / self.por)
+        p = min(1.0, local / self.duracao_cena(k))
         z = 1.0 + 0.10 * (p if k % 2 == 0 else 1 - p)
         cw, ch = W * 1.15 / z, H * 1.15 / z
         dx = (im.width - cw) / 2 + (im.width - cw) * 0.35 * (p - 0.5) * (1 if k % 3 else -1)
@@ -149,11 +169,10 @@ class FundoFotos:
 
     def frame(self, i):
         t = i / FPS
-        k = min(int(t // self.passo), len(self.imgs) - 1)
-        local = t - k * self.passo
+        k, local = self.cena(t)
         a = self._quadro(k, local)
         if k > 0 and local < self.fade:
-            prev = self._quadro(k - 1, local + self.passo)
+            prev = self._quadro(k - 1, t - self.marcas[k - 1])
             a = Image.blend(prev, a, local / self.fade)
         return gradear(np.asarray(a))
 
@@ -180,24 +199,23 @@ class _Leitor:
             pass
 
 
-class FundoVideos:
-    """Sequência de clipes recortados para 9:16, com crossfade."""
+class FundoVideos(_Cenas):
+    """Sequência de clipes recortados para 9:16, com crossfade. Com `marcas`, troca o clipe junto da narração."""
 
-    def __init__(self, dur, pasta, seg=6.5, fade=1.0):
+    def __init__(self, dur, pasta, seg=6.5, fade=0.9, marcas=None):
         self.clips = sorted(glob.glob(os.path.join(pasta, "*.mp4")))
         assert self.clips, f"nenhum vídeo em {pasta}"
-        self.seg, self.fade, self.passo = seg, fade, seg - fade
+        self._prepara(dur, marcas, seg - fade, fade)
         self.ativos = {}
 
     def _leitor(self, k):
         if k not in self.ativos:
-            self.ativos[k] = _Leitor(self.clips[k % len(self.clips)], self.seg)
+            self.ativos[k] = _Leitor(self.clips[k % len(self.clips)], self.duracao_cena(k))
         return self.ativos[k]
 
     def frame(self, i):
         t = i / FPS
-        k = int(t // self.passo)
-        local = t - k * self.passo
+        k, local = self.cena(t)
         a = self._leitor(k).proximo().astype(np.float32)
         if k > 0 and local < self.fade and (k - 1) in self.ativos:
             b = self.ativos[k - 1].proximo().astype(np.float32)
@@ -301,7 +319,7 @@ def ease(x):
 def montar(roteiro, saida, fundo_spec="procedural", audio=None, narracao=None, por_linha=None):
     r = json.load(open(roteiro, encoding="utf-8"))
     linhas = r["linhas"]
-    intro, t_cta = 1.8, 4.5
+    intro, t_cta = 0.3, 4.5
     tempos_voz = None
     if narracao:
         tj = os.path.splitext(narracao)[0] + ".json"
@@ -319,10 +337,18 @@ def montar(roteiro, saida, fundo_spec="procedural", audio=None, narracao=None, p
     dur = t + t_cta
     nframes = int(dur * FPS)
 
+    # com "cenas" no roteiro, cada mídia acompanha a sua frase (troca de fundo no ritmo da narração)
+    marcas = None
+    if r.get("cenas") and ":" in fundo_spec:
+        n = len(glob.glob(os.path.join(fundo_spec.split(":", 1)[1], "*.*")))
+        if n >= len(r["cenas"]) >= 2:
+            marcas = [0.0] + [inicios[k] - 0.35 for k in range(1, min(len(r["cenas"]), len(inicios)))]
+            if len(r["cenas"]) > len(inicios):        # cena extra para o CTA
+                marcas.append(t_cta0 - 0.35)
     if fundo_spec.startswith("fotos:"):
-        fundo = FundoFotos(dur, fundo_spec[6:])
+        fundo = FundoFotos(dur, fundo_spec[6:], marcas=marcas)
     elif fundo_spec.startswith("videos:"):
-        fundo = FundoVideos(dur, fundo_spec[7:])
+        fundo = FundoVideos(dur, fundo_spec[7:], marcas=marcas)
     else:
         fundo = FundoProcedural(dur)
 
@@ -350,13 +376,14 @@ def montar(roteiro, saida, fundo_spec="procedural", audio=None, narracao=None, p
     for i in range(nframes):
         t = i / FPS
         im = fundo.frame(i).convert("RGBA")
-        a_tit = ease(t / 1.2) * (1 - ease((t - t_cta0 + 0.2) / 0.6))
+        a_tit = 1 - ease((t - t_cta0 + 0.2) / 0.6)
         cola(im, cam_titulo, W / 2, 300 + cam_titulo.height / 2 - 60, a_tit)
         for k, (cam, t0) in enumerate(zip(cams, inicios)):
             t1 = t0 + por_linha[k]
-            if t0 - 0.1 <= t <= t1 + 0.1:
-                a = ease((t - t0) / fd) * (1 - ease((t - (t1 - fd)) / fd))
-                dy = 24 * (1 - ease((t - t0) / (fd * 1.4)))
+            if (k == 0 and t <= t1 + 0.1) or t0 - 0.1 <= t <= t1 + 0.1:
+                entra = 1.0 if k == 0 else ease((t - t0) / fd)
+                a = entra * (1 - ease((t - (t1 - fd)) / fd))
+                dy = 0 if k == 0 else 24 * (1 - ease((t - t0) / (fd * 1.4)))
                 cola(im, cam, W / 2, H * 0.43 + dy, a)
                 if ref and ref["linha"] == k:
                     cola(im, cam_ref, W / 2, H * 0.43 + cam.height / 2 + 30, a * 0.9)

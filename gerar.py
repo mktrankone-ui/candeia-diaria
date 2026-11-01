@@ -3,7 +3,7 @@
 
 Roda no GitHub Actions. Para cada roteiros/*.json sem entrada em publicados/indice.json:
   1. busca fundo na Pixabay (fotos ou vídeos, campo "fundo" do roteiro; padrão alterna)
-  2. gera a narração (voz Thalita) frase a frase
+  2. gera a narração frase a frase (voz feminina ou masculina, campo "voz"), conferindo o idioma com o Whisper
   3. renderiza com uma trilha sorteada de trilhas/
   4. copia o mp4 para publicados/ (que o workflow envia ao ramo "videos")
 """
@@ -62,7 +62,9 @@ def main(apenas=None):
                 if n:
                     fundo = f"{modo}:{os.path.join(trab, 'fundo')}"
             voz = os.path.join(trab, "voz.mp3")
-            narrar.narrar(rp, voz)
+            if not r.get("voz"):  # sem voz definida: alterna feminina/masculina
+                os.environ["CANDEIA_VOZ"] = "feminina" if len(indice) % 2 == 0 else "masculina"
+            tempos = narrar.narrar(rp, voz)
             trilha, info_trilha = escolher_trilha(r, os.path.join(trab, "trilha.mp3"))
             if not trilha:
                 trilha = random.choice(trilhas) if trilhas else None
@@ -71,10 +73,11 @@ def main(apenas=None):
             dur = render.montar(rp, saida, fundo, trilha, voz)
             indice[rid] = {"arquivo": f"{rid}.mp4", "url": RAW + f"{rid}.mp4", "serie": r.get("serie"),
                            "legenda": r.get("legenda", ""), "duracao": round(dur, 1), "fundo": fundo.split(":")[0],
-                           "trilha": info_trilha}
+                           "trilha": info_trilha, "voz": tempos.get("voz"), "tipo_voz": tempos.get("tipo_voz"),
+                           "cta_tipo": r.get("cta_tipo")}
             json.dump(indice, open(idx_path, "w"), ensure_ascii=False, indent=1)
             feitos += 1
-            print(f"ok {rid} ({dur:.1f}s, fundo={fundo.split(':')[0]})", flush=True)
+            print(f"ok {rid} ({dur:.1f}s, fundo={fundo.split(':')[0]}, voz={tempos.get('voz')})", flush=True)
         except Exception:
             traceback.print_exc()
     print(f"{feitos} vídeo(s) gerado(s)")
