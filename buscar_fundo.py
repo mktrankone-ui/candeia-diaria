@@ -4,7 +4,7 @@
 Uso: PIXABAY_KEY=... python3 buscar_fundo.py roteiros/x.json pasta_destino [fotos|videos] [quantidade]
 Registra os ids usados em usados.json.
 """
-import json, os, random, sys, urllib.parse, urllib.request
+import json, math, os, random, sys, urllib.parse, urllib.request
 
 KEY = os.environ.get("PIXABAY_KEY", "")
 BASE = os.path.dirname(os.path.abspath(__file__))
@@ -59,7 +59,8 @@ PROIBIDAS = {
     "buddha", "buddhism", "hindu", "ganesha", "shiva", "temple", "mosque", "islam", "muslim", "pagoda", "zen",
     "angel statue", "cupid", "bikini", "sexy", "model", "fashion", "party", "money", "dollar", "car", "cars",
     "computer", "laptop", "phone", "smartphone", "business", "office", "shopping", "cat", "dog", "pet", "selfie",
-    "graffiti", "text", "lettering", "sign", "logo", "advertisement", "cartoon", "illustration", "3d", "render",
+    "covid", "covid-19", "coronavirus", "virus", "soap", "hygiene", "washing", "bathroom", "mask", "strawberry",
+    "fruit", "honeymoon", "lovers", "kiss", "wedding dress", "graffiti", "text", "lettering", "sign", "logo", "advertisement", "cartoon", "illustration", "3d", "render",
 }
 # Palavras genéricas da busca que não servem para confirmar se a mídia tem a ver com o termo.
 GENERICAS = {"light", "sky", "nature", "people", "person", "golden", "hour", "calm", "gentle", "dark", "soft"}
@@ -98,7 +99,9 @@ def adequado(hit, termo):
     if tags & PROIBIDAS or palavras & PROIBIDAS:
         return False
     chave = {w for w in termo.lower().split() if w not in GENERICAS} or set(termo.lower().split())
-    return bool(chave & palavras)
+    # exige quase todas as palavras-chave: "praying hands" não pode virar "lavando as mãos"
+    precisa = len(chave) if len(chave) <= 2 else math.ceil(len(chave) * 2 / 3)
+    return len(chave & palavras) >= precisa
 
 
 def carregar_usados():
