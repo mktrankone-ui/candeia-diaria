@@ -4,7 +4,7 @@ Gerador de vídeos 9:16 de oração para Instagram e TikTok (@candeiadiaria).
 
 ## Estrutura
 
-- `render.py` — monta o vídeo: fundo animado (ou fotos), texto frase a frase com palavra em destaque, marca d'água, trilha e narração opcional
+- `render.py` — monta o vídeo: fundo (fotos ou vídeos, trocando junto com a narração), texto frase a frase com palavra em destaque, marca d'água, trilha e narração (voz feminina ou masculina, idioma conferido com Whisper)
 - `roteiros/` — um JSON por vídeo (série, linhas, referência bíblica, CTA, legenda)
 - `trilhas/` — trilhas instrumentais livres de direitos
 - `fonts/` — Great Vibes, EB Garamond e Cinzel (todas OFL)

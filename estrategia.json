@@ -1,16 +1,49 @@
 {
-  "atualizado_em": "2026-10-29",
-  "horarios": {"manha": "08:00", "noite": "20:30", "fuso": "America/Sao_Paulo"},
-  "pesos_series": {
-    "Oração da manhã": 1.0, "Oração da noite": 1.0, "Oração contra a ansiedade": 1.0, "Oração pela família": 1.0,
-    "Oração pelos filhos": 1.0, "Oração de cura": 1.0, "Oração pelo trabalho": 1.0, "Salmo do dia": 1.0,
-    "Oração a Nossa Senhora": 1.0, "Oração ao Santo Anjo": 1.0, "Oração de proteção": 1.0,
-    "Oração para dormir em paz": 1.0, "Oração de entrega": 1.0, "Oração do perdão": 1.0
-  },
-  "pesos_fundo": {"fotos": 1.0, "videos": 1.0},
-  "evitar": [],
-  "observacoes": [
-    "Início do perfil: testar variedade de séries e fundos nas primeiras 2 semanas antes de concentrar.",
-    "Duração atual ~40 s. Para o Creator Rewards do TikTok, migrar para 60–75 s quando o perfil se aproximar de 10 mil seguidores."
-  ]
+ "atualizado_em": "2026-11-01",
+ "horarios": {
+  "manha": "08:00",
+  "noite": "20:30",
+  "fuso": "America/Sao_Paulo"
+ },
+ "pesos_series": {
+  "Oração da manhã": 1.0,
+  "Oração da noite": 1.0,
+  "Oração contra a ansiedade": 1.0,
+  "Oração pela família": 1.0,
+  "Oração pelos filhos": 1.0,
+  "Oração de cura": 1.0,
+  "Oração pelo trabalho": 1.0,
+  "Salmo do dia": 1.0,
+  "Oração a Nossa Senhora": 1.0,
+  "Oração ao Santo Anjo": 1.0,
+  "Oração de proteção": 1.0,
+  "Oração para dormir em paz": 1.0,
+  "Oração de entrega": 1.0,
+  "Oração do perdão": 1.0,
+  "Oração pelo emprego": 1.0,
+  "Oração pela saúde": 1.0,
+  "Oração por um enfermo": 1.0,
+  "Oração por quem está de luto": 1.0,
+  "Oração pelo casamento": 1.0
+ },
+ "pesos_fundo": {
+  "fotos": 1.0,
+  "videos": 1.0
+ },
+ "evitar": [],
+ "observacoes": [
+  "Início do perfil: testar variedade de séries e fundos nas primeiras 2 semanas antes de concentrar.",
+  "Duração atual ~40 s. Para o Creator Rewards do TikTok, migrar para 60–75 s quando o perfil se aproximar de 10 mil seguidores.",
+  "Desde 01/11: orações 'para enviar a alguém' (emprego, saúde…) em ~1 a cada 3 vídeos; alternar voz feminina/masculina e tipos de CTA para comparar resultados."
+ ],
+ "pesos_voz": {
+  "feminina": 1.0,
+  "masculina": 1.0
+ },
+ "pesos_cta": {
+  "amem": 1.0,
+  "enviar": 1.0,
+  "seguir": 1.0,
+  "nome": 1.0
+ }
 }

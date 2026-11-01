@@ -48,6 +48,44 @@ ansiedade · medo · insônia e sono tranquilo · cura interior · cura de ferid
 **Formatos de série** (campo `serie`, curto — vira o título):
 Oração da manhã · Oração da noite · Oração contra a ansiedade · Oração pela família · Oração pelos filhos · Oração de cura · Oração pelo trabalho · Salmo do dia · Oração a Nossa Senhora · Oração ao Santo Anjo · Oração de proteção · Oração para dormir em paz · Oração de entrega · Oração do perdão.
 
+**Orações "para enviar a alguém"** (feitas para serem compartilhadas — o CTA é mandar para quem precisa):
+Oração pelo emprego · Oração pela saúde · Oração por um enfermo · Oração por quem está no hospital · Oração por quem está de luto · Oração por um filho distante · Oração pelo casamento · Oração por quem está com ansiedade · Oração por uma prova/concurso · Oração por quem está endividado · Oração por quem está sozinho · Oração por uma gestante.
+A primeira frase fala com quem vai receber ("Se você está procurando emprego…", "Se alguém que você ama está doente…"). Entram em cerca de **1 a cada 3 vídeos**, no slot que combinar com o tema; o resto segue a linha de sempre (manhã, noite, salmo, Nossa Senhora…).
+
+## Chamada final (CTA) — varie e registre
+
+Campo `cta_tipo` no roteiro (e no `historico.json`) para a análise semanal descobrir o que traz mais resultado. Alterne entre:
+
+| `cta_tipo` | `cta` (na tela) | `cta_falado` |
+|---|---|---|
+| `amem` | "Se você crê, escreva *AMÉM*" / "Siga para orar todos os dias" | "Se você crê, escreva amém nos comentários." |
+| `enviar` | "Envie para quem *precisa*" / "Uma oração pode mudar o dia de alguém" | "Envie esta oração para alguém que precisa dela hoje." |
+| `seguir` | "Siga a *Candeia*" / "e receba uma oração todos os dias" | "Siga a Candeia Diária para receber uma oração todos os dias." |
+| `nome` | "Escreva o *nome* de quem você quer que eu reze" / "Vamos rezar juntos" | "Escreva nos comentários o nome de quem precisa desta oração." |
+
+Orações "para enviar a alguém" usam `enviar` na maioria das vezes. Não repetir o mesmo `cta_tipo` mais de 2 vídeos seguidos. A legenda reforça o mesmo pedido do CTA.
+
+## Narração — regras obrigatórias
+
+- **Sempre em português do Brasil.** O sistema força pt-BR e confere cada frase com o Whisper; se uma frase sair em outro idioma, é refeita, e se insistir a narração troca para a voz de reserva. Mesmo assim, ao revisar o `gerar.log`, procurar por "idioma errado" ou "voz de reserva" e avisar o Fernando se aparecer.
+- Escrever as frases de forma que não confundam o idioma: evitar frases de 1 ou 2 palavras soltas e palavras estrangeiras ("Amen" → "amém").
+- **A voz começa no primeiro segundo.** A primeira frase (gancho) é falada imediatamente e já aparece na tela no primeiro quadro, junto do título. Nada de abertura muda.
+- Campo `voz`: `"feminina"` (Thalita) ou `"masculina"` (Antonio, grave e suave). **Alterne** — em geral um de cada no dia — e registre no `historico.json` para comparar o desempenho. Sem o campo, o sistema alterna sozinho.
+
+## Fundo (imagens e vídeos) — sempre dentro do propósito
+
+O fundo tem que "conversar" com o que está sendo narrado. Pense em cada frase e escolha a imagem que ela pede.
+
+**Use:** paisagens grandiosas e serenas (montanhas, campos, céu, nuvens, nascer e pôr do sol), água (rios, mar, ondas, cachoeiras, lagos), desertos, céu estrelado e lua; pessoas andando na paisagem, pensativas, rezando, se abraçando, família caminhando.
+**Símbolos:**
+- Nossa Senhora → terço, imagem de Nossa Senhora, rosas brancas, velas na igreja.
+- Jesus → cruz, crucifixo, cordeiro, leão (Leão de Judá), Eucaristia/hóstia, cálice, discípulos/caminhada, luz entre nuvens.
+- Espírito Santo → pomba, luz, fogo/vela. Santo Anjo → luz, asas de luz no céu, criança protegida pelos pais.
+**Nunca:** comida, mesa, xícara, biscoito, objetos de decoração, enfeite de jardim (gnomo, estátua de jardim), brinquedos, animais domésticos, escritório, dinheiro, carros, celular, símbolos de outras religiões, ilustração/3D. O `buscar_fundo.py` já descarta mídias com essas tags, mas a escolha dos termos é a primeira proteção.
+
+**Campo `cenas` (preferido):** lista de termos em inglês **uma por frase** de `linhas`, mais **uma para o CTA** no fim. O vídeo troca de fundo junto com a narração, na ordem. Termos concretos, de 2 a 3 palavras, de preferência do catálogo de `buscar_fundo.py` (`BUSCAS_PADRAO`). Ex.: frase sobre "Leão de Judá" → `"lion portrait"`; "Maria, minha mãe" → `"virgin mary statue"`; "como as águas de um rio" → `"river stream forest"`; "Ele é o Cordeiro" → `"lamb field"`.
+Sem `cenas`, o sistema usa `busca` (4 a 7 termos) ou o catálogo do `tema`. Temas do catálogo: amanhecer, gratidao, familia, trabalho, esperanca, forca, fe, nossa_senhora, jesus, terco, eucaristia, noite, paz, ansiedade, cura, dificil, saude, luto, pessoas.
+
 ## Formato do roteiro (`roteiros/<id>.json`)
 
 ```json
@@ -57,11 +95,13 @@ Oração da manhã · Oração da noite · Oração contra a ansiedade · Oraç�
   "tema": "amanhecer",
   "trilha_tema": "amanhecer",
   "fundo": "fotos",
-  "busca": ["sunrise cross", "morning light church", "sunrise field"],
+  "voz": "masculina",
+  "cenas": ["sunrise mountains", "cross sunset", "...uma por frase...", "sun rays clouds"],
   "linhas": ["Frase com *palavra* em destaque.", "..."],
   "referencia": {"linha": 5, "texto": "Salmos 118:24"},
   "cta": ["Se você crê, escreva *AMÉM*", "Siga para orar todos os dias"],
   "cta_falado": "Se você crê, escreva amém nos comentários.",
+  "cta_tipo": "amem",
   "legenda": "...",
   "slot": "manha",
   "data": "2026-10-30"
@@ -69,7 +109,7 @@ Oração da manhã · Oração da noite · Oração contra a ansiedade · Oraç�
 ```
 
 - `id`: `<serie-curta>-<AAAAMMDD>-<manha|noite>`, sem acento. Ex.: `oracao-20261031-noite`.
-- `tema` (busca de fundo): amanhecer, gratidao, familia, trabalho, esperanca, forca, fe, nossa_senhora, noite, paz, ansiedade, cura, dificil. Pode trocar por `busca` com 4 a 7 termos em inglês.
+- `tema` (catálogo de fundo, ver seção "Fundo"). Prefira `cenas` (um termo por frase + um para o CTA).
 - `trilha_tema`: amanhecer, esperanca, noite, paz, dificil, familia (ver `trilhas/lista.json`).
 - `fundo`: `fotos` ou `videos`. Alterne.
 - `linhas`: 7 a 9 frases curtas (até ~12 palavras), cada uma com **uma** palavra ou expressão entre `*asteriscos*`. A última costuma ser "Em nome de Jesus, *amém*." ou equivalente católico ("Por Cristo, nosso Senhor, *amém*.").
@@ -88,14 +128,14 @@ Definidos em `estrategia.json` (`horarios`). Padrão: manhã **08:00**, noite **
 4. Commit e push dos roteiros no `main` (isso dispara o workflow **Gerar vídeos**).
 5. Acompanhar a execução (`gh api repos/mktrankone-ui/candeia-diaria/actions/runs?per_page=1`) até terminar. Ler `indice.json` e `gerar.log` no ramo `videos`. Se um roteiro falhar, corrigir e disparar de novo só ele (workflow_dispatch com `inputs[roteiros]=<id>`).
 6. Agendar no Metricool cada vídeo novo (Reel no Instagram + TikTok), no horário do slot, com a legenda do roteiro e a mídia `https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/<id>.mp4`. Usar `instagramData: {type: REEL, showReelOnFeed: true, isAiGenerated: true}` e `tiktokData: {privacyOption: PUBLIC_TO_EVERYONE, isAigc: true, title: <serie>}`.
-7. Mover os roteiros agendados para `roteiros/publicados/` e registrar em `historico.json` (id, data, slot, serie, tema, referência, trilha, fundo, id do post no Metricool). Commit e push.
+7. Mover os roteiros agendados para `roteiros/publicados/` e registrar em `historico.json` (id, data, slot, serie, tema, referência, trilha, fundo, voz, cta_tipo, id do post no Metricool). Commit e push.
 8. Relatar em poucas linhas o que foi agendado.
 
 ## Análise semanal (toda segunda)
 
 1. Pegar no Metricool as métricas dos últimos 7 dias (e acumulado) por post: alcance/views, curtidas, comentários, compartilhamentos, salvamentos, seguidores ganhos — Instagram e TikTok.
-2. Cruzar com `historico.json` (serie, tema, slot, fundo, trilha, duração).
-3. Atualizar `estrategia.json`: aumentar o peso do que performa acima da mediana, reduzir o que fica abaixo, colocar em `evitar` o que ficou entre os piores por 2 semanas seguidas. Ajustar horários se os dados mostrarem algo melhor (`getBestTimeToPostByNetwork`).
+2. Cruzar com `historico.json` (serie, tema, slot, fundo, trilha, duração, **voz**, **cta_tipo**). Comparar também a retenção dos primeiros 3 segundos / tempo médio assistido quando o Metricool trouxer esses dados.
+3. Atualizar `estrategia.json` (séries, fundo, voz e CTA): aumentar o peso do que performa acima da mediana, reduzir o que fica abaixo, colocar em `evitar` o que ficou entre os piores por 2 semanas seguidas. Ajustar horários se os dados mostrarem algo melhor (`getBestTimeToPostByNetwork`).
 4. Registrar o resumo em `relatorios/AAAA-MM-DD.md` (o que funcionou, o que não, decisões) e fazer commit.
 5. Mandar um resumo curto ao Fernando com números e as mudanças feitas.
 
