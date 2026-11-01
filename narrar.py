@@ -87,6 +87,15 @@ def _modelo():
     return _MODELO
 
 
+def audio16k(arquivo, ini=None, fim=None):
+    """Lê o áudio com o ffmpeg (16 kHz mono float32) — evita depender do PyAV do faster-whisper."""
+    import numpy as np
+    corte = (["-ss", f"{ini:.2f}"] if ini is not None else []) + (["-to", f"{fim:.2f}"] if fim is not None else [])
+    out = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", arquivo, *corte, "-ac", "1", "-ar", "16000",
+                          "-f", "f32le", "-"], capture_output=True, check=True).stdout
+    return np.frombuffer(out, np.float32)
+
+
 def idioma(arquivo):
     """Devolve (idioma, probabilidade de português). Sem Whisper instalado devolve ('?', 1.0)."""
     try:
@@ -94,7 +103,8 @@ def idioma(arquivo):
     except Exception as e:
         print("AVISO: Whisper indisponível, idioma não conferido:", e, flush=True)
         return "?", 1.0
-    _, info = m.transcribe(arquivo, beam_size=1, without_timestamps=True)
+    _, info = m.transcribe(audio16k(arquivo) if isinstance(arquivo, str) else arquivo,
+                           beam_size=1, without_timestamps=True)
     probs = dict(info.all_language_probs or [])
     return info.language, probs.get("pt", 1.0 if info.language == "pt" else 0.0)
 

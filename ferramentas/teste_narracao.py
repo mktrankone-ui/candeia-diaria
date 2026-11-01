@@ -11,14 +11,11 @@ m = narrar._modelo()
 
 # 1) auditoria dos vídeos publicados: idioma de cada trecho falado
 for mp4 in sorted(glob.glob("pub/*.mp4")):
-    wav = mp4[:-4] + ".wav"
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", mp4, "-ac", "1", "-ar", "16000", wav], check=True)
-    segs, info = m.transcribe(wav, beam_size=1, vad_filter=True, multilingual=True)
+    audio = narrar.audio16k(mp4)
+    segs, info = m.transcribe(audio, beam_size=1, vad_filter=True, multilingual=True)
     rel.append(f"## {os.path.basename(mp4)} (idioma geral {info.language})")
     for s in segs:
-        clip = wav[:-4] + "-seg.wav"
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", wav, "-ss", f"{s.start:.2f}", "-to", f"{s.end:.2f}", clip], check=True)
-        lang, p = narrar.idioma(clip)
+        lang, p = narrar.idioma(audio[int(s.start * 16000):int(s.end * 16000)])
         marca = "" if lang == "pt" else f"   <<< {lang} (pt={p:.2f})"
         rel.append(f"{s.start:6.1f}s {s.text.strip()}{marca}")
     rel.append("")
