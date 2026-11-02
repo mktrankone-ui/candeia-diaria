@@ -2,7 +2,7 @@ name: Cortes B-roll
 on:
   push:
     branches: [cortes-broll]
-    paths: ["queries.json","selecao.json"]
+    paths: ["queries.json","selecao.json","musicas.txt"]
 permissions:
   contents: write
 jobs:
@@ -15,8 +15,11 @@ jobs:
         env: { PIXABAY_KEY: "${{ secrets.PIXABAY_KEY }}" }
         run: python buscar.py
       - name: Baixar
-        if: hashFiles('selecao.json') != ''
+        if: hashFiles('selecao.json') != '' && hashFiles('clips/*.mp4') == ''
         run: python baixar.py
+      - name: Musicas
+        if: hashFiles('musicas.txt') != ''
+        run: mkdir -p musica && cd musica && xargs -n1 curl -sSLO -A 'Mozilla/5.0' < ../musicas.txt
       - run: |
           git config user.name bot && git config user.email bot@users.noreply.github.com
           git add -A && git commit -m "resultado [skip ci]" && git push
