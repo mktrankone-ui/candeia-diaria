@@ -1,66 +1,18 @@
-== bomdia-20261103
-ok 0 sunrise mountains 72900 | sunrise, mountains, snow, hill, japan, morning, scenic, sky, dawn, outdoors, scenery, landscape, nature, sunlight, panorama
-ok 1 sunrise sky clouds 208122 | sunrise, sunset, sky, clouds, light, horizon, mountains, winter, snow, drone, castle, austria, nature, landscape
-ok 2 praying hands light 7456 | candle, church, religion, fire, flame, light, candlelight, religious, burn, spirituality, christmas, peace, wax, decoration, yellow, praying, faith, holy, burning, prayer, hope, glowing, memories, god, belief, believe, spiritual, hands, jesus, hopeful, forgiveness, christianity, pray, christian, grace, glow, christ, life
-ok 3 family walking field 220364 | man, trail, morning, sunrise, woods, fog, sunlight, wilderness, sunbeams, misty, mystical, scenic, field, outdoors, walking, alone, hiking, lonely, nature, drenthe, netherlands, landscape
-ok 4 man walking mountain sunrise 220349 | trees, sunrise, forest, woods, morning, fog, sunlight, wilderness, trail, sunbeams, misty, scenic, field, outdoors, nature, drenthe, netherlands, landscape, man, walking, alone, hiking, lonely
-ok 5 road mountains sunrise 45073 | mountain, sunrise, sun, mist, morning, valley, altitude, sky, nature, landscape, air, travel, road, holiday
-ok 6 sun rays clouds 225252 | clouds, sky, atmospheric, sun, cloudscape, drone, aerial, rays, sun beam, sunburst, nature, landscape
-ok 7 sun rays forest 272770 | forest, sun, spring, summer, nature, trees, sunlight, green, leaves, woods, sky, warm, season, forest path, forest trees, spring forest, summer forest, sun rays, forest sunlight, green leaves, forest landscape, sunny forest, seasonal forest, forest nature, sun in forest
-ok 8 cross sunset 353266 | sea, ocean, sunset, blue water, golden water, reflections, ripples, waves, dusk, sunlight, shine, twinkle, calmed down, serenity, seascape, nature, relaxation, holiday, end of the day, gentle waves, shimmering, cross, horizon, sky
-ok 9 family walking beach sunset 40016 | waves, ocean, sea, beach, green, sky, water, sand, family, clouds, seascape, sunrise, travel, landscape, evening, seashore, coast, sunset, summer, france, corsica
-AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 117 New Dawn (Uplifting)
-[vost#0:0/rawvideo @ 0x6166edc65740] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x6166edbb2c00] Error muxing a packet
-[out#0/rawvideo @ 0x6166edbb2c00] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x6166edbb2c00] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x62697a9b8e00] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x62697a9b8a80] Error muxing a packet
-[out#0/rawvideo @ 0x62697a9b8a80] Task finished with error code: -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x624d6458a780] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x624d64579300] Error muxing a packet
-[out#0/rawvideo @ 0x624d64579300] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x624d64579300] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5dda4d8397c0] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5dda4d839440] Error muxing a packet
-[out#0/rawvideo @ 0x5dda4d839440] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5dda4d839440] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x59cf56886500] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x59cf56886180] Error muxing a packet
-[out#0/rawvideo @ 0x59cf56886180] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x59cf56886180] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x63f48b227ec0] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x63f48b1c6740] Error muxing a packet
-[out#0/rawvideo @ 0x63f48b1c6740] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x63f48b1c6740] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5b2755613140] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5b2755612dc0] Error muxing a packet
-[out#0/rawvideo @ 0x5b2755612dc0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5b2755612dc0] Terminating thread with return code -32 (Broken pipe)
-ok bomdia-20261103 (42.1s, fundo=videos, voz=pt-BR-AntonioNeural)
 == salverainha-20261103-noite
-ok 0 candle light dark 6784425 | candle, flame, candlelight
-ok 1 night lake moon 2042555 | evening, air, full moon, heaven, mystery, nature, moon, moonlight, room, peace, night, landscape, super moon, full moon, full moon, full moon, full moon, full moon, moon, moon, moon, moon, moon, super moon
-ok 2 praying hands light 15599 | girl, praying, hands, eyelashes, closed eyes, face, female, prayer, religious, teen, young woman, portrait, woman, praying, prayer, prayer, prayer, prayer, prayer
-ok 3 virgin mary statue 4983935 | statue, virgin, married, sceptre, child, arm, jesus, mother, sculpture, faith, pray, christ, veil, star, crown, spirituality
-ok 4 white roses 7705774 | roses, beautiful wallpaper, flower, white roses, floral background, valentine's day, nature, background, romantic, flower wallpaper, flower background, beautiful flowers, golden
-ok 5 rosary hands 699619 | rosary, prayer, pray, red, hands, religion, catholic, cross, faith, god, christianity, holy, religious, spiritual, jesus, crucifix, catholicism, christian, spirituality, symbol, church, christ, belief, bead, believe, hope, love, meditation, rosary, rosary, rosary, rosary, rosary
-ok 6 rain window 532049 | rain, windshield, background, nature, drops, window, water drop, droplets, wet, rainy, beautiful wallpaper, gray rain, gray window, iphone wallpaper, United States, Minnetrista, Minnesota
-ok 7 our lady statue 2138193 | liberty, statue, new york, america, statue of liberty, nyc, lady liberty, american, attraction, sculpture, symbol, liberty, liberty, liberty, liberty, liberty, new york, new york, statue of liberty, statue of liberty, lady liberty, lady liberty, lady liberty
-ok 8 crucifix church 4710564 | jesus, cross, christ, religion, faith, christianity, crucifixion, christian, crucifix, catholic, spiritual, pray, holy, church, resurrection, black cross, gray cross, black church, gray church, black pray, gray pray
-ok 9 church candles 4628241 | candle, church, light, flame, prayer, hope, religion, decoration, lamp, culture, brown hope, brown candle, brown candles, brown prayer, brown lamp
-ok 10 virgin mary 1592567 | maria, holy maria, mother of god, faith, christianity, statue, holy, virgin mary, graceful, pray, religion, christian, holy mother, church, madonna, catholic, jungfau maria, gold, icon, image of grace of our dear lady, constant help, image of grace, maria representation, our dear wife, gold ground, upper garment, head veil, gloriole, jesus child, jesus, woman, mother, person, picture, painting, art, historical, christ, bible, maria, virgin mary, virgin mary, catholic, jesus, jesus, jesus, jesus, jesus
-ok 11 sun rays clouds 5306299 | sunset, sea, beach, sun, ocean, landscape, the water, nature, ship, red, lake, wave, romantic, clouds, boat, sunrise, atmospheric
-ok 12 moon clouds night 1591440 | at night, moon, waves, new zealand, heaven, moon at night, full moon, darkness, night shot, night sky, the atmosphere, moonlight, sea, reflection, mystical, romantic, mysterious, dark, water, mood, light, seem, romance, midnight, moon night, lights, coast, blackness of the night, whitianga, clouds
-ok 13 starry sky mountains 4742293 | starry sky, mountains, landscape, stars, night sky, space, heaven, universe, night, nature, astronomy, galaxy, milky way, the atmosphere, cosmos, scenic, winter, rock, winter landscape, snow, outlook, alps
+ok 0 candle light dark 6398630 | candle holder, gold, decoration, gilded, light fixture, traditional, lighting, antique, luxury, decorative, decor
+ok 1 night lake moon 8726358 | moon, tree, forest, night, view, nature, sky, stars, night sky, full moon, universe, dark, starry, camera, photographer, camp, hot
+ok 2 praying hands light 20878 | girl, praying, hands, pray, eye, eyes, face, female, people, portrait, prayer, pretty, religious, looking, teen, woman, young, praying, praying, praying, pray, pray, pray, face, people, prayer, prayer, prayer, prayer, prayer
+ok 3 virgin mary statue 3184248 | maria, marienfigur, christian art, ceramic, figure, religion, madonna, mother of god, christian, statue, virgin mary, old, isolated, vintage, transparent, maria, virgin mary, virgin mary, virgin mary, virgin mary, virgin mary
+ok 4 white roses 4792606 | roses, happy mothers day, red, heart, flower wallpaper, white, beautiful flowers, love, flower background, blossoms, rose petals, in love, valentine's day, valentine, love greetings, romance, romantic, nature, flower, macro, wedding
+ok 5 our lady statue 67148 | church, cathedral, cathedral of our lady, antwerp
+ok 6 rain window 4811598 | rain, weather, storm, thunder, water, thunderstorm, wet, sky, dark, clouds, raining, window, airport, seattle, air travel, raindrop, shower, nature, airplane, plane, flight, aircraft, transportation, airline, tarmac, blue rain, blue storm, blue shower
+ok 7 cathedral light 8009476 | cathedral, gothic, chartres, architecture, lumiere, lighting
+ok 8 crucifix church 4072933 | jesus, cross, crucifixion, crucifix, faith, church, isenbüttel, good friday, good friday, good friday, good friday, good friday, good friday
+ok 9 church candles 7549258 | candles, church, religion, prayer, peace, peaceful, candlelight, flame, votive candles
+ok 10 virgin mary 1152090 | the virgin and the child, leonardo devinci, mary and jesus, 1478-1482, oil on wood, leonardo youth painting, mother and son, emotion, christ, baby, maternity, motherly love, pushover, christian art, faith, religion, madonna of the flower, madonna benois, artwork, italian renaissance, high renaissance, hermitage museum, saint petersbourg, russia, leonardo da vinci, famous italian painter, designer, inventor, writer
+ok 11 sun rays clouds 7487163 | church, sun, nature, summer, sky, clouds
+ok 12 moon clouds night 4508303 | moon, blood moon, grapevine, palatinate, vineyard, mystical, heaven, full moon, moonlight, night, astronomy, cosmos, heavenly, light, night sky, nature, full, romantic, luna, moon, moon, moon, blood moon, blood moon, moonlight, moonlight, moonlight, heavenly, luna, luna, luna, luna, luna
+ok 13 starry sky mountains 10324870 | astronomy, milky way, night photography, starry sky, reflection, lake, night sky, landscape, silence, mountains, calm, relaxation, mirror image, light pollution, darkness, peacefulness, nature, hiking, panorama
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
 Traceback (most recent call last):
   File "/home/runner/work/candeia-diaria/candeia-diaria/gerar.py", line 74, in main
@@ -94,11 +46,4 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/edge_tts/communicate.py", line 562, in __stream
     raise NoAudioReceived(
 edge_tts.exceptions.NoAudioReceived: No audio was received. Please verify that your parameters are correct.
-1 vídeo(s) gerado(s)
-[vost#0:0/rawvideo @ 0x5f64af596b80] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5f64af52fd80] Error muxing a packet
-[out#0/rawvideo @ 0x5f64af52fd80] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5f64af52fd80] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x5f64af52fd80] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5f64af52fd80] Error closing file: Broken pipe
+0 vídeo(s) gerado(s)
