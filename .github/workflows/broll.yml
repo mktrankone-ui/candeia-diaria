@@ -19,7 +19,7 @@ jobs:
         run: python baixar.py
       - name: Cenas
         if: hashFiles('cenas.json') != ''
-        run: python preparar.py && rm -rf tmp clips
+        run: sudo apt-get install -y -qq ffmpeg >/dev/null && python preparar.py && rm -rf tmp clips
       - name: Musicas
         if: hashFiles('musicas.txt') != '' && hashFiles('musica/*.mp3') == ''
         run: mkdir -p musica && cd musica && xargs -n1 curl -sSLO -A 'Mozilla/5.0' < ../musicas.txt
