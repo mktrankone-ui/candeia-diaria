@@ -1,18 +1,19 @@
 {
  "intro": 0.15,
  "por_linha": [
-  4.594,
-  3.572,
-  4.176,
-  3.228,
-  3.553,
-  2.924,
-  3.059,
-  4.848
+  4.365,
+  3.798,
+  4.219,
+  3.174,
+  3.713,
+  2.537,
+  2.869,
+  4.945
  ],
- "cta_inicio": 30.604,
- "cta_duracao": 3.303917,
- "total": 33.908005,
- "voz": "pt-BR-ThalitaMultilingualNeural",
- "tipo_voz": "feminina"
+ "cta_inicio": 30.27,
+ "cta_duracao": 3.243625,
+ "total": 33.51322,
+ "voz": "pt-BR-AntonioNeural",
+ "tipo_voz": "masculina",
+ "motor": "edge"
 }

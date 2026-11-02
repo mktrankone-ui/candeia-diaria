@@ -14,5 +14,6 @@
  "cta_duracao": 3.243625,
  "total": 33.513265,
  "voz": "pt-BR-AntonioNeural",
- "tipo_voz": "masculina"
+ "tipo_voz": "masculina",
+ "motor": "edge"
 }
