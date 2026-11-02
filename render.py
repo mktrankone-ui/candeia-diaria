@@ -29,10 +29,20 @@ ESTILOS = {
                  "texto": "EBGaramond-Bold.ttf", "texto_tam": 80, "entre": 1.22,
                  "ref": "EBGaramond-SemiBoldItalic.ttf", "ref_tam": 48},
 }
-ESTILO = ESTILOS[os.environ.get("CANDEIA_ESTILO", "montserrat")]
-f_titulo = ImageFont.truetype(f"{FONT}/{ESTILO['titulo']}", ESTILO["titulo_tam"])
-f_texto = ImageFont.truetype(f"{FONT}/{ESTILO['texto']}", ESTILO["texto_tam"])
-f_ref = ImageFont.truetype(f"{FONT}/{ESTILO['ref']}", ESTILO["ref_tam"])
+def usar_estilo(nome):
+    """Troca a tipografia (campo "estilo" do roteiro: montserrat, poppins ou classico)."""
+    global ESTILO, f_titulo, f_texto, f_ref
+    ESTILO = ESTILOS.get(nome, ESTILOS["montserrat"])
+    f_titulo = ImageFont.truetype(f"{FONT}/{ESTILO['titulo']}", ESTILO["titulo_tam"])
+    f_texto = ImageFont.truetype(f"{FONT}/{ESTILO['texto']}", ESTILO["texto_tam"])
+    f_ref = ImageFont.truetype(f"{FONT}/{ESTILO['ref']}", ESTILO["ref_tam"])
+
+
+usar_estilo(os.environ.get("CANDEIA_ESTILO", "montserrat"))
+
+# Posição do texto (campo "layout" do roteiro): fração da altura onde fica o centro das frases
+LAYOUTS = {"centro": 0.43, "baixo": 0.63}
+TEXTO_Y = LAYOUTS["centro"]
 f_marca = ImageFont.truetype(f"{FONT}/Cinzel-SemiBold.ttf", 34)
 
 
@@ -96,22 +106,22 @@ class FundoProcedural:
         return im
 
 
-def _grade_mask():
+def _grade_mask(texto_y):
     y = np.linspace(-1, 1, H)[:, None]; x = np.linspace(-1, 1, W)[None, :]
     vig = np.clip(1 - 0.35 * (x ** 2) - 0.30 * (y ** 2), 0.55, 1)
-    centro = 1 - 0.22 * np.exp(-((y + 0.12) / 0.45) ** 2)   # escurece a faixa do texto
+    yc = texto_y * 2 - 1
+    centro = 1 - 0.22 * np.exp(-((y - yc) / 0.45) ** 2)   # escurece a faixa do texto
     return (vig * centro)[..., None].astype(np.float32)
 
 
-_MASK = None
+_MASKS = {}
 
 
 def gradear(arr):
     """Filtro quente, escurecido e com vinheta para o texto ficar legível."""
-    global _MASK
-    if _MASK is None:
-        _MASK = _grade_mask()
-    arr = arr.astype(np.float32) * np.array([1.06, 0.96, 0.84], dtype=np.float32) * 0.66 * _MASK
+    if TEXTO_Y not in _MASKS:
+        _MASKS[TEXTO_Y] = _grade_mask(TEXTO_Y)
+    arr = arr.astype(np.float32) * np.array([1.06, 0.96, 0.84], dtype=np.float32) * 0.66 * _MASKS[TEXTO_Y]
     return Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8))
 
 
@@ -203,7 +213,7 @@ class FundoVideos(_Cenas):
     """Sequência de clipes recortados para 9:16, com crossfade. Com `marcas`, troca o clipe junto da narração."""
 
     def __init__(self, dur, pasta, seg=6.5, fade=0.9, marcas=None):
-        self.clips = sorted(glob.glob(os.path.join(pasta, "*.mp4")))
+        self.clips = sorted(glob.glob(os.path.join(pasta, "*.mp4")) + glob.glob(os.path.join(pasta, "*.mov")))
         assert self.clips, f"nenhum vídeo em {pasta}"
         self._prepara(dur, marcas, seg - fade, fade)
         self.ativos = {}
@@ -317,8 +327,11 @@ def ease(x):
 
 # ---------------------------------------------------------------- montagem
 def montar(roteiro, saida, fundo_spec="procedural", audio=None, narracao=None, por_linha=None):
+    global TEXTO_Y
     r = json.load(open(roteiro, encoding="utf-8"))
     linhas = r["linhas"]
+    usar_estilo(r.get("estilo") or os.environ.get("CANDEIA_ESTILO", "montserrat"))
+    TEXTO_Y = LAYOUTS.get(r.get("layout", "centro"), LAYOUTS["centro"])
     intro, t_cta = 0.3, 4.5
     tempos_voz = None
     if narracao:
@@ -384,9 +397,9 @@ def montar(roteiro, saida, fundo_spec="procedural", audio=None, narracao=None, p
                 entra = 1.0 if k == 0 else ease((t - t0) / fd)
                 a = entra * (1 - ease((t - (t1 - fd)) / fd))
                 dy = 0 if k == 0 else 24 * (1 - ease((t - t0) / (fd * 1.4)))
-                cola(im, cam, W / 2, H * 0.43 + dy, a)
+                cola(im, cam, W / 2, H * TEXTO_Y + dy, a)
                 if ref and ref["linha"] == k:
-                    cola(im, cam_ref, W / 2, H * 0.43 + cam.height / 2 + 30, a * 0.9)
+                    cola(im, cam_ref, W / 2, H * TEXTO_Y + cam.height / 2 + 30, a * 0.9)
         if t >= t_cta0 - 0.1:
             a = ease((t - t_cta0) / 0.7)
             cola(im, lamp, W / 2, H * 0.36, a)

@@ -55,8 +55,37 @@ async def _tts(texto, destino, voz, rate, pitch):
     return marcas
 
 
+AZURE_KEY = os.environ.get("AZURE_SPEECH_KEY", "")
+AZURE_REGIAO = os.environ.get("AZURE_SPEECH_REGION", "brazilsouth")
+
+
+def _azure(texto, destino, voz, rate, pitch):
+    """Serviço oficial e licenciado (Azure AI Speech). Mesmas vozes, idioma declarado como pt-BR no SSML."""
+    import urllib.request
+    from xml.sax.saxutils import escape
+    ssml = ("<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='pt-BR'>"
+            f"<voice name='{voz}'><lang xml:lang='pt-BR'>"
+            f"<prosody rate='{rate}' pitch='{pitch}'>{escape(texto)}</prosody></lang></voice></speak>")
+    req = urllib.request.Request(
+        f"https://{AZURE_REGIAO}.tts.speech.microsoft.com/cognitiveservices/v1", data=ssml.encode("utf-8"),
+        headers={"Ocp-Apim-Subscription-Key": AZURE_KEY, "Content-Type": "application/ssml+xml",
+                 "X-Microsoft-OutputFormat": "audio-24khz-96kbitrate-mono-mp3", "User-Agent": "candeia-diaria"})
+    with urllib.request.urlopen(req, timeout=60) as r, open(destino, "wb") as f:
+        f.write(r.read())
+
+
+def motor():
+    return "azure" if AZURE_KEY else "edge"
+
+
 def tts(texto, destino, voz, rate, pitch):
-    marcas = asyncio.run(_tts(texto, destino, voz, rate, pitch))
+    """Usa o Azure (oficial, liberado para uso comercial) quando a chave existe; senão o edge-tts.
+    O Azure não devolve marcas de palavra: nesse caso devolve None e cada frase é gerada separada."""
+    if AZURE_KEY:
+        _azure(texto, destino, voz, rate, pitch)
+        marcas = None
+    else:
+        marcas = asyncio.run(_tts(texto, destino, voz, rate, pitch))
     if not os.path.exists(destino) or os.path.getsize(destino) < 2000:
         raise RuntimeError(f"áudio vazio para: {texto}")
     return marcas
@@ -167,9 +196,10 @@ def sintetiza_grupo(textos, idx, cfg, voz, tmp):
     if len(idx) == 1:
         _recorta(base + ".mp3", base + "-a.wav")
         return [base + "-a.wav"]
-    c = _corte(marcas, textos[idx[1]])
-    if c is None:  # não achou o ponto de corte: sintetiza separado (cada um conferido)
-        print("  sem marca de corte, separando:", texto, flush=True)
+    c = _corte(marcas, textos[idx[1]]) if marcas else None
+    if c is None:  # sem ponto de corte (ou Azure): sintetiza separado (cada um conferido)
+        if marcas:
+            print("  sem marca de corte, separando:", texto, flush=True)
         out = []
         for i in idx:
             r = sintetiza_grupo(textos, [i], cfg, voz, tmp)
@@ -190,12 +220,15 @@ def escolher_voz(r):
 def narrar(roteiro, saida):
     r = json.load(open(roteiro, encoding="utf-8"))
     tipo = escolher_voz(r)
+    if motor() == "edge":
+        print("AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.", flush=True)
     cfg = VOZES[tipo]
     tmp = tempfile.mkdtemp()
     falas = [limpar(l) for l in r["linhas"]]
     cta = r.get("cta_falado") or limpar(r["cta"][0]) + "."
     textos = falas + [cta]
-    grupos = agrupar(falas) + [[len(falas)]]
+    # no Azure o idioma já vai declarado e não há marcas de palavra: cada frase é gerada sozinha
+    grupos = ([[i] for i in range(len(falas))] if motor() == "azure" else agrupar(falas)) + [[len(falas)]]
 
     def gerar_todas(voz):
         partes = []
@@ -244,7 +277,8 @@ def narrar(roteiro, saida):
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", cat,
                     "-ar", "44100", "-ac", "1", "-c:a", "libmp3lame", "-b:a", "160k", saida], check=True)
     tempos = {"intro": INTRO, "por_linha": por_linha, "cta_inicio": INTRO + sum(por_linha) + CTA_PAUSA,
-              "cta_duracao": duracao(aparadas[-1]), "total": duracao(saida), "voz": voz_usada, "tipo_voz": tipo}
+              "cta_duracao": duracao(aparadas[-1]), "total": duracao(saida), "voz": voz_usada, "tipo_voz": tipo,
+              "motor": motor()}
     json.dump(tempos, open(os.path.splitext(saida)[0] + ".json", "w"), indent=1)
     return tempos
 

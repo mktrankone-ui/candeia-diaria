@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-11-01",
+ "atualizado_em": "2026-11-02",
  "horarios": {
   "manha": "08:00",
   "noite": "20:30",
@@ -33,8 +33,9 @@
  "evitar": [],
  "observacoes": [
   "Início do perfil: testar variedade de séries e fundos nas primeiras 2 semanas antes de concentrar.",
-  "Duração atual ~40 s. Para o Creator Rewards do TikTok, migrar para 60–75 s quando o perfil se aproximar de 10 mil seguidores.",
-  "Desde 01/11: orações 'para enviar a alguém' (emprego, saúde…) em ~1 a cada 3 vídeos; alternar voz feminina/masculina e tipos de CTA para comparar resultados."
+  "Desde 02/11: 1 a cada 3 vídeos com 60–75 s (Creator Rewards exige >1 min). Comparar retenção curto x longo toda semana.",
+  "Desde 01/11: orações 'para enviar a alguém' (emprego, saúde…) em ~1 a cada 3 vídeos; alternar voz feminina/masculina e tipos de CTA para comparar resultados.",
+  "Monetização: variar formato/estilo/layout (regra anti-conteúdo repetitivo do YouTube/TikTok) e narrar pelo Azure assim que a chave estiver cadastrada."
  ],
  "pesos_voz": {
   "feminina": 1.0,
@@ -45,5 +46,19 @@
   "enviar": 1.0,
   "seguir": 1.0,
   "nome": 1.0
+ },
+ "pesos_formato": {
+  "oracao": 1.0,
+  "enviar": 1.0,
+  "salmo": 1.0,
+  "evangelho": 1.0,
+  "santo": 1.0,
+  "terco": 1.0,
+  "misericordia": 1.0,
+  "exame": 1.0
+ },
+ "pesos_duracao": {
+  "curto": 2.0,
+  "longo": 1.0
  }
 }

@@ -38,6 +38,8 @@ jobs:
       - name: Gera vídeos pendentes
         env:
           PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
         run: python3 -u gerar.py ${{ github.event.inputs.roteiros }} 2>&1 | tee publicados/gerar.log
       - name: Publica no ramo videos
         run: |

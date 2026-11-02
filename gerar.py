@@ -59,7 +59,12 @@ def main(apenas=None):
         try:
             modo = r.get("fundo") or ("fotos" if len(indice) % 2 == 0 else "videos")
             fundo = "procedural"
-            if os.environ.get("PIXABAY_KEY"):
+            propria = os.path.join(BASE, r.get("midia_propria", "")) if r.get("midia_propria") else None
+            if propria and os.path.isdir(propria):
+                # fotos/vídeos gravados pelo Fernando (ex.: midia/paroquia) — o que mais conta como original
+                vids = glob.glob(os.path.join(propria, "*.mp4")) + glob.glob(os.path.join(propria, "*.mov"))
+                fundo = f"{'videos' if vids else 'fotos'}:{propria}"
+            elif os.environ.get("PIXABAY_KEY"):
                 n = buscar_fundo.buscar(rp, os.path.join(trab, "fundo"), modo)
                 if n:
                     fundo = f"{modo}:{os.path.join(trab, 'fundo')}"
@@ -76,7 +81,8 @@ def main(apenas=None):
             indice[rid] = {"arquivo": f"{rid}.mp4", "url": RAW + f"{rid}.mp4", "serie": r.get("serie"),
                            "legenda": r.get("legenda", ""), "duracao": round(dur, 1), "fundo": fundo.split(":")[0],
                            "trilha": info_trilha, "voz": tempos.get("voz"), "tipo_voz": tempos.get("tipo_voz"),
-                           "cta_tipo": r.get("cta_tipo")}
+                           "cta_tipo": r.get("cta_tipo"), "formato": r.get("formato"),
+                           "motor_voz": tempos.get("motor")}
             json.dump(indice, open(idx_path, "w"), ensure_ascii=False, indent=1)
             feitos += 1
             print(f"ok {rid} ({dur:.1f}s, fundo={fundo.split(':')[0]}, voz={tempos.get('voz')})", flush=True)

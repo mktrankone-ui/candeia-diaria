@@ -1,0 +1,2 @@
+Coloque aqui pastas com fotos (.jpg) ou vídeos verticais (.mp4/.mov) gravados por você.
+Ex.: midia/paroquia, midia/terco. O roteiro usa com "midia_propria": "midia/paroquia".

@@ -96,6 +96,9 @@ Sem `cenas`, o sistema usa `busca` (4 a 7 termos) ou o catálogo do `tema`. Tema
   "trilha_tema": "amanhecer",
   "fundo": "fotos",
   "voz": "masculina",
+  "formato": "oracao",
+  "estilo": "montserrat",
+  "layout": "centro",
   "cenas": ["sunrise mountains", "cross sunset", "...uma por frase...", "sun rays clouds"],
   "linhas": ["Frase com *palavra* em destaque.", "..."],
   "referencia": {"linha": 5, "texto": "Salmos 118:24"},
@@ -112,7 +115,7 @@ Sem `cenas`, o sistema usa `busca` (4 a 7 termos) ou o catálogo do `tema`. Tema
 - `tema` (catálogo de fundo, ver seção "Fundo"). Prefira `cenas` (um termo por frase + um para o CTA).
 - `trilha_tema`: amanhecer, esperanca, noite, paz, dificil, familia (ver `trilhas/lista.json`).
 - `fundo`: `fotos` ou `videos`. Alterne.
-- `linhas`: 7 a 9 frases curtas (até ~12 palavras), cada uma com **uma** palavra ou expressão entre `*asteriscos*`. A última costuma ser "Em nome de Jesus, *amém*." ou equivalente católico ("Por Cristo, nosso Senhor, *amém*.").
+- `linhas`: 7 a 9 frases curtas nos vídeos curtos; 12 a 15 nos longos (60–75 s) (até ~12 palavras), cada uma com **uma** palavra ou expressão entre `*asteriscos*`. A última costuma ser "Em nome de Jesus, *amém*." ou equivalente católico ("Por Cristo, nosso Senhor, *amém*.").
 - Primeira frase é o gancho: fala direto com a dor ou o desejo de quem assiste ("Se hoje o seu coração está apertado…").
 - `legenda`: 2 a 4 linhas acolhedoras + pedido de "AMÉM" + convite a compartilhar com quem precisa + 6 a 9 hashtags (sempre `#candeiadiaria`; misture amplas como `#oração #fé #Deus #Jesus` com católicas como `#catolico #igrejacatolica #nossasenhora #terço` e do tema).
 
@@ -128,19 +131,53 @@ Definidos em `estrategia.json` (`horarios`). Padrão: manhã **08:00**, noite **
 4. Commit e push dos roteiros no `main` (isso dispara o workflow **Gerar vídeos**).
 5. Acompanhar a execução (`gh api repos/mktrankone-ui/candeia-diaria/actions/runs?per_page=1`) até terminar. Ler `indice.json` e `gerar.log` no ramo `videos`. Se um roteiro falhar, corrigir e disparar de novo só ele (workflow_dispatch com `inputs[roteiros]=<id>`).
 6. Agendar no Metricool cada vídeo novo (Reel no Instagram + TikTok), no horário do slot, com a legenda do roteiro e a mídia `https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/<id>.mp4`. Usar `instagramData: {type: REEL, showReelOnFeed: true, isAiGenerated: true}` e `tiktokData: {privacyOption: PUBLIC_TO_EVERYONE, isAigc: true, title: <serie>}`.
-7. Mover os roteiros agendados para `roteiros/publicados/` e registrar em `historico.json` (id, data, slot, serie, tema, referência, trilha, fundo, voz, cta_tipo, id do post no Metricool). Commit e push.
+7. Mover os roteiros agendados para `roteiros/publicados/` e registrar em `historico.json` (id, data, slot, serie, formato, tema, referência, trilha, fundo, estilo, layout, voz, cta_tipo, duração, id do post no Metricool). Commit e push.
 8. Relatar em poucas linhas o que foi agendado.
 
 ## Análise semanal (toda segunda)
 
 1. Pegar no Metricool as métricas dos últimos 7 dias (e acumulado) por post: alcance/views, curtidas, comentários, compartilhamentos, salvamentos, seguidores ganhos — Instagram e TikTok.
-2. Cruzar com `historico.json` (serie, tema, slot, fundo, trilha, duração, **voz**, **cta_tipo**). Comparar também a retenção dos primeiros 3 segundos / tempo médio assistido quando o Metricool trouxer esses dados.
+2. Cruzar com `historico.json` (serie, formato, tema, slot, fundo, estilo, layout, trilha, duração, **voz**, **cta_tipo**). Comparar também a retenção dos primeiros 3 segundos / tempo médio assistido quando o Metricool trouxer esses dados.
 3. Atualizar `estrategia.json` (séries, fundo, voz e CTA): aumentar o peso do que performa acima da mediana, reduzir o que fica abaixo, colocar em `evitar` o que ficou entre os piores por 2 semanas seguidas. Ajustar horários se os dados mostrarem algo melhor (`getBestTimeToPostByNetwork`).
 4. Registrar o resumo em `relatorios/AAAA-MM-DD.md` (o que funcionou, o que não, decisões) e fazer commit.
 5. Mandar um resumo curto ao Fernando com números e as mudanças feitas.
 
-## Monetização (próximas etapas)
+## Monetização — regras para não travar lá na frente
 
-- TikTok (Creator Rewards) exige vídeos com mais de 1 minuto e 10 mil seguidores: quando chegar perto, produzir versões de 60–75 s (8–10 frases).
-- Instagram: bônus/presentes e parcerias.
-- Venda para o nicho (terço, livros de oração, produtos católicos, infoproduto): só depois de audiência formada; link na bio.
+Objetivo do Fernando: monetizar. Tudo abaixo existe para o perfil chegar aos requisitos **já elegível**. Siga sempre.
+
+### 1. Nada de "linha de produção" (a regra mais importante)
+YouTube (desde jul/2025, reforçado em jul/2026) e TikTok cortam monetização de conteúdo "repetitivo, em modelo pronto, com pouca variação entre os vídeos" — com IA ou sem. Usar IA pode; parecer fábrica, não. Por isso:
+
+- **Formato** (campo `formato`), alterne e não repita o mesmo mais de 2 vezes seguidas:
+  - `oracao` — oração temática (o padrão de hoje)
+  - `enviar` — oração para mandar a alguém (emprego, saúde, luto…)
+  - `salmo` — um Salmo rezado e comentado com palavras próprias
+  - `evangelho` — reflexão própria sobre o Evangelho do dia (citar só a referência)
+  - `santo` — vida curta do santo do dia + pedido de intercessão
+  - `terco` — mistério do terço do dia (gozosos seg/sáb, dolorosos ter/sex, gloriosos qua/dom, luminosos qui) com meditação curta
+  - `misericordia` — Hora da Misericórdia / Terço da Misericórdia
+  - `exame` — exame de consciência da noite (perguntas, silêncio, entrega)
+- **Visual** — alterne `estilo` (`montserrat`, `poppins`, `classico`) e `layout` (`centro`, `baixo`). Não usar a mesma combinação formato + estilo + layout dois dias seguidos.
+- **Texto** — gancho (primeira frase) sempre diferente; nunca reaproveitar frases de roteiros anteriores; o título (`serie`) pode variar dentro do formato ("Salmo 23 para hoje", "Terço de quinta-feira").
+- **Mídia própria** — se houver fotos/vídeos do Fernando em `midia/<pasta>` (paróquia, terço nas mãos, vela acesa, natureza da região), usar `"midia_propria": "midia/<pasta>"` em pelo menos 1 vídeo por semana. É o que mais prova originalidade.
+
+### 2. Duração (TikTok só paga vídeo com mais de 1 minuto)
+- Desde já, **1 a cada 3 vídeos com 60–75 s** (12 a 15 frases em `linhas`). Formatos que pedem mais tempo: `terco`, `salmo`, `evangelho`, `santo`, `misericordia`, `exame`.
+- Os curtos (35–45 s) continuam para crescer. A análise semanal compara a retenção dos longos com a dos curtos; ao se aproximar de 10 mil seguidores no TikTok, a maioria passa a ser longa.
+
+### 3. Voz licenciada
+- A narração deve sair pelo **Azure AI Speech** (oficial, liberado para uso comercial — mesmas vozes Thalita e Antonio). Precisa dos segredos `AZURE_SPEECH_KEY` e `AZURE_SPEECH_REGION` no repositório.
+- Se o `gerar.log` mostrar "narração pelo edge-tts (não oficial)", avisar o Fernando: os vídeos funcionam, mas não estão no padrão de monetização.
+
+### 4. Sempre
+- Marcar todo post como feito com IA (`isAiGenerated` no Instagram, `isAigc` no TikTok). Não declarar é motivo de punição; declarar não impede monetização.
+- Música só da lista da SnipSound (licença permite uso monetizado, sem Content ID). Fundos só da Pixabay ou mídia própria. Nunca vídeos de outros perfis, nunca marca d'água de terceiros.
+- Conta do TikTok tem que ser **pessoal** (Creator Rewards não aceita conta Business).
+- Nada de corrente, promessa de milagre, "digite amém e receba" — além de ferir a linha católica, é engajamento enganoso e as plataformas punem.
+
+### Requisitos de referência (conferir antes de pedir)
+- **TikTok Creator Rewards** (Brasil incluso): 18+, conta pessoal, 10 mil seguidores, 100 mil views em 30 dias, vídeos com mais de 1 min e originais.
+- **YouTube (Shorts)**: Programa de Parcerias com 1.000 inscritos + 10 milhões de views de Shorts em 90 dias (ou 4 mil horas em vídeos longos); vale a regra de conteúdo não repetitivo.
+- **Instagram/Facebook**: presentes, assinaturas e parcerias; Instagram tira das recomendações quem reposta conteúdo alheio (nosso conteúdo é próprio).
+- **Venda para o nicho** (terço, livros de oração, produtos católicos, infoproduto): só depois de audiência formada; link na bio.
