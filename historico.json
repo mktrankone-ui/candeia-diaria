@@ -123,5 +123,22 @@
   "metricool_id": 412828398,
   "voz": "masculina",
   "cta_tipo": "enviar"
+ },
+ {
+  "id": "bomdia-20261103",
+  "data": "2026-11-03",
+  "slot": "bomdia",
+  "serie": "Terça-feira",
+  "formato": "bom_dia",
+  "tema": "amanhecer",
+  "referencia": "Salmo 121(120),8",
+  "fundo": "videos",
+  "estilo": "classico",
+  "layout": "centro",
+  "trilha": "New Dawn (Uplifting)",
+  "voz": "masculina",
+  "cta_tipo": "enviar",
+  "duracao": 42.1,
+  "metricool_id": 413952236
  }
 ]
