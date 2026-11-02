@@ -168,7 +168,7 @@ YouTube (desde jul/2025, reforçado em jul/2026) e TikTok cortam monetização d
 
 ### 3. Voz licenciada
 - A narração deve sair pelo **Azure AI Speech** (oficial, liberado para uso comercial — mesmas vozes Thalita e Antonio). Precisa dos segredos `AZURE_SPEECH_KEY` e `AZURE_SPEECH_REGION` no repositório.
-- Se o `gerar.log` mostrar "narração pelo edge-tts (não oficial)", avisar o Fernando: os vídeos funcionam, mas não estão no padrão de monetização.
+- **Decisão do Fernando (02/11/2026):** por enquanto segue no edge-tts; não avisar a cada vídeo. Lembrar da troca para o Azure só quando o perfil se aproximar da monetização (cerca de 5 mil seguidores no TikTok) ou se o edge-tts parar de funcionar.
 
 ### 4. Sempre
 - Marcar todo post como feito com IA (`isAiGenerated` no Instagram, `isAigc` no TikTok). Não declarar é motivo de punição; declarar não impede monetização.
