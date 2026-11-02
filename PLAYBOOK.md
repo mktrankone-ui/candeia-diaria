@@ -35,11 +35,34 @@ O dono do perfil é **católico**. Todo conteúdo segue a fé e a teologia cató
 - Traduções católicas modernas da Bíblia (CNBB, Ave-Maria, Jerusalém, Pastoral) têm direitos. Para versículos, use uma frase curta ou uma paráfrase fiel e sempre a referência no campo `referencia`.
 - Liturgia diária e Evangelho do dia: cite a referência e escreva uma reflexão própria; não copie o texto litúrgico.
 
+## Formatos campeões (aprendidos dos concorrentes — ver `referencias/concorrentes-2026-11-02.md`)
+
+### Manhã = "Bom dia, Deus" com a data (formato `bom_dia`)
+- **Publicado às 22:00 da véspera** (slot `bomdia`): o vídeo de terça é publicado segunda às 22:00.
+- Gancho **sempre com o dia da semana e a data**: "Deus, hoje é terça-feira, 3 de novembro, e eu…". Datas litúrgicas entram aqui ("…dia de Finados", "…Imaculada Conceição").
+- Oração única em 1ª pessoa, 8 a 10 frases (45–55 s): agradecer pelo dia → entregar o dia/preocupações → pedir pela família e pelo trabalho → proteção (Nossa Senhora / Santo Anjo quando couber) → "em nome de Jesus, amém".
+- Visual de cartão: `"estilo": "classico"`, `"serie": "<Dia da semana>"` (ex.: "Terça-feira"), `"rodape": "Bom dia!"`. Fundos de amanhecer, paisagens luminosas, pessoas caminhando na luz.
+- CTA: `cta_tipo` `enviar` na maioria ("Envie este bom dia para quem você *ama*"). Compartilhamento é o que mais faz esse formato crescer.
+- Legenda curta + data: "Bom dia, Deus 🙏 Terça-feira, 3 de novembro" + pedido de enviar + `#bomdia #bomdiadeus #oracao #<diadasemana> #candeiadiaria` + 2–3 católicas.
+- Varie o texto todos os dias (nunca copiar a oração do dia anterior); varie a voz.
+
+### "Reze comigo" — orações tradicionais completas (formato `tradicional`)
+- Pai-Nosso, Ave-Maria, Salve Rainha, Credo, Santo Anjo, Magnificat, Oração de São Francisco, Lembrai-vos, Vinde Espírito Santo, Glória (domínio público, podem ir inteiras); Salmos 23, 91, 121 em paráfrase fiel própria.
+- Abertura de 1 frase falando com quem assiste ("Reze comigo o Pai-Nosso por quem você ama.") e a oração inteira, frase a frase na tela. Costuma passar de 1 minuto: bom para o Creator Rewards.
+- Encaixa no slot da noite 2 a 3 vezes por semana.
+
+### Refazer o que já deu certo
+- Vídeo com mais de 3× a mediana de views → refazer o mesmo tema/oração depois de 7 a 14 dias, com fundos, voz, estilo e gancho novos (nunca repostar o mesmo arquivo). Exceção à regra de 30 dias para passagens bíblicas.
+
+### Não fazer
+- Iscas ("não pule este vídeo", "Jesus tem um recado para você", "se você pular…"), frases motivacionais genéricas, qualquer coisa fora do tema.
+- Usar áudio/narração de outros perfis.
+
 ## Banco de temas (explore infinitas possibilidades)
 
 Varie sempre. Junte passagens bíblicas bonitas com textos originais que acolham quem precisa de oração.
 
-**Manhã (bom dia, 08:00)** — tema leve e luminoso:
+**Manhã (formato `bom_dia`, publicado 22:00 da véspera)** — tema leve e luminoso, dentro da oração do dia:
 gratidão pelo novo dia · entregar o dia a Deus · oferecimento do dia · proteção ao sair de casa · trabalho e sustento · emprego · estudos e provas · família · filhos · marido/esposa · casamento · amigos · decisões importantes · força para recomeçar · esperança · coragem · fé que move montanhas · "Leão de Judá" (força) · Santo Anjo da Guarda · consagração a Nossa Senhora · Espírito Santo · Salmo do dia (Sl 23, 27, 91, 121, 139, 46, 34, 103, 62, 118) · santo do dia · domingo: alegria da ressurreição e missa.
 
 **Noite (20:30)** — tema emocional e de cura:
@@ -121,7 +144,7 @@ Sem `cenas`, o sistema usa `busca` (4 a 7 termos) ou o catálogo do `tema`. Tema
 
 ## Horários
 
-Definidos em `estrategia.json` (`horarios`). Padrão: manhã **08:00**, noite **20:30** (America/Sao_Paulo). Publica **todo dia**, inclusive sábado e domingo.
+Definidos em `estrategia.json` (`horarios`): **bom dia às 22:00 da véspera** (slot `bomdia`, teste iniciado em 02/11 — antes era 08:00) e **noite às 20:30** (America/Sao_Paulo). Publica **todo dia**, inclusive sábado e domingo. O roteiro de bom dia tem `"slot": "bomdia"` e `"data"` = o dia a que a oração se refere; o agendamento é na véspera às 22:00.
 
 ## Rotina diária de produção (seg a sex, horário comercial)
 
@@ -149,8 +172,10 @@ Objetivo do Fernando: monetizar. Tudo abaixo existe para o perfil chegar aos req
 ### 1. Nada de "linha de produção" (a regra mais importante)
 YouTube (desde jul/2025, reforçado em jul/2026) e TikTok cortam monetização de conteúdo "repetitivo, em modelo pronto, com pouca variação entre os vídeos" — com IA ou sem. Usar IA pode; parecer fábrica, não. Por isso:
 
-- **Formato** (campo `formato`), alterne e não repita o mesmo mais de 2 vezes seguidas:
-  - `oracao` — oração temática (o padrão de hoje)
+- **Formato** (campo `formato`): a manhã é sempre `bom_dia` (a variação ali vem do texto do dia, da voz e dos fundos); no slot da noite, alterne e não repita o mesmo mais de 2 vezes seguidas:
+  - `bom_dia` — "Bom dia, Deus" com a data (sempre no slot da manhã)
+  - `tradicional` — "Reze comigo": oração tradicional completa
+  - `oracao` — oração temática
   - `enviar` — oração para mandar a alguém (emprego, saúde, luto…)
   - `salmo` — um Salmo rezado e comentado com palavras próprias
   - `evangelho` — reflexão própria sobre o Evangelho do dia (citar só a referência)

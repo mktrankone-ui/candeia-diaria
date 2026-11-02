@@ -372,6 +372,11 @@ def montar(roteiro, saida, fundo_spec="procedural", audio=None, narracao=None, p
         tam -= 4
     cam_titulo = camada_texto(titulo, ImageFont.truetype(f"{FONT}/{ESTILO['titulo']}", tam), largura=940, entre=1.12, track=tr)
     cams = [camada_texto(l, f_texto) for l in linhas]
+    # "rodape": texto fixo embaixo na fonte do título (ex.: "Bom dia!"), como cartão de bom dia
+    cam_rodape = None
+    if r.get("rodape"):
+        cam_rodape = camada_texto(r["rodape"], ImageFont.truetype(f"{FONT}/{ESTILO['titulo']}", int(ESTILO["titulo_tam"] * 0.9)),
+                                  largura=940, entre=1.1, track=ESTILO["track"])
     ref = r.get("referencia")
     cam_ref = camada_texto(ref["texto"], f_ref) if ref else None
     cams_cta = [camada_texto(c, f_texto if k == 0 else f_ref) for k, c in enumerate(r["cta"])]
@@ -391,6 +396,8 @@ def montar(roteiro, saida, fundo_spec="procedural", audio=None, narracao=None, p
         im = fundo.frame(i).convert("RGBA")
         a_tit = 1 - ease((t - t_cta0 + 0.2) / 0.6)
         cola(im, cam_titulo, W / 2, 300 + cam_titulo.height / 2 - 60, a_tit)
+        if cam_rodape is not None:
+            cola(im, cam_rodape, W / 2, H - 330, a_tit)
         for k, (cam, t0) in enumerate(zip(cams, inicios)):
             t1 = t0 + por_linha[k]
             if (k == 0 and t <= t1 + 0.1) or t0 - 0.1 <= t <= t1 + 0.1:

@@ -1,9 +1,10 @@
 {
  "atualizado_em": "2026-11-02",
  "horarios": {
-  "manha": "08:00",
+  "bomdia": "22:00 da véspera",
   "noite": "20:30",
-  "fuso": "America/Sao_Paulo"
+  "fuso": "America/Sao_Paulo",
+  "teste": "bom dia às 22:00 da véspera desde 02/11 (antes 08:00); avaliar em 16/11"
  },
  "pesos_series": {
   "Oração da manhã": 1.0,
@@ -30,12 +31,17 @@
   "fotos": 1.0,
   "videos": 1.0
  },
- "evitar": [],
+ "evitar": [
+  "iscas tipo 'não pule este vídeo' / 'Jesus tem um recado'",
+  "frases motivacionais genéricas",
+  "áudio de outros perfis"
+ ],
  "observacoes": [
   "Início do perfil: testar variedade de séries e fundos nas primeiras 2 semanas antes de concentrar.",
   "Desde 02/11: 1 a cada 3 vídeos com 60–75 s (Creator Rewards exige >1 min). Comparar retenção curto x longo toda semana.",
   "Desde 01/11: orações 'para enviar a alguém' (emprego, saúde…) em ~1 a cada 3 vídeos; alternar voz feminina/masculina e tipos de CTA para comparar resultados.",
-  "Monetização: variar formato/estilo/layout (regra anti-conteúdo repetitivo do YouTube/TikTok) e narrar pelo Azure assim que a chave estiver cadastrada."
+  "Monetização: variar formato/estilo/layout (regra anti-conteúdo repetitivo do YouTube/TikTok) e narrar pelo Azure assim que a chave estiver cadastrada.",
+  "02/11: análise de @momento.de.f97 e @minutoscomdeus_daily (referencias/concorrentes-2026-11-02.md). Bom dia com data + compartilhamento e orações tradicionais completas são os formatos campeões. Volume de 1–2/dia basta."
  ],
  "pesos_voz": {
   "feminina": 1.0,
@@ -48,6 +54,8 @@
   "nome": 1.0
  },
  "pesos_formato": {
+  "bom_dia": "fixo na manhã",
+  "tradicional": 1.5,
   "oracao": 1.0,
   "enviar": 1.0,
   "salmo": 1.0,
