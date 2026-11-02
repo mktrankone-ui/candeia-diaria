@@ -1,45 +1,104 @@
-== saudade-20261102-noite
-ok 0 woman sitting lake 74178 | heron, bird, feathers, lake, sitting, animal, nature, landscape
-ok 1 person standing ocean sunset 264963 | sunset, nature, sea, ocean, dawn
-ok 2 lonely road sunset 279656 | sea, nature, ocean, beach, sunset, colorful, landscape, drone, aerial, intro, orange, lonely
-ok 3 rain window 12779 | rain, thunderstorm, lightning, autumn, clouds, drop, window, windows, sky, nature
-ok 4 sun rays clouds 39220 | clouds, light, sea, sunrise, sun rays, la palma, cc0
-ok 5 sunset clouds 3057 | clouds, sky, cloud, evening sky, sunset
-ok 6 virgin mary statue 102703 | statue, mary, sunset, ocean, waves, beach, sea, water, clouds, beautiful, calm, peace, spiritual, jesus, religion, mother of god, healing, angel, compassion, forgiveness, love, madonna, maria
-ok 7 candle light dark 48570 | candlestick, burns, fire, supplication, candle, decorations, dark, lighting, iron, old, rusty, decoration, illumination, bright, lights, glowing
-ok 8 starry sky mountains 181015 | starry sky, mountains, universe, summer, long exposure, night, orion, sirius, landscape
-trilha 215 One More Mile (Emotional)
-[vost#0:0/rawvideo @ 0x64fc59e07b00] Error submitting a packet to the muxer: Broken pipe
+== bomdia-20261103
+ok 0 sunrise mountains 72900 | sunrise, mountains, snow, hill, japan, morning, scenic, sky, dawn, outdoors, scenery, landscape, nature, sunlight, panorama
+ok 1 sunrise sky clouds 208122 | sunrise, sunset, sky, clouds, light, horizon, mountains, winter, snow, drone, castle, austria, nature, landscape
+ok 2 praying hands light 7456 | candle, church, religion, fire, flame, light, candlelight, religious, burn, spirituality, christmas, peace, wax, decoration, yellow, praying, faith, holy, burning, prayer, hope, glowing, memories, god, belief, believe, spiritual, hands, jesus, hopeful, forgiveness, christianity, pray, christian, grace, glow, christ, life
+ok 3 family walking field 220364 | man, trail, morning, sunrise, woods, fog, sunlight, wilderness, sunbeams, misty, mystical, scenic, field, outdoors, walking, alone, hiking, lonely, nature, drenthe, netherlands, landscape
+ok 4 man walking mountain sunrise 220349 | trees, sunrise, forest, woods, morning, fog, sunlight, wilderness, trail, sunbeams, misty, scenic, field, outdoors, nature, drenthe, netherlands, landscape, man, walking, alone, hiking, lonely
+ok 5 road mountains sunrise 45073 | mountain, sunrise, sun, mist, morning, valley, altitude, sky, nature, landscape, air, travel, road, holiday
+ok 6 sun rays clouds 225252 | clouds, sky, atmospheric, sun, cloudscape, drone, aerial, rays, sun beam, sunburst, nature, landscape
+ok 7 sun rays forest 272770 | forest, sun, spring, summer, nature, trees, sunlight, green, leaves, woods, sky, warm, season, forest path, forest trees, spring forest, summer forest, sun rays, forest sunlight, green leaves, forest landscape, sunny forest, seasonal forest, forest nature, sun in forest
+ok 8 cross sunset 353266 | sea, ocean, sunset, blue water, golden water, reflections, ripples, waves, dusk, sunlight, shine, twinkle, calmed down, serenity, seascape, nature, relaxation, holiday, end of the day, gentle waves, shimmering, cross, horizon, sky
+ok 9 family walking beach sunset 40016 | waves, ocean, sea, beach, green, sky, water, sand, family, clouds, seascape, sunrise, travel, landscape, evening, seashore, coast, sunset, summer, france, corsica
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+trilha 117 New Dawn (Uplifting)
+[vost#0:0/rawvideo @ 0x6166edc65740] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x64fc59e07e80] Error muxing a packet
-[out#0/rawvideo @ 0x64fc59e07e80] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x64fc59e07e80] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5afb107f1940] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x6166edbb2c00] Error muxing a packet
+[out#0/rawvideo @ 0x6166edbb2c00] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x6166edbb2c00] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x62697a9b8e00] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x5afb107f15c0] Error muxing a packet
-[out#0/rawvideo @ 0x5afb107f15c0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5afb107f15c0] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5aecb207ca80] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x62697a9b8a80] Error muxing a packet
+[out#0/rawvideo @ 0x62697a9b8a80] Task finished with error code: -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x624d6458a780] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x5aecb207c700] Error muxing a packet
-[out#0/rawvideo @ 0x5aecb207c700] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5aecb207c700] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x63a11c2ccd80] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x624d64579300] Error muxing a packet
+[out#0/rawvideo @ 0x624d64579300] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x624d64579300] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5dda4d8397c0] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x63a11c2e5f00] Error muxing a packet
-[out#0/rawvideo @ 0x63a11c2e5f00] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x63a11c2e5f00] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5ec2a2b64780] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5dda4d839440] Error muxing a packet
+[out#0/rawvideo @ 0x5dda4d839440] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5dda4d839440] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x59cf56886500] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x5ec2a2b1b9c0] Error muxing a packet
-[out#0/rawvideo @ 0x5ec2a2b1b9c0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5ec2a2b1b9c0] Terminating thread with return code -32 (Broken pipe)
-ok saudade-20261102-noite (37.0s, fundo=videos, voz=pt-BR-AntonioNeural)
+[out#0/rawvideo @ 0x59cf56886180] Error muxing a packet
+[out#0/rawvideo @ 0x59cf56886180] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x59cf56886180] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x63f48b227ec0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x63f48b1c6740] Error muxing a packet
+[out#0/rawvideo @ 0x63f48b1c6740] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x63f48b1c6740] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5b2755613140] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5b2755612dc0] Error muxing a packet
+[out#0/rawvideo @ 0x5b2755612dc0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5b2755612dc0] Terminating thread with return code -32 (Broken pipe)
+ok bomdia-20261103 (42.1s, fundo=videos, voz=pt-BR-AntonioNeural)
+== salverainha-20261103-noite
+ok 0 candle light dark 6784425 | candle, flame, candlelight
+ok 1 night lake moon 2042555 | evening, air, full moon, heaven, mystery, nature, moon, moonlight, room, peace, night, landscape, super moon, full moon, full moon, full moon, full moon, full moon, moon, moon, moon, moon, moon, super moon
+ok 2 praying hands light 15599 | girl, praying, hands, eyelashes, closed eyes, face, female, prayer, religious, teen, young woman, portrait, woman, praying, prayer, prayer, prayer, prayer, prayer
+ok 3 virgin mary statue 4983935 | statue, virgin, married, sceptre, child, arm, jesus, mother, sculpture, faith, pray, christ, veil, star, crown, spirituality
+ok 4 white roses 7705774 | roses, beautiful wallpaper, flower, white roses, floral background, valentine's day, nature, background, romantic, flower wallpaper, flower background, beautiful flowers, golden
+ok 5 rosary hands 699619 | rosary, prayer, pray, red, hands, religion, catholic, cross, faith, god, christianity, holy, religious, spiritual, jesus, crucifix, catholicism, christian, spirituality, symbol, church, christ, belief, bead, believe, hope, love, meditation, rosary, rosary, rosary, rosary, rosary
+ok 6 rain window 532049 | rain, windshield, background, nature, drops, window, water drop, droplets, wet, rainy, beautiful wallpaper, gray rain, gray window, iphone wallpaper, United States, Minnetrista, Minnesota
+ok 7 our lady statue 2138193 | liberty, statue, new york, america, statue of liberty, nyc, lady liberty, american, attraction, sculpture, symbol, liberty, liberty, liberty, liberty, liberty, new york, new york, statue of liberty, statue of liberty, lady liberty, lady liberty, lady liberty
+ok 8 crucifix church 4710564 | jesus, cross, christ, religion, faith, christianity, crucifixion, christian, crucifix, catholic, spiritual, pray, holy, church, resurrection, black cross, gray cross, black church, gray church, black pray, gray pray
+ok 9 church candles 4628241 | candle, church, light, flame, prayer, hope, religion, decoration, lamp, culture, brown hope, brown candle, brown candles, brown prayer, brown lamp
+ok 10 virgin mary 1592567 | maria, holy maria, mother of god, faith, christianity, statue, holy, virgin mary, graceful, pray, religion, christian, holy mother, church, madonna, catholic, jungfau maria, gold, icon, image of grace of our dear lady, constant help, image of grace, maria representation, our dear wife, gold ground, upper garment, head veil, gloriole, jesus child, jesus, woman, mother, person, picture, painting, art, historical, christ, bible, maria, virgin mary, virgin mary, catholic, jesus, jesus, jesus, jesus, jesus
+ok 11 sun rays clouds 5306299 | sunset, sea, beach, sun, ocean, landscape, the water, nature, ship, red, lake, wave, romantic, clouds, boat, sunrise, atmospheric
+ok 12 moon clouds night 1591440 | at night, moon, waves, new zealand, heaven, moon at night, full moon, darkness, night shot, night sky, the atmosphere, moonlight, sea, reflection, mystical, romantic, mysterious, dark, water, mood, light, seem, romance, midnight, moon night, lights, coast, blackness of the night, whitianga, clouds
+ok 13 starry sky mountains 4742293 | starry sky, mountains, landscape, stars, night sky, space, heaven, universe, night, nature, astronomy, galaxy, milky way, the atmosphere, cosmos, scenic, winter, rock, winter landscape, snow, outlook, alps
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+Traceback (most recent call last):
+  File "/home/runner/work/candeia-diaria/candeia-diaria/gerar.py", line 74, in main
+    tempos = narrar.narrar(rp, voz)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 243, in narrar
+    partes = gerar_todas(voz_usada)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 236, in gerar_todas
+    res = sintetiza_grupo(textos, g, cfg, voz, tmp)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 189, in sintetiza_grupo
+    marcas = tts(texto, base + ".mp3", voz, cfg["rate"], cfg["pitch"])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 88, in tts
+    marcas = asyncio.run(_tts(texto, destino, voz, rate, pitch))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 50, in _tts
+    async for ch in com.stream():
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/edge_tts/communicate.py", line 588, in stream
+    async for message in self.__stream():
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/edge_tts/communicate.py", line 562, in __stream
+    raise NoAudioReceived(
+edge_tts.exceptions.NoAudioReceived: No audio was received. Please verify that your parameters are correct.
 1 vídeo(s) gerado(s)
-[vost#0:0/rawvideo @ 0x6480119c1b00] Error submitting a packet to the muxer: Broken pipe
+[vost#0:0/rawvideo @ 0x5f64af596b80] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x6480119c3140] Error muxing a packet
-[out#0/rawvideo @ 0x6480119c3140] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x6480119c3140] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x6480119c3140] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x6480119c3140] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5f64af52fd80] Error muxing a packet
+[out#0/rawvideo @ 0x5f64af52fd80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5f64af52fd80] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5f64af52fd80] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5f64af52fd80] Error closing file: Broken pipe
