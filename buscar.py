@@ -1,4 +1,5 @@
-import json,os,urllib.request,urllib.parse
+import json,os,urllib.request
+op=urllib.request.build_opener();op.addheaders=[('User-Agent','Mozilla/5.0 cortes/1.0')];urllib.request.install_opener(op),urllib.parse
 K=os.environ['PIXABAY_KEY'];q=json.load(open('queries.json'));out={}
 os.makedirs('thumbs',exist_ok=True)
 for k,v in q.items():
