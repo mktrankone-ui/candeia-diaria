@@ -15,7 +15,7 @@
   "Oração de cura": 1.0,
   "Oração pelo trabalho": 1.0,
   "Salmo do dia": 1.0,
-  "Oração a Nossa Senhora": 1.0,
+  "Oração a Nossa Senhora": 1.2,
   "Oração ao Santo Anjo": 1.0,
   "Oração de proteção": 1.0,
   "Oração para dormir em paz": 1.0,
@@ -41,7 +41,13 @@
   "Desde 02/11: 1 a cada 3 vídeos com 60–75 s (Creator Rewards exige >1 min). Comparar retenção curto x longo toda semana.",
   "Desde 01/11: orações 'para enviar a alguém' (emprego, saúde…) em ~1 a cada 3 vídeos; alternar voz feminina/masculina e tipos de CTA para comparar resultados.",
   "Monetização: variar formato/estilo/layout (regra anti-conteúdo repetitivo do YouTube/TikTok) e narrar pelo Azure assim que a chave estiver cadastrada.",
-  "02/11: análise de @momento.de.f97 e @minutoscomdeus_daily (referencias/concorrentes-2026-11-02.md). Bom dia com data + compartilhamento e orações tradicionais completas são os formatos campeões. Volume de 1–2/dia basta."
+  "02/11: análise de @momento.de.f97 e @minutoscomdeus_daily (referencias/concorrentes-2026-11-02.md). Bom dia com data + compartilhamento e orações tradicionais completas são os formatos campeões. Volume de 1–2/dia basta.",
+  "02/11 (1ª análise, 4 dias de dados — só pistas): os 2 melhores nas duas redes foram os da manhã ligados ao calendário/devoção (Sábado de Nossa Senhora 31/10: TK 501 views, IG maior tempo médio 7,2 s; Todos os Santos 01/11: TK 597 views). Pesos +0,2 em 'Oração a Nossa Senhora' e formato 'santo'. Confirmar em 09/11.",
+  "Gancho derivado do melhor post: abrir com o dia litúrgico/devocional ('Sábado é dia de Nossa Senhora', 'Hoje a Igreja celebra…', 'Primeira sexta-feira: dia do Sagrado Coração') e pedir na legenda uma resposta fácil ('qual o seu santo de devoção?' rendeu 2 comentários no IG).",
+  "IG: tempo médio assistido baixo (2,1–7,2 s em vídeos de ~40 s) e só 16–35% passam dos 3 s. Prioridade: primeiro quadro e primeira frase mais fortes. Pior: Oração do perdão (2,1 s, 15,7%) — gancho 'Perdoar não é esquecer' segurou pouco.",
+  "Compartilhamentos e salvamentos quase zero nas duas redes (IG 1 share, 0 saves; TK 2 shares). Testar CTA 'enviar' mais específico (nome da pessoa/situação) e orações que valem guardar (tradicionais completas) para provocar salvamento.",
+  "TikTok: os 3 primeiros vídeos (29–30/10) tiveram 0–1 view — aquecimento da conta nova, não conteúdo; ficam fora das comparações.",
+  "Horários: Metricool aponta picos de público às 10h e 18h (IG) e 10h/12h/18h (TK) nos dias úteis. Não mudar agora (teste do bom dia às 22h vai até 16/11); depois avaliar testar a noite às 18h30 em vez de 20h30."
  ],
  "pesos_voz": {
   "feminina": 1.0,
@@ -60,7 +66,7 @@
   "enviar": 1.0,
   "salmo": 1.0,
   "evangelho": 1.0,
-  "santo": 1.0,
+  "santo": 1.2,
   "terco": 1.0,
   "misericordia": 1.0,
   "exame": 1.0
