@@ -2,7 +2,7 @@ name: Cortes B-roll
 on:
   push:
     branches: [cortes-broll]
-    paths: ["queries.json","selecao.json","musicas.txt"]
+    paths: ["queries.json","selecao.json","musicas.txt","cenas.json"]
 permissions:
   contents: write
 jobs:
@@ -17,8 +17,11 @@ jobs:
       - name: Baixar
         if: hashFiles('selecao.json') != '' && hashFiles('clips/*.mp4') == ''
         run: python baixar.py
+      - name: Cenas
+        if: hashFiles('cenas.json') != ''
+        run: python preparar.py && rm -rf tmp clips
       - name: Musicas
-        if: hashFiles('musicas.txt') != ''
+        if: hashFiles('musicas.txt') != '' && hashFiles('musica/*.mp3') == ''
         run: mkdir -p musica && cd musica && xargs -n1 curl -sSLO -A 'Mozilla/5.0' < ../musicas.txt
       - run: |
           git config user.name bot && git config user.email bot@users.noreply.github.com
