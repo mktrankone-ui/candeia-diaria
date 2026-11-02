@@ -1,0 +1,42 @@
+{
+  "id": "bomdia-20261103",
+  "serie": "Terça-feira",
+  "tema": "amanhecer",
+  "trilha_tema": "amanhecer",
+  "fundo": "videos",
+  "voz": "masculina",
+  "formato": "bom_dia",
+  "estilo": "classico",
+  "layout": "centro",
+  "rodape": "Bom dia!",
+  "linhas": [
+    "Deus, hoje é terça-feira, 3 de *novembro*, e eu venho Te agradecer.",
+    "Obrigado pelo ar que eu respiro e por este novo *dia*.",
+    "Coloco em Tuas mãos tudo o que hoje me *preocupa*.",
+    "Abençoa a minha casa e cada pessoa da minha *família*.",
+    "Abençoa o meu trabalho e o meu *sustento*.",
+    "Guarda a minha saída e a minha chegada, hoje e *sempre*.",
+    "Santo Anjo do Senhor, caminha ao meu *lado* em cada passo.",
+    "Nossa Senhora, cobre a minha vida com o teu *manto*.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {"linha": 6, "texto": "Salmo 121(120),8"},
+  "cta": ["Envie este bom dia para quem você *ama*", "Uma oração pode mudar o dia de alguém"],
+  "cta_falado": "Envie este bom dia para quem você ama.",
+  "cta_tipo": "enviar",
+  "cenas": [
+    "sunrise mountains",
+    "sunrise sky clouds",
+    "praying hands light",
+    "family walking field",
+    "man walking mountain sunrise",
+    "road mountains sunrise",
+    "sun rays clouds",
+    "virgin mary statue",
+    "cross sunset",
+    "family walking beach sunset"
+  ],
+  "legenda": "Bom dia, Deus 🙏 Terça-feira, 3 de novembro\n\nEntregue o seu dia nas mãos de Deus e envie esta oração para quem você ama. Se você crê, escreva AMÉM.\n\n#bomdia #bomdiadeus #oracao #tercafeira #candeiadiaria #catolico #santoanjo #nossasenhora",
+  "slot": "bomdia",
+  "data": "2026-11-03"
+}
