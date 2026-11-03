@@ -1,0 +1,48 @@
+{
+  "id": "bomdia-20261104",
+  "serie": "Quarta-feira",
+  "tema": "amanhecer",
+  "trilha_tema": "amanhecer",
+  "fundo": "fotos",
+  "voz": "feminina",
+  "formato": "bom_dia",
+  "estilo": "classico",
+  "layout": "baixo",
+  "rodape": "Bom dia!",
+  "linhas": [
+    "Deus, hoje é quarta-feira, 4 de *novembro*, e eu começo este dia contigo.",
+    "Eu Te agradeço pela vida e por mais esta *manhã*.",
+    "Faze-me ouvir logo cedo a Tua *bondade*, porque eu confio em Ti.",
+    "Mostra-me o caminho certo em cada *decisão* de hoje.",
+    "Abençoa os meus pais, os meus filhos e todos da minha *casa*.",
+    "Dá-me paciência no trabalho e *mansidão* nas palavras.",
+    "São Carlos Borromeu, que hoje a Igreja celebra, rogai por *nós*.",
+    "Virgem Maria, segura a minha mão durante todo este *dia*.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {
+    "linha": 2,
+    "texto": "Salmo 143(142),8"
+  },
+  "cta": [
+    "Envie este bom dia para quem você *ama*",
+    "Uma oração pode mudar o dia de alguém"
+  ],
+  "cta_falado": "Envie este bom dia para quem você ama.",
+  "cta_tipo": "enviar",
+  "cenas": [
+    "sunrise mountains",
+    "golden hour meadow",
+    "sunrise sky clouds",
+    "path forest light",
+    "family walking field",
+    "person walking road sunrise",
+    "church interior light",
+    "rosary hands",
+    "sunrise cross",
+    "family hug sunset"
+  ],
+  "legenda": "Bom dia, Deus 🙏 Quarta-feira, 4 de novembro\n\nComece o dia nas mãos de Deus e envie esta oração para quem você ama. Hoje a Igreja celebra São Carlos Borromeu. Escreva AMÉM se você rezou junto.\n\n#bomdia #bomdiadeus #oracao #quartafeira #candeiadiaria #catolico #igrejacatolica #nossasenhora",
+  "slot": "bomdia",
+  "data": "2026-11-04"
+}

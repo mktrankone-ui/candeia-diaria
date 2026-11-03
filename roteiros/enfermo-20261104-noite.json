@@ -1,0 +1,47 @@
+{
+  "id": "enfermo-20261104-noite",
+  "serie": "Oração por um enfermo",
+  "tema": "saude",
+  "trilha_tema": "paz",
+  "fundo": "videos",
+  "voz": "masculina",
+  "formato": "enviar",
+  "estilo": "montserrat",
+  "layout": "centro",
+  "linhas": [
+    "Se alguém que você ama está doente, reze comigo agora por essa *pessoa*.",
+    "Senhor Jesus, Tu passaste pelo mundo curando e *consolando*.",
+    "Olha com carinho para quem hoje está *sofrendo* no corpo e na alma.",
+    "Tu amparas o doente no leito da dor; ampara também quem eu *amo*.",
+    "Dá sabedoria aos *médicos* e força a quem cuida dessa pessoa.",
+    "Acalma o medo da família e renova a *esperança* de todos.",
+    "Nossa Senhora, Saúde dos Enfermos, fica junto de quem está *doente*.",
+    "Seja feita a Tua vontade, e que nunca falte a Tua *paz*.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {
+    "linha": 3,
+    "texto": "Salmo 41(40),4"
+  },
+  "cta": [
+    "Escreva o *nome* de quem você quer que eu reze",
+    "Vamos rezar juntos"
+  ],
+  "cta_falado": "Escreva nos comentários o nome de quem precisa desta oração.",
+  "cta_tipo": "nome",
+  "cenas": [
+    "hands holding",
+    "cross hill sky",
+    "light through window",
+    "praying hands light",
+    "hands holding sunset",
+    "sunbeam forest",
+    "virgin mary statue",
+    "calm lake",
+    "sun rays clouds",
+    "church candles"
+  ],
+  "legenda": "Se alguém que você ama está doente, reze comigo por essa pessoa esta noite. 🙏🕯️\n\nEscreva nos comentários o nome de quem precisa desta oração, que eu rezo junto. E envie para quem está cuidando de um enfermo.\n\n#oracaopelosenfermos #saude #oração #fé #Jesus #nossasenhora #catolico #igrejacatolica #candeiadiaria",
+  "slot": "noite",
+  "data": "2026-11-04"
+}
