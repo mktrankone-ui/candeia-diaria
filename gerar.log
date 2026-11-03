@@ -1,50 +1,51 @@
 == bomdia-20261104
-ok 0 sunrise mountains 4423695 | mountain hut, alm, meadow, sunrise, alps, nature, mountains, landscape, hut, hike, outlook, summer, human, person, walker, mood, panorama, sun, wooden hut, vacations, idyll, house
-ok 1 golden hour meadow 6755445 | autumn, sunset, meadow, nature
-ok 2 sunrise sky clouds 176939 | sunset, sunrise, sunlight, outdoor, dawn, dusk, freedom, cloud, evening, horizon, sunshine, coast, colorful, scene, yellow, orange, environment, dramatic, day, tranquil, cumulus, cloudscape, atmosphere, twlight, ambience, idyllic, orange sunset, orange sunrise, nature, orange clouds, orange sunshine, orange color
-ok 3 path forest light 4992338 | forest, tree, nature, landscape, spring, sun, path
-ok 4 family walking field 10434231 | duck, indian runner duck, green, grass, outdoor, nature, sunny, green field, grazing, farming, tranquility, plumage, field, bird, fine, summer, animal, feeding, peaceful, walking, pasture
-ok 5 person walking road sunrise 8056039 | bangladesh, winter, dawn, nature, outdoors, trees, forest, autumn, walking, fog, footpath, landscape, adventure, sunlight, silhouette, hiking, morning, sunrise
-ok 6 church interior light 180279 | stained glass window, church, parish, stained glass, window, interior, church interior, glass, catholic, church, church, window, catholic, catholic, catholic, catholic, catholic
-ok 7 virgin mary statue 874004 | virgin mary, statue, woman, virgin mary, virgin mary, virgin mary, virgin mary, virgin mary
-ok 8 sunrise cross 7422647 | summit cross, south-tirol, dolomites, alps, sunrise, mountain, mountain peak, nature, stones, rock, landscape
-ok 9 family walking beach sunset 5053371 | mother, beach, child, happiness, nature, toddler, girl, ocean, kid, summer, daughter, happy, family, sea, people, mom, walking, back, blue happy, blue walking
+ok 0 sunrise mountains 4347888 | landscape, nature, mountains, travel, light, sky, background, nature background, rock, beautiful wallpaper, sky background, sunrise, sunrise sky, spain, hiking
+ok 1 golden hour meadow 6380219 | scooter, nature, grasses, sunset, motorcycle, red motor, outdoor, meadow, transport, classic, retro, automobile, automotive
+ok 2 sunrise sky clouds 7575587 | sunset, sun, light, rays, nature, landscape, stars, sunrise, night sky, sky, clouds
+ok 3 path forest light 5022660 | path, forest, nature, to come up, tree
+ok 4 mother child sunset 7371860 | people, casual, woman, mother, child, little boy, going, border, promenade, relaxation
+ok 5 person walking road sunrise 7855440 | rainforest, sunrise, mist, fog, trees, nature, road, path, tasmania, australia, rainforest, rainforest, rainforest, rainforest, rainforest
+ok 6 church interior light 4897613 | cathedral, stained glass, windows, glass, chapel, stained, interior, colorful, church, christianity, design
+ok 7 virgin mary statue 6573418 | church, religion, virgin mary, christianity, faith, catholicism, architecture, virgin mary, virgin mary, virgin mary, virgin mary, virgin mary
+ok 8 sunrise cross 2845690 | cross, prayer, penance, christianity, field, lonely, brick, belief, religion, jesus, devotion, nature, piece, sky, dawn, sunrise, red sky, the fog, reverie, autumn, loneliness, emptiness
+ok 9 family walking beach sunset 7112054 | sunset, island, family, nature, beach, summer, ocean, beautiful wallpaper, background, holiday, paradise, landscape, vacation, coastline, silhouette, sunrise
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
 trilha 115 New Dawn (Hopeful)
 ok bomdia-20261104 (46.6s, fundo=fotos, voz=pt-BR-ThalitaMultilingualNeural)
 == enfermo-20261104-noite
-ok 0 cathedral light 450 | baptism, religion, christening, christian, church, catholic, christen, baptize, belief, faith, christ, jesus, cruzifix, holy, believing, christianity, cathedral, roman, 117283542
-ok 1 church candles 135117 | candles, light, ornaments, church, spiritual, religious
-ok 2 church interior light 173348 | church, castle, architecture, interior, ancient, history, romania
-ok 3 cross sunset 223183 | waterfall, river, stream, rocks, water, forest, trees, moss, cascade, outdoors, mountains, travel, scenery, exploration, scenic, cliff, romania, transylvania, cross, sunset, reflection, tourism, nature, landscape
-ok 4 cathedral light 212860 | cathedral, journey, drone, nature, vacation, flight, park, landscape, poland, warsaw
-ok 5 sunbeam forest 50170 | forest, trees, morning, light, nature, landscape, fog, foggy, sunrise, mist, scenery, sunbeam, hiking, sunlight, haze
-ok 6 church candles 216832 | candles, spirituality, fire, life, light up, church, faith
-ok 7 calm lake 327978 | port dalhousie, old port dalhousie, st catharines, ontario, canada, drone, drone footage, aerial, aerial view, waterfront, lake, waterway, shoreline, park, nature, landscape, scenic, travel, autumn, fall, october, trees, calm water, panoramic, outdoors
-ok 8 sun rays clouds 204006 | sky, clouds, fluffy, sunset, golden hour, travel, sun, 4k
-ok 9 candle light dark 141440 | flame, candle, fire, light
+ok 0 church candles 115930 | antique book, book, book bindings, book publishing, book series, burn, burnt, candle, candle flame, candlelight, candlestick, chapter, christmas, church, dark, deep mood, education, flame, god, holy, indoors, insubstantial, knowledge, koran, candles
+ok 1 church candles 250394 | faith, church, religion, architecture, prayer, candles, temples, angel, altar, stained glass, spiritual
+ok 2 cathedral light 46348 | church, window, castle, wall, carving, religion, ancient, tomb, archaeology, ruin, europe, medieval, cathedral, knight, history, relic, templar, germany, travel, tourism, glass, stained, color, light
+ok 3 cathedral light 214911 | river, bridge, ledesma, salamanca, medieval, wall, church, architecture, cathedral, celts, vetones
+ok 4 church candles 17340 | melted candle, saint antoine, church, candle, flame, candles, burning
+ok 5 sunbeam forest 144663 | winter, forest, trees, sun, sunbeam, snow, trickle, nature, winter magic
+ok 6 cathedral light 46349 | church, stone, castle, wall, carving, religion, ancient, tomb, archaeology, ruin, europe, medieval, cathedral, knight, history, relic, templar, germany, travel, tourism
+ok 7 ocean waves sunset 286272 | sunset, sun, water, sea, horizon, wave, sunrise, light, ocean, sunlight, red, beach, vibrant, vertical, sand, peaceful, calm, coast, warm, paradise, tropical climate, seascape
+ok 8 sun rays clouds 382582 | netherlands, sun rays, misty forest, sunlight, fog, woodland, nature, sunbeams, trees, morning light, atmospheric, forest
+ok 9 candle light dark 111281 | century 17th, antique book, bible, book, candle, compass, dark, dark mode, light, vintage
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 457 Inner Calm (Peaceful)
-[vost#0:0/rawvideo @ 0x5f2fd41be2c0] Error submitting a packet to the muxer: Broken pipe
+trilha 96 Floating Light (Peaceful)
+[vost#0:0/rawvideo @ 0x5a1bc3b7dd00] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x5f2fd41bdf40] Error muxing a packet
-[out#0/rawvideo @ 0x5f2fd41bdf40] Task finished with error code: -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5f42d4345c00] [vost#0:0/rawvideo @ 0x58f8e965cc00] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5a1bc3b7d980] Error muxing a packet
+[out#0/rawvideo @ 0x5a1bc3b7d980] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5a1bc3b7d980] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x63d9c3edb600] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x58f8e965c880] Error muxing a packet
-[out#0/rawvideo @ 0x58f8e965c880] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x58f8e965c880] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x56c308124b00] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x63d9c3edd740] Error muxing a packet
+[out#0/rawvideo @ 0x63d9c3edd740] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x63d9c3edd740] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5960d4b82340] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x56c30805ed40] Error muxing a packet
-[out#0/rawvideo @ 0x56c30805ed40] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x56c30805ed40] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5960d4ae3b80] Error muxing a packet
+[out#0/rawvideo @ 0x5960d4ae3b80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5960d4ae3b80] Terminating thread with return code -32 (Broken pipe)
 ok enfermo-20261104-noite (49.0s, fundo=videos, voz=pt-BR-AntonioNeural)
 2 vídeo(s) gerado(s)
-[vost#0:0/rawvideo @ 0x605ac2137540] Error submitting a packet to the muxer: Broken pipe
+[vost#0:0/rawvideo @ 0x5b11fb1c33c0] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x605ac2166b80] Error muxing a packet
-[out#0/rawvideo @ 0x605ac2166b80] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x605ac2166b80] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x605ac2166b80] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x605ac2166b80] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5b11fb0fc9c0] Error muxing a packet
+[out#0/rawvideo @ 0x5b11fb0fc9c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5b11fb0fc9c0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5b11fb0fc9c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5b11fb0fc9c0] Error closing file: Broken pipe
