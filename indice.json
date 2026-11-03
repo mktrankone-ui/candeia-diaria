@@ -142,5 +142,59 @@
   "cta_tipo": "enviar",
   "formato": "bom_dia",
   "motor_voz": "edge"
+ },
+ "bomdia-20261104": {
+  "arquivo": "bomdia-20261104.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261104.mp4",
+  "serie": "Quarta-feira",
+  "legenda": "Bom dia, Deus 🙏 Quarta-feira, 4 de novembro\n\nComece o dia nas mãos de Deus e envie esta oração para quem você ama. Hoje a Igreja celebra São Carlos Borromeu. Escreva AMÉM se você rezou junto.\n\n#bomdia #bomdiadeus #oracao #quartafeira #candeiadiaria #catolico #igrejacatolica #nossasenhora",
+  "duracao": 46.6,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 117,
+   "titulo": "New Dawn (Uplifting)",
+   "url": "https://media.snipsound.com/audio/rf_cin02b_new_dawn_uplifting.mp3"
+  },
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "enfermo-20261104-noite": {
+  "arquivo": "enfermo-20261104-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/enfermo-20261104-noite.mp4",
+  "serie": "Oração por um enfermo",
+  "legenda": "Se alguém que você ama está doente, reze comigo por essa pessoa esta noite. 🙏🕯️\n\nEscreva nos comentários o nome de quem precisa desta oração, que eu rezo junto. E envie para quem está cuidando de um enfermo.\n\n#oracaopelosenfermos #saude #oração #fé #Jesus #nossasenhora #catolico #igrejacatolica #candeiadiaria",
+  "duracao": 49.0,
+  "fundo": "videos",
+  "trilha": {
+   "id": 457,
+   "titulo": "Inner Calm (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_med01a_inner_calm_peaceful.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "nome",
+  "formato": "enviar",
+  "motor_voz": "edge"
+ },
+ "salverainha-20261103-noite": {
+  "arquivo": "salverainha-20261103-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/salverainha-20261103-noite.mp4",
+  "serie": "Reze comigo a Salve Rainha",
+  "legenda": "Antes de dormir, entregue a sua noite a Nossa Senhora. Reze comigo a Salve Rainha, devagar, frase por frase. 🌙🤍\n\nSalve este vídeo para rezar todas as noites e escreva AMÉM se você rezou junto.\n\n#salverainha #nossasenhora #oracaodanoite #terço #catolico #igrejacatolica #oração #fé #candeiadiaria",
+  "duracao": 63.2,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 96,
+   "titulo": "Floating Light (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_amb01a_floating_light_peaceful.mp3"
+  },
+  "voz": "pt-BR-FranciscaNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "amem",
+  "formato": "tradicional",
+  "motor_voz": "edge"
  }
 }

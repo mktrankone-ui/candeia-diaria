@@ -1,49 +1,82 @@
-== salverainha-20261103-noite
-ok 0 candle light dark 6398630 | candle holder, gold, decoration, gilded, light fixture, traditional, lighting, antique, luxury, decorative, decor
-ok 1 night lake moon 8726358 | moon, tree, forest, night, view, nature, sky, stars, night sky, full moon, universe, dark, starry, camera, photographer, camp, hot
-ok 2 praying hands light 20878 | girl, praying, hands, pray, eye, eyes, face, female, people, portrait, prayer, pretty, religious, looking, teen, woman, young, praying, praying, praying, pray, pray, pray, face, people, prayer, prayer, prayer, prayer, prayer
-ok 3 virgin mary statue 3184248 | maria, marienfigur, christian art, ceramic, figure, religion, madonna, mother of god, christian, statue, virgin mary, old, isolated, vintage, transparent, maria, virgin mary, virgin mary, virgin mary, virgin mary, virgin mary
-ok 4 white roses 4792606 | roses, happy mothers day, red, heart, flower wallpaper, white, beautiful flowers, love, flower background, blossoms, rose petals, in love, valentine's day, valentine, love greetings, romance, romantic, nature, flower, macro, wedding
-ok 5 our lady statue 67148 | church, cathedral, cathedral of our lady, antwerp
-ok 6 rain window 4811598 | rain, weather, storm, thunder, water, thunderstorm, wet, sky, dark, clouds, raining, window, airport, seattle, air travel, raindrop, shower, nature, airplane, plane, flight, aircraft, transportation, airline, tarmac, blue rain, blue storm, blue shower
-ok 7 cathedral light 8009476 | cathedral, gothic, chartres, architecture, lumiere, lighting
-ok 8 crucifix church 4072933 | jesus, cross, crucifixion, crucifix, faith, church, isenbüttel, good friday, good friday, good friday, good friday, good friday, good friday
-ok 9 church candles 7549258 | candles, church, religion, prayer, peace, peaceful, candlelight, flame, votive candles
-ok 10 virgin mary 1152090 | the virgin and the child, leonardo devinci, mary and jesus, 1478-1482, oil on wood, leonardo youth painting, mother and son, emotion, christ, baby, maternity, motherly love, pushover, christian art, faith, religion, madonna of the flower, madonna benois, artwork, italian renaissance, high renaissance, hermitage museum, saint petersbourg, russia, leonardo da vinci, famous italian painter, designer, inventor, writer
-ok 11 sun rays clouds 7487163 | church, sun, nature, summer, sky, clouds
-ok 12 moon clouds night 4508303 | moon, blood moon, grapevine, palatinate, vineyard, mystical, heaven, full moon, moonlight, night, astronomy, cosmos, heavenly, light, night sky, nature, full, romantic, luna, moon, moon, moon, blood moon, blood moon, moonlight, moonlight, moonlight, heavenly, luna, luna, luna, luna, luna
-ok 13 starry sky mountains 10324870 | astronomy, milky way, night photography, starry sky, reflection, lake, night sky, landscape, silence, mountains, calm, relaxation, mirror image, light pollution, darkness, peacefulness, nature, hiking, panorama
+== bomdia-20261104
+ok 0 sunrise mountains 6118180 | mountains, snow, sunset, sunrise, ice, frost, clouds, landscape, sky, winter, nature
+ok 1 golden hour meadow 5935549 | fields, hills, horizon, sky, clouds, trees, forests, grass, grasslands, grass fields, meadow, prairie, rural, countryside, landscape, nature
+ok 2 sunrise sky clouds 8670992 | cumulus, dark clouds, sunset, cumulonimbus, stratocumulus, nature, sunrise, sky, clouscape
+ok 3 path forest light 4696441 | forest, path, light, trees, nature, landscape, forest path, mood, mystical, the atmosphere, quiet, magic, dark
+ok 4 family walking field 2594937 | people, family, mother, father, son, kid, child, baby, woman, girl, man, husband, wife, travel, walking, people, family, family, family, family, family, travel, travel
+ok 5 person walking road sunrise 2602257 | nature, trees, plants, green, grass, road, path, people, man, walking, alone, bag, book, bible, bible, bible, bible, bible, bible
+ok 6 church interior light 867789 | aarschot, onze lieve vrouwekerk, stained glass, window, church, religion, christian, light, interior
+ok 7 sun rays forest 8848633 | flowers, bloom, flower wallpaper, nature, blossom, decoration, vase, flower background, window, sun, beautiful flowers, rays, atmosphere
+ok 8 sunrise cross 1899633 | great cross, sunrise, sky, st augustine, florida, usa, landscape, travel, tourism, church, old, sky background, cross, architectural, christianity, famous, color, landmark, coast, holy, background, orange sky, beauty, nature, christian, spanish culture, historic, brown cross, brown sunrise, brown church, beautiful wallpaper, brown culture, iphone wallpaper
+ok 9 family hug sunset 7619099 | boys, brothers, family, friends, together, sportswear, everyday, kids, hug, embrace, white background, modern style, joy, fun, casual, emotions, high five, have fun
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-Traceback (most recent call last):
-  File "/home/runner/work/candeia-diaria/candeia-diaria/gerar.py", line 74, in main
-    tempos = narrar.narrar(rp, voz)
-             ^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 243, in narrar
-    partes = gerar_todas(voz_usada)
-             ^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 236, in gerar_todas
-    res = sintetiza_grupo(textos, g, cfg, voz, tmp)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 189, in sintetiza_grupo
-    marcas = tts(texto, base + ".mp3", voz, cfg["rate"], cfg["pitch"])
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 88, in tts
-    marcas = asyncio.run(_tts(texto, destino, voz, rate, pitch))
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/runners.py", line 195, in run
-    return runner.run(main)
-           ^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/runners.py", line 118, in run
-    return self._loop.run_until_complete(task)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
-    return future.result()
-           ^^^^^^^^^^^^^^^
-  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 50, in _tts
-    async for ch in com.stream():
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/edge_tts/communicate.py", line 588, in stream
-    async for message in self.__stream():
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/edge_tts/communicate.py", line 562, in __stream
-    raise NoAudioReceived(
-edge_tts.exceptions.NoAudioReceived: No audio was received. Please verify that your parameters are correct.
-0 vídeo(s) gerado(s)
+trilha 117 New Dawn (Uplifting)
+ok bomdia-20261104 (46.6s, fundo=fotos, voz=pt-BR-ThalitaMultilingualNeural)
+== enfermo-20261104-noite
+ok 0 hands holding 3616 | public transport, subway, train, metro, holding on, hands, grip, people, commuters, commuting, transportation, underground, commute, departure, passengers
+ok 1 sunbeam forest 61485 | trees, forest, morning, sunrise, path, sunlight, sunbeam, woods, field, landscape
+ok 2 sunbeam forest 37753 | tree, woods, fire, scotland, borders, forest, nature, landscape, light, sunset, sun, spring, green, leaves, environment, sunbeam, flies, fly, scottish
+ok 3 sunbeam forest 30222 | trees, light, forest, landscape, nature, mood, sunlight, mystical, lighting, fog, sunbeam, tree, autumn, shadow, sun, romantic, scotland, live wallpaper
+ok 4 hands holding sunset 6128 | hands, sunset, beach, summer, horizon, twilight, sea
+ok 5 sunbeam forest 143531 | winter, trees, snow, covered in snow, snow landscape, forest, sun, sunbeam, good weather, nature, person, to stroll, winter landscape, winter magic
+ok 6 hands holding 7817 | sparkler, sparkles, cinemagraph, holding, hands, firework, fire
+ok 7 calm lake 6443 | glass sphere, water, sun, waves, beach, stones, reflection, lake, bullet, glass, calm, quiet, meditative, sunset, evening, evening sun, ammersee, bavaria, germany
+ok 8 sun rays clouds 5151 | sky, rays, time lapse, clouds, sun, light, lights, motion graphics
+ok 9 church candles 228024 | candles, church, prayer, faith, christ, orthodoxy, religion
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+trilha 457 Inner Calm (Peaceful)
+[vost#0:0/rawvideo @ 0x613120635b80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x613120635800] Error muxing a packet
+[out#0/rawvideo @ 0x613120635800] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x613120635800] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5e320dab05c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5e320da1ef80] Error muxing a packet
+[out#0/rawvideo @ 0x5e320da1ef80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5e320da1ef80] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x56fbdbac6780] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x56fbdba16ac0] Error muxing a packet
+[out#0/rawvideo @ 0x56fbdba16ac0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x56fbdba16ac0] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5bcf3f257580] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5bcf3f1c1d40] Error muxing a packet
+[out#0/rawvideo @ 0x5bcf3f1c1d40] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5bcf3f1c1d40] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5fec12e446c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5fec12e41f40] Error muxing a packet
+[out#0/rawvideo @ 0x5fec12e41f40] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5fec12e41f40] Terminating thread with return code -32 (Broken pipe)
+ok enfermo-20261104-noite (49.0s, fundo=videos, voz=pt-BR-AntonioNeural)
+== salverainha-20261103-noite
+ok 0 candle light dark 579580 | candle, wick, flame, warm, fire, heat, wax, light, burn
+ok 1 night lake moon 1748853 | night, moon, lake, heaven, full moon, darkness, mood, background, moonlight, sea, water, boat, ship, reflection, mystical, romantic, beautiful wallpaper, nature, mysterious, dark, seem, sailboat, sailing ship, iphone wallpaper
+ok 2 praying hands light 4734433 | bokeh, hand, earth, keep, present, hope, leaf, healing, bible, camera, yoga, show, photography, globe, offer, people, lights, blur, light, hands, praying, woman, man, blue earth, blue yoga, blue hope, blue camera, blue bible, blue pray, blue globe, nature, blue photography, blue gift, blue bokeh
+ok 3 virgin mary statue 5429921 | mother of god, sculpture, maria, christianity, religion, holy, figure, christian, believe, woman, statue, pray, church, children, shrine, virgin mary, icon, virgin mary, virgin mary, virgin mary, virgin mary, virgin mary
+ok 4 white roses 4273843 | roses, beautiful flowers, flower wallpaper, white roses, flowers, nature, white, romantic, plants, flower background, decoration, beauty
+ok 5 rosary 1080174 | faith, breviary, religion, christian, rosary, spiritual, church, scripture, bible, catholicism, sacred, brown church, brown bible, rosary, rosary, rosary, rosary, rosary
+ok 6 rain window 2857829 | windmill, white windmill, rainy day, rain on window, view through a window, storm, grey day, gray rain, gray window, gray storm, rainy day, rainy day, rainy day, rainy day, rainy day
+ok 7 cathedral light 2356049 | cathedral, beauvais, picardy, france, gothic
+ok 8 crucifix church 91054 | wood, jesus, cross, old, weathered, cracks, black, white, nose, mouth, eyes, sleep, crucified, south-tirol, church, christian, crucifix
+ok 9 church candles 7749717 | cross, church, church interior, religion, candles, art, faith, cathedral, church, church, church, church, church, religion, religion, cathedral
+ok 10 virgin mary 950448 | statue, mary, jesus, religion, sculpture, religious, virgin, christian, madonna, spirituality, bible, christ, gray bible
+ok 11 sun rays clouds 6098406 | sunset, beach, sea, wave, sun, sunlight, horizon, sky, clouds, ocean, nature, water, seascape, scenery, scenic, dusk, mood
+ok 12 moon clouds night 4231466 | night sea, moon, sea, ocean, vertical, chilly, dark, darkness, blue, navy, the waves, empty sea, the horizon, atmosphere, night, mystical, nature, water
+ok 13 starry sky mountains 5742416 | night sky, mountains, stars, galaxy, milky way, starry sky, constellations, star gazing, skyscape, astronomy, starry night, landscape, sky, night, nature, starry, night sky, night sky, stars, stars, stars, stars, stars, galaxy, galaxy, galaxy, milky way, milky way, starry sky, star gazing, starry night, night, night
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+  idioma errado (it, pt=0.00) tentativa 1: Ó clemente, ó piedosa, ó doce sempre Virgem Maria.
+  idioma errado (it, pt=0.00) tentativa 2: Ó clemente, ó piedosa, ó doce sempre Virgem Maria.
+  trocando a narração inteira para a voz de reserva pt-BR-FranciscaNeural
+trilha 96 Floating Light (Peaceful)
+ok salverainha-20261103-noite (63.2s, fundo=fotos, voz=pt-BR-FranciscaNeural)
+3 vídeo(s) gerado(s)
+[vost#0:0/rawvideo @ 0x5718b0e2b780] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5718b0da9c80] Error muxing a packet
+[out#0/rawvideo @ 0x5718b0da9c80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5718b0da9c80] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5718b0da9c80] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5718b0da9c80] Error closing file: Broken pipe
