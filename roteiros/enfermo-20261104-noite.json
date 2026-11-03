@@ -1,7 +1,7 @@
 {
   "id": "enfermo-20261104-noite",
   "serie": "Oração por um enfermo",
-  "tema": "saude",
+  "tema": "fe",
   "trilha_tema": "paz",
   "fundo": "videos",
   "voz": "masculina",
@@ -30,16 +30,16 @@
   "cta_falado": "Escreva nos comentários o nome de quem precisa desta oração.",
   "cta_tipo": "nome",
   "cenas": [
-    "hands holding",
+    "woman praying nature",
     "cross hill sky",
     "light through window",
     "praying hands light",
     "hands holding sunset",
     "sunbeam forest",
-    "virgin mary statue",
+    "church candles",
     "calm lake",
     "sun rays clouds",
-    "church candles"
+    "candle light dark"
   ],
   "legenda": "Se alguém que você ama está doente, reze comigo por essa pessoa esta noite. 🙏🕯️\n\nEscreva nos comentários o nome de quem precisa desta oração, que eu rezo junto. E envie para quem está cuidando de um enfermo.\n\n#oracaopelosenfermos #saude #oração #fé #Jesus #nossasenhora #catolico #igrejacatolica #candeiadiaria",
   "slot": "noite",
