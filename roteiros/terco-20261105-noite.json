@@ -1,0 +1,59 @@
+{
+  "id": "terco-20261105-noite",
+  "serie": "Terço de quinta-feira",
+  "tema": "eucaristia",
+  "trilha_tema": "noite",
+  "fundo": "fotos",
+  "voz": "feminina",
+  "formato": "terco",
+  "estilo": "poppins",
+  "layout": "centro",
+  "linhas": [
+    "É quinta-feira à noite: reze comigo um mistério *luminoso* do terço.",
+    "Pegue o seu terço, ou apenas junte as mãos, e faça *silêncio*.",
+    "Quinto mistério luminoso: Jesus institui a *Eucaristia*.",
+    "Na Última Ceia, Jesus tomou o pão, deu graças e o *partiu*.",
+    "E disse aos discípulos: fazei isto em *memória* de mim.",
+    "Ele não quis nos deixar sozinhos; quis ficar *conosco*.",
+    "Em cada missa, o mesmo Jesus se entrega por *amor* a você.",
+    "Se hoje você se sente só, lembre que Ele está no *sacrário*.",
+    "Peçamos neste mistério a graça de amar a Eucaristia de *verdade*.",
+    "Jesus Eucarístico, fica comigo e com a minha *família* esta noite.",
+    "Agora, reze comigo uma Ave-Maria com todo o *coração*.",
+    "Ave Maria, cheia de graça, o Senhor é *convosco*.",
+    "Bendita sois vós entre as mulheres e bendito é o fruto do vosso ventre, *Jesus*.",
+    "Santa Maria, Mãe de Deus, rogai por nós, *pecadores*,",
+    "agora e na hora da nossa morte. *Amém*."
+  ],
+  "referencia": {
+    "linha": 5,
+    "texto": "Lucas 22,19"
+  },
+  "cta": [
+    "Siga a *Candeia*",
+    "e receba uma oração todos os dias"
+  ],
+  "cta_falado": "Siga a Candeia Diária para receber uma oração todos os dias.",
+  "cta_tipo": "seguir",
+  "cenas": [
+    "rosary hands",
+    "candle light dark",
+    "eucharist",
+    "chalice church",
+    "communion host",
+    "cross hill sky",
+    "church altar",
+    "monstrance",
+    "praying hands light",
+    "family walking beach sunset",
+    "praying hands rosary",
+    "virgin mary statue",
+    "white roses",
+    "church candles",
+    "starry sky mountains",
+    "moon clouds night"
+  ],
+  "legenda": "Quinta-feira é dia dos mistérios luminosos do terço. Reze comigo o quinto mistério, a instituição da Eucaristia, e termine a noite com uma Ave-Maria. 📿🕯️\n\nSalve para rezar de novo e siga a Candeia Diária para receber uma oração todos os dias. Escreva AMÉM se você rezou junto.\n\n#terço #misteriosluminosos #eucaristia #nossasenhora #catolico #igrejacatolica #oração #fé #candeiadiaria",
+  "slot": "noite",
+  "data": "2026-11-05"
+}

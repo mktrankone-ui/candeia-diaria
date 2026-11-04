@@ -1,0 +1,48 @@
+{
+  "id": "bomdia-20261105",
+  "serie": "Quinta-feira",
+  "tema": "amanhecer",
+  "trilha_tema": "amanhecer",
+  "fundo": "videos",
+  "voz": "masculina",
+  "formato": "bom_dia",
+  "estilo": "classico",
+  "layout": "centro",
+  "rodape": "Bom dia!",
+  "linhas": [
+    "Deus, hoje é quinta-feira, 5 de *novembro*, e eu Te entrego este dia.",
+    "Obrigado pelo descanso da noite e por este novo *amanhecer*.",
+    "Coloco em Tuas mãos tudo o que hoje me *preocupa*.",
+    "Abençoa o meu trabalho e confirma a obra das minhas *mãos*.",
+    "Que não falte o pão nem a *paz* dentro da minha casa.",
+    "Cuida dos meus pais, dos meus filhos e de todos que eu *amo*.",
+    "Santa Isabel e São Zacarias, lembrados hoje pela Igreja, rogai pelas nossas *famílias*.",
+    "Santo Anjo do Senhor, guarda os meus passos durante este *dia*.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {
+    "linha": 4,
+    "texto": "Salmo 90(89),17"
+  },
+  "cta": [
+    "Envie este bom dia para quem você *ama*",
+    "Uma oração pode mudar o dia de alguém"
+  ],
+  "cta_falado": "Envie este bom dia para quem você ama.",
+  "cta_tipo": "enviar",
+  "cenas": [
+    "sunrise ocean",
+    "morning mist lake",
+    "sun rays forest",
+    "hands holding sunset",
+    "wheat field sunset",
+    "family hug sunset",
+    "mother child sunset",
+    "sun rays clouds",
+    "sunrise cross",
+    "person arms open sunrise"
+  ],
+  "legenda": "Bom dia, Deus 🙏 Quinta-feira, 5 de novembro\n\nEntregue o seu dia e o seu trabalho nas mãos de Deus e envie esta oração para quem você ama. Hoje a Igreja recorda Santa Isabel e São Zacarias, pais de São João Batista. Escreva AMÉM se você rezou junto.\n\n#bomdia #bomdiadeus #oracao #quintafeira #candeiadiaria #catolico #igrejacatolica #santoanjo",
+  "slot": "bomdia",
+  "data": "2026-11-05"
+}
