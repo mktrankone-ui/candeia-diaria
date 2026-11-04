@@ -1,15 +1,92 @@
-== enfermo-20261104-noite
-ok 0 church candles 4724341 | candle, candles, christmas, lantern, happy birthday, flame, glow, mood, pray, dark, light, decoration, fires, hope, celebration, church, night, spirituality, romance, traditional, heat, praise, symbol
-ok 1 cross hill sky 5669872 | milky way, silhouette, cross, hill, stars, night, evening, starry sky, night sky, galaxy, universe, cosmos, astronomy, astrophotography, cross silhouette, starry night, constellations
-ok 2 cross sunset 420889 | cross, religion, christian, sunset, sunrise, path, lisdorf, saarlouis, saar, clouds, the shade, silhouette, the atmosphere, nature, heaven, evening atmosphere, backlighting, mood, light, landscape, atmospheric, grim, evening sky, outlook, cross, cross, cross, cross, cross, christian
-ok 3 praying hands light 6564949 | praying hands, faith, religion, pray, hand gesture, cross, jesus, prayer, meditation, relaxation, christianity, sea, nature, closeup
-ok 4 hands holding sunset 8288239 | holding hands, touching, supporting, support, assistance, care, concept, copy space, touching, support, support, support, support, support
-ok 5 sunbeam forest 1853487 | fog, forest, landscape, leaves, light, outdoors, scenic, sun, sun glare, sunbeam, sunlight, nature, trees, woods
-ok 6 virgin mary statue 5587850 | statue, sculpture, monument, virgin mary, maria, pillar, marien pillar, gold, baroque, architecture, believe, religion, catholic, church, prayer, christianity, beliefs, religious, spirituality, christian, hartberg, austria, styria
-ok 7 calm lake 2928758 | königssee, nature, outlook, lake, water, bavaria, trees, mountains, calm, idyllic, clouds, heaven, sun, sunbeams
-ok 8 sun rays clouds 7774089 | beach, sunset, sun rays, curacao, horizon, nature, ocean, dusk, twilight
-ok 9 church candles 1732280 | church, light, candles, hope, worships, faith, hope, hope, hope, hope, hope, worships, worships
+== bomdia-20261105
+ok 0 sunrise ocean 181815 | beach, waves, ocean, dawn, dusk, evening, reflection, rocks, sea, seascape, silhouette, slow mo, sun, sunrise, sunset, water
+ok 1 morning mist lake 116018 | loch, lake, water, blue, scotland, highlands, mountains, landscape, nature, trees, forest, drone, aerial, clouds, sky, mist, morning mist, morning due
+ok 2 sun rays forest 65055 | trees, forest, woods, sun, light, rays, beam, shine, pine, morning, sunlight, nature, spring, summer, sunrise, sunset, dawn, dusk, burst, 4k
+ok 3 morning mist lake 127993 | fog, sunrise, lake, morning, water, calm, peaceful, netherlands, drenthe, mist, drone, 4k, aerial, nature
+ok 4 wheat field sunset 213754 | field, rye, wheat, sun, wind
+ok 5 family hug sunset 45590 | sea, water, st petersburg, tower, sunset, wave, beauty, nature, silence, delight, love, journey, beach, handsomely, sun, vyborg, russia, music, alone, sky, family
+ok 6 mother child sunset 151296 | family, sunset, love, walking, care, children, father, mother
+ok 7 sun rays clouds 68515 | sunset, plane, sky, clouds, dawn, sun, twilight, outdoors, scenic, ray, reflections, nature, airport, landscape
+ok 8 morning mist lake 127995 | fog, sunrise, lake, morning, water, calm, peaceful, netherlands, drenthe, mist, drone, 4k, aerial, nature
+ok 9 sun rays forest 382584 | netherlands, sun rays, misty forest, sunlight, fog, woodland, nature, sunbeams, trees, morning light, atmospheric, forest
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 97 Weightless (Peaceful)
-ok enfermo-20261104-noite (49.0s, fundo=fotos, voz=pt-BR-AntonioNeural)
+trilha 119 New Dawn (Inspiring)
+[vost#0:0/rawvideo @ 0x5e0dd7bc5b80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5e0dd7bd7980] Error muxing a packet
+[out#0/rawvideo @ 0x5e0dd7bd7980] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5e0dd7bd7980] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x56dcf7e482c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x56dcf7e36dc0] Error muxing a packet
+[out#0/rawvideo @ 0x56dcf7e36dc0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x56dcf7e36dc0] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5f7d04e43b00] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5f7d04e43780] Error muxing a packet
+[out#0/rawvideo @ 0x5f7d04e43780] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5f7d04e43780] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x56a049a26b00] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x56a049a1b680] Error muxing a packet
+[out#0/rawvideo @ 0x56a049a1b680] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x56a049a1b680] Terminating thread with return code -32 (Broken pipe)
+ok bomdia-20261105 (47.8s, fundo=videos, voz=pt-BR-AntonioNeural)
+== terco-20261105-noite
+ok 0 chalice church 535153 | church, window, church window, stained glass, coloured, glass, old window, stained glass window, faith, apostle, johannes, evangelist, bible, chalice, christianity
+ok 1 candle light dark 1783922 | fire, flame, candle, burn, love, blaze, hot, valentine's day, burning love, symbol, feelings, valentine, warmth, heat, bright, flaming love, flaming, warm, light, seem, old, romantic, red, candle, candle, candle, candle, candle
+ok 2 eucharist 3204097 | monstrance, eucharist, communion, jesus christ, sacrament, cc0, monstrance, monstrance, monstrance, monstrance, monstrance, eucharist, eucharist, sacrament, sacrament
+ok 3 chalice church 101989 | chalice, church, religion, christ, cathedral, symbol, chalice, chalice, chalice, chalice, chalice
+ok 4 communion host 3213156 | eucharist, monstrance, host, communion, cc0, eucharist, eucharist, monstrance, monstrance, monstrance, monstrance, monstrance
+ok 5 cross hill sky 2868151 | cross, christ, jesus, religion, christianity, god, faith, crucifixion, holy, symbol, catholic, hill of crosses, lithuania, crucifixion, crucifixion, lithuania, lithuania, lithuania, lithuania, lithuania
+ok 6 church altar 1036727 | picture, relief, wood, historical, art, church, to carve, jesus, passion, altar, wood carving, good friday, crown of thorns, carving, gothic, jesus, good friday, good friday, good friday, good friday, good friday
+ok 7 monstrance 2603861 | light, praise, cross, monstrance, hands, worship, eucharist, catholic, church, dark, black cross, black church, praise, praise, monstrance, monstrance, monstrance, eucharist, eucharist, eucharist, eucharist, eucharist
+ok 8 praying hands light 1481827 | pray, prayer, spirituality, praying hands, hope, life, black hope, black life, black pray, black prayer, praying hands, praying hands, praying hands, praying hands, praying hands
+ok 9 family walking beach sunset 7579086 | woman, back, walking, nature, alone, beach, sea, ocean, sunset, sun, sky, reflect, wave
+ok 10 praying hands rosary 2185220 | religion, rosary, beads, christianity, faith, prayer, holy, catholic, symbol, crucifix, cross, catholicism, belief, praying, religious, god, pray, spirituality, christian, black cross, black god, black pray, black prayer, rosary, rosary, rosary, rosary, rosary
+ok 11 virgin mary statue 4283435 | ecuador, quito, panecillo, virgin, statue, quito, quito, quito, quito, quito
+ok 12 white roses 5692729 | garden roses, flowers, garden, white flowers, buds, beautiful flowers, bloom, blossom, flowering plant, ornamental plant, flower background, plant, flora, nature, flower wallpaper, closeup
+ok 13 church candles 2105006 | candles, church, light, worships, tea lights, faith, tuttlingen, germany, row, prayer, industrial fair, burn, fire
+ok 14 starry sky mountains 6272108 | night, mountains, village, field, meadow, house, rural, countryside, night sky, stars, starry, mountain range, nature, evening, dark
+ok 15 moon clouds night 4841357 | winter moon, moon, winter, night, nature, wintry, january, scenery
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+Traceback (most recent call last):
+  File "/home/runner/work/candeia-diaria/candeia-diaria/gerar.py", line 74, in main
+    tempos = narrar.narrar(rp, voz)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 243, in narrar
+    partes = gerar_todas(voz_usada)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 236, in gerar_todas
+    res = sintetiza_grupo(textos, g, cfg, voz, tmp)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 189, in sintetiza_grupo
+    marcas = tts(texto, base + ".mp3", voz, cfg["rate"], cfg["pitch"])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 88, in tts
+    marcas = asyncio.run(_tts(texto, destino, voz, rate, pitch))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 50, in _tts
+    async for ch in com.stream():
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/edge_tts/communicate.py", line 588, in stream
+    async for message in self.__stream():
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/edge_tts/communicate.py", line 562, in __stream
+    raise NoAudioReceived(
+edge_tts.exceptions.NoAudioReceived: No audio was received. Please verify that your parameters are correct.
 1 vídeo(s) gerado(s)
+[vost#0:0/rawvideo @ 0x5cc8a4fcf300] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5cc8a4f52c80] Error muxing a packet
+[out#0/rawvideo @ 0x5cc8a4f52c80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5cc8a4f52c80] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5cc8a4f52c80] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5cc8a4f52c80] Error closing file: Broken pipe

@@ -196,5 +196,23 @@
   "cta_tipo": "amem",
   "formato": "tradicional",
   "motor_voz": "edge"
+ },
+ "bomdia-20261105": {
+  "arquivo": "bomdia-20261105.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261105.mp4",
+  "serie": "Quinta-feira",
+  "legenda": "Bom dia, Deus 🙏 Quinta-feira, 5 de novembro\n\nEntregue o seu dia e o seu trabalho nas mãos de Deus e envie esta oração para quem você ama. Hoje a Igreja recorda Santa Isabel e São Zacarias, pais de São João Batista. Escreva AMÉM se você rezou junto.\n\n#bomdia #bomdiadeus #oracao #quintafeira #candeiadiaria #catolico #igrejacatolica #santoanjo",
+  "duracao": 47.8,
+  "fundo": "videos",
+  "trilha": {
+   "id": 119,
+   "titulo": "New Dawn (Inspiring)",
+   "url": "https://media.snipsound.com/audio/rf_cin02c_new_dawn_inspiring.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
  }
 }
