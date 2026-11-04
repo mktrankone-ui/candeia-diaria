@@ -186,7 +186,11 @@ def sintetiza_grupo(textos, idx, cfg, voz, tmp):
     texto = texto_tts(" ".join(textos[i] for i in idx))
     base = os.path.join(tmp, f"{voz}-{idx[0]:02d}-{len(idx)}")
     for n in range(TENTATIVAS):
-        marcas = tts(texto, base + ".mp3", voz, cfg["rate"], cfg["pitch"])
+        try:
+            marcas = tts(texto, base + ".mp3", voz, cfg["rate"], cfg["pitch"])
+        except Exception as e:  # ex.: NoAudioReceived do edge-tts; tenta de novo e, se insistir, voz de reserva
+            print(f"  falha na síntese ({type(e).__name__}) tentativa {n + 1}: {texto}", flush=True)
+            continue
         ok, lang, p = em_portugues(base + ".mp3")
         if ok:
             break
