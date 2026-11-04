@@ -205,14 +205,32 @@
   "duracao": 47.8,
   "fundo": "videos",
   "trilha": {
-   "id": 119,
-   "titulo": "New Dawn (Inspiring)",
-   "url": "https://media.snipsound.com/audio/rf_cin02c_new_dawn_inspiring.mp3"
+   "id": 117,
+   "titulo": "New Dawn (Uplifting)",
+   "url": "https://media.snipsound.com/audio/rf_cin02b_new_dawn_uplifting.mp3"
   },
   "voz": "pt-BR-AntonioNeural",
   "tipo_voz": "masculina",
   "cta_tipo": "enviar",
   "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "terco-20261105-noite": {
+  "arquivo": "terco-20261105-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/terco-20261105-noite.mp4",
+  "serie": "Terço de quinta-feira",
+  "legenda": "Quinta-feira é dia dos mistérios luminosos do terço. Reze comigo o quinto mistério, a instituição da Eucaristia, e termine a noite com uma Ave-Maria. 📿🕯️\n\nSalve para rezar de novo e siga a Candeia Diária para receber uma oração todos os dias. Escreva AMÉM se você rezou junto.\n\n#terço #misteriosluminosos #eucaristia #nossasenhora #catolico #igrejacatolica #oração #fé #candeiadiaria",
+  "duracao": 80.9,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 464,
+   "titulo": "Night Light (Sleepy)",
+   "url": "https://media.snipsound.com/audio/rf_med02a_2_night_light_sleepy.mp3"
+  },
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "seguir",
+  "formato": "terco",
   "motor_voz": "edge"
  }
 }

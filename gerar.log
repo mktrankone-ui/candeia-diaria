@@ -1,51 +1,62 @@
-== terco-20261105-noite
-ok 0 monstrance 1865983 | monstrance, religion, silversmith, host, sun, monstrance, monstrance, monstrance, monstrance, monstrance
-ok 1 candle light dark 11442 | candle, flame, light, wax, wax candle, burn, wick, yellow
-ok 2 eucharist 2771033 | eucharist, adoration, sacred, hope, sacrament, god, catholic, holy, christian, brown hope, brown god, eucharist, eucharist, eucharist, eucharist, eucharist
-ok 3 chalice church 2149824 | church window, confirmation, communion, eucharist chalice, confirmation, communion, communion, communion, communion, communion
-ok 4 communion host 699488 | monstrance, host, communion, catholic, eucharist, liturgy, believe, theology, christian, christianity, god, jesus, catholicism, religious, holy, christ, spirit, spiritual, sacred, gospel, bread, worship, supper, mass, pastor, pray, preach, rituals, cross, faith, religion, church, monstrance, monstrance, monstrance, monstrance, eucharist, eucharist, eucharist, eucharist, eucharist
-ok 5 church altar 7303845 | monastery, cathedral, faith, religion, christianity, styria, western styria, austria, altar, inner space, church, ecclesiastical, dom, pray, calm, silence, community, adoration, catholic, stainz
-ok 6 church altar 4286777 | altar, rococo, jesus, baptism, bible scene, church, faith, religion, dominikus zimmermann, landsberg, bavaria, rococo, rococo, rococo, rococo, rococo, baptism, baptism, Bavaria, Germany, Landsberg am Lech
-ok 7 monstrance 3215344 | eucharist, eucharistic procession, monstrance, cc0, eucharist, eucharist, eucharist, eucharist, eucharist, monstrance
-ok 8 praying hands light 2541823 | praying hands, religious, granite, plate, ornament, structure, stone, tombstone, graveyard, isolated, cropping, exemption, cut out, cutting out, praying hands, praying hands, praying hands, praying hands, praying hands, tombstone
-ok 9 family walking beach sunset 5053372 | beach, mother, sea, baby, nature, together, daughter, girl, child, happy, people, summer, sunset, family, woman, water, mom, walking, back, blue happy, blue walking, blue together
-ok 10 eucharist 6628192 | crucifix, cross, jesus, christ, religion, catholic, liturgy, communion, eucharist, bokeh, closeup, crucifix, crucifix, cross, jesus, liturgy, liturgy, liturgy, liturgy, liturgy, communion, communion, communion, communion, communion, eucharist
-ok 11 virgin mary statue 164076 | virgin, mary, madonna, jesus, baby, statue, christ, christian, holy, religious, christianity, bible, catholic, biblical, bethlehem, saint, nativity, christmas, xmas, spiritual, sculpture, sacred, gospel, brown bible, mary, mary, mary, mary, mary, madonna, jesus, catholic, nativity
-ok 12 white roses 673155 | bouquet, wedding, bride, beautiful flowers, bouquet of flowers, decoration, nature, flowers, the tradition of, flower wallpaper, white, roses, flower background, the ceremony
-ok 13 church candles 4681078 | flower, floral arrangement, floral decorations, decoration, lilies, white, roses, pink, candles, church
-ok 14 starry sky mountains 4742305 | starry sky, mountains, landscape, stars, night sky, space, heaven, universe, night, nature, astronomy, galaxy, milky way, the atmosphere, cosmos, scenic, winter, rock, winter landscape, snow, outlook, alps
-ok 15 moon clouds night 3244335 | nature, water, night sky, landscape, sky, moon, reflection, lake
+== bomdia-20261105
+ok 0 sunrise ocean 2950 | sea, sunrise, sunset, sun, ocean, aerial view, landscape, island, romantic, waves, calm
+ok 1 morning mist lake 226762 | canyon, river mist, early morning, flow, mist, natural, kyushu, japan
+ok 2 sun rays forest 203449 | forest, trees, sunlight, old forest, dark, woods, moss, pacific northwest, light, shine, rays, old, dark forest, green, beautiful, 4k video, sun, morning, nature
+ok 3 golden hour meadow 123300 | creek, sunset, field, golden hour, green, grass, aerial, drone, meadow, nature, landscape
+ok 4 wheat field sunset 62390 | wheat, field, barley, grass, sunset, wind, sunrise, golden, harvest, farmer, rural, cereals, grain, countryside, meadow, 4k
+ok 5 family walking field 267849 | man, walking, field, hiking, netherlands, drenthe, nature, tree, branches, spring, sunset, sun
+ok 6 mother child sunset 291961 | care, cute, child, love, family, mum, mother, baby, parent, mom, girl
+ok 7 sunrise mountains 205422 | sunrise, mountain village, mountains, snow, fog, snow landscape, timelapse
+ok 8 sunrise field 220345 | trees, sunrise, forest, woods, morning, fog, sunlight, wilderness, trail, sunbeams, misty, scenic, field, outdoors, nature, drenthe, netherlands, landscape, man, walking, alone, hiking, lonely
+ok 9 sunrise sky clouds 150944 | ocean, sunset, sunrise, seascape, seawaves, beach, waves, clouds, sky, relax, meditation, landscape
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-Traceback (most recent call last):
-  File "/home/runner/work/candeia-diaria/candeia-diaria/gerar.py", line 74, in main
-    tempos = narrar.narrar(rp, voz)
-             ^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 243, in narrar
-    partes = gerar_todas(voz_usada)
-             ^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 236, in gerar_todas
-    res = sintetiza_grupo(textos, g, cfg, voz, tmp)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 189, in sintetiza_grupo
-    marcas = tts(texto, base + ".mp3", voz, cfg["rate"], cfg["pitch"])
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 88, in tts
-    marcas = asyncio.run(_tts(texto, destino, voz, rate, pitch))
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/runners.py", line 195, in run
-    return runner.run(main)
-           ^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/runners.py", line 118, in run
-    return self._loop.run_until_complete(task)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
-    return future.result()
-           ^^^^^^^^^^^^^^^
-  File "/home/runner/work/candeia-diaria/candeia-diaria/narrar.py", line 50, in _tts
-    async for ch in com.stream():
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/edge_tts/communicate.py", line 588, in stream
-    async for message in self.__stream():
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/edge_tts/communicate.py", line 562, in __stream
-    raise NoAudioReceived(
-edge_tts.exceptions.NoAudioReceived: No audio was received. Please verify that your parameters are correct.
-0 vídeo(s) gerado(s)
+trilha 117 New Dawn (Uplifting)
+[vost#0:0/rawvideo @ 0x60b3706e8b00] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x60b370672140] Error muxing a packet
+[out#0/rawvideo @ 0x60b370672140] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x60b370672140] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x6022d1c7ff80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x6022d1c73340] Error muxing a packet
+[out#0/rawvideo @ 0x6022d1c73340] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x6022d1c73340] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x63e17838d040] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x63e178393b40] Error muxing a packet
+[out#0/rawvideo @ 0x63e178393b40] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x63e178393b40] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5567fee5ea00] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5567fee5e680] Error muxing a packet
+[out#0/rawvideo @ 0x5567fee5e680] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5567fee5e680] Terminating thread with return code -32 (Broken pipe)
+ok bomdia-20261105 (47.8s, fundo=videos, voz=pt-BR-AntonioNeural)
+== terco-20261105-noite
+ok 0 church altar 1606249 | cathedral, the immaculate conception, mobile, alabama, church, catholic, inside, interior, hdr, pews, altar, art, artwork, beautiful, details, faith, religion, prayer, worship, brown mobile, brown prayer, alabama, alabama, alabama, alabama, alabama
+ok 1 candle light dark 3977559 | light, candle, candles, romantic, glow, decoration, candlestick, chateau, former, twinkle, brilliant, light, candle, candlestick, candlestick, candlestick, candlestick, candlestick, chateau, chateau, chateau
+ok 2 eucharist 596933 | church, tabernacle, sanctuary, communion, catholic, religious, chapel, gold, christianity, eucharist, sacrament, tabernacle, tabernacle, tabernacle, tabernacle, tabernacle, eucharist
+ok 3 monstrance 2435932 | eucharist, monstrance, hostia, communion, eucharist, eucharist, eucharist, eucharist, eucharist, monstrance, monstrance
+ok 4 eucharist 1584503 | saint claire of assisi, catholic, saint, patron, italy, francis of assisi, eucharist, holy, nun, shrine, sicily, prayer, adoration, middle ages, piety, milazzo, brown prayer, body of christ, eucharist, eucharist, eucharist, eucharist, eucharist
+ok 5 eucharist 5183956 | eucharist, chalice, paten, communion, catholic, mass, jesus christ, eucharist, eucharist, eucharist, eucharist, eucharist, chalice, communion
+ok 6 church altar 4780440 | altar, interior, old church, sterzing, south tyrol, italy, religion, faith, christianity, church, religious, architecture, heilig geist spitalkirche
+ok 7 church altar 4402892 | church, altar, window, church window, nave, religion, chapel, inner space, candles, photo manipulation, space, lighting mood, beautiful wallpaper, the atmosphere, background, stained glass, illuminated, faith, old, space wallpaper, vintage, gothic, copy space, light, iphone wallpaper
+ok 8 eucharist 3105741 | chalice, gold chalice, eucharist, spiritual, christian, god, religious, catholicism, worship, communion, chalice, chalice, chalice, chalice, chalice
+ok 9 family walking beach sunset 4595716 | family, beach, bali, mother, father, child, woman, ocean, nature, love, together, summer, sand, people, parents, happy, happiness, resort, water, son, dad, travel, sunset, holiday, bonding
+ok 10 eucharist 4899770 | last supper, holy thursday, holy week, disciples, eucharist, christianity, religion, holy, christian, sacred, jesus, apostles, faith, church, glass painting, last supper, last supper, last supper, holy thursday, holy week, eucharist, eucharist, eucharist, eucharist, eucharist
+ok 11 virgin mary statue 140110 | church, sculpture, faith, religion, hdr, virgin mary, architecture, munich, germany, gray church, virgin mary, virgin mary, virgin mary, virgin mary, virgin mary, Munich, Germany, Bavaria
+ok 12 virgin mary 3810956 | virgin, christ, christmas, religion, statue, wooden, st, feelings, feeling, structure, texture, holy, motif, heaven, baby, virgin mary, madonna
+ok 13 church candles 21084 | bright, burn, candle, candlelight, celebration, christmas, church, dark, decorative, fire, flame, glow, glowing, holiday, light, lit, religion, religious, xmas, black fire, black church, black candle, black candles, black celebrate
+ok 14 starry sky mountains 8199764 | starry sky, milky way, mountains, camp, tent, japan, nature, camping, starry sky, starry sky, starry sky, starry sky, starry sky, milky way, milky way, tent, camping, camping, camping
+ok 15 moon clouds night 449475 | mackerel sky, moonlit night, clouds, night, moon, blue, night view, cloudy, nature, blue sky, blue moon, blue clouds, blue night, skyscape, cloudscape, natural phenomenon, Amakusa, Japan, Kumamoto
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+trilha 464 Night Light (Sleepy)
+ok terco-20261105-noite (80.9s, fundo=fotos, voz=pt-BR-ThalitaMultilingualNeural)
+2 vídeo(s) gerado(s)
+[vost#0:0/rawvideo @ 0x632545f7f9c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x632545ef1680] Error muxing a packet
+[out#0/rawvideo @ 0x632545ef1680] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x632545ef1680] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x632545ef1680] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x632545ef1680] Error closing file: Broken pipe
