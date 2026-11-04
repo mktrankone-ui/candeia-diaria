@@ -1,62 +1,21 @@
-== bomdia-20261105
-ok 0 sunrise ocean 2950 | sea, sunrise, sunset, sun, ocean, aerial view, landscape, island, romantic, waves, calm
-ok 1 morning mist lake 226762 | canyon, river mist, early morning, flow, mist, natural, kyushu, japan
-ok 2 sun rays forest 203449 | forest, trees, sunlight, old forest, dark, woods, moss, pacific northwest, light, shine, rays, old, dark forest, green, beautiful, 4k video, sun, morning, nature
-ok 3 golden hour meadow 123300 | creek, sunset, field, golden hour, green, grass, aerial, drone, meadow, nature, landscape
-ok 4 wheat field sunset 62390 | wheat, field, barley, grass, sunset, wind, sunrise, golden, harvest, farmer, rural, cereals, grain, countryside, meadow, 4k
-ok 5 family walking field 267849 | man, walking, field, hiking, netherlands, drenthe, nature, tree, branches, spring, sunset, sun
-ok 6 mother child sunset 291961 | care, cute, child, love, family, mum, mother, baby, parent, mom, girl
-ok 7 sunrise mountains 205422 | sunrise, mountain village, mountains, snow, fog, snow landscape, timelapse
-ok 8 sunrise field 220345 | trees, sunrise, forest, woods, morning, fog, sunlight, wilderness, trail, sunbeams, misty, scenic, field, outdoors, nature, drenthe, netherlands, landscape, man, walking, alone, hiking, lonely
-ok 9 sunrise sky clouds 150944 | ocean, sunset, sunrise, seascape, seawaves, beach, waves, clouds, sky, relax, meditation, landscape
-AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 117 New Dawn (Uplifting)
-[vost#0:0/rawvideo @ 0x60b3706e8b00] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x60b370672140] Error muxing a packet
-[out#0/rawvideo @ 0x60b370672140] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x60b370672140] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x6022d1c7ff80] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x6022d1c73340] Error muxing a packet
-[out#0/rawvideo @ 0x6022d1c73340] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x6022d1c73340] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x63e17838d040] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x63e178393b40] Error muxing a packet
-[out#0/rawvideo @ 0x63e178393b40] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x63e178393b40] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5567fee5ea00] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5567fee5e680] Error muxing a packet
-[out#0/rawvideo @ 0x5567fee5e680] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5567fee5e680] Terminating thread with return code -32 (Broken pipe)
-ok bomdia-20261105 (47.8s, fundo=videos, voz=pt-BR-AntonioNeural)
 == terco-20261105-noite
-ok 0 church altar 1606249 | cathedral, the immaculate conception, mobile, alabama, church, catholic, inside, interior, hdr, pews, altar, art, artwork, beautiful, details, faith, religion, prayer, worship, brown mobile, brown prayer, alabama, alabama, alabama, alabama, alabama
-ok 1 candle light dark 3977559 | light, candle, candles, romantic, glow, decoration, candlestick, chateau, former, twinkle, brilliant, light, candle, candlestick, candlestick, candlestick, candlestick, candlestick, chateau, chateau, chateau
-ok 2 eucharist 596933 | church, tabernacle, sanctuary, communion, catholic, religious, chapel, gold, christianity, eucharist, sacrament, tabernacle, tabernacle, tabernacle, tabernacle, tabernacle, eucharist
-ok 3 monstrance 2435932 | eucharist, monstrance, hostia, communion, eucharist, eucharist, eucharist, eucharist, eucharist, monstrance, monstrance
-ok 4 eucharist 1584503 | saint claire of assisi, catholic, saint, patron, italy, francis of assisi, eucharist, holy, nun, shrine, sicily, prayer, adoration, middle ages, piety, milazzo, brown prayer, body of christ, eucharist, eucharist, eucharist, eucharist, eucharist
-ok 5 eucharist 5183956 | eucharist, chalice, paten, communion, catholic, mass, jesus christ, eucharist, eucharist, eucharist, eucharist, eucharist, chalice, communion
-ok 6 church altar 4780440 | altar, interior, old church, sterzing, south tyrol, italy, religion, faith, christianity, church, religious, architecture, heilig geist spitalkirche
-ok 7 church altar 4402892 | church, altar, window, church window, nave, religion, chapel, inner space, candles, photo manipulation, space, lighting mood, beautiful wallpaper, the atmosphere, background, stained glass, illuminated, faith, old, space wallpaper, vintage, gothic, copy space, light, iphone wallpaper
-ok 8 eucharist 3105741 | chalice, gold chalice, eucharist, spiritual, christian, god, religious, catholicism, worship, communion, chalice, chalice, chalice, chalice, chalice
-ok 9 family walking beach sunset 4595716 | family, beach, bali, mother, father, child, woman, ocean, nature, love, together, summer, sand, people, parents, happy, happiness, resort, water, son, dad, travel, sunset, holiday, bonding
-ok 10 eucharist 4899770 | last supper, holy thursday, holy week, disciples, eucharist, christianity, religion, holy, christian, sacred, jesus, apostles, faith, church, glass painting, last supper, last supper, last supper, holy thursday, holy week, eucharist, eucharist, eucharist, eucharist, eucharist
-ok 11 virgin mary statue 140110 | church, sculpture, faith, religion, hdr, virgin mary, architecture, munich, germany, gray church, virgin mary, virgin mary, virgin mary, virgin mary, virgin mary, Munich, Germany, Bavaria
-ok 12 virgin mary 3810956 | virgin, christ, christmas, religion, statue, wooden, st, feelings, feeling, structure, texture, holy, motif, heaven, baby, virgin mary, madonna
-ok 13 church candles 21084 | bright, burn, candle, candlelight, celebration, christmas, church, dark, decorative, fire, flame, glow, glowing, holiday, light, lit, religion, religious, xmas, black fire, black church, black candle, black candles, black celebrate
-ok 14 starry sky mountains 8199764 | starry sky, milky way, mountains, camp, tent, japan, nature, camping, starry sky, starry sky, starry sky, starry sky, starry sky, milky way, milky way, tent, camping, camping, camping
-ok 15 moon clouds night 449475 | mackerel sky, moonlit night, clouds, night, moon, blue, night view, cloudy, nature, blue sky, blue moon, blue clouds, blue night, skyscape, cloudscape, natural phenomenon, Amakusa, Japan, Kumamoto
+ok 0 eucharist 519578 | communion, wafers, christianity, sacrament, jesus, eucharist, liturgy, communion, eucharist, eucharist, eucharist, eucharist, eucharist, liturgy
+ok 1 candle light dark 4710926 | lantern, light, candle, graveyard, darkness, shining, floor, peace, peaceful, harmony, lantern, lantern, lantern, lantern, lantern, candle, candle, candle, graveyard, peace, peace, peace, peace, peace, peaceful, peaceful
+ok 2 eucharist 7364362 | fish, grapes, candles, nature, mass, vermicelli, catholic, religion, adoration, eucharist, catholic priest
+ok 3 eucharist 7364364 | five loaves and two fish, vermicelli, mass, catholic, religion, adoration, eucharist, grapes, catholic priest, eucharist, eucharist, eucharist, eucharist, eucharist
+ok 4 church altar 4665914 | easter pictures, easter, easter image, easter theme, easter night, resurrected christ, church, altar, easter pictures, easter night, easter night, easter night, easter night, easter night, resurrected christ, resurrected christ
+ok 5 church altar 4051681 | church, inner space, baptismal font, religion, architecture, altar, old, faith, light, chapel, glass, stained glass window
+ok 6 church altar 7498975 | church, faith, religion, altar, cathedral, christianity, dom, catholic, brno, pray, church window, stained glass window
+ok 7 church altar 7201447 | wedding, bride, woman, church, altar, caucasian, beautiful, portrait
+ok 8 cathedral light 7741260 | nave, altar, columns, rosette, rose window, church art, cathedral, architecture, faith, pray, religion, catholic
+ok 9 family walking beach sunset 7685964 | sunset, beach, nature, woman, reflection, walking, ocean, sky, dusk, twilight
+ok 10 church altar 4763233 | altar, church, religion, faith, pray, chapel, inner space, christianity, cathedral, old, sightseeing
+ok 11 virgin mary statue 189577 | heaven, clouds, nature, eve, statue of mary
+ok 12 virgin mary 2026872 | engraving, annunciation, virgin mary, angel, wall, church, stone, religion, architecture, orthodox, cyprus, ayia napa, brown church, brown angel, annunciation, annunciation, annunciation, annunciation, annunciation
+ok 13 church candles 4709084 | candles, church, candle, light, flame
+ok 14 starry sky mountains 4742288 | starry sky, mountains, landscape, stars, night sky, space, heaven, universe, night, nature, astronomy, galaxy, milky way, the atmosphere, cosmos, scenic, winter, trees, winter landscape, snow, forest, outlook, alps
+ok 15 moon clouds night 1415723 | tower, fishing, night, fishing rod, moon, moonlight, full moon, fish, angler, water, fisherman, lake, peaceful, mood, evening, evening atmosphere, twilight, leisure, underwater, clouds, nature, dark, tower, fishing, moon, moon, moon, moon, moon, moonlight, fish, fish, underwater, underwater, underwater, underwater, nature
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
 trilha 464 Night Light (Sleepy)
 ok terco-20261105-noite (80.9s, fundo=fotos, voz=pt-BR-ThalitaMultilingualNeural)
-2 vídeo(s) gerado(s)
-[vost#0:0/rawvideo @ 0x632545f7f9c0] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x632545ef1680] Error muxing a packet
-[out#0/rawvideo @ 0x632545ef1680] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x632545ef1680] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x632545ef1680] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x632545ef1680] Error closing file: Broken pipe
+1 vídeo(s) gerado(s)
