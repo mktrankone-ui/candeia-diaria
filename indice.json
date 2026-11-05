@@ -232,5 +232,41 @@
   "cta_tipo": "seguir",
   "formato": "terco",
   "motor_voz": "edge"
+ },
+ "bomdia-20261106": {
+  "arquivo": "bomdia-20261106.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261106.mp4",
+  "serie": "Sexta-feira",
+  "legenda": "Bom dia, Deus 🙏 Sexta-feira, 6 de novembro\n\nHoje é primeira sexta-feira do mês, dia de entregar a vida ao Sagrado Coração de Jesus. Envie este bom dia para quem você ama e escreva AMÉM se você rezou junto.\n\n#bomdia #bomdiadeus #oracao #sextafeira #candeiadiaria #catolico #sagradocoracao #igrejacatolica",
+  "duracao": 47.2,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 114,
+   "titulo": "Horizon Line (Hopeful)",
+   "url": "https://media.snipsound.com/audio/rf_cin02a_2_horizon_line_hopeful.mp3"
+  },
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "sagradocoracao-20261106-noite": {
+  "arquivo": "sagradocoracao-20261106-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/sagradocoracao-20261106-noite.mp4",
+  "serie": "Oração ao Sagrado Coração",
+  "legenda": "Primeira sexta-feira do mês é dia de entregar tudo ao Sagrado Coração de Jesus. Reze comigo esta noite e deixe nas mãos Dele as feridas que você carrega. 🙏\n\nSe você crê, escreva AMÉM. E envie esta oração para alguém que está com o coração cansado.\n\n#sagradocoracao #sagradocoracaodejesus #primeirasextafeira #oração #fé #Jesus #catolico #igrejacatolica #candeiadiaria",
+  "duracao": 50.9,
+  "fundo": "videos",
+  "trilha": {
+   "id": 96,
+   "titulo": "Floating Light (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_amb01a_floating_light_peaceful.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "amem",
+  "formato": "oracao",
+  "motor_voz": "edge"
  }
 }
