@@ -1,0 +1,47 @@
+{
+  "id": "sagradocoracao-20261106-noite",
+  "serie": "Oração ao Sagrado Coração",
+  "tema": "cura",
+  "trilha_tema": "paz",
+  "fundo": "videos",
+  "voz": "masculina",
+  "formato": "oracao",
+  "estilo": "montserrat",
+  "layout": "baixo",
+  "linhas": [
+    "Primeira sexta-feira do mês: entregue o seu coração ferido ao *Sagrado Coração*.",
+    "Senhor Jesus, Tu conheces as dores que eu não conto a *ninguém*.",
+    "A Tua Palavra diz que Tu curas os corações *despedaçados*.",
+    "Toca as feridas que o tempo ainda não conseguiu *fechar*.",
+    "Tira de mim a mágoa, o medo e o *cansaço* desta semana.",
+    "Esconde o meu coração dentro do Teu Coração aberto na *cruz*.",
+    "Repita comigo: Jesus, manso e humilde de coração, fazei o meu coração semelhante ao *vosso*.",
+    "Sagrado Coração de Jesus, eu tenho *confiança* em vós.",
+    "Por Cristo, nosso Senhor, *amém*."
+  ],
+  "referencia": {
+    "linha": 3,
+    "texto": "Salmo 147(146),3"
+  },
+  "cta": [
+    "Se você crê, escreva *AMÉM*",
+    "Siga para orar todos os dias"
+  ],
+  "cta_falado": "Se você crê, escreva amém nos comentários.",
+  "cta_tipo": "amem",
+  "cenas": [
+    "church candles",
+    "man thinking nature",
+    "sunbeam forest",
+    "river stream forest",
+    "fog forest",
+    "cross sunset",
+    "praying hands light",
+    "candle light dark",
+    "light through window",
+    "starry sky mountains"
+  ],
+  "legenda": "Primeira sexta-feira do mês é dia de entregar tudo ao Sagrado Coração de Jesus. Reze comigo esta noite e deixe nas mãos Dele as feridas que você carrega. 🙏\n\nSe você crê, escreva AMÉM. E envie esta oração para alguém que está com o coração cansado.\n\n#sagradocoracao #sagradocoracaodejesus #primeirasextafeira #oração #fé #Jesus #catolico #igrejacatolica #candeiadiaria",
+  "slot": "noite",
+  "data": "2026-11-06"
+}

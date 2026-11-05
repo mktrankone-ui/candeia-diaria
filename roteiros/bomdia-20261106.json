@@ -1,0 +1,48 @@
+{
+  "id": "bomdia-20261106",
+  "serie": "Sexta-feira",
+  "tema": "amanhecer",
+  "trilha_tema": "amanhecer",
+  "fundo": "fotos",
+  "voz": "feminina",
+  "formato": "bom_dia",
+  "estilo": "classico",
+  "layout": "baixo",
+  "rodape": "Bom dia!",
+  "linhas": [
+    "Deus, hoje é sexta-feira, 6 de novembro, e eu acordo procurando por *Ti*.",
+    "Desde o amanhecer a minha alma tem *sede* da Tua presença.",
+    "Obrigada por mais um dia de *vida* e pela noite que passou.",
+    "Nesta primeira sexta-feira do mês, entrego o meu dia ao Teu Sagrado *Coração*.",
+    "Tudo o que hoje me pesa, eu deixo agora em Tuas *mãos*.",
+    "Abençoa o meu trabalho, os meus estudos e cada *caminho* de hoje.",
+    "Guarda a minha família e todos que eu amo, perto ou *longe*.",
+    "Nossa Senhora, cobre a minha casa com o teu *manto* de mãe.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {
+    "linha": 2,
+    "texto": "Salmo 63(62),2"
+  },
+  "cta": [
+    "Envie este bom dia para quem você *ama*",
+    "Uma oração pode mudar o dia de alguém"
+  ],
+  "cta_falado": "Envie este bom dia para quem você ama.",
+  "cta_tipo": "enviar",
+  "cenas": [
+    "sunrise mountains",
+    "waterfall sunlight",
+    "golden hour meadow",
+    "crucifix church",
+    "praying hands light",
+    "person walking road sunrise",
+    "family hug sunset",
+    "virgin mary statue",
+    "sun rays clouds",
+    "woman walking field sunset"
+  ],
+  "legenda": "Bom dia, Deus 🙏 Sexta-feira, 6 de novembro\n\nHoje é primeira sexta-feira do mês, dia de entregar a vida ao Sagrado Coração de Jesus. Envie este bom dia para quem você ama e escreva AMÉM se você rezou junto.\n\n#bomdia #bomdiadeus #oracao #sextafeira #candeiadiaria #catolico #sagradocoracao #igrejacatolica",
+  "slot": "bomdia",
+  "data": "2026-11-06"
+}
