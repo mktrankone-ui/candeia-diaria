@@ -1,0 +1,48 @@
+{
+  "id": "bomdia-20261108",
+  "serie": "Domingo",
+  "tema": "amanhecer",
+  "trilha_tema": "amanhecer",
+  "fundo": "fotos",
+  "voz": "feminina",
+  "formato": "bom_dia",
+  "estilo": "classico",
+  "layout": "baixo",
+  "rodape": "Bom dia!",
+  "linhas": [
+    "Deus, hoje é domingo, 8 de novembro, e eu quero começar este dia na Tua *luz*.",
+    "Obrigada pelo domingo, dia da *ressurreição* do Teu Filho.",
+    "No Evangelho de hoje, as moças prudentes levaram *óleo* para as suas lâmpadas.",
+    "Que a minha lâmpada também esteja *acesa*, cheia de fé e de amor.",
+    "Não me deixes viver distraída: ensina-me a *esperar* por Ti com alegria.",
+    "Abençoa a minha família reunida, a missa de hoje e o nosso *descanso*.",
+    "Guarda quem eu amo e cuida de quem está *sozinho* neste domingo.",
+    "Nossa Senhora, ensina-me a guardar tudo no *coração*, como tu guardaste.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {
+    "linha": 3,
+    "texto": "Mateus 25,4"
+  },
+  "cta_tipo": "enviar",
+  "cenas": [
+    "sunrise mountains",
+    "sun rays clouds",
+    "candle light dark",
+    "church candles",
+    "light through trees",
+    "golden hour meadow",
+    "family walking field",
+    "white roses",
+    "sunrise cross",
+    "sunrise ocean"
+  ],
+  "legenda": "Bom dia, Deus 🙏 Domingo, 8 de novembro\n\nNo Evangelho deste domingo, as lâmpadas acesas das moças prudentes (Mateus 25,1-13). Que a nossa candeia esteja sempre acesa! Envie este bom dia para quem você ama e escreva AMÉM se você rezou junto.\n\n#bomdia #bomdiadeus #oracao #domingo #candeiadiaria #catolico #evangelhododia #igrejacatolica",
+  "slot": "bomdia",
+  "data": "2026-11-08",
+  "cta": [
+    "Envie este bom dia para quem você *ama*",
+    "Uma oração pode mudar o dia de alguém"
+  ],
+  "cta_falado": "Envie este bom dia para quem você ama."
+}
