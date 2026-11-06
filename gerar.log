@@ -1,51 +1,151 @@
-== bomdia-20261106
-ok 0 sunrise mountains 7631311 | sunrise, lake geneva, nature, nature wallpaper, mobile wallpaper, lake, switzerland, mountains, mobile wallpaper, mobile wallpaper, mobile wallpaper, mobile wallpaper, mobile wallpaper
-ok 1 waterfall sunlight 4591082 | lake, forest, trees, woods, water, waterfall, sunlight, sunbeam, morning, fog, mist, scenery, scenic, nature, forest, waterfall, waterfall, waterfall, waterfall, waterfall
-ok 2 golden hour meadow 793453 | person, human, girl, nature, landscape, sunlight, lighting mood, meadow
-ok 3 crucifix church 198346 | color key, church, altar, old, jesus, black, white, wood, cross, christian, crucifix, stone, crucified, cracks, sandstone look
-ok 4 sunrise mountains 5860108 | bay, mountains, sunrise, morning, mist, fog, foggy, trees, beach, sea, coast, coastline, seashore, shore, mountain range, scenic, nature
-ok 5 person walking road sunrise 2598849 | road, path, green, grass, trees, plant, people, walking, alone, girl, outdoor, nature, brown alone, brown walking, brown path
-ok 6 family walking field 2212091 | father, son, walking, child, family, boy, people, parent, man, together, happy, kid, young, dad, fun, love, smile, childhood, lifestyle, portrait, male, father and son, outdoor, father, father, son, family, boy, dad, dad, dad, dad, father and son, father and son, father and son, father and son, father and son
-ok 7 sunrise ocean 8120453 | sea, ocean, sunrise, waves, clouds, seascape, nature, United States, Florida, Riviera Beach
-ok 8 sun rays clouds 83550 | tree, sunset, beautiful, heaven, clouds, orange, red, quiet, nature, landscape, surreal, dusk, sunbeams, sun, downfall, the atmosphere, mood, eve, grass, grasses, ambience, leaves, orange, orange, ambience, ambience, ambience, ambience, ambience, leaves, leaves
-ok 9 golden hour meadow 6303966 | sunset, field, tree, grass, grassland, single tree, sundown, dusk, twilight, setting sun, sky, nature, fog, landscape, clouds, meadow, horizon, sunlight, light, sun, single tree, single tree, single tree, single tree, single tree, sun
+== bomdia-20261107
+ok 0 sunrise ocean 252124 | sea, ocean, waves, seascape, outdoors, coast, foam, sunrise, drone photography, nature
+ok 1 sunrise sky clouds 22670 | sunset, aerial view, drone, landscape, nature, summer, sun, heaven, dusk, clouds, sunrise, weather, mood, sky, cologne, aerial, factories, move, steam, romantic
+ok 2 morning mist lake 36956 | lake, mist, morning, mountains, park, peak, pine, rocky, summer, sunrise, water, wonderland
+ok 3 person walking road sunrise 139362 | beach, sand, sunrise, shore, water, sea, ocean, gran canaria, spain, summer, running, man, woman, hiking, walking
+ok 4 family walking beach sunset 1410 | scandinavia, arctic, landscape, coast, shore, ocean, sea, summer, person, beach, walking, sunset, evening, scenic, peaceful, nature, water, outdoor, nordic, fjord, polar, 146327723
+ok 5 man walking mountain sunrise 130984 | sunrise, early, morning, nature, forest, man, hiking, walking, alone, fog, mist, quiet, landscape, dwingelderveld, drenthe, netherlands
+ok 6 sunrise mountains 152699 | mountains, peaks, fog, sunrise, nature
+ok 7 path forest light 33481 | forest, nature, summer, landscape, trees, path, tree, green, light, wood, leaves, sun, spring, hiking, new, york, plant, travel, sunny, sunrise
+ok 8 sun rays clouds 145382 | east, nature, sunrise, mountain, sunset, sky, clouds, sun, landscape, vassilis lappas, sun rays
+ok 9 sunrise field 220342 | trail, trees, forest, woods, sunrise, morning, fog, sunlight, wilderness, sunbeams, misty, mystical, scenic, field, outdoors, drenthe, netherlands, nature, landscape
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+trilha 115 New Dawn (Hopeful)
+[vost#0:0/rawvideo @ 0x63e1f45bfd80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x63e1f45bfa00] Error muxing a packet
+[out#0/rawvideo @ 0x63e1f45bfa00] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x63e1f45bfa00] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x63e7e616b180] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x63e7e6136d80] Error muxing a packet
+[out#0/rawvideo @ 0x63e7e6136d80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x63e7e6136d80] Terminating thread with return code -32 (Broken pipe)
+ok bomdia-20261107 (48.4s, fundo=videos, voz=pt-BR-AntonioNeural)
+== bomdia-20261108
+ok 0 sunrise mountains 1226038 | east, mountains, friends, landscape, nature, morning, in the morning, view, sky, shadows, clouds, tree, trees, sunrise, dawn, contrast, friends, friends, friends, friends, friends, sunrise
+ok 1 sun rays clouds 5003863 | cloud, blue sky, sky, sun, landscape, clouds, beach, weather, cumulus, blue, summer, atmosphere, nature
+ok 2 candle light dark 2765680 | flames, fire, woman, inflamed, light, candle, fancy, magic, ignite, fire, fire, fire, fire, fire, candle, candle, candle, candle, magic, magic, ignite, ignite, ignite, ignite
+ok 3 sun rays forest 8726357 | tree, view, nature, forest, sky, flower, flower wallpaper, clouds, autumn, flower background, beautiful flowers, silhouette, horizon, rural, that, park, green, wood, summer, sun shine, sunrise, sun
+ok 4 sunrise ocean 5128223 | sunrise, beach, ocean, sky, nature, landscape, morning, sea, sun
+ok 5 golden hour meadow 5737102 | highland cow, animal, pasture, nature, beautiful wallpaper, cow, highland cattle, cattle, mammal, livestock, meadow, field, countryside, background, fluffy, hairy, cows, highland cows, iphone wallpaper
+ok 6 family walking field 6002642 | family, walk, beach, holding hands, walking, baby, kids, children, love, adorable, childhood, dad, mom, mother, father, parents, sunset, together, bonding, leisure, happiness, vacation, holiday, portrait, nature, family portrait
+ok 7 white roses 2663492 | rose, white, blossom, bloom, flower wallpaper, white roses, flower, beautiful flowers, rose flower, flower background, nature, way of the roses, rose blossom, beautiful, plant, blooming, garden rose, wonder, bud, rose blooms, white rose
+ok 8 sunrise cross 700269 | summit cross, sunrise, mountain, nature, alps, high staufen, bavaria, rupertigau, Bad Reichenhall, Germany, Bavaria
+ok 9 sunrise ocean 1839320 | beach, dawn, nature, ocean, rocks, sand, sea, seascape, seashore, sky, sun, sunrise, sunset, water
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+trilha 115 New Dawn (Hopeful)
+ok bomdia-20261108 (51.0s, fundo=fotos, voz=pt-BR-ThalitaMultilingualNeural)
+== bomdia-20261109
+ok 0 sunrise field 130182 | sunrise, fog, field, trees, forest, drone, 4k, aerial, netherlands, drenthe, nature
+ok 1 sunrise mountains 131670 | sunrise, sky, colorful, clouds, mountains, horizon, beautiful, landscape, scenic, nature, scenery, stunning, mountain sunrise, clouds moving, lapse, sun, rise, dawn, morning
+ok 2 golden hour meadow 366357 | countryside, countryside field, rural, rural landscape, field, meadow, grass, green field, sunshine, sunlight, sunny, golden hour, clouds, nature, natural scenery, greenery, agriculture, farming, farmland, pasture, open field, outdoor, environment, ecology
+ok 3 sunrise mountains 119242 | lake, mountains, sunset, sunrise, relaxing, calm, nature
+ok 4 morning mist lake 127992 | fog, sunrise, lake, morning, water, calm, peaceful, netherlands, drenthe, mist, drone, 4k, aerial, nature, relaxing smooth
+ok 5 waterfall sunlight 174495 | waterfall, river, stream, trees, nature, forest, woods, sky, sun, sunlight, sunrise, sunbeams, sunrays, water reflection, summer, landscape
+ok 6 person walking road sunrise 147898 | road, sunrise, trees, forest, lights, haze, morning, asphalt, netherlands, vertical
+ok 7 family walking field 220221 | ducks, duck family, mother duck, baby duck, park, walk, toddle, outdoor, field, lakeside, pond
+ok 8 sun rays clouds 38585 | timelapse, sunset, dusk, clouds, reflection, water, time-lapse, moving, cirrus, cumulonimbus yellow sky, orange, sun rays, sunset to night, lake, sunset video, audio, sound effects, sound, nature, mobile, photography, smoke
+ok 9 sunrise sky clouds 1844 | sunrise, sunset, weather, sky, clouds, twilight, atmosphere, timelapse
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
 trilha 114 Horizon Line (Hopeful)
-ok bomdia-20261106 (47.2s, fundo=fotos, voz=pt-BR-ThalitaMultilingualNeural)
-== sagradocoracao-20261106-noite
-ok 0 candle light 2530 | bright, burn, burning, candle, candlelight, celebration, ceremony, decorative, fire, flame, glare, glow, glowing, heat, hot, light, melting, wax, heart, ball of string, time lapse
-ok 1 candle light 98895 | candle, red, christmas, light, flame, burn, lights, bokeh, fairy lights, mood, advent, decoration, multicoloured, fire, warmth
-ok 2 sunbeam forest 50750 | sunrise, fog, forest, trees, nature, sunbeam, bushes, clouds, dawn, sky
-ok 3 river stream forest 174860 | river, stream, waterfall, trees, forest, mountain river, landscape, nature
-ok 4 fog forest 321986 | fog, fog roller, foggy, wisps of mist, forest
-ok 5 sunbeam forest 118965 | treetops, panning, animals, sunlight, sunbeam, trees, field, forest, green, beautiful, nature
-ok 6 lamb field 10649 | sheep, meadow, field, tuttlingen, germany, flesh, agriculture, summer, nature, wool, pasture, animal, birth, graze, lamb, herd, grass, alm, scotland, bible, faith, religion, damn, knit, template, farm, farmer
-ok 7 candle light dark 57331 | candle, christmas, flame, light, candlelight, burn, glittering, thoughtful, dark, religion, outdoors, contemplative, copy space, darkness, fire
-ok 8 candle light 1212 | candle, flame, fire, heat, warm, to burn, light
-ok 9 starry sky mountains 232408 | mountains, sea of clouds, hotakadake, japan, northern alps, milky way, starry sky, night sky
+[vost#0:0/rawvideo @ 0x5d2a06806fc0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5d2a0681a280] Error muxing a packet
+[out#0/rawvideo @ 0x5d2a0681a280] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5d2a0681a280] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5bd8157cf4c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5bd8157c2580] Error muxing a packet
+[out#0/rawvideo @ 0x5bd8157c2580] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5bd8157c2580] Terminating thread with return code -32 (Broken pipe)
+ok bomdia-20261109 (49.9s, fundo=videos, voz=pt-BR-AntonioNeural)
+== emprego-20261109-noite
+ok 0 person walking road sunrise 2569740 | people, woman, walking, hike, trek, umbrella, rain, alone, road, travel, adventure, woods, forest, nature, blue forest, blue travel, blue rain, blue road, blue alone, blue walking, blue umbrella, umbrella, rain, rain, rain, rain, rain, alone, alone, alone
+ok 1 man thinking nature 4260405 | portrait, man, sit, thinking, male, young
+ok 2 road mountains sunrise 6484591 | winding road, clouds, mountains, sunrise, nature, aerial view, foggy, morning mist
+ok 3 path forest light 7229403 | trees, forest, nature, landscape, path, woods
+ok 4 person walking road sunrise 3528324 | travel, wanderlust, woods, walking, moody, forest, nature, road, landscape
+ok 5 hands holding sunset 2498657 | walking, beach, couple, nature, resort, vacation, holding hands, paradise, leisure
+ok 6 father son nature 1804439 | biking, family, adventure, bicycle, bike, happy, people, father, child, ride, active, healthy, leisure, lifestyle, helmet, children, together, activity, cycle, bike riding, outdoors, son, boy, young, dad, nature, park, brown bike, brown together, biking, family, family, family, bicycle, people, people, people, children, bike riding, bike riding, bike riding, bike riding, bike riding, park
+ok 7 sunrise field 2571448 | people, man, nature, guy, alone, hoodie, highland, field, sunrise, sunset, sunlight
+ok 8 sunrise field 6359272 | field, road, sunrise, farm, meadow, rural road, sun, sunlight, sky, clouds, morning, grass, trees, agriculture, rural, landscape, nature, countryside, munich, germany
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 457 Inner Calm (Peaceful)
-[vost#0:0/rawvideo @ 0x6448200cd040] Error submitting a packet to the muxer: Broken pipe
+trilha 118 Horizon Line (Inspiring)
+ok emprego-20261109-noite (42.9s, fundo=fotos, voz=pt-BR-ThalitaMultilingualNeural)
+== lembraivos-20261107-noite
+ok 0 candle light dark 181646 | candle, light, atmosphere, candlelight
+ok 1 rain window 4811599 | rain, weather, storm, thunder, water, thunderstorm, wet, sky, dark, clouds, raining, window, airport, seattle, air travel, raindrop, shower, nature, airplane, plane, flight, aircraft, transportation, airline, tarmac
+ok 2 virgin mary statue 1238503 | virgin, statue, religion, church, france, holy, jesus christ, virgin and child statue, story, mother and child, pierre, the virgin and the child, virgin and child, christian, normady, mortemer abbey, lyons-la-foret
+ok 3 white roses 4497826 | flowers, roses, white, blooms, flower background, beautiful flowers, perfume, fragrance, garden, flower wallpaper, nature
+ok 4 rosary 4256676 | stained glass, colorful, light, virgin, married, bernadette, holy, heavy, glass, color, window, church, cave, rosary, bernadette, bernadette, bernadette, bernadette, bernadette, rosary
+ok 5 virgin mary 1418229 | engraving, virgin mary, wall, church, stone, religion, architecture, orthodox, cyprus, ayia napa, engraving, virgin mary, virgin mary, virgin mary, virgin mary, virgin mary
+ok 6 white roses 3386850 | white rose, rose, flower wallpaper, sprout, nature, exile, rose flower, herb, flower background, beautiful flowers, flower, tree, bud, roses
+ok 7 our lady statue 2114540 | our lady of mount carmel, catholic saint, catholic, carmelite, statue, carmel, christianity, our lady, madonna, infant jesus, our lady of mount carmel, catholic, carmelite, carmel, carmel, carmel, carmel, carmel, our lady, our lady, our lady, our lady
+ok 8 cathedral light 1904079 | church, vault, ceiling, cloister, inner space, columns, light, colonnade, cathedral, chapel, bow, light effect, purple
+ok 9 crucifix church 7107171 | crucifix, altar, church, tabernacle, christianity, catholic, religion, cross, jesus, god, holy, tabernacle, tabernacle, tabernacle, tabernacle, tabernacle, cross
+ok 10 virgin mary statue 5493681 | mary, fatima, virgin, statue, religion, maria, devotion, meditation, rosary, sculpture, pray, church, mary, fatima, fatima, fatima, fatima, fatima, rosary, rosary
+ok 11 virgin mary 1418215 | engraving, virgin mary, axion esti, wall, church, stone, religion, architecture, orthodox, cyprus, ayia napa, engraving, virgin mary, virgin mary, virgin mary, virgin mary, virgin mary, orthodox
+ok 12 moon clouds night 7239457 | lake, evening, lightning, thunderstorm, night sky, thunderclouds, storm, sky, clouds, mountains, nature, night
+ok 13 starry sky mountains 10440269 | milky way, night sky, stars, nightscape, reflections, mountains, lake, galaxy, nature, outdoor, scenery, colorful sky, dark sky, natural beauty, peaceful, astronomy, water calm, glitter, starry night, mountain lake, ultrawide
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+  idioma errado (fr, pt=0.00) tentativa 1: Lembrai-vos, ó piíssima Virgem Maria,
+  idioma errado (fr, pt=0.00) tentativa 2: Lembrai-vos, ó piíssima Virgem Maria,
+  trocando a narração inteira para a voz de reserva pt-BR-FranciscaNeural
+trilha 465 Drifting Off (Calm)
+ok lembraivos-20261107-noite (61.9s, fundo=fotos, voz=pt-BR-FranciscaNeural)
+== salmo131-20261108-noite
+ok 0 night lake moon 216651 | sea, night, water surface, reflection, water, moon, lake, view, outdoors, landscape
+ok 1 starry sky mountains 6962 | stars, long exposure, starry sky, heaven, evening sky, landscape, mountains, evening atmosphere, universe, nature, alps, switzerland, gurnigel, gantric, timelaps, earth day
+ok 2 fog mountains 175038 | lake, promenade, water, rain, raindrop, fog, mountains, nature, landscape, flooding, web, boardwalk, traunsee, austria
+ok 3 path forest light 172818 | trees, forest, path, drone, beautiful wallpaper, sunset, nature, landscape, aerial view, forest path, bird's eye view, wilderness, background
+ok 4 calm lake 1010 | hiker, nature, lake, calm, walking, hiking, walk, mountains, alone, trail, landscape, travel, outdoor, green, scenic
+ok 5 mother child sunset 212512 | child, kid, family, father, mother, people
+ok 6 lake mountains reflection 84732 | nature, sky, sunset, landscape, clouds, tree, dusk, water, sun, sea, night, ocean, sunrise, scenic, twilight, mountains, stars, space, travel, beach, silhouette, dawn, snow, lake, reflection
+ok 7 moon clouds night 254517 | moon, space, atmosphere, night shot, night, clouds, cloudy, night sky
+ok 8 night sky stars 213423 | northern lights, aurora borealis, clouds, night, sky, borealis, star, lights, space, arctic, stars, alaska, north, dark, storm, sea, winter, nature, landscape
+ok 9 river stream forest 147959 | river, rocks, trees, stream, forest, scene, nature, vietnam
+ok 10 father son nature 11283 | family, picture, drawing, children, kid, child, sketch, boots, rubber, yellow, together, man, hand, male, father, mother, daughter, son, weather, rain
+ok 11 candle light dark 51753 | candle, flame, light, dark, fire, heat, black, spirituality, pray, spiritual, memorial, burning
+ok 12 calm lake 12771 | lake, landscape, nature, sky, smooth surface, calmness, evening, on the lake, reflection, pond, beauty, water, clouds
+ok 13 milky way 104603 | stars, milky way, starry sky, wendland, gohlau, lower saxony, germany
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+trilha 465 Drifting Off (Calm)
+[vost#0:0/rawvideo @ 0x639789e6a580] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x6448200cd3c0] Error muxing a packet
-[out#0/rawvideo @ 0x6448200cd3c0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x6448200cd3c0] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x633499e91bc0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x639789e7a400] Error muxing a packet
+[out#0/rawvideo @ 0x639789e7a400] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x639789e7a400] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5c5c1edd6c00] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x633499dcfb00] Error muxing a packet
-[out#0/rawvideo @ 0x633499dcfb00] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x633499dcfb00] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x60fb6c791fc0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5c5c1ed45c80] Error muxing a packet
+[out#0/rawvideo @ 0x5c5c1ed45c80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5c5c1ed45c80] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x6545a5f81f00] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x60fb6c724580] Error muxing a packet
-[out#0/rawvideo @ 0x60fb6c724580] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x60fb6c724580] Terminating thread with return code -32 (Broken pipe)
-ok sagradocoracao-20261106-noite (50.9s, fundo=videos, voz=pt-BR-AntonioNeural)
-2 vídeo(s) gerado(s)
-[vost#0:0/rawvideo @ 0x5e72582dff80] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x6545a5f81b80] Error muxing a packet
+[out#0/rawvideo @ 0x6545a5f81b80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x6545a5f81b80] Terminating thread with return code -32 (Broken pipe)
+ok salmo131-20261108-noite (63.9s, fundo=videos, voz=pt-BR-AntonioNeural)
+6 vídeo(s) gerado(s)
+[vost#0:0/rawvideo @ 0x5d36234c1ac0] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x5e72582dfc00] Error muxing a packet
-[out#0/rawvideo @ 0x5e72582dfc00] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5e72582dfc00] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x5e72582dfc00] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5e72582dfc00] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5d3623469280] Error muxing a packet
+[out#0/rawvideo @ 0x5d3623469280] Task finished with error code: -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x59936e347640] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x59936e3472c0] Error muxing a packet
+[out#0/rawvideo @ 0x59936e3472c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5d3623469280] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x59936e3472c0] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5c2b85e50d00] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5c2b85e50980] Error muxing a packet
+[out#0/rawvideo @ 0x5c2b85e50980] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5c2b85e50980] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5c2b85e50980] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5c2b85e50980] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x59936e3472c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x59936e3472c0] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5d3623469280] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5d3623469280] Error closing file: Broken pipe

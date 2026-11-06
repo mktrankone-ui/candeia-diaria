@@ -268,5 +268,113 @@
   "cta_tipo": "amem",
   "formato": "oracao",
   "motor_voz": "edge"
+ },
+ "bomdia-20261107": {
+  "arquivo": "bomdia-20261107.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261107.mp4",
+  "serie": "Sábado",
+  "legenda": "Bom dia, Deus 🙏 Sábado, 7 de novembro\n\nSábado é dia de Nossa Senhora. Envie este bom dia para quem você ama e escreva AMÉM se você rezou junto.\n\n#bomdia #bomdiadeus #oracao #sabado #candeiadiaria #catolico #nossasenhora #igrejacatolica",
+  "duracao": 48.4,
+  "fundo": "videos",
+  "trilha": {
+   "id": 115,
+   "titulo": "New Dawn (Hopeful)",
+   "url": "https://media.snipsound.com/audio/rf_cin02a_new_dawn_hopeful.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "bomdia-20261108": {
+  "arquivo": "bomdia-20261108.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261108.mp4",
+  "serie": "Domingo",
+  "legenda": "Bom dia, Deus 🙏 Domingo, 8 de novembro\n\nNo Evangelho deste domingo, as lâmpadas acesas das moças prudentes (Mateus 25,1-13). Que a nossa candeia esteja sempre acesa! Envie este bom dia para quem você ama e escreva AMÉM se você rezou junto.\n\n#bomdia #bomdiadeus #oracao #domingo #candeiadiaria #catolico #evangelhododia #igrejacatolica",
+  "duracao": 51.0,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 115,
+   "titulo": "New Dawn (Hopeful)",
+   "url": "https://media.snipsound.com/audio/rf_cin02a_new_dawn_hopeful.mp3"
+  },
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "bomdia-20261109": {
+  "arquivo": "bomdia-20261109.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261109.mp4",
+  "serie": "Segunda-feira",
+  "legenda": "Bom dia, Deus 🙏 Segunda-feira, 9 de novembro\n\nHoje a Igreja celebra a Dedicação da Basílica de Latrão. Que esta semana comece com Deus no centro. Envie este bom dia para quem você ama e escreva AMÉM se você rezou junto.\n\n#bomdia #bomdiadeus #oracao #segundafeira #candeiadiaria #catolico #igrejacatolica #santoanjo",
+  "duracao": 49.9,
+  "fundo": "videos",
+  "trilha": {
+   "id": 114,
+   "titulo": "Horizon Line (Hopeful)",
+   "url": "https://media.snipsound.com/audio/rf_cin02a_2_horizon_line_hopeful.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "emprego-20261109-noite": {
+  "arquivo": "emprego-20261109-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/emprego-20261109-noite.mp4",
+  "serie": "Oração pelo emprego",
+  "legenda": "Para quem está procurando emprego e já está cansado de esperar. Reze comigo e entregue o seu caminho a Deus. 🙏\n\nEscreva nos comentários o nome de quem precisa de trabalho, que a gente reza junto. E envie esta oração para essa pessoa.\n\n#oracaopeloemprego #emprego #saojose #oração #fé #Deus #catolico #igrejacatolica #candeiadiaria",
+  "duracao": 42.9,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 118,
+   "titulo": "Horizon Line (Inspiring)",
+   "url": "https://media.snipsound.com/audio/rf_cin02c_2_horizon_line_inspiring.mp3"
+  },
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "nome",
+  "formato": "enviar",
+  "motor_voz": "edge"
+ },
+ "lembraivos-20261107-noite": {
+  "arquivo": "lembraivos-20261107-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/lembraivos-20261107-noite.mp4",
+  "serie": "Reze comigo o Lembrai-vos",
+  "legenda": "É sábado, dia de Nossa Senhora. Reze comigo o Lembrai-vos, a oração de quem corre para o colo da Mãe e confia que não será desamparado. 🤍🌙\n\nSalve este vídeo para rezar quando precisar e escreva AMÉM se você rezou junto.\n\n#lembraivos #nossasenhora #oracaodanoite #oração #fé #catolico #igrejacatolica #terço #candeiadiaria",
+  "duracao": 61.9,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 465,
+   "titulo": "Drifting Off (Calm)",
+   "url": "https://media.snipsound.com/audio/rf_med02b_drifting_off_calm.mp3"
+  },
+  "voz": "pt-BR-FranciscaNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "amem",
+  "formato": "tradicional",
+  "motor_voz": "edge"
+ },
+ "salmo131-20261108-noite": {
+  "arquivo": "salmo131-20261108-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/salmo131-20261108-noite.mp4",
+  "serie": "Salmo 131 para dormir em paz",
+  "legenda": "Antes de dormir, reze comigo o Salmo 131: o salmo de quem descansa em Deus como criança no colo da mãe. 🌙\n\nSalve para rezar nas noites difíceis, escreva AMÉM se você rezou junto e siga a Candeia Diária para receber uma oração todos os dias.\n\n#salmo131 #salmos #oracaodanoite #oração #fé #Deus #catolico #igrejacatolica #candeiadiaria",
+  "duracao": 63.9,
+  "fundo": "videos",
+  "trilha": {
+   "id": 465,
+   "titulo": "Drifting Off (Calm)",
+   "url": "https://media.snipsound.com/audio/rf_med02b_drifting_off_calm.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "seguir",
+  "formato": "salmo",
+  "motor_voz": "edge"
  }
 }
