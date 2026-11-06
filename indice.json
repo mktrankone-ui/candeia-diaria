@@ -331,9 +331,9 @@
   "duracao": 42.9,
   "fundo": "fotos",
   "trilha": {
-   "id": 118,
-   "titulo": "Horizon Line (Inspiring)",
-   "url": "https://media.snipsound.com/audio/rf_cin02c_2_horizon_line_inspiring.mp3"
+   "id": 116,
+   "titulo": "Horizon Line (Uplifting)",
+   "url": "https://media.snipsound.com/audio/rf_cin02b_2_horizon_line_uplifting.mp3"
   },
   "voz": "pt-BR-ThalitaMultilingualNeural",
   "tipo_voz": "feminina",
@@ -349,9 +349,9 @@
   "duracao": 61.9,
   "fundo": "fotos",
   "trilha": {
-   "id": 465,
-   "titulo": "Drifting Off (Calm)",
-   "url": "https://media.snipsound.com/audio/rf_med02b_drifting_off_calm.mp3"
+   "id": 464,
+   "titulo": "Night Light (Sleepy)",
+   "url": "https://media.snipsound.com/audio/rf_med02a_2_night_light_sleepy.mp3"
   },
   "voz": "pt-BR-FranciscaNeural",
   "tipo_voz": "feminina",

@@ -1,153 +1,113 @@
-== bomdia-20261107
-ok 0 sunrise ocean 51237 | sunrise, dead sea, love, romantic, couple, ocean, clouds, sunset, sea, travel, sky, landscape
-ok 1 sunrise sky clouds 163911 | mountains, sunrise, clouds, sky, nature
-ok 2 morning mist lake 201424 | lake, forest, morning, fog, mongolia, landscape
-ok 3 person walking road sunrise 133116 | man, hiking, walking, nature, sunrise, morning, fog, forest, mist, peaceful, drone, aerial, drenthe, netherlands
-ok 4 family walking beach sunset 197541 | family, beach, sunset, lanzarote, canary islands, picture, fun, nature, sky, landscape, sea, ocean, water
-ok 5 man walking mountain sunrise 139356 | beach, sand, sunrise, shore, water, sea, ocean, gran canaria, spain, summer, running, man, woman, hiking, walking
-ok 6 sunrise mountains 7127 | sunrise, tödi, alps, mountains, mountain range, fog, foggy landscape, sea of fog, gemsfairenstock, bifertenstock, clariden, large sharp horn, chintan, great windgällen, upper mountain stock, gitschen, uri rotstock, sea of clouds, clouds, heaven, mood, idyll, landscape, panoramic shot, panoramic image, panoramic photo, panoramic photography, nature, sun, fireball, sunshine, belchen, belchenflue, switzerland, aaretal
-ok 7 path forest light 29716 | forest, grass, lake, trees, mountain, mountains, nature, outdoors, outside, green, summer, landscape, environment, wood, jungle, sunlight, swamp, light, woods, path, trail, hiking, hike
-ok 8 sun rays clouds 200116 | sky, clouds, sun, mountains, rays, nature, drone, landscape, aerial, timelapse, time-lapse, time lapse
-ok 9 sunrise field 214394 | mountain, summit, snow, forest, field, sunrise, nature, landscape
-AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 117 New Dawn (Uplifting)
-[vost#0:0/rawvideo @ 0x59d16fbf8f80] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x59d16fbd9240] Error muxing a packet
-[out#0/rawvideo @ 0x59d16fbd9240] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x59d16fbd9240] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5c7dfb21c500] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5c7dfb21c180] Error muxing a packet
-[out#0/rawvideo @ 0x5c7dfb21c180] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5c7dfb21c180] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x57d9ed8441c0] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x57d9ed833e40] Error muxing a packet
-[out#0/rawvideo @ 0x57d9ed833e40] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x57d9ed833e40] Terminating thread with return code -32 (Broken pipe)
-ok bomdia-20261107 (48.4s, fundo=videos, voz=pt-BR-AntonioNeural)
-== bomdia-20261108
-ok 0 sunrise mountains 7627575 | mountains, peaks, sunset, sunrise, cliffs, nature, path, alone, rocky, panorama, landscape, sunrise, sunrise, sunrise, sunrise, sunrise, path, panorama, landscape, landscape, landscape
-ok 1 sun rays clouds 10467614 | sunset, landscape, twilight, sea, horizon, ocean, nature, clouds, sky, sun, seascape, vista, dawn, water, lighting, calm, reflection, evening, beauty
-ok 2 sun rays forest 5348921 | tree, sun, forest, path, sky, nature, light, trees, snow, spring, cloud, environment, calmed down, clouds, color, summer
-ok 3 sun rays forest 4749196 | rays of sun, beauty in nature, landscape, scenery, mountain, tranquil, clouds, nature, sunrise, lake
-ok 4 sunrise mountains 5361255 | mountains, sunrise, lake, nature, landscape, sky, mountain, clouds, river, outdoors, dawn, scenic, morning, wilderness, travel, grand teton, summer, green, wyoming, usa, america, mobile wallpapers, android wallpapers, iphone wallpapers
-ok 5 family walking beach sunset 5316041 | dress, white dress, sunset, nature, beach, girl, sand, walking, waves
-ok 6 family walking field 2212092 | father, son, walking, child, family, boy, people, parent, man, together, happy, kid, young, dad, fun, love, smile, childhood, lifestyle, portrait, male, father and son, outdoor, father, father, father, father, father, son, family, family, dad, dad, father and son, father and son, father and son
-ok 7 white roses 6357378 | roses, flowers, white roses, buds, white flower, bloom, blossom, petals, flower wallpaper, flower background, white petals, plants, flora, beautiful flowers, nature
-ok 8 sunrise field 4141555 | tree, nature, sunrise, fields, field, old tree
-ok 9 sunrise ocean 3194654 | sunset, body of water, sunrise, sun, sea, ocean, costa, nature, travel, landscape, rock in the sea
-AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 119 New Dawn (Inspiring)
-ok bomdia-20261108 (51.0s, fundo=fotos, voz=pt-BR-ThalitaMultilingualNeural)
-== bomdia-20261109
-ok 0 sunrise field 1694293 | grass, silhouette, sun, flower background, sunrise, flowers, sunlight, fog, mist, beautiful flowers, flower wallpaper, dawn, morning, mood, field, meadow, nature, backlighting, closeup
-ok 1 sunrise mountains 6118187 | mountains, snow, sunset, sunrise, ice, frost, clouds, landscape, sky, winter, nature, sunrise, landscape, landscape, landscape, landscape, landscape
-ok 2 cathedral interior 2720653 | cathedral, stairs, interior, banister, church, gray church, gray interior, banister, banister, banister, banister, banister
-ok 3 sunrise ocean 2553454 | england, great britain, cliff, sea, ocean, water, seaside, landscape, nature, outdoors, beautiful, sky, clouds, sunrise, morning, android wallpaper, iphone wallpaper, android wallpaper, android wallpaper, android wallpaper, android wallpaper, android wallpaper, iphone wallpaper, iphone wallpaper
-ok 4 sunrise sky clouds 5183917 | sunrise, purple, sky, nature, clouds, water, sea
-ok 5 waterfall sunlight 4902942 | waterfall, estonia, beautiful flowers, sunset, flower background, river, water, landscape, sunlight, forest, keila, flower, flower wallpaper, nature
-ok 6 person walking road sunrise 5455265 | winnats pass, peak district, flower background, derbyshire, valley, countryside, sunshine, sunrise, landscape, flower wallpaper, beautiful flowers, summer, road, thistles, flowers, nature, sunlight
-ok 7 sunrise ocean 3909155 | sunrise, boat, sea, reflection, morning, nature, fisherman, orange sea, orange sunrise, orange ocean, orange boat, orange morning
-ok 8 golden hour meadow 7668057 | wildflowers, meadow flowers, meadow, nature, sunset, snow, winter, snowflakes, frost, ice cream, cold, ice crystals, frozen, season, wild carrot, medicinal plant, field stripes, filigree, sunset, sunset, snow, snow, snow, snow, snow, winter, frost, frost, ice cream, cold, frozen, frozen
-ok 9 sunrise sky clouds 3862680 | sunrise, landscape, nature, sunset, scenic, haze, sky, trees, clouds, morning, dawn, water, summer, sunlight, byron bay, australia, beautiful, seascape, brown sunrise, brown morning, byron bay, byron bay, byron bay, byron bay, byron bay, australia
-AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 114 Horizon Line (Hopeful)
-ok bomdia-20261109 (49.9s, fundo=fotos, voz=pt-BR-AntonioNeural)
 == emprego-20261109-noite
-ok 0 person walking road sunrise 6994155 | road, autumn, walking, park, people
-ok 1 man thinking nature 6277270 | man, chess, game, play, competition, strategy, thinking, chessboard, board game, chess, chess, chess, chess, chess
-ok 2 road mountains sunrise 7631054 | road, mountains, countryside, sky background, sky, clouds, path, nature, cloudy, fog, landscape, trees, outdoors, beautiful wallpaper, dawn, dusk, sunrise, sunset, background
-ok 3 path forest light 7917230 | sports, jog, running, forest, nature, spring, flower, flower wallpaper, landscape, beautiful flowers, flower background, meadow, fitness, training, work out, path, green
-ok 4 road mountains sunrise 7367539 | alps, road, sunset, clouds, italy, nature, outdoors, mountains
-ok 5 family hug sunset 1666816 | kite, play, family, happy, nature, childhood, kid, sky, flying, playful, together, summer, child, parent, woman, mother, happiness, activity, game, fun, outdoors, sunset, silhouette, mom, happy mothers day, mum
-ok 6 father son nature 1434730 | family, women, man, posing, child, offspring, parents, parenthood, father, mother, son, toddler, baby, hispanic, spanish, family, family, family, parents, parenthood, father, mother, baby, baby, baby, baby, baby, hispanic, spanish
-ok 7 sunrise field 933631 | water, channel, morning, fog, steam, sunrise, tree, stream, river, field, agricultural, rural, nature, landscape, idyllic, scenic
-ok 8 sunrise field 6930044 | sunrise, winter, field, dawn, snow, nature
+ok 0 hands holding sunset 9034408 | mom, family, woman, daughter, portrait, holding hands, black and white
+ok 1 woman sitting lake 6041962 | girl, reading, lake, river, leisure, woman, female, young, person, sitting, beautiful, alone, relaxation, vacation, lifestyle, pier, summer, outdoors, nature, portrait
+ok 2 road mountains sunrise 5535484 | mountains, forest, road, motorcycle, nature, bike, vehicle, bmw
+ok 3 path forest light 5748948 | trees, path, trail, tree trunks, undergrowth, fallen leaves, autumn, leaves, foliage, autumn leaves, autumn foliage, autumn colors, autumn season, forest, nature, forest path, forest trail, nature trail, nature path
+ok 4 man walking mountain sunrise 6935365 | couple, river, holding hands, mountain, walking, man, woman, sky, romantic, love, nature
+ok 5 family hug sunset 5753200 | family, asian, grandmother, children, grandchildren, love, together, asian family, hats, people, hug, embrace, hugging, family hugging, monochrome, black and white, family, grandchildren, grandchildren, grandchildren, asian family, asian family, asian family, asian family, asian family
+ok 6 father son nature 3046490 | father and son, education, love, child, father, toddler, family, hand, dad, baby, reading with your child, watch booklets, booklet, sensory integration, relationship with the child, a collection of short stories contrast, the book is touch, the father of the child, creativity, handle, hands, education, father, father, father, father, father, family, family, family, family, dad, baby
+ok 7 path forest light 7113273 | forest, nature, trail, path, jungle, road, plants, landscape, woods, warm
+ok 8 sunrise field 3629825 | dawn, grass, sunrise, nature, landscape, meadow, herbs, yellow, mood, field, in the fall of
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 118 Horizon Line (Inspiring)
+trilha 116 Horizon Line (Uplifting)
 ok emprego-20261109-noite (42.9s, fundo=fotos, voz=pt-BR-ThalitaMultilingualNeural)
 == lembraivos-20261107-noite
-ok 0 candle light dark 7581472 | candle, pine, christmas tree, holidays, decoration, the background, pictures, image, burn, fire, heat, light, symbol, cozy, wax, night, black, hot, religion, meditation, ornament, candle, christmas tree, christmas tree, cozy, meditation, meditation, meditation, meditation, meditation
-ok 1 rain window 5455998 | glass, window, reflection, drops, water drops, rain, mirroring, nature, mirror, drip
-ok 2 virgin mary statue 4943410 | sculpture, mary, jesus, religion, statue, faith, madonna, pray, christianity, catholic, christian, blue pray
-ok 3 rosary 5485746 | cross, rosary, prayer, religion, christianity, christian, beads, faith, jesus, catholic, god, beliefs, religious, spiritual, christ, holy, spirituality, rosary, rosary, rosary, rosary, rosary
-ok 4 cathedral interior 7182732 | church, cologne cathedral, crate, interior, architecture, dome, stained glass, benches, people, weight, prayer, koln, germany, cathedral pulpit
-ok 5 rosary 10456510 | antique book, crucifix, rosary, wood, religion, bible, decorative, jewel, spirituality, ancestor, dark, relic, vintage, artifact, catholic, prayer, symbolism, historical, altar, edition
-ok 6 virgin mary 5833729 | statue of mary, statue, sculpture, saint, mary, holy virgin, woman statue, catholic, christianity, religion, religious figure, closeup
-ok 7 our lady statue 7136269 | our lady of sorrows, catholic church, devotion, our lady, calvary, tears, procession, holy week, jesus, jesus christ, crucifixion, christ, god, redeemer, christ's blood, easter, traditional mass, passion of christ, crown of thorns, flogging, bible, holy, virgin mary, our lady, our lady, our lady, tears, holy week, holy week, holy week, jesus, virgin mary, virgin mary, virgin mary, virgin mary, virgin mary
-ok 8 cathedral light 822020 | church, window, glass, color, coloured glass, light, windows, catholic, architecture, construction, ancient, gothic, italy, abbey, history, cathedral, rome, sanctuary, duomo, monument
-ok 9 crucifix church 2475417 | crucifix, crucifixion, cross, lent, religion, christianity, church, holy, christian, jesus, sacrifice, spirituality, procession, worship, brown cross, lent, lent, lent, lent, lent
-ok 10 virgin mary statue 6762428 | virgin mary, faith, catholic, religion, statue, columns, pillars, virgin mary, virgin mary, virgin mary, virgin mary, virgin mary
-ok 11 virgin mary 379917 | procession, blessed virgin mary, the hurt, pamplona, blessed virgin mary, the hurt, pamplona, pamplona, pamplona, pamplona, pamplona
-ok 12 night lake moon 5756131 | bat, moon, night, sky, darkness, nature, night sky, mystic, mysterious
-ok 13 starry sky mountains 4742304 | starry sky, mountains, landscape, stars, night sky, space, heaven, universe, night, nature, astronomy, galaxy, milky way, the atmosphere, cosmos, scenic, winter, rock, winter landscape, snow, outlook, alps
+ok 0 candle light dark 1818703 | candle, glow, flame, spiritual, yellow, orange, brown, reflection
+ok 1 rain window 416509 | rain, sun, window, raindrop, heaven, rain shower, mood, nature, eve
+ok 2 virgin mary statue 5343566 | statue, pierre, woman, virgin mary, beach, landing, sky, blue, nature, overhang, blue sky, sea, protective, faith, face, sculpture
+ok 3 cathedral interior 294970 | stained glass, window, church, chapel, stained, glass, dove, religious, christ, holy, christianity, colorful, color, colour, colourful, pattern, religion, decoration, decorative, interior, spiritual, artistic, design, cathedral, catholic, black church, black window, black glass, black design, black pattern, black glasses, black color, black interior, stained glass, stained glass, stained glass, stained glass, stained glass, dove, dove, dove
+ok 4 virgin mary 837777 | statue, madonna, child, st laurentius, rheinhausen, sculpture, religious, mary, christianity, holy, church, catholic, virgin, jesus, mother, symbol, catholicism, spirituality, maria, sacred, spiritual
+ok 5 virgin mary 6976635 | golden statue, virgin mary statue, christianity, faith, religion
+ok 6 cathedral interior 4033468 | reims, cathedral, vaults, gothic, interior, religion, architecture, church, arches, chapel, reims, reims, reims, reims, reims
+ok 7 cathedral interior 1899636 | stain glass, church, stained glass window, religion, christian, jesus, religious, christ, holy, colorful, cathedral, pattern, light, color, catholic, spiritual, faith, architecture, bright, interior, god, design, indoor, historic, black church, black window, black god, black glass, black design, black pattern, black glasses, black color, black interior, jesus, jesus, jesus, jesus, cathedral, pattern, catholic, catholic, catholic, catholic, catholic
+ok 8 cathedral light 6511720 | st martin 's cathedral, church, cathedral, chapel, architecture, bratislava, slovakia, press castle, slovenska, st martins cathedral, dom, catholic, the coronation church, europe, story, basilica
+ok 9 crucifix church 2897 | catholic, christ, christianity, church, cross, crucifix, crucifixion, faith, god, jesus, pain, religion, religious, sacrifice, saviour, symbol, brown cross, brown church, brown pain, brown god, brown death
+ok 10 rosary 1132798 | yoga, mala, prayer beads, hand, beads, meditation, religion, prayer, meditating, rosary, brown yoga, brown meditation, brown prayer, prayer beads, prayer beads, prayer beads, prayer beads, prayer beads, rosary, rosary
+download falhou 436585 HTTP Error 429: Too Many Requests
+ok 11 rosary bible 436583 | faith, bible, religion, a book, believe, catholic, church, christ, the holy book, spirituality, christianity, rosary, prayer, prayer book, catholic, rosary, rosary, rosary, rosary, rosary
+download falhou 4576368 HTTP Error 429: Too Many Requests
+download falhou 6496937 HTTP Error 429: Too Many Requests
+download falhou 4576072 HTTP Error 429: Too Many Requests
+download falhou 4667644 HTTP Error 429: Too Many Requests
+download falhou 4055838 HTTP Error 429: Too Many Requests
+download falhou 5410078 HTTP Error 429: Too Many Requests
+download falhou 4695490 HTTP Error 429: Too Many Requests
+download falhou 9937087 HTTP Error 429: Too Many Requests
+download falhou 6834164 HTTP Error 429: Too Many Requests
+download falhou 4353332 HTTP Error 429: Too Many Requests
+download falhou 8258264 HTTP Error 429: Too Many Requests
+download falhou 10427641 HTTP Error 429: Too Many Requests
+download falhou 10528056 HTTP Error 429: Too Many Requests
+download falhou 9768540 HTTP Error 429: Too Many Requests
+ok 12 milky way 8041247 | starry sky, universe, milky way, grove, cedar, yakushima highlands, japan, universe, universe, universe, universe, universe
+download falhou 6496937 HTTP Error 429: Too Many Requests
+download falhou 4965449 HTTP Error 429: Too Many Requests
+download falhou 7160654 HTTP Error 429: Too Many Requests
+download falhou 2193543 HTTP Error 429: Too Many Requests
+download falhou 1608487 HTTP Error 429: Too Many Requests
+download falhou 3184247 HTTP Error 429: Too Many Requests
+download falhou 2754799 HTTP Error 429: Too Many Requests
+download falhou 3184247 HTTP Error 429: Too Many Requests
+download falhou 3418579 HTTP Error 429: Too Many Requests
+download falhou 1018185 HTTP Error 429: Too Many Requests
+download falhou 4499204 HTTP Error 429: Too Many Requests
+download falhou 4020986 HTTP Error 429: Too Many Requests
+download falhou 665746 HTTP Error 429: Too Many Requests
+download falhou 665745 HTTP Error 429: Too Many Requests
+download falhou 2390298 HTTP Error 429: Too Many Requests
+download falhou 2640997 HTTP Error 429: Too Many Requests
+download falhou 665740 HTTP Error 429: Too Many Requests
+download falhou 2665904 HTTP Error 429: Too Many Requests
+download falhou 665744 HTTP Error 429: Too Many Requests
+download falhou 436585 HTTP Error 429: Too Many Requests
+download falhou 4666306 HTTP Error 429: Too Many Requests
+download falhou 5105659 HTTP Error 429: Too Many Requests
+download falhou 436581 HTTP Error 429: Too Many Requests
+download falhou 4834240 HTTP Error 429: Too Many Requests
+download falhou 4753472 HTTP Error 429: Too Many Requests
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
   idioma errado (en, pt=0.00) tentativa 1: me prostro a vossos pés.
   idioma errado (en, pt=0.00) tentativa 2: me prostro a vossos pés.
   trocando a narração inteira para a voz de reserva pt-BR-FranciscaNeural
-trilha 465 Drifting Off (Calm)
-ok lembraivos-20261107-noite (61.9s, fundo=fotos, voz=pt-BR-FranciscaNeural)
-== salmo131-20261108-noite
-ok 0 night lake moon 37697 | sky, stars, lake, landscape, night, nature, moon, water, inn, starry sky, forest, dark
-ok 1 starry sky mountains 227007 | mountains, mountain peak, stars, trees, sunset, galaxy, astrology, astronomy, astrophotography, evening, water, sunrise, universe, stargazing, starry night, starry sky, starry, exploration, cosmos
-ok 2 fog mountains 53358 | fog, mountains, road, foggy, dramatic, adventure, beautiful wallpaper, amazing, background, above, beautiful, blue, cloud, cold, dawn, environment, evening, high, live wallpaper
-ok 3 path forest light 135708 | trees, path, forest, fall, leaves, hike, nature
-ok 4 calm lake 2949 | sunrise, lake shore, okanagan, nature, lake, calm, quiet
-ok 5 mother child sunset 212511 | child, kid, family, father, mother, people
-ok 6 lake mountains reflection 51451 | mount fuji, lake, mountains, reflection, landscape
-ok 7 moon clouds night 204208 | moon, clouds, night sky
-ok 8 night sky stars 218646 | northern lights, aurora borealis, nature, night, glow, light, trees, sky, stars, timelapse
-ok 9 river stream forest 173057 | waterfall, river, flow, stream, forest, nature, mountain, season, summer, spring, trees, beautiful wallpaper, climate, background
-ok 10 moonlight ocean 134511 | sea, ocean, waves, moon, night sky, night, moonlight
-ok 11 candle light dark 51751 | candle, flame, light, dark, fire, heat, black, spirituality, pray, spiritual, memorial, burning
-ok 12 clouds sky 374283 | cloud, summer, towering cumulus clouds observed, under development, airplane, sky, japan
-ok 13 milky way 134913 | tree, bare tree, stars, fog, mist, forest, branches, loop, spin, revolve, rotate, rays, night, milky way, moon, light, galaxy, sky, dark, leafless, dreamy, dream, starry
-AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
 trilha 464 Night Light (Sleepy)
-[vost#0:0/rawvideo @ 0x614f4f7101c0] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x614f4f70fc40] Error muxing a packet
-[out#0/rawvideo @ 0x614f4f70fc40] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x614f4f70fc40] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5c6eea6d6000] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5c6eea64dc80] Error muxing a packet
-[out#0/rawvideo @ 0x5c6eea64dc80] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5c6eea64dc80] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x58ee43665700] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x58ee435ebf80] Error muxing a packet
-[out#0/rawvideo @ 0x58ee435ebf80] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x58ee435ebf80] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x6293b7c2bd00] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x6293b7bb2380] Error muxing a packet
-[out#0/rawvideo @ 0x6293b7bb2380] Task finished with error code: -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5b1ae932ec00] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5b1ae932e880] Error muxing a packet
-[out#0/rawvideo @ 0x5b1ae932e880] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5b1ae932e880] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5d73b5e30940] [vost#0:0/rawvideo @ 0x5edd47e90f00] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5edd47e90b80] Error muxing a packet
-[out#0/rawvideo @ 0x5edd47e90b80] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5edd47e90b80] Terminating thread with return code -32 (Broken pipe)
-ok salmo131-20261108-noite (63.9s, fundo=videos, voz=pt-BR-AntonioNeural)
-6 vídeo(s) gerado(s)
-[vost#0:0/rawvideo @ 0x5994ac7f6340] [vost#0:0/rawvideo @ 0x5b2b4d582440] Error submitting a packet to the muxer: Broken pipe
-Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5b2b4d581f00] [out#0/rawvideo @ 0x5994ac7f5fc0] Error muxing a packet
-Error muxing a packet
-[out#0/rawvideo @ 0x5994ac7f5fc0] [out#0/rawvideo @ 0x5b2b4d581f00] Task finished with error code: -32 (Broken pipe)
-Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5994ac7f5fc0] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x5b2b4d581f00] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x5994ac7f5fc0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5994ac7f5fc0] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x5b2b4d581f00] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5b2b4d581f00] Error closing file: Broken pipe
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/11-436585.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/12-10427641.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/12-10528056.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/12-4055838.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/12-4353332.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/12-4576072.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/12-4576368.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/12-4667644.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/12-4695490.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/12-5410078.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/12-6496937.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/12-6834164.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/12-8258264.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/12-9768540.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/12-9937087.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-1018185.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-1608487.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-2193543.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-2390298.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-2640997.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-2665904.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-2754799.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-3184247.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-3418579.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-4020986.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-436581.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-436585.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-4499204.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-4666306.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-4753472.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-4834240.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-4965449.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-5105659.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-6496937.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-665740.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-665744.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-665745.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-665746.jpg
+foto inválida ignorada: /home/runner/work/candeia-diaria/candeia-diaria/trabalho/lembraivos-20261107-noite/fundo/13-7160654.jpg
+ok lembraivos-20261107-noite (61.9s, fundo=fotos, voz=pt-BR-FranciscaNeural)
+2 vídeo(s) gerado(s)
