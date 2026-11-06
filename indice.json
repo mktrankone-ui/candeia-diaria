@@ -277,9 +277,9 @@
   "duracao": 48.4,
   "fundo": "videos",
   "trilha": {
-   "id": 115,
-   "titulo": "New Dawn (Hopeful)",
-   "url": "https://media.snipsound.com/audio/rf_cin02a_new_dawn_hopeful.mp3"
+   "id": 117,
+   "titulo": "New Dawn (Uplifting)",
+   "url": "https://media.snipsound.com/audio/rf_cin02b_new_dawn_uplifting.mp3"
   },
   "voz": "pt-BR-AntonioNeural",
   "tipo_voz": "masculina",
@@ -295,9 +295,9 @@
   "duracao": 51.0,
   "fundo": "fotos",
   "trilha": {
-   "id": 115,
-   "titulo": "New Dawn (Hopeful)",
-   "url": "https://media.snipsound.com/audio/rf_cin02a_new_dawn_hopeful.mp3"
+   "id": 119,
+   "titulo": "New Dawn (Inspiring)",
+   "url": "https://media.snipsound.com/audio/rf_cin02c_new_dawn_inspiring.mp3"
   },
   "voz": "pt-BR-ThalitaMultilingualNeural",
   "tipo_voz": "feminina",
@@ -311,7 +311,7 @@
   "serie": "Segunda-feira",
   "legenda": "Bom dia, Deus 🙏 Segunda-feira, 9 de novembro\n\nHoje a Igreja celebra a Dedicação da Basílica de Latrão. Que esta semana comece com Deus no centro. Envie este bom dia para quem você ama e escreva AMÉM se você rezou junto.\n\n#bomdia #bomdiadeus #oracao #segundafeira #candeiadiaria #catolico #igrejacatolica #santoanjo",
   "duracao": 49.9,
-  "fundo": "videos",
+  "fundo": "fotos",
   "trilha": {
    "id": 114,
    "titulo": "Horizon Line (Hopeful)",
@@ -367,9 +367,9 @@
   "duracao": 63.9,
   "fundo": "videos",
   "trilha": {
-   "id": 465,
-   "titulo": "Drifting Off (Calm)",
-   "url": "https://media.snipsound.com/audio/rf_med02b_drifting_off_calm.mp3"
+   "id": 464,
+   "titulo": "Night Light (Sleepy)",
+   "url": "https://media.snipsound.com/audio/rf_med02a_2_night_light_sleepy.mp3"
   },
   "voz": "pt-BR-AntonioNeural",
   "tipo_voz": "masculina",
