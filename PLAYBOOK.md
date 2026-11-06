@@ -138,6 +138,7 @@ Sem `cenas`, o sistema usa `busca` (4 a 7 termos) ou o catálogo do `tema`. Tema
 - `tema` (catálogo de fundo, ver seção "Fundo"). Prefira `cenas` (um termo por frase + um para o CTA).
 - `trilha_tema`: amanhecer, esperanca, noite, paz, dificil, familia (ver `trilhas/lista.json`).
 - `fundo`: `fotos` ou `videos`. Alterne.
+- `referencia.linha`: índice da frase em `linhas` **contado a partir de 0** (a 1ª frase é 0, a 2ª é 1…). A referência aparece embaixo dessa frase.
 - `linhas`: 7 a 9 frases curtas nos vídeos curtos; 12 a 15 nos longos (60–75 s) (até ~12 palavras), cada uma com **uma** palavra ou expressão entre `*asteriscos*`. A última costuma ser "Em nome de Jesus, *amém*." ou equivalente católico ("Por Cristo, nosso Senhor, *amém*.").
 - Primeira frase é o gancho: fala direto com a dor ou o desejo de quem assiste ("Se hoje o seu coração está apertado…").
 - `legenda`: 2 a 4 linhas acolhedoras + pedido de "AMÉM" + convite a compartilhar com quem precisa + 6 a 9 hashtags (sempre `#candeiadiaria`; misture amplas como `#oração #fé #Deus #Jesus` com católicas como `#catolico #igrejacatolica #nossasenhora #terço` e do tema).
