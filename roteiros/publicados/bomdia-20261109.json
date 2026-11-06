@@ -1,0 +1,48 @@
+{
+  "id": "bomdia-20261109",
+  "serie": "Segunda-feira",
+  "tema": "amanhecer",
+  "trilha_tema": "amanhecer",
+  "fundo": "fotos",
+  "voz": "masculina",
+  "formato": "bom_dia",
+  "estilo": "classico",
+  "layout": "centro",
+  "rodape": "Bom dia!",
+  "linhas": [
+    "Deus, hoje é segunda-feira, 9 de novembro, e eu coloco diante de Ti a semana que *começa*.",
+    "Obrigado pelo descanso do domingo e pela *força* para recomeçar.",
+    "Hoje a Igreja celebra a dedicação da Basílica de *Latrão*, a mãe de todas as igrejas.",
+    "E a Tua Palavra me lembra que eu também sou *templo* do Teu Espírito.",
+    "Limpa o meu coração de tudo o que não *Te* agrada.",
+    "Abençoa o meu trabalho, os meus estudos e cada *compromisso* desta semana.",
+    "Protege a minha família na ida e na *volta* de cada dia.",
+    "Santo Anjo da Guarda, caminha ao meu lado nesta *segunda-feira*.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {
+    "linha": 3,
+    "texto": "1 Coríntios 3,16"
+  },
+  "cta_tipo": "enviar",
+  "cenas": [
+    "sunrise field",
+    "sunrise mountains",
+    "cathedral interior",
+    "church interior light",
+    "praying hands light",
+    "waterfall sunlight",
+    "person walking road sunrise",
+    "light through trees",
+    "sunrise cross",
+    "sunrise sky clouds"
+  ],
+  "legenda": "Bom dia, Deus 🙏 Segunda-feira, 9 de novembro\n\nHoje a Igreja celebra a Dedicação da Basílica de Latrão. Que esta semana comece com Deus no centro. Envie este bom dia para quem você ama e escreva AMÉM se você rezou junto.\n\n#bomdia #bomdiadeus #oracao #segundafeira #candeiadiaria #catolico #igrejacatolica #santoanjo",
+  "slot": "bomdia",
+  "data": "2026-11-09",
+  "cta": [
+    "Envie este bom dia para quem você *ama*",
+    "Uma oração pode mudar o dia de alguém"
+  ],
+  "cta_falado": "Envie este bom dia para quem você ama."
+}

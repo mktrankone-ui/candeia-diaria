@@ -1,0 +1,48 @@
+{
+  "id": "bomdia-20261107",
+  "serie": "Sábado",
+  "tema": "amanhecer",
+  "trilha_tema": "amanhecer",
+  "fundo": "videos",
+  "voz": "masculina",
+  "formato": "bom_dia",
+  "estilo": "classico",
+  "layout": "centro",
+  "rodape": "Bom dia!",
+  "linhas": [
+    "Deus, hoje é sábado, 7 de novembro, e eu começo o dia falando *contigo*.",
+    "De manhã, Senhor, Tu ouves a minha *voz* e eu espero por Ti.",
+    "Obrigado pelo descanso da noite e pela *graça* de acordar.",
+    "Entrego em Tuas mãos este sábado e tudo o que ele *trouxer*.",
+    "Abençoa a minha casa, a minha *família* e quem está longe de mim.",
+    "Dá força a quem precisa trabalhar hoje e *descanso* a quem está cansado.",
+    "Sábado é dia de Nossa *Senhora*: que ela me ensine a dizer sim a Ti.",
+    "Mãe querida, passa à frente de cada *passo* que eu der hoje.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {
+    "linha": 1,
+    "texto": "Salmo 5,4"
+  },
+  "cta_tipo": "enviar",
+  "cenas": [
+    "sunrise ocean",
+    "sunrise sky clouds",
+    "morning mist lake",
+    "person walking road sunrise",
+    "family walking beach sunset",
+    "man walking mountain sunrise",
+    "virgin mary statue",
+    "path forest light",
+    "sun rays clouds",
+    "sunrise field"
+  ],
+  "legenda": "Bom dia, Deus 🙏 Sábado, 7 de novembro\n\nSábado é dia de Nossa Senhora. Envie este bom dia para quem você ama e escreva AMÉM se você rezou junto.\n\n#bomdia #bomdiadeus #oracao #sabado #candeiadiaria #catolico #nossasenhora #igrejacatolica",
+  "slot": "bomdia",
+  "data": "2026-11-07",
+  "cta": [
+    "Envie este bom dia para quem você *ama*",
+    "Uma oração pode mudar o dia de alguém"
+  ],
+  "cta_falado": "Envie este bom dia para quem você ama."
+}
