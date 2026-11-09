@@ -1,10 +1,10 @@
 {
- "atualizado_em": "2026-11-02",
+ "atualizado_em": "2026-11-09",
  "horarios": {
   "bomdia": "22:00 da véspera",
   "noite": "20:30",
   "fuso": "America/Sao_Paulo",
-  "teste": "bom dia às 22:00 da véspera desde 02/11 (antes 08:00); avaliar em 16/11"
+  "teste": "bom dia às 22:00 da véspera desde 02/11 (antes 08:00). 09/11: no IG a mediana do bom dia subiu para 370 views (antes 130,5 às 08h) e trouxe quase todos os compartilhamentos; TikTok igual (~190). Manter; confirmar em 16/11."
  },
  "pesos_series": {
   "Oração da manhã": 1.0,
@@ -47,7 +47,15 @@
   "IG: tempo médio assistido baixo (2,1–7,2 s em vídeos de ~40 s) e só 16–35% passam dos 3 s. Prioridade: primeiro quadro e primeira frase mais fortes. Pior: Oração do perdão (2,1 s, 15,7%) — gancho 'Perdoar não é esquecer' segurou pouco.",
   "Compartilhamentos e salvamentos quase zero nas duas redes (IG 1 share, 0 saves; TK 2 shares). Testar CTA 'enviar' mais específico (nome da pessoa/situação) e orações que valem guardar (tradicionais completas) para provocar salvamento.",
   "TikTok: os 3 primeiros vídeos (29–30/10) tiveram 0–1 view — aquecimento da conta nova, não conteúdo; ficam fora das comparações.",
-  "Horários: Metricool aponta picos de público às 10h e 18h (IG) e 10h/12h/18h (TK) nos dias úteis. Não mudar agora (teste do bom dia às 22h vai até 16/11); depois avaliar testar a noite às 18h30 em vez de 20h30."
+  "Horários: Metricool aponta picos de público às 10h e 18h (IG) e 10h/12h/18h (TK) nos dias úteis. Não mudar agora (teste do bom dia às 22h vai até 16/11); depois avaliar testar a noite às 18h30 em vez de 20h30.",
+  "09/11 (2ª análise, semana 03–09/11, pistas): bom dia às 22h da véspera virou o motor do Instagram — os 4 melhores em views (Domingo 484, Sexta 411, Terça 387, Sábado 354) e 200 dos 205 compartilhamentos da semana. Sábado de Nossa Senhora: 139 shares (50% do alcance); Primeira sexta: 39. Dia devocional + 'envie este bom dia' é o que mais espalha.",
+  "TikTok travado num patamar: todos os vídeos maduros da semana entre 168 e 251 views (mediana 189), sem nenhum estouro. Metricool não traz alcance, For You, tempo médio nem % assistido do TikTok — sem isso não dá para saber se o gargalo é retenção. Testar ganchos visuais diferentes no 1º segundo no TK.",
+  "Longos (60–80 s): no IG seguram mais segundos (Terço 24,8 s de tempo médio e 48,5% passando dos 3 s — melhor da semana; Salve Rainha 12 s) mas não passam de ~125 views; no TK empatam com os curtos (mediana 196 x 185). Manter 1 a cada 3 longos.",
+  "Pior da semana nas duas redes: Salmo 131 para dormir em paz (IG 120 views, 11,8% do vídeo assistido em média, 0 share; TK 168). Gancho 'o salmo de quem descansa…' é explicativo demais; nos salmos abrir com a dor ('Não consegue desligar a cabeça à noite?').",
+  "Salvamentos continuam quase zero (5 no IG na semana) mesmo com 'Salve este vídeo' na legenda. Testar o pedido dentro do vídeo, na última frase falada, com motivo concreto ('salve para rezar amanhã quando acordar').",
+  "Ideia de gancho para a noite, derivada do melhor post: levar para a oração da noite o que funciona no bom dia — dia da semana/devoção na 1ª frase + pedido de envio com destinatário ('envie para sua mãe', 'para quem está desempregado').",
+  "Voz: masculina com retenção IG um pouco maior (23,5% x 17,7% do vídeo), feminina com views TK um pouco maiores (200 x 178,5). Diferença pequena, sem mudança.",
+  "Comentários subiram (IG 24, TK 45 na semana; Terça bom dia teve 12 no TK e Salve Rainha 8). O Metricool não traz o texto dos comentários — Fernando precisa responder e anotar temas pedidos."
  ],
  "pesos_voz": {
   "feminina": 1.0,
@@ -56,7 +64,7 @@
  "pesos_cta": {
   "amem": 1.0,
   "enviar": 1.0,
-  "seguir": 1.0,
+  "seguir": 0.9,
   "nome": 1.0
  },
  "pesos_formato": {
@@ -64,10 +72,10 @@
   "tradicional": 1.5,
   "oracao": 1.0,
   "enviar": 1.0,
-  "salmo": 1.0,
+  "salmo": 0.9,
   "evangelho": 1.0,
   "santo": 1.2,
-  "terco": 1.0,
+  "terco": 1.2,
   "misericordia": 1.0,
   "exame": 1.0
  },
