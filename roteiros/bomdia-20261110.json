@@ -1,0 +1,48 @@
+{
+  "id": "bomdia-20261110",
+  "serie": "Terça-feira",
+  "tema": "amanhecer",
+  "trilha_tema": "amanhecer",
+  "fundo": "videos",
+  "voz": "feminina",
+  "formato": "bom_dia",
+  "estilo": "classico",
+  "layout": "baixo",
+  "rodape": "Bom dia!",
+  "linhas": [
+    "Deus, hoje é terça-feira, 10 de novembro, e eu começo este dia nas Tuas *mãos*.",
+    "Obrigada pela noite que passou e pelo ar que eu *respiro* agora.",
+    "Hoje a Igreja celebra São Leão Magno, papa que guardou a fé com *coragem*.",
+    "Dá-me também essa coragem, porque Tu estás comigo por onde eu *andar*.",
+    "Entrego a Ti as preocupações que acordaram *comigo* hoje.",
+    "Abençoa o meu trabalho e o pão de cada dia da minha *casa*.",
+    "Cuida da minha família, de quem está longe e de quem está *doente*.",
+    "Nossa Senhora, cobre com o teu manto cada passo desta *terça-feira*.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {
+    "linha": 3,
+    "texto": "Josué 1,9"
+  },
+  "cta_tipo": "enviar",
+  "cenas": [
+    "sunrise mountains",
+    "sunrise ocean",
+    "cathedral light",
+    "person walking road sunrise",
+    "morning mist lake",
+    "golden hour meadow",
+    "family walking field",
+    "virgin mary statue",
+    "sunrise cross",
+    "sun rays clouds"
+  ],
+  "legenda": "Bom dia, Deus 🙏 Terça-feira, 10 de novembro\n\nHoje a Igreja celebra São Leão Magno. Que Deus nos dê coragem para viver este dia com fé. Envie este bom dia para quem você ama e escreva AMÉM se você rezou junto.\n\n#bomdia #bomdiadeus #oracao #tercafeira #candeiadiaria #catolico #igrejacatolica #nossasenhora",
+  "slot": "bomdia",
+  "data": "2026-11-10",
+  "cta": [
+    "Envie este bom dia para quem você *ama*",
+    "Uma oração pode mudar o dia de alguém"
+  ],
+  "cta_falado": "Envie este bom dia para quem você ama."
+}

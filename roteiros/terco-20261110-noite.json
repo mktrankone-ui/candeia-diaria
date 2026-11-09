@@ -1,0 +1,59 @@
+{
+  "id": "terco-20261110-noite",
+  "serie": "Terço de terça-feira",
+  "tema": "noite",
+  "trilha_tema": "noite",
+  "fundo": "videos",
+  "voz": "masculina",
+  "formato": "terco",
+  "estilo": "montserrat",
+  "layout": "baixo",
+  "linhas": [
+    "Se a angústia apertou o seu peito hoje, reze comigo nesta terça-feira à *noite*.",
+    "Terça-feira é dia dos mistérios dolorosos do *terço*.",
+    "Primeiro mistério: a agonia de Jesus no Horto das *Oliveiras*.",
+    "Naquela noite, Jesus sentiu tristeza e angústia, como você talvez sinta *agora*.",
+    "Ele se ajoelhou e disse ao Pai: não a minha vontade, mas a *tua*.",
+    "E um anjo do céu veio para lhe dar *força*.",
+    "Sentir angústia não é falta de fé: Jesus também conheceu essa *noite*.",
+    "Jesus, que rezaste no Horto, segura a minha mão neste *escuro*.",
+    "E, se a angústia não passar, procure também ajuda: um médico, um padre, um *amigo*.",
+    "Agora, reze comigo o Pai-Nosso, devagar, com todo o *coração*.",
+    "Pai nosso, que estais no céu, santificado seja o vosso *nome*.",
+    "Venha a nós o vosso reino; seja feita a vossa vontade, assim na terra como no *céu*.",
+    "O pão nosso de cada dia nos dai hoje; perdoai-nos as nossas *ofensas*,",
+    "assim como nós perdoamos a quem nos tem ofendido; e não nos deixeis cair em *tentação*,",
+    "mas livrai-nos do mal. *Amém*."
+  ],
+  "referencia": {
+    "linha": 4,
+    "texto": "Lucas 22,42"
+  },
+  "cta": [
+    "Se você crê, escreva *AMÉM*",
+    "Salve para rezar de novo amanhã"
+  ],
+  "cta_falado": "Se você rezou comigo, escreva amém e salve este vídeo para rezar de novo amanhã à noite.",
+  "cta_tipo": "amem",
+  "cenas": [
+    "candle light dark",
+    "rosary hands",
+    "olive tree",
+    "moon clouds night",
+    "praying hands light",
+    "sun rays clouds",
+    "man thinking nature",
+    "cross hill sky",
+    "hands holding",
+    "rosary bible",
+    "starry sky mountains",
+    "milky way",
+    "night lake moon",
+    "moonlight ocean",
+    "church candles",
+    "candle light"
+  ],
+  "legenda": "Terça-feira é dia dos mistérios dolorosos. Reze comigo o primeiro mistério, a agonia de Jesus no Horto, e termine a noite com o Pai-Nosso. 📿🕯️\n\nSe a angústia apertou hoje, você não está sozinho. Escreva AMÉM se rezou junto e salve para rezar de novo amanhã.\n\n#terço #misteriosdolorosos #ansiedade #painosso #catolico #igrejacatolica #oração #fé #candeiadiaria",
+  "slot": "noite",
+  "data": "2026-11-10"
+}
