@@ -1,1 +1,54 @@
-0 vídeo(s) gerado(s)
+== bomdia-20261110
+ok 0 sunrise mountains 88560 | sunrise, mountains, landscape, golden, beautiful, sunrise in mountains, mountain sunrise, timeelapsed, motion, clouds, light, rays, forest, nature, stunning, rocky mountains, early, morning
+ok 1 sunrise ocean 217850 | rock, stone, sunset, water, calm, summer, sea, silhouette, ocean, coast, pebble, calmness, coastline, sunrise, coastal, shore, reflection, tranquility
+ok 2 cathedral light 31721 | stained, glass, window, old, historic, architecture, church, jesus, religion, cathedral, catholic, color, pattern, faith, pray, chapel, christian, mosaic, museum, europe
+ok 3 person walking road sunrise 160122 | morning, sunrise, road, sun, landscape, nature, scenery, netherlands, drenthe, hoogeveen
+ok 4 morning mist lake 231494 | fog fields, morning mist, fogging, sunlight, haze, nature, landscape
+ok 5 golden hour meadow 276646 | meadow, grass, spring meadow, wind, nature, landscape, dandruff, tool shed
+ok 6 family walking beach sunset 41750 | bali, beach, sea, ocean, indonesia, water, travel, nature, summer, vacation, people, surf, holiday, sunset, tropical, outdoor, surfing, wave, surfer, sky, hawaii, sand, family, asia, coast
+ok 7 white roses 138908 | white roses, roses, close up, wind, fresh, nature
+ok 8 sunrise field 220361 | trees, sunrise, forest, woods, morning, fog, sunlight, wilderness, trail, sunbeams, misty, scenic, field, outdoors, nature, drenthe, netherlands, landscape
+ok 9 sun rays clouds 31282 | palm, sun, beach, summer, paradise, caribbean, vacation, holiday, relax, exotic, peaceful, resort, vacations, romantic, sun rays
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+trilha 117 New Dawn (Uplifting)
+[vost#0:0/rawvideo @ 0x61b3901897c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x61b390189440] Error muxing a packet
+[out#0/rawvideo @ 0x61b390189440] Task finished with error code: -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x64d92df24140] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x64d92df23dc0] Error muxing a packet
+[out#0/rawvideo @ 0x64d92df23dc0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x64d92df23dc0] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5cccf02f5bc0] [vost#0:0/rawvideo @ 0x55b2d3bb9fc0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x55b2d3bb9c40] Error muxing a packet
+[out#0/rawvideo @ 0x55b2d3bb9c40] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x55b2d3bb9c40] Terminating thread with return code -32 (Broken pipe)
+ok bomdia-20261110 (49.1s, fundo=videos, voz=pt-BR-ThalitaMultilingualNeural)
+== terco-20261110-noite
+ok 0 candle light dark 334905 | candle, wick, red, comfortable, calm, flames, light, burn, the atmosphere
+ok 1 olive tree 4605423 | olives, nature, country, agriculture, olive, tree, mediterranean, branch, child, curly
+ok 2 moon clouds night 6129740 | photographer, moon, night, silhouette, night sky, man, camera, tripod, photography, stargazing, sky, clouds, nature, twilight, dusk, sunset, evening, dark
+ok 3 candle light dark 7046539 | candle, flame, fire, burning, hot, candlelight, mood, macro, close up
+ok 4 man thinking nature 1924642 | chess, man, game, competition, board, planning, thinking, playing, strategy, sitting
+ok 5 moonlight ocean 8333452 | beach, night, moonlight, serenity, ocean, nocturnal, tranquil, midnight, coastal, dark, seashore, relaxation, waves, quiet, shoreline, starry sky, peaceful, evening, sand, moonlit
+ok 6 hands holding 2590820 | couple, man, woman, girl, guy, holding, hands, bokeh, trees, watch, love, people, bricks, nature, fence
+ok 7 night sky stars 3031977 | moon, sky, nature, dusk, sun, silhouette, dawn, deer, shooting star, dark forest, blue forest, night sky, blue sun, blue sunset, blue sky, blue moon, blue stars, blue dark
+ok 8 starry sky mountains 7160654 | milky way, stars, beautiful wallpaper, starry sky, 4k wallpaper, background, mountains, nature, landscape
+ok 9 rosary bible 436581 | faith, bible, christianity, religion, the holy book, christian, candlelight, book pages, a book, cross, rosary, church, spirituality, bible, a book, rosary, rosary, rosary, rosary, rosary
+ok 10 virgin mary statue 3418579 | art statue, mary with child jesus, statue, christianity, jesus, holy mother, jungfau maria, marienfigur, mother of god, christianity, jesus, jesus, jesus, jesus, jesus, holy mother
+ok 11 moonlight ocean 3584600 | moon, sea, moonlight, night, full moon, march, blodmåne, eclipse, lunar eclipse, himmel, starry sky, nature, outdoor, water, summer, the night, ocean, coastal, black sea, black ocean, eclipse, eclipse, eclipse, lunar eclipse, lunar eclipse, lunar eclipse, lunar eclipse, lunar eclipse
+ok 12 crucifix church 995 | cross, ornament, vintage, decor, religion, jesus, spirituality, christ, culture, faith, catholic, god, tribal, crucifix, traditional, church, orthodox, black cross, black church, black god, black vintage, black culture
+ok 13 candle light 646394 | lantern, christmas, light, christmas market, christmas decoration, the atmosphere, candle, lamp, lighting, decoration, candlelight, advent, christmas time, shine, illuminated, contemplative, advent season, december, mood, lantern, christmas, christmas, christmas, christmas market, christmas market, candle, advent, advent, advent, advent, advent
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+trilha 464 Night Light (Sleepy)
+ok terco-20261110-noite (83.2s, fundo=fotos, voz=pt-BR-AntonioNeural)
+2 vídeo(s) gerado(s)
+[vost#0:0/rawvideo @ 0x60249cb94f80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x60249caddc80] Error muxing a packet
+[out#0/rawvideo @ 0x60249caddc80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x60249caddc80] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x60249caddc80] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x60249caddc80] Error closing file: Broken pipe

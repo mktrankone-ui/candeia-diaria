@@ -382,14 +382,14 @@
   "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261110.mp4",
   "serie": "Terça-feira",
   "legenda": "Bom dia, Deus 🙏 Terça-feira, 10 de novembro\n\nHoje a Igreja celebra São Leão Magno. Que Deus nos dê coragem para viver este dia com fé. Envie este bom dia para quem você ama e escreva AMÉM se você rezou junto.\n\n#bomdia #bomdiadeus #oracao #tercafeira #candeiadiaria #catolico #igrejacatolica #nossasenhora",
-  "duracao": 46.7,
+  "duracao": 49.1,
   "fundo": "videos",
   "trilha": {
-   "id": 114,
-   "titulo": "Horizon Line (Hopeful)",
-   "url": "https://media.snipsound.com/audio/rf_cin02a_2_horizon_line_hopeful.mp3"
+   "id": 117,
+   "titulo": "New Dawn (Uplifting)",
+   "url": "https://media.snipsound.com/audio/rf_cin02b_new_dawn_uplifting.mp3"
   },
-  "voz": "pt-BR-FranciscaNeural",
+  "voz": "pt-BR-ThalitaMultilingualNeural",
   "tipo_voz": "feminina",
   "cta_tipo": "enviar",
   "formato": "bom_dia",
@@ -400,12 +400,12 @@
   "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/terco-20261110-noite.mp4",
   "serie": "Terço de terça-feira",
   "legenda": "Terça-feira é dia dos mistérios dolorosos. Reze comigo o primeiro mistério, a agonia de Jesus no Horto, e termine a noite com o Pai-Nosso. 📿🕯️\n\nSe a angústia apertou hoje, você não está sozinho. Escreva AMÉM se rezou junto e salve para rezar de novo amanhã.\n\n#terço #misteriosdolorosos #ansiedade #painosso #catolico #igrejacatolica #oração #fé #candeiadiaria",
-  "duracao": 89.9,
-  "fundo": "videos",
+  "duracao": 83.2,
+  "fundo": "fotos",
   "trilha": {
-   "id": 96,
-   "titulo": "Floating Light (Peaceful)",
-   "url": "https://media.snipsound.com/audio/rf_amb01a_floating_light_peaceful.mp3"
+   "id": 464,
+   "titulo": "Night Light (Sleepy)",
+   "url": "https://media.snipsound.com/audio/rf_med02a_2_night_light_sleepy.mp3"
   },
   "voz": "pt-BR-AntonioNeural",
   "tipo_voz": "masculina",
