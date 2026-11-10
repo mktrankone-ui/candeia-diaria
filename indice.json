@@ -412,5 +412,41 @@
   "cta_tipo": "amem",
   "formato": "terco",
   "motor_voz": "edge"
+ },
+ "bomdia-20261111": {
+  "arquivo": "bomdia-20261111.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261111.mp4",
+  "serie": "Quarta-feira",
+  "legenda": "Bom dia, Deus 🙏 Quarta-feira, 11 de novembro\n\nHoje a Igreja celebra São Martinho de Tours, que dividiu o próprio manto com quem passava frio. Envie este bom dia para quem você ama e escreva AMÉM se rezou junto.\n\n#bomdia #bomdiadeus #oracao #quartafeira #candeiadiaria #catolico #saomartinho #saojose",
+  "duracao": 47.4,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 119,
+   "titulo": "New Dawn (Inspiring)",
+   "url": "https://media.snipsound.com/audio/rf_cin02c_new_dawn_inspiring.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "saofrancisco-20261111-noite": {
+  "arquivo": "saofrancisco-20261111-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/saofrancisco-20261111-noite.mp4",
+  "serie": "Reze comigo a Oração de São Francisco",
+  "legenda": "Quando a mágoa com alguém tira a nossa paz, esta oração ajuda a recomeçar. Reze comigo a Oração de São Francisco antes de dormir. 🕊️🙏\n\nEscreva AMÉM se você rezou junto, salve para rezar de novo quando precisar e envie para alguém com quem você quer fazer as pazes.\n\n#oracaodesaofrancisco #saofrancisco #paz #perdao #oração #fé #catolico #igrejacatolica #candeiadiaria",
+  "duracao": 57.8,
+  "fundo": "videos",
+  "trilha": {
+   "id": 458,
+   "titulo": "Still Waters (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_med01a_2_still_waters_peaceful.mp3"
+  },
+  "voz": "pt-BR-FranciscaNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "enviar",
+  "formato": "tradicional",
+  "motor_voz": "edge"
  }
 }
