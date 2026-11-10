@@ -1,0 +1,48 @@
+{
+  "id": "bomdia-20261111",
+  "serie": "Quarta-feira",
+  "tema": "amanhecer",
+  "trilha_tema": "amanhecer",
+  "fundo": "fotos",
+  "voz": "masculina",
+  "formato": "bom_dia",
+  "estilo": "classico",
+  "layout": "centro",
+  "rodape": "Bom dia!",
+  "linhas": [
+    "Deus, hoje é quarta-feira, 11 de novembro, e eu Te entrego este *dia*.",
+    "Obrigado por me acordar e por mais uma chance de *recomeçar*.",
+    "Hoje a Igreja celebra São Martinho, que repartiu o seu manto com um *pobre*.",
+    "Ensina-me a enxergar o Teu rosto em quem precisa de *mim*.",
+    "Coloco em Tuas mãos tudo o que me preocupa nesta *manhã*.",
+    "Abençoa o meu trabalho e dá-me paciência com cada *pessoa*.",
+    "Protege a minha família, os que estão perto e os que estão *longe*.",
+    "São José, guarda da Sagrada Família, cuida também da minha *casa*.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {
+    "linha": 3,
+    "texto": "Mateus 25,40"
+  },
+  "cta_tipo": "enviar",
+  "cenas": [
+    "sunrise mountains",
+    "person arms open sunrise",
+    "church interior light",
+    "hands holding sunset",
+    "sun rays forest",
+    "man walking mountain sunrise",
+    "family walking field",
+    "chapel mountains",
+    "sunrise cross",
+    "sunrise sky clouds"
+  ],
+  "legenda": "Bom dia, Deus 🙏 Quarta-feira, 11 de novembro\n\nHoje a Igreja celebra São Martinho de Tours, que dividiu o próprio manto com quem passava frio. Envie este bom dia para quem você ama e escreva AMÉM se rezou junto.\n\n#bomdia #bomdiadeus #oracao #quartafeira #candeiadiaria #catolico #saomartinho #saojose",
+  "slot": "bomdia",
+  "data": "2026-11-11",
+  "cta": [
+    "Envie este bom dia para quem você *ama*",
+    "Uma oração pode mudar o dia de alguém"
+  ],
+  "cta_falado": "Envie este bom dia para quem você ama."
+}

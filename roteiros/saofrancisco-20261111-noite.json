@@ -1,0 +1,57 @@
+{
+  "id": "saofrancisco-20261111-noite",
+  "serie": "Reze comigo a Oração de São Francisco",
+  "tema": "paz",
+  "trilha_tema": "paz",
+  "fundo": "videos",
+  "voz": "feminina",
+  "formato": "tradicional",
+  "estilo": "montserrat",
+  "layout": "centro",
+  "linhas": [
+    "Se o seu coração anda pesado com alguém, reze comigo esta *oração*.",
+    "Senhor, fazei-me instrumento de vossa *paz*.",
+    "Onde houver ódio, que eu leve o *amor*.",
+    "Onde houver ofensa, que eu leve o *perdão*.",
+    "Onde houver discórdia, que eu leve a *união*.",
+    "Onde houver dúvida, que eu leve a *fé*.",
+    "Onde houver erro, que eu leve a *verdade*.",
+    "Onde houver desespero, que eu leve a *esperança*.",
+    "Onde houver tristeza, que eu leve a *alegria*.",
+    "Onde houver trevas, que eu leve a *luz*.",
+    "Ó Mestre, fazei que eu procure mais consolar que ser *consolado*,",
+    "compreender que ser compreendido, amar que ser *amado*.",
+    "Pois é dando que se recebe, é perdoando que se é *perdoado*,",
+    "e é morrendo que se vive para a vida eterna. *Amém*."
+  ],
+  "referencia": {
+    "linha": 1,
+    "texto": "Oração de São Francisco (oração tradicional)"
+  },
+  "cta_tipo": "enviar",
+  "cenas": [
+    "woman thinking window",
+    "white dove sky",
+    "family hug sunset",
+    "hands holding",
+    "friends hug",
+    "cathedral light",
+    "path forest light",
+    "lighthouse waves",
+    "golden hour meadow",
+    "candle light dark",
+    "mother child sunset",
+    "couple hug sunset",
+    "river stream forest",
+    "cross sunset",
+    "night sky stars"
+  ],
+  "legenda": "Quando a mágoa com alguém tira a nossa paz, esta oração ajuda a recomeçar. Reze comigo a Oração de São Francisco antes de dormir. 🕊️🙏\n\nEscreva AMÉM se você rezou junto, salve para rezar de novo quando precisar e envie para alguém com quem você quer fazer as pazes.\n\n#oracaodesaofrancisco #saofrancisco #paz #perdao #oração #fé #catolico #igrejacatolica #candeiadiaria",
+  "slot": "noite",
+  "data": "2026-11-11",
+  "cta": [
+    "Envie para alguém com quem quer fazer as *pazes*",
+    "Uma oração pode mudar o dia de alguém"
+  ],
+  "cta_falado": "Envie esta oração para alguém com quem você precisa fazer as pazes."
+}
