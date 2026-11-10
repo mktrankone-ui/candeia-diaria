@@ -1,48 +1,15 @@
-== saofrancisco-20261111-noite
-ok 0 ocean waves sunset 226534 | ocean, sea, sunset, sun, water, sunlight, reflection, yellow, water surface, seascape, wave, vibrant color, sunrise, dawn, flowing, glowing, horizon
-ok 1 ocean waves sunset 238505 | ocean, sea, sunset, seascape, wave, water, sun, water surface, sunlight, peaceful, sunrise, reflection, tranquil, calm
-ok 2 family hug sunset 197560 | ocean, beach, sea, sunset, lanzarote, canary islands, family, fun, sky, water, nature, landscape
-ok 3 desert dunes sunset 284566 | desert, dunes, sand, namibia, nature, africa, drone
-ok 4 river forest 382385 | river, stream, creek, autumn, leaves, fall, water, forest
-ok 5 cathedral light 46347 | church, stone, castle, wall, carving, religion, ancient, tomb, archaeology, ruin, europe, medieval, cathedral, knight, history, relic, templar, germany, travel, tourism, munich, rome
-ok 6 path forest light 172821 | trees, forest, path, drone, sunset, nature, landscape, aerial view, forest path, bird's eye view, wilderness, beautiful wallpaper, background
-ok 7 lighthouse waves 219533 | lighthouse, ocean, sea, beach, water, waves, seascape, sand, nature
-ok 8 golden hour meadow 212993 | tree, field, summer, green, golden hour, sun, warm, grass, peaceful, spring, shine, warmth, beautiful, nature, england, uk, meadow
-ok 9 candle light dark 51754 | candle, flame, light, dark, fire, heat, black, spirituality, pray, spiritual, memorial, burning
-ok 10 desert dunes sunset 284565 | desert, dunes, sand, namibia, nature, africa, drone
-ok 11 couple hug sunset 200479 | couple, sea, beach, waves, sunset, sunrise, canary islands, spain, water, lanzarote, foam, romantic
-ok 12 river stream forest 237543 | river, waterfall, mountain, wave, flow, stream, forest, spring, speed, torn, nature
-ok 13 ocean waves sunset 252706 | waves, ocean, sea, water, seascape, coast, sunrise, outdoors, sand, aerial view, breaking waves, stirred sand, wave action, nature
-ok 14 sunset clouds 303907 | sunset, ocean, sea, nature, water, seascape, waves, beach, sky, coast, horizon, seashore, spume, wave, clouds
-ok 15 night sky stars 1099 | night, sky, stars, universe, motion, rotation, science, milky way, astronomy, cosmos, astrophotography, starlight, sparkling, landscape, 142892235
+== bomdia-20261111
+ok 0 sunrise mountains 2035446 | death valley, california, desert, sky, clouds, scenic, mountains, landscape, hot, dry, nature, outdoors, sunset, sunrise, hdr, country, countryside, death valley, death valley, death valley, desert, desert, desert, desert, desert
+ok 1 sunrise sky clouds 6953093 | sunrise, sea, waves, nature, water, seascape, sky, clouds, scenery, dawn, morning
+ok 2 sunrise mountains 4416339 | sunrise, mountain, nature, blue sky, landscape, sky, mountains, travel, outdoor, tourism, scenic, hampi, india, unesco, scenery, morning, karnataka, meadow, rural, countryside, summer, dawn, environment, blue, yellow, colorful
+ok 3 hands holding 6976409 | couple, holding hands, together, date, hands, man, woman, boyfriend, girlfriend, love, closeup, couple, couple, couple, couple, couple, holding hands, holding hands, holding hands, date, date, boyfriend, girlfriend, girlfriend, love, love, love, love
+ok 4 sun rays forest 2872101 | alps, rigi, pilate, stanserhorn, lake lucerne region, mist, mountain panorama, nature, leaves, sun, backlighting, distant vision, mountains, mountain meadow, foresight, heaven, central switzerland, fall, landscape, panorama, alp, alm, forest, outlook, switzerland, mountains, mountains, switzerland, switzerland, switzerland, switzerland, switzerland
+ok 5 golden hour meadow 7063790 | woman, nature, sunset, meadow, portrait, sundown
+ok 6 morning mist lake 5373188 | morning mood, sunrise, riverbank, nature, lake, dawn, mood, landscape, sun, atmospheric, haze, quiet, silence, backlighting, tomorrow, birch, light
+ok 7 chapel mountains 5145090 | austria, tyrol, tannheim valley, nesselwängle, chapel, hike, panorama, nature, alps, mountains
+ok 8 sunrise mountains 7678604 | sunrise, clouds, mountains, alps, canton bern, switzerland, winter, nature, landscape, nature wallpaper
+ok 9 sunrise sky clouds 2702829 | bled, slovenia, sunrise, fog, mist, haze, sky, clouds, island, nature, tourism, mountains, forest, woods, trees, lake, reflections, beautiful, lake bled, orange sky, orange forest, orange tree, orange mountain, orange sunrise, orange clouds, orange beauty, orange lake, orange island
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-  falha na síntese (NoAudioReceived) tentativa 1: e é morrendo que se vive para a vida eterna.
-  falha na síntese (NoAudioReceived) tentativa 1: São Francisco de Assis, rogai por nós, amém.
-  falha na síntese (NoAudioReceived) tentativa 1: Envie esta oração para alguém com quem você precisa fazer as pazes.
-  falha na síntese (NoAudioReceived) tentativa 2: Envie esta oração para alguém com quem você precisa fazer as pazes.
-  trocando a narração inteira para a voz de reserva pt-BR-FranciscaNeural
-trilha 458 Still Waters (Peaceful)
-[vost#0:0/rawvideo @ 0x60e7ef06ca80] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x60e7eefc2f40] Error muxing a packet
-[out#0/rawvideo @ 0x60e7eefc2f40] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x60e7eefc2f40] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x654dfe659a80] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x654dfe659700] Error muxing a packet
-[out#0/rawvideo @ 0x654dfe659700] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x654dfe659700] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5b9af7f58a40] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5b9af7ee2cc0] Error muxing a packet
-[out#0/rawvideo @ 0x5b9af7ee2cc0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5b9af7ee2cc0] Terminating thread with return code -32 (Broken pipe)
-ok saofrancisco-20261111-noite (62.7s, fundo=videos, voz=pt-BR-FranciscaNeural)
+trilha 115 New Dawn (Hopeful)
+ok bomdia-20261111 (47.4s, fundo=fotos, voz=pt-BR-AntonioNeural)
 1 vídeo(s) gerado(s)
-[vost#0:0/rawvideo @ 0x627f19760b40] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x627f197607c0] Error muxing a packet
-[out#0/rawvideo @ 0x627f197607c0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x627f197607c0] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x627f197607c0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x627f197607c0] Error closing file: Broken pipe
