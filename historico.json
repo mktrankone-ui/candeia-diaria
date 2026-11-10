@@ -395,5 +395,39 @@
     "cta_tipo": "amem",
     "duracao": 83.2,
     "metricool_id": 421814708
+  },
+  {
+    "id": "bomdia-20261111",
+    "data": "2026-11-11",
+    "slot": "bomdia",
+    "serie": "Quarta-feira",
+    "formato": "bom_dia",
+    "tema": "amanhecer",
+    "referencia": "Mateus 25,40",
+    "fundo": "fotos",
+    "estilo": "classico",
+    "layout": "centro",
+    "trilha": "New Dawn (Uplifting)",
+    "voz": "masculina",
+    "cta_tipo": "enviar",
+    "duracao": 47.4,
+    "metricool_id": 423169154
+  },
+  {
+    "id": "saofrancisco-20261111-noite",
+    "data": "2026-11-11",
+    "slot": "noite",
+    "serie": "Reze comigo a Oração de São Francisco",
+    "formato": "tradicional",
+    "tema": "paz",
+    "referencia": "Oração de São Francisco (oração tradicional)",
+    "fundo": "videos",
+    "estilo": "montserrat",
+    "layout": "centro",
+    "trilha": "Still Waters (Peaceful)",
+    "voz": "feminina (reserva Francisca)",
+    "cta_tipo": "enviar",
+    "duracao": 62.7,
+    "metricool_id": 423169192
   }
 ]
