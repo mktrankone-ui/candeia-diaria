@@ -1,0 +1,42 @@
+{
+  "id": "bomdia-20261112",
+  "serie": "Quinta-feira",
+  "tema": "amanhecer",
+  "trilha_tema": "amanhecer",
+  "fundo": "videos",
+  "voz": "feminina",
+  "formato": "bom_dia",
+  "estilo": "classico",
+  "layout": "baixo",
+  "rodape": "Bom dia!",
+  "linhas": [
+    "Deus, hoje é quinta-feira, 12 de novembro, e eu começo este dia *Contigo*.",
+    "Obrigada pelo descanso da noite e pelo ar que eu *respiro*.",
+    "Quinta-feira é dia de lembrar que Jesus ficou conosco na *Eucaristia*.",
+    "Que hoje eu prove e veja como o Senhor é *bom*.",
+    "Entrego em Tuas mãos as preocupações que eu não consigo *resolver*.",
+    "Abençoa o meu trabalho, os meus estudos e cada *passo* que eu der.",
+    "Cuida da minha família e de quem eu amo, onde quer que *estejam*.",
+    "Nossa Senhora, minha mãe, segura a minha mão neste *dia*.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {"linha": 3, "texto": "Salmo 34(33),9"},
+  "cta_tipo": "enviar",
+  "cenas": [
+    "sunrise ocean",
+    "morning mist lake",
+    "communion host",
+    "golden hour meadow",
+    "hands holding sunset",
+    "person walking road sunrise",
+    "family walking beach sunset",
+    "virgin mary statue",
+    "sunrise cross",
+    "sunrise sky clouds"
+  ],
+  "legenda": "Bom dia, Deus 🙏 Quinta-feira, 12 de novembro\n\nQuinta-feira é dia de agradecer pela Eucaristia, Jesus que ficou conosco. Envie este bom dia para quem você ama e escreva AMÉM se rezou junto.\n\n#bomdia #bomdiadeus #oracao #quintafeira #candeiadiaria #catolico #eucaristia #nossasenhora",
+  "slot": "bomdia",
+  "data": "2026-11-12",
+  "cta": ["Envie este bom dia para quem você *ama*", "Uma oração pode mudar o dia de alguém"],
+  "cta_falado": "Envie este bom dia para quem você ama."
+}
