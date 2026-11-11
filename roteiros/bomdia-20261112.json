@@ -20,23 +20,29 @@
     "Nossa Senhora, minha mãe, segura a minha mão neste *dia*.",
     "Em nome de Jesus, *amém*."
   ],
-  "referencia": {"linha": 3, "texto": "Salmo 34(33),9"},
+  "referencia": {
+    "linha": 3,
+    "texto": "Salmo 34(33),9"
+  },
   "cta_tipo": "enviar",
   "cenas": [
     "sunrise ocean",
     "morning mist lake",
-    "communion host",
+    "church candles",
     "golden hour meadow",
     "hands holding sunset",
     "person walking road sunrise",
     "family walking beach sunset",
-    "virgin mary statue",
+    "rosary",
     "sunrise cross",
     "sunrise sky clouds"
   ],
   "legenda": "Bom dia, Deus 🙏 Quinta-feira, 12 de novembro\n\nQuinta-feira é dia de agradecer pela Eucaristia, Jesus que ficou conosco. Envie este bom dia para quem você ama e escreva AMÉM se rezou junto.\n\n#bomdia #bomdiadeus #oracao #quintafeira #candeiadiaria #catolico #eucaristia #nossasenhora",
   "slot": "bomdia",
   "data": "2026-11-12",
-  "cta": ["Envie este bom dia para quem você *ama*", "Uma oração pode mudar o dia de alguém"],
+  "cta": [
+    "Envie este bom dia para quem você *ama*",
+    "Uma oração pode mudar o dia de alguém"
+  ],
   "cta_falado": "Envie este bom dia para quem você ama."
 }

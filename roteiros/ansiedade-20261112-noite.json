@@ -19,23 +19,29 @@
     "Dá a ela uma noite de sono *tranquilo* e um amanhecer com esperança.",
     "Em nome de Jesus, *amém*."
   ],
-  "referencia": {"linha": 3, "texto": "1 Pedro 5,7"},
+  "referencia": {
+    "linha": 3,
+    "texto": "1 Pedro 5,7"
+  },
   "cta_tipo": "nome",
   "cenas": [
-    "woman thinking window",
+    "fog mountains",
     "candle light dark",
     "man thinking nature",
     "praying hands light",
-    "calm lake",
+    "lake mountains reflection",
     "friends hug",
     "virgin mary statue",
     "night sky stars",
-    "cross sunset",
+    "cross hill sky",
     "moonlight ocean"
   ],
   "legenda": "Para quem vive com o peito apertado e a cabeça que não desliga. Reze comigo por essa pessoa e entregue a Deus o que tira a paz dela. 🙏\n\nEscreva nos comentários o nome de quem está com ansiedade, que a gente reza junto, e envie esta oração para essa pessoa. Se a ansiedade estiver pesada demais, procure também um médico ou psicólogo.\n\n#ansiedade #oracaocontraansiedade #oração #fé #Deus #catolico #igrejacatolica #nossasenhora #candeiadiaria",
   "slot": "noite",
   "data": "2026-11-12",
-  "cta": ["Escreva o *nome* de quem vive ansioso", "Vamos rezar juntos"],
+  "cta": [
+    "Escreva o *nome* de quem vive ansioso",
+    "Vamos rezar juntos"
+  ],
   "cta_falado": "Escreva nos comentários o nome de quem precisa desta oração, e salve para rezar de novo quando a ansiedade voltar."
 }
