@@ -457,9 +457,9 @@
   "duracao": 54.6,
   "fundo": "fotos",
   "trilha": {
-   "id": 458,
-   "titulo": "Still Waters (Peaceful)",
-   "url": "https://media.snipsound.com/audio/rf_med01a_2_still_waters_peaceful.mp3"
+   "id": 96,
+   "titulo": "Floating Light (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_amb01a_floating_light_peaceful.mp3"
   },
   "voz": "pt-BR-AntonioNeural",
   "tipo_voz": "masculina",
@@ -475,9 +475,9 @@
   "duracao": 46.5,
   "fundo": "videos",
   "trilha": {
-   "id": 115,
-   "titulo": "New Dawn (Hopeful)",
-   "url": "https://media.snipsound.com/audio/rf_cin02a_new_dawn_hopeful.mp3"
+   "id": 117,
+   "titulo": "New Dawn (Uplifting)",
+   "url": "https://media.snipsound.com/audio/rf_cin02b_new_dawn_uplifting.mp3"
   },
   "voz": "pt-BR-ThalitaMultilingualNeural",
   "tipo_voz": "feminina",

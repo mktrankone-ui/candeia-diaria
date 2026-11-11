@@ -1,1 +1,61 @@
-0 vídeo(s) gerado(s)
+== ansiedade-20261112-noite
+ok 0 fog mountains 6913551 | nature, fog, forest, mountains, sunset, dusk, outdoors, travel, exploration
+ok 1 candle light dark 7443201 | candle, meditation, candlelight, dark, memory, memorial, light in the darkness, silence, remembrance
+ok 2 man thinking nature 7518811 | man, portrait, dark, pensive, thinking, profile, mysterious, silent, obscure, mobster, gangster, hat, thriller, silent, mobster, mobster, mobster, gangster, gangster, gangster, gangster, gangster, thriller
+ok 3 rain window 5916247 | window, drops, rain, nature, drop of water, water, glass
+ok 4 lake mountains reflection 10314440 | mountains, lake, reflection, nature, trees, forest, tranquility, green, spring, panorama, landscape, blue sky, peace, alps, hiking, travel, scenery, ecology, tourist destinations, relaxation
+ok 5 friends hug 770690 | people, children, girl, blond, barefoot, outdoors, nature, hug, friends, friendship, siblings, children, children, children, children, children, barefoot, hug, hug, hug, hug, hug, friends, friends, friends, friends, friendship, siblings, siblings, siblings
+ok 6 virgin mary statue 1018185 | mary, immaculate, medjugorje, figure, the statue, sculpture, christianity, the statue of, medjugorje, medjugorje, medjugorje, medjugorje, medjugorje
+ok 7 night sky stars 6834164 | sweden, beach, milky way, stars, seascape, nature, night, sea, night sky, starry sky, black wallpaper, black, night, night, night, night sky, night sky, night sky, night sky, night sky
+ok 8 calm lake 4953323 | lindau, bodensee, lighthouse, water, port, sky, lake, germany, seagull, meditation, tourism, island, evening, romantic, architecture, lake constance, nature, marine, mountains, alps, blue meditation
+ok 9 river stream forest 4256006 | waterfall, italy, water, landscape, nature, spring, mountain, river, summer, hiking, forest, rock, waterfalls, mountains, green, scenic, tree, stream
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+trilha 96 Floating Light (Peaceful)
+ok ansiedade-20261112-noite (54.6s, fundo=fotos, voz=pt-BR-AntonioNeural)
+== bomdia-20261112
+ok 0 sunrise ocean 223041 | beach, ocean, hawaii, oahu, sunrise, sand, mountain, makapuu
+ok 1 morning mist lake 143331 | fog, morning, autumn, stream, water mist, paju
+ok 2 sunrise ocean 1917 | lighthouse, sunset, sunrise, sky, sea, ocean, coast, island, aerial, clouds, sun beams, sun rays
+ok 3 golden hour meadow 182517 | cosmos, flowers, wind, field, meadow, autumn, spring
+ok 4 golden hour meadow 124029 | field, grass, sunbeams, trees, sunset, sun, light, meadow, nature, landscape, golden hour, green
+ok 5 person walking road sunrise 134909 | sunrise, road, path, fog, mist, haze, nature
+ok 6 family walking beach sunset 158104 | surfing, ocean, sunset, water, couple, walking, beach, sand
+ok 7 rosary 246310 | bogota, colombia, jimenez avenue, seventh career, the candelaria, santa fe locality, university of rosario, rosary square, bank of the republic
+ok 8 sunrise sky clouds 39343 | cloudscape, tropics, vietnam, muine, time-lapse, sunrise, sunset, outdoors, landscape, dawn, ocean, sea, summer, dusk, nature, palms, trees, horizon, twilight, forest, sky, clouds
+ok 9 sunrise sky clouds 174999 | mountain, forest, adams peak, sunrise, clouds, sky, fog, mist, nature, drone, dji, sri lanka, landscape
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+trilha 117 New Dawn (Uplifting)
+[vost#0:0/rawvideo @ 0x60e9d911f3c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x60e9d911f040] Error muxing a packet
+[out#0/rawvideo @ 0x60e9d911f040] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x60e9d911f040] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x641cb1f6b680] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x641cb1f6b980] Error muxing a packet
+[out#0/rawvideo @ 0x641cb1f6b980] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x641cb1f6b980] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5ace7143ecc0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5ace7135e680] Error muxing a packet
+[out#0/rawvideo @ 0x5ace7135e680] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5ace7135e680] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x62069133b080] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x62069132e400] Error muxing a packet
+[out#0/rawvideo @ 0x62069132e400] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x62069132e400] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x573f2a1cda80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x573f2a1cd700] Error muxing a packet
+[out#0/rawvideo @ 0x573f2a1cd700] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x573f2a1cd700] Terminating thread with return code -32 (Broken pipe)
+ok bomdia-20261112 (46.5s, fundo=videos, voz=pt-BR-ThalitaMultilingualNeural)
+2 vídeo(s) gerado(s)
+[vost#0:0/rawvideo @ 0x616c78cdfec0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x616c78cdf980] Error muxing a packet
+[out#0/rawvideo @ 0x616c78cdf980] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x616c78cdf980] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x616c78cdf980] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x616c78cdf980] Error closing file: Broken pipe
