@@ -448,5 +448,41 @@
   "cta_tipo": "enviar",
   "formato": "tradicional",
   "motor_voz": "edge"
+ },
+ "ansiedade-20261112-noite": {
+  "arquivo": "ansiedade-20261112-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/ansiedade-20261112-noite.mp4",
+  "serie": "Oração por quem está com ansiedade",
+  "legenda": "Para quem vive com o peito apertado e a cabeça que não desliga. Reze comigo por essa pessoa e entregue a Deus o que tira a paz dela. 🙏\n\nEscreva nos comentários o nome de quem está com ansiedade, que a gente reza junto, e envie esta oração para essa pessoa. Se a ansiedade estiver pesada demais, procure também um médico ou psicólogo.\n\n#ansiedade #oracaocontraansiedade #oração #fé #Deus #catolico #igrejacatolica #nossasenhora #candeiadiaria",
+  "duracao": 54.6,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 458,
+   "titulo": "Still Waters (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_med01a_2_still_waters_peaceful.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "nome",
+  "formato": "enviar",
+  "motor_voz": "edge"
+ },
+ "bomdia-20261112": {
+  "arquivo": "bomdia-20261112.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261112.mp4",
+  "serie": "Quinta-feira",
+  "legenda": "Bom dia, Deus 🙏 Quinta-feira, 12 de novembro\n\nQuinta-feira é dia de agradecer pela Eucaristia, Jesus que ficou conosco. Envie este bom dia para quem você ama e escreva AMÉM se rezou junto.\n\n#bomdia #bomdiadeus #oracao #quintafeira #candeiadiaria #catolico #eucaristia #nossasenhora",
+  "duracao": 46.5,
+  "fundo": "videos",
+  "trilha": {
+   "id": 115,
+   "titulo": "New Dawn (Hopeful)",
+   "url": "https://media.snipsound.com/audio/rf_cin02a_new_dawn_hopeful.mp3"
+  },
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
  }
 }

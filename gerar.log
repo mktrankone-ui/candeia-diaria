@@ -1,15 +1,56 @@
-== bomdia-20261111
-ok 0 sunrise mountains 2686960 | italy, lake, reflection, sunrise, morning, fog, boats, steps, dock, mountains, sky, clouds, nature, outdoors, landscape, italy, sunrise, sunrise, sunrise, sunrise, sunrise, morning, steps, dock, dock, dock
-ok 1 sunrise mountains 7190488 | sunrise, sunset, nature, landscape, sun, mountains, dusk, dawn, China, Jiangxi, Pingxiang
-ok 2 morning mist lake 2833680 | lake, fog, rock, tree, branch, water, nature, landscape, outdoor, mist, light, morning, summer, foggy, park
-ok 3 sunrise ocean 546343 | landscape, sun, beach, sea, sunrise, panorama, cloud, blue, horizon, sky, south, nature, cancun, shine, light, holiday, travel, blue sky, rays, sunset, cloudy, ocean
-ok 4 sun rays forest 3935613 | sunset, winter, sun, trees, forest, snow, evening, twilight, nature, sky, light pole
-ok 5 morning mist lake 3533150 | sunrise, sunset, lake, water, sky, landscape, nature, fog, river, morning, dawn, mist, blue sky, waterbirds, nature reserve, tranquil, reflection, blue, sun, dusk, summer, trees, calm, forest, peaceful, orange, Western Cape, Cape Town, South Africa
-ok 6 sunrise ocean 3208193 | water, sea, beach, ocean, seashore, nature, sunset, summer, outdoors, wave, travel, sky, vacation, tourism, burgas, bulgaria, beautiful sunrise
-ok 7 chapel mountains 1007170 | town, village, small, nature, autumn, fall, winter, mountains, hills, horizon, church, chapel, roofs, gray church, gray village
-ok 8 sunrise sky clouds 2976584 | clouds, plane, nature, above the clouds, flying, heaven, sunrise, lighting mood, mountains
-ok 9 sunrise sky clouds 3950830 | clouds, sunset, heaven, landscape, sunrise, eve, nature, dusk, mood, orange, scenic, dramatic, evening atmosphere, fog, evening sky, lighting mood, panorama, backlighting
+== ansiedade-20261112-noite
+ok 0 woman thinking window 5928696 | woman, window, cleaning, person, female, housework, household chores, clean, maid, spray, cleaner, glass, glass window, cleaning service, hands, house, neat, household, rag, cleaning, maid, cleaner, cleaning service, cleaning service, cleaning service, cleaning service, cleaning service
+ok 1 candle light dark 5363113 | candle, light, background, positive, lighted, beautiful wallpaper, iphone wallpaper
+ok 2 man thinking nature 1276384 | man, think, young, thinking, male, person, people, adult, face, thought, thoughtful, idea, contemplating, ponder, serious, corporate, smart, portrait, man, think, thinking, thinking, thinking, thinking, thinking, idea
+ok 3 fog mountains 5310398 | nature, mountains, alps, fog, mystical, landscape, clouds, panorama, hike, bavaria, summit, allgäu, grief, hopeful, path, meadow, summer
+ok 4 calm lake 9686300 | australian pelican, pelican, bird, waterbird, wildlife, wild, nature, lake, water, river, bill, wings, australia, reflection, calm, mood, atmospheric
+ok 5 friends hug 423229 | women, hug, hugging, friends, together, embrace, embracing, relationship, people, portrait, pose, posing, smiling, holding, friendship, happy, happiness, black happy, black smile, black happiness, black hug, black together, black friendship
+ok 6 virgin mary statue 4020986 | virgin, church, religion, faith, christianity, catholic, prayer, christian, holy, statue, gray church, gray prayer
+ok 7 night sky stars 6039591 | night sky, lake, rocks, stones, stars, starry, sky, night, evening, galaxy, universe, cosmos, astronomy, romantic, mood, bank, nature, scenery, scenic, night, galaxy, galaxy, galaxy, galaxy, galaxy, universe
+ok 8 cross sunset 2723522 | prickly pear, nature, cross, sunset, neviano
+ok 9 moonlight ocean 10163959 | ocean, night, dark water, waves, beach, moonlight, moody, beautiful wallpaper, nature, background, sea
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 117 New Dawn (Uplifting)
-ok bomdia-20261111 (47.4s, fundo=fotos, voz=pt-BR-AntonioNeural)
-1 vídeo(s) gerado(s)
+trilha 458 Still Waters (Peaceful)
+ok ansiedade-20261112-noite (54.6s, fundo=fotos, voz=pt-BR-AntonioNeural)
+== bomdia-20261112
+ok 0 sunrise ocean 201385 | ocean, sea, beach, waves, sunset, sunrise, water, sky, travel, seascape, storm, scenic, dawn, dusk, horizon, nature, landscape
+ok 1 morning mist lake 260397 | fog, sun, fog ceiling, sunshine, mist, ripe, hoarfrost, winter's day, winter morning, sunrise, sunlight, sunbeams, sea of fog, nature, landscape
+ok 2 sunrise sky clouds 39348 | cloudscape, tropics, vietnam, muine, time-lapse, sunrise, sunset, outdoors, landscape, dawn, ocean, sea, summer, dusk, nature, palms, trees, horizon, twilight, forest, sky, clouds
+ok 3 golden hour meadow 151707 | flowers, spring flowers, meadow, field, wind, golden, blowing, mountain side, spring, california poppy, breeze, mountain, season, spring season
+ok 4 sunrise field 238402 | sunrise, sun, morning, fog, tree, sky, light, dawn, horizon, clouds, atmosphere, weather, rural, field, meadow, grass, mist, haze, nature, landscape
+ok 5 person walking road sunrise 160109 | morning, sunrise, road, sun, landscape, nature, scenery, netherlands, drenthe, hoogeveen
+ok 6 family walking beach sunset 174150 | family, road, forest, walk, nature, sunset, light, scenic, children, walking, landscape
+ok 7 golden hour meadow 262215 | grass, nature, meadow, pasture, greenery, beach, landscape
+ok 8 sunrise ocean 198488 | beach, coast, ocean, wave, coastal, coastline, horizon, island, paradise, peaceful, sand, sea, seascape, seashore, seaside, shore, sun, sunlight, sunrise, sunset, sunshine
+ok 9 sunrise sky clouds 204680 | clouds, mist, fog, pine trees, mountains, morning, sky, forest, nature, above the clouds, beautiful, wilderness, peaks, sunrise, banff, rocky mountains, dawn
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+trilha 115 New Dawn (Hopeful)
+[vost#0:0/rawvideo @ 0x6406a6023e00] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x6406a609a140] Error muxing a packet
+[out#0/rawvideo @ 0x6406a609a140] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x6406a609a140] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5ba46ac04ec0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5ba46ac04b40] Error muxing a packet
+[out#0/rawvideo @ 0x5ba46ac04b40] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5ba46ac04b40] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5bf71b47e5c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5bf71b47e240] Error muxing a packet
+[out#0/rawvideo @ 0x5bf71b47e240] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5bf71b47e240] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x590319210fc0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x590319210a80] Error muxing a packet
+[out#0/rawvideo @ 0x590319210a80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x590319210a80] Terminating thread with return code -32 (Broken pipe)
+ok bomdia-20261112 (46.5s, fundo=videos, voz=pt-BR-ThalitaMultilingualNeural)
+2 vídeo(s) gerado(s)
+[vost#0:0/rawvideo @ 0x5b4eccafb7c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5b4eccb0bbc0] Error muxing a packet
+[out#0/rawvideo @ 0x5b4eccb0bbc0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5b4eccb0bbc0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5b4eccb0bbc0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5b4eccb0bbc0] Error closing file: Broken pipe
