@@ -484,5 +484,41 @@
   "cta_tipo": "enviar",
   "formato": "bom_dia",
   "motor_voz": "edge"
+ },
+ "bomdia-20261113": {
+  "arquivo": "bomdia-20261113.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261113.mp4",
+  "serie": "Sexta-feira",
+  "legenda": "Bom dia, Deus 🙏 Sexta-feira, 13 de novembro\n\nQuem caminha com Deus começa o dia com fé, não com medo. Dia 13 é dia de lembrar Nossa Senhora de Fátima. Envie este bom dia para quem você ama e escreva AMÉM se rezou junto.\n\n#bomdia #bomdiadeus #oracao #sextafeira #candeiadiaria #catolico #nossasenhoradefatima #terço",
+  "duracao": 49.8,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 119,
+   "titulo": "New Dawn (Inspiring)",
+   "url": "https://media.snipsound.com/audio/rf_cin02c_new_dawn_inspiring.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "painosso-20261113-noite": {
+  "arquivo": "painosso-20261113-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/painosso-20261113-noite.mp4",
+  "serie": "Reze comigo o Pai-Nosso e a Ave-Maria",
+  "legenda": "Quando alguém que a gente ama está sofrendo, às vezes a oração mais simples é a que mais consola. Reze comigo um Pai-Nosso, uma Ave-Maria e um Glória por essa pessoa antes de dormir. 🙏\n\nEscreva AMÉM se você rezou junto, salve para rezar de novo amanhã à noite e envie para quem está passando por um momento difícil.\n\n#painosso #avemaria #oração #fé #Deus #Jesus #catolico #igrejacatolica #candeiadiaria",
+  "duracao": 77.2,
+  "fundo": "videos",
+  "trilha": {
+   "id": 464,
+   "titulo": "Night Light (Sleepy)",
+   "url": "https://media.snipsound.com/audio/rf_med02a_2_night_light_sleepy.mp3"
+  },
+  "voz": "pt-BR-FranciscaNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "amem",
+  "formato": "tradicional",
+  "motor_voz": "edge"
  }
 }
