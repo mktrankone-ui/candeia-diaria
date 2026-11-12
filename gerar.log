@@ -1,70 +1,15 @@
 == bomdia-20261113
-ok 0 sunrise mountains 84441 | orange, sky, sunset, clouds, cloudy, skies, dramatic, sunlight, bright, colorful, sunrise, dawn, dusk, fiery, nature, horizons, lands, mountains, hills, silhouette, scenic, scenery, orange sky, orange sunset, orange mountain, orange sunrise, orange clouds
-ok 1 golden hour meadow 9096093 | horse, animal, mammal, equine, wildlife, nature, meadow, pony
-ok 2 sun rays clouds 5396897 | sunset, sun, burn, landscape, sky, forest, nature, sunrise, mood, beach, dusk, dawn, sea, tree, orange, abendstimmung, ocean, water, clouds, evening, atmospheric, light, mountain, yellow, summer
-ok 3 hands holding sunset 7063852 | couple, meadow, holding hands, nature, sunset, outdoors, affection, twilight, sundown, hug
-ok 4 sun rays forest 3178128 | sun, sunshine, seem, sunbeams, nature, sunlight, light, forest, trees, landscape
-ok 5 sunrise ocean 2568176 | bali, tropics, sky, clouds, sunrise, sunset, nature, beach, sand, seashore, sea, ocean, holiday, vacation, travel, tourism
-ok 6 golden hour meadow 7063793 | couple, holding hands, sunset, meadow, nature, outdoors, affection, twilight, sundown
-ok 7 sunrise sky clouds 5424718 | sunrise, water, nature, beach, ocean, sun, calm, dawn, morning, clouds, landscape, peace, sky, orange, reflections, beautiful, hope
-ok 8 sunrise ocean 4325441 | tanzania, zanzibar, africa, beach, sea, nature, sandy beach, vacations, water, ocean, summer, heaven, sunrise, clouds, sunbeams, landscape, reflection, mood
-ok 9 sunrise sky clouds 3569933 | sunrise, black sea, sea, sky, nature, landscape, scenic, sun, water, outdoors, beach, sunset, black, travel, dawn, seashore, sunlight, yellow, colorful, clouds, scene, burgas, bulgaria, seagull, brown beach, brown sea, brown sunrise, sunrise, sunrise, sunrise, sunrise, sunrise, bulgaria, bulgaria
+ok 0 sunrise mountains 2361248 | autumn, fall, sunrise, morning, dawn, fog, sky, clouds, mountains, colorful, lake, water, reflections, nature, outdoors, landscape, country, rural, hdr, autumn, autumn, autumn, autumn, autumn, fall, sunrise, sunrise, fog, fog, sky, colorful, lake, nature
+ok 1 sunrise field 2834894 | tree, dead, dry, sky, yellow, sunrise, nature, dawn, field, lonely, autumn, emptiness, gloomily, stump, old, landscape
+ok 2 sun rays clouds 180577 | clouds, heavy, dark, sky, nature, ink color, dense, light, smudge of yellow-orange, sun rays, crepuscular rays, back light, bright
+ok 3 hands holding sunset 63743 | hands, friendship, together, holding hands, partnership, cooperation, friends, love, friendship, friendship, friendship, holding hands, holding hands, holding hands, holding hands, holding hands, friends, friends, friends, love, love, love
+ok 4 golden hour meadow 6274576 | tree, meadow, puddle, clouds, sky, forest, nature, landscape, rural, horizon, field, water, high water, water stagnation, mirroring, reflection, twilight, sunset, prairie, grass, blades of grass
+ok 5 virgin mary 2193543 | the annunciation, virgin mary, archangel gabriel, icon, painting, byzantine style, religion, orthodox, church, panagia, protaras, cyprus, christianity, the annunciation, the annunciation, the annunciation, virgin mary, virgin mary, virgin mary, virgin mary, virgin mary, archangel gabriel, archangel gabriel, archangel gabriel, archangel gabriel, orthodox
+ok 6 sunrise ocean 2700402 | california, landscape, sea, ocean, cliff, mountains, sky, clouds, sunrise, fog, nature, outdoors, tourism, seashore, beach, waves, brown beach, brown sunrise, brown ocean, brown wave, brown waves
+ok 7 sunrise sky clouds 9681908 | sunrise, nature, landscape, sky, ocean, clouds, sea, waves
+ok 8 sunrise mountains 6706179 | sunrise, mountains, landscape, nature, trees, sun, sunlight, sky, clouds, dawn, austria, scenic
+ok 9 sunrise sky clouds 7395216 | merzouga desert, sunrise, desert, early morning, merzouga, morocco, sky, clouds, sun, dunes, sand, nature
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
 trilha 119 New Dawn (Inspiring)
 ok bomdia-20261113 (49.8s, fundo=fotos, voz=pt-BR-AntonioNeural)
-== painosso-20261113-noite
-ok 0 night sky stars 23567 | clouds, stars, full moon, night sky, light, mood, landscape, mountains, time lapse, timelapse
-ok 1 starry sky mountains 316767 | mountains, hotaka mountain range, evening, starry sky, comet, comet lemon, universe, october 24, 2025, cloud
-ok 2 sun rays clouds 143270 | sunrise, sun, rays, sky, clouds, nature
-ok 3 wheat field sunset 120128 | sunset, landscape, field, nature, trees, hills, drone
-ok 4 moon clouds night 205561 | moon, clouds, cloudy, dark, night, night sky, full moon, moonlight
-ok 5 lighthouse waves 259062 | ocean, waves, rocks, lighthouse, blue, sea, coast, landscape
-ok 6 starry sky mountains 238727 | mountains, starry sky, japanese alps, clouds, night view, natural, landscape
-ok 7 milky way 135425 | starry sky, stars, night sky, milky way, time lapse
-ok 8 night sky stars 134252 | stars, starry sky, polar star, night sky, sheet lightning, flashes, mediterranean region, greece
-ok 9 night sky stars 10339 | milky way, heaven, starry sky, night, stars, evening sky, space, night sky
-ok 10 night sky stars 35304 | mountains, stars, sky, georgia, gudaur, night
-ok 11 candle light dark 41141 | candle, light, flame, fire, wood, warmth, burn, flicker, beautiful, candlelight, background, dark, mood, quiet, meditation, comfortable
-ok 12 milky way 409 | moon, stars, night, full moon, rising, universe, milky way, space, night sky, outdoors, arizona, usa, sacred peaks
-ok 13 candle light dark 4531 | candle, fire, darkness, light, flame, bright, combustion, warmly, red, candlestick, night
-ok 14 milky way 50 | stars, milky way galaxy, night, sky, himalaya, ladakh, heaven, universe, night sky, dark, starlight, glittering, romantic
-ok 15 night sky stars 315602 | aurora, borealis, northern lights, nature, sky, night, stars, landscape, trees
-AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-  falha na síntese (NoAudioReceived) tentativa 1: Venha a nós o vosso reino, seja feita a vossa vontade, assim na terra como no céu.
-  falha na síntese (NoAudioReceived) tentativa 2: Venha a nós o vosso reino, seja feita a vossa vontade, assim na terra como no céu.
-  trocando a narração inteira para a voz de reserva pt-BR-FranciscaNeural
-trilha 464 Night Light (Sleepy)
-[vost#0:0/rawvideo @ 0x574bbd8aee80] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x574bbd8b2d80] Error muxing a packet
-[out#0/rawvideo @ 0x574bbd8b2d80] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x574bbd8b2d80] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x599a67f181c0] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x599a67f17e40] Error muxing a packet
-[out#0/rawvideo @ 0x599a67f17e40] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x599a67f17e40] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x63ea14586400] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x63ea14586080] Error muxing a packet
-[out#0/rawvideo @ 0x63ea14586080] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x63ea14586080] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x6168fc0bdc00] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x6168fc0b0d00] Error muxing a packet
-[out#0/rawvideo @ 0x6168fc0b0d00] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x6168fc0b0d00] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5f8dad1abcc0] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5f8dad1ab940] Error muxing a packet
-[out#0/rawvideo @ 0x5f8dad1ab940] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5f8dad1ab940] Terminating thread with return code -32 (Broken pipe)
-ok painosso-20261113-noite (77.2s, fundo=videos, voz=pt-BR-FranciscaNeural)
-2 vídeo(s) gerado(s)
-[vost#0:0/rawvideo @ 0x6532b4707640] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x6532b47072c0] Error muxing a packet
-[out#0/rawvideo @ 0x6532b47072c0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x6532b47072c0] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x6532b47072c0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x6532b47072c0] Error closing file: Broken pipe
+1 vídeo(s) gerado(s)
