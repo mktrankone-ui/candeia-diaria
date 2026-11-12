@@ -1,0 +1,48 @@
+{
+  "id": "bomdia-20261113",
+  "serie": "Sexta-feira",
+  "tema": "amanhecer",
+  "trilha_tema": "amanhecer",
+  "fundo": "fotos",
+  "voz": "masculina",
+  "formato": "bom_dia",
+  "estilo": "classico",
+  "layout": "centro",
+  "rodape": "Bom dia!",
+  "linhas": [
+    "Deus, hoje é sexta-feira, 13 de novembro, e eu começo este dia com *fé*, não com medo.",
+    "Obrigado por me acordar e me dar mais uma chance de *recomeçar*.",
+    "O Senhor é a minha luz e a minha salvação: de quem terei *medo*?",
+    "Entrego em Tuas mãos o trabalho, as contas e tudo o que me *preocupa*.",
+    "Abençoa a minha casa e cada pessoa da minha *família*.",
+    "No dia 13 nós lembramos Nossa Senhora de *Fátima*, que nos pediu para rezar o terço.",
+    "Mãe de Fátima, guarda o meu coração e me ensina a *rezar*.",
+    "Santo Anjo do Senhor, caminha comigo por onde eu *for*.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {
+    "linha": 2,
+    "texto": "Salmo 27(26),1"
+  },
+  "cta_tipo": "enviar",
+  "cenas": [
+    "sunrise mountains",
+    "person arms open sunrise",
+    "sun rays clouds",
+    "hands holding sunset",
+    "family walking field",
+    "our lady statue",
+    "rosary hands",
+    "light through trees",
+    "sunrise cross",
+    "sunrise sky clouds"
+  ],
+  "legenda": "Bom dia, Deus 🙏 Sexta-feira, 13 de novembro\n\nQuem caminha com Deus começa o dia com fé, não com medo. Dia 13 é dia de lembrar Nossa Senhora de Fátima. Envie este bom dia para quem você ama e escreva AMÉM se rezou junto.\n\n#bomdia #bomdiadeus #oracao #sextafeira #candeiadiaria #catolico #nossasenhoradefatima #terço",
+  "slot": "bomdia",
+  "data": "2026-11-13",
+  "cta": [
+    "Envie este bom dia para quem você *ama*",
+    "Uma oração pode mudar o dia de alguém"
+  ],
+  "cta_falado": "Envie este bom dia para quem você ama."
+}

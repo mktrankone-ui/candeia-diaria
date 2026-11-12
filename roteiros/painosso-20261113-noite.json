@@ -1,0 +1,59 @@
+{
+  "id": "painosso-20261113-noite",
+  "serie": "Reze comigo o Pai-Nosso e a Ave-Maria",
+  "tema": "noite",
+  "trilha_tema": "noite",
+  "fundo": "videos",
+  "voz": "feminina",
+  "formato": "tradicional",
+  "estilo": "poppins",
+  "layout": "baixo",
+  "linhas": [
+    "Se alguém que você ama está passando por uma noite *difícil*, reze comigo por essa pessoa.",
+    "Pai nosso, que estais nos céus, santificado seja o vosso *nome*.",
+    "Venha a nós o vosso *reino*, seja feita a vossa vontade, assim na terra como no céu.",
+    "O pão nosso de cada dia nos dai *hoje*.",
+    "Perdoai-nos as nossas ofensas, assim como nós perdoamos a quem nos tem *ofendido*.",
+    "E não nos deixeis cair em tentação, mas livrai-nos do *mal*. Amém.",
+    "Ave Maria, cheia de graça, o Senhor é *convosco*.",
+    "Bendita sois vós entre as mulheres, e bendito é o fruto do vosso ventre, *Jesus*.",
+    "Santa Maria, Mãe de Deus, rogai por nós, *pecadores*,",
+    "agora e na hora de nossa morte. *Amém*.",
+    "Glória ao Pai, ao Filho e ao *Espírito Santo*.",
+    "Como era no princípio, agora e sempre. *Amém*.",
+    "Senhor, dá a essa pessoa o Teu *descanso* nesta noite.",
+    "Nossa Senhora, fica ao lado dela até o dia *amanhecer*.",
+    "Por Cristo, nosso Senhor, *amém*."
+  ],
+  "referencia": {
+    "linha": 1,
+    "texto": "Mateus 6,9-13"
+  },
+  "cta_tipo": "amem",
+  "cenas": [
+    "woman thinking window",
+    "starry sky mountains",
+    "sun rays clouds",
+    "wheat field sunset",
+    "hands holding",
+    "lighthouse waves",
+    "virgin mary statue",
+    "mother child sunset",
+    "rosary hands",
+    "church candles",
+    "white dove sky",
+    "cross hill sky",
+    "night lake moon",
+    "candle light dark",
+    "moonlight ocean",
+    "night sky stars"
+  ],
+  "legenda": "Quando alguém que a gente ama está sofrendo, às vezes a oração mais simples é a que mais consola. Reze comigo um Pai-Nosso, uma Ave-Maria e um Glória por essa pessoa antes de dormir. 🙏\n\nEscreva AMÉM se você rezou junto, salve para rezar de novo amanhã à noite e envie para quem está passando por um momento difícil.\n\n#painosso #avemaria #oração #fé #Deus #Jesus #catolico #igrejacatolica #candeiadiaria",
+  "slot": "noite",
+  "data": "2026-11-13",
+  "cta": [
+    "Se você crê, escreva *AMÉM*",
+    "Salve para rezar de novo amanhã"
+  ],
+  "cta_falado": "Se você crê, escreva amém nos comentários, e salve para rezar de novo amanhã à noite."
+}
