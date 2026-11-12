@@ -463,5 +463,39 @@
   "cta_tipo": "nome",
   "duracao": 54.6,
   "metricool_id": 424429410
+ },
+ {
+  "id": "bomdia-20261113",
+  "data": "2026-11-13",
+  "slot": "bomdia",
+  "serie": "Sexta-feira",
+  "formato": "bom_dia",
+  "tema": "amanhecer",
+  "referencia": "Salmo 27(26),1",
+  "fundo": "fotos",
+  "estilo": "classico",
+  "layout": "centro",
+  "trilha": "New Dawn (Inspiring)",
+  "voz": "masculina",
+  "cta_tipo": "enviar",
+  "duracao": 49.8,
+  "metricool_id": 425675187
+ },
+ {
+  "id": "painosso-20261113-noite",
+  "data": "2026-11-13",
+  "slot": "noite",
+  "serie": "Reze comigo o Pai-Nosso e a Ave-Maria",
+  "formato": "tradicional",
+  "tema": "noite",
+  "referencia": "Mateus 6,9-13",
+  "fundo": "videos",
+  "estilo": "poppins",
+  "layout": "baixo",
+  "trilha": "Night Light (Sleepy)",
+  "voz": "feminina (reserva Francisca)",
+  "cta_tipo": "amem",
+  "duracao": 77.2,
+  "metricool_id": 425663999
  }
 ]
