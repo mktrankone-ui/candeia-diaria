@@ -1,0 +1,47 @@
+{
+  "id": "curainterior-20261116-noite",
+  "serie": "Oração de cura interior",
+  "tema": "cura",
+  "trilha_tema": "paz",
+  "fundo": "fotos",
+  "voz": "masculina",
+  "formato": "oracao",
+  "estilo": "poppins",
+  "layout": "baixo",
+  "linhas": [
+    "Se hoje ficou uma ferida aberta dentro de você, venha rezar *comigo*.",
+    "Senhor Jesus, entra nas partes do meu coração que ainda *doem*.",
+    "Cura as lembranças que me machucam e as palavras que me *feriram*.",
+    "Tu me dizes: não temas, porque eu estou *contigo*.",
+    "Tira de mim a tristeza que eu carrego sem nem saber de *onde* vem.",
+    "Ensina-me a me perdoar e a perdoar quem me *magoou*.",
+    "Enche os meus vazios com a Tua paz e a Tua *presença*.",
+    "Que eu durma esta noite leve, sabendo que sou *amado*.",
+    "Em nome de Jesus, que cura, *amém*."
+  ],
+  "referencia": {
+    "linha": 3,
+    "texto": "Isaías 41,10"
+  },
+  "cta_tipo": "amem",
+  "cenas": [
+    "woman thinking window",
+    "light through window",
+    "sunbeam forest",
+    "sun rays clouds",
+    "calm lake",
+    "hands holding",
+    "river stream forest",
+    "candle light",
+    "cross sunset",
+    "light through trees"
+  ],
+  "cta": [
+    "Se você pediu cura, escreva *AMÉM*",
+    "Salve para rezar quando a ferida doer"
+  ],
+  "cta_falado": "Se você pediu cura hoje, escreva amém e salve este vídeo para rezar quando a ferida doer de novo.",
+  "legenda": "Oração de cura interior para fechar a segunda-feira em paz. 🕊️\n\nNão temas, porque eu estou contigo (Isaías 41,10). Deixe Jesus tocar as feridas que ainda doem. Escreva AMÉM se você pediu cura hoje e salve para rezar quando precisar.\n\n#curainterior #oração #fé #Jesus #Deus #catolico #igrejacatolica #paz #candeiadiaria",
+  "slot": "noite",
+  "data": "2026-11-16"
+}

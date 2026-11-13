@@ -1,0 +1,48 @@
+{
+  "id": "bomdia-20261114",
+  "serie": "Sábado",
+  "tema": "amanhecer",
+  "trilha_tema": "amanhecer",
+  "fundo": "videos",
+  "voz": "feminina",
+  "formato": "bom_dia",
+  "estilo": "classico",
+  "layout": "baixo",
+  "rodape": "Bom dia!",
+  "linhas": [
+    "Deus, hoje é sábado, 14 de novembro, e eu começo este dia descansando na Tua *paz*.",
+    "Obrigado por mais uma manhã e pela semana que o Senhor me deixou *viver*.",
+    "Neste sábado, dia dedicado a Maria, eu me coloco sob o manto da minha *Mãe*.",
+    "Ela disse: eis aqui a serva do Senhor, faça-se em mim segundo a Tua *palavra*.",
+    "Com Ela, eu também entrego a Ti a minha casa e a minha *família*.",
+    "Cuida de quem eu amo, do trabalho e de cada coisa que me *preocupa*.",
+    "Que hoje eu tenha tempo para rezar e um coração mais *tranquilo*.",
+    "Nossa Senhora, caminha comigo e guarda o meu dia sob a Tua *proteção*.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {
+    "linha": 3,
+    "texto": "Lucas 1,38"
+  },
+  "cta_tipo": "enviar",
+  "cenas": [
+    "sunrise ocean",
+    "golden hour meadow",
+    "virgin mary statue",
+    "virgin mary",
+    "family walking field",
+    "hands holding sunset",
+    "woman praying nature",
+    "church candles",
+    "sunrise cross",
+    "sun rays clouds"
+  ],
+  "cta": [
+    "Envie este bom dia para quem você *ama*",
+    "Uma oração pode mudar o dia de alguém"
+  ],
+  "cta_falado": "Envie este bom dia para quem você ama.",
+  "legenda": "Bom dia, Deus 🙏 Sábado, 14 de novembro\n\nSábado é o dia de Nossa Senhora: comece o fim de semana sob o manto da Mãe. Envie este bom dia para quem você ama e escreva AMÉM se rezou junto.\n\n#bomdia #bomdiadeus #oracao #sabado #candeiadiaria #catolico #nossasenhora #avemaria",
+  "slot": "bomdia",
+  "data": "2026-11-14"
+}
