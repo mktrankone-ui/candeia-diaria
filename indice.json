@@ -520,5 +520,113 @@
   "cta_tipo": "amem",
   "formato": "tradicional",
   "motor_voz": "edge"
+ },
+ "bomdia-20261114": {
+  "arquivo": "bomdia-20261114.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261114.mp4",
+  "serie": "Sábado",
+  "legenda": "Bom dia, Deus 🙏 Sábado, 14 de novembro\n\nSábado é o dia de Nossa Senhora: comece o fim de semana sob o manto da Mãe. Envie este bom dia para quem você ama e escreva AMÉM se rezou junto.\n\n#bomdia #bomdiadeus #oracao #sabado #candeiadiaria #catolico #nossasenhora #avemaria",
+  "duracao": 50.1,
+  "fundo": "videos",
+  "trilha": {
+   "id": 114,
+   "titulo": "Horizon Line (Hopeful)",
+   "url": "https://media.snipsound.com/audio/rf_cin02a_2_horizon_line_hopeful.mp3"
+  },
+  "voz": "pt-BR-FranciscaNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "bomdia-20261115": {
+  "arquivo": "bomdia-20261115.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261115.mp4",
+  "serie": "Domingo",
+  "legenda": "Bom dia, Deus 🙏 Domingo, 15 de novembro\n\nDomingo é o dia do Senhor: dia de missa, de família e da alegria da ressurreição. Comece com gratidão e escreva AMÉM se o seu coração também acordou em festa. Envie para quem você ama.\n\n#bomdia #bomdiadeus #domingo #oracao #candeiadiaria #catolico #missa #Deus",
+  "duracao": 47.0,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 118,
+   "titulo": "Horizon Line (Inspiring)",
+   "url": "https://media.snipsound.com/audio/rf_cin02c_2_horizon_line_inspiring.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "amem",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "bomdia-20261116": {
+  "arquivo": "bomdia-20261116.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261116.mp4",
+  "serie": "Segunda-feira",
+  "legenda": "Bom dia, Deus 🙏 Segunda-feira, 16 de novembro\n\nComeçar a semana rezando muda o peso de tudo. Os que esperam no Senhor renovam as forças. Envie este bom dia para quem precisa de ânimo e escreva AMÉM para começar com fé.\n\n#bomdia #bomdiadeus #segundafeira #oracao #candeiadiaria #catolico #fé #Deus",
+  "duracao": 49.2,
+  "fundo": "videos",
+  "trilha": {
+   "id": 510,
+   "titulo": "The First Dance (Hopeful)",
+   "url": "https://media.snipsound.com/audio/rf_wed01c_2_the_first_dance_hopeful.mp3"
+  },
+  "voz": "pt-BR-FranciscaNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "curainterior-20261116-noite": {
+  "arquivo": "curainterior-20261116-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/curainterior-20261116-noite.mp4",
+  "serie": "Oração de cura interior",
+  "legenda": "Oração de cura interior para fechar a segunda-feira em paz. 🕊️\n\nNão temas, porque eu estou contigo (Isaías 41,10). Deixe Jesus tocar as feridas que ainda doem. Escreva AMÉM se você pediu cura hoje e salve para rezar quando precisar.\n\n#curainterior #oração #fé #Jesus #Deus #catolico #igrejacatolica #paz #candeiadiaria",
+  "duracao": 49.6,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 97,
+   "titulo": "Weightless (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_amb01a_2_weightless_peaceful.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "amem",
+  "formato": "oracao",
+  "motor_voz": "edge"
+ },
+ "nossasenhora-20261114-noite": {
+  "arquivo": "nossasenhora-20261114-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/nossasenhora-20261114-noite.mp4",
+  "serie": "Oração a Nossa Senhora Desatadora dos Nós",
+  "legenda": "Nossa Senhora Desatadora dos Nós, rogai por nós. 📿\n\nSe tem um nó apertado no seu peito — na família, no coração, nas contas — entregue a Maria esta noite. Escreva o nome de quem precisa e envie para quem está com um nó para desatar.\n\n#nossasenhoradesatadoradosnos #nossasenhora #oração #fé #catolico #igrejacatolica #Deus #candeiadiaria",
+  "duracao": 66.3,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 457,
+   "titulo": "Inner Calm (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_med01a_inner_calm_peaceful.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "nome",
+  "formato": "oracao",
+  "motor_voz": "edge"
+ },
+ "terco-20261115-noite": {
+  "arquivo": "terco-20261115-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/terco-20261115-noite.mp4",
+  "serie": "Terço de domingo — Mistérios Gloriosos",
+  "legenda": "Reze comigo o terço dos Mistérios Gloriosos para terminar o domingo em paz. 📿✨\n\nA Ressurreição, a Ascensão, Pentecostes, a Assunção e a Coroação de Maria — e uma Ave-Maria por quem você ama. Salve este vídeo para rezar amanhã e siga a Candeia Diária para rezar o terço todas as noites.\n\n#terço #misteriosgloriosos #avemaria #domingo #catolico #igrejacatolica #oração #nossasenhora #candeiadiaria",
+  "duracao": 72.1,
+  "fundo": "videos",
+  "trilha": {
+   "id": 96,
+   "titulo": "Floating Light (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_amb01a_floating_light_peaceful.mp3"
+  },
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "seguir",
+  "formato": "terco",
+  "motor_voz": "edge"
  }
 }

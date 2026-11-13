@@ -1,15 +1,218 @@
-== bomdia-20261113
-ok 0 sunrise ocean 2203718 | water, nature, ocean, sea, foam, waves, tide, salt water, sunset, sunrise, surf
-ok 1 sunrise sky clouds 1868228 | clouds, dawn, dusk, nature, horizon, sky, sunrise, sunset, blue sunrise
-ok 2 sun rays clouds 7658195 | mill, blades, sunset, sun, darling, clouds, lighting, nature, light, dusk
-ok 3 hands holding sunset 7063856 | couple, holding hands, field, nature, sunset, outdoors, affection, twilight, sundown
-ok 4 sunrise sky clouds 9045144 | sunrise, cloudscape, cumulus, clouds, stratus, cirrus, sky, nature, blue sky
-ok 5 sunrise field 1867201 | dawn, dusk, field, grass, nature, landscape, outdoors, sunrise, sunset
-ok 6 sunrise field 3745015 | sunrise, heaven, nature, landscape, horizon, tomorrow, sunlight, sun, colour, grass, spider web, field, water, raindrop, wet
-ok 7 morning mist lake 4445301 | landscape, lake, nature, water, morning, summer, august, sunrise
-ok 8 sunrise field 5789035 | fog, sunrise, field, clouds, nature, sky, sun, twilight, horizon, landscape
-ok 9 sunrise sky clouds 9530011 | clouds, cirrus, altostratus, sunrise, sky, stratocumulus, sunlight, nature, atmosphere, blue sky, weather
+== bomdia-20261114
+ok 0 sunrise ocean 223033 | ocean, beach, makapuu, hawaii, oahu, sunrise, sand, mountain
+ok 1 sunrise sky clouds 114447 | ocean, sunrise, landscape, clouds, sky, sea, water, sun
+ok 2 sun rays forest 112058 | sunset, sun, sun rays, story, nature, forest, relaxation
+ok 3 sunrise mountains 243196 | sunrise, mountains, mountain scenery, sunlight, morning sun, landscape, nature, morning light
+ok 4 family walking field 71835 | field, meadow, walk, grass, through, sun, mountain, summer, path, walking, trail, nature, recreation, hiking
+ok 5 sunrise ocean 2119 | islands, ocean, sunrise, landscape, woods, sunlight, morning, sunrise landscape, trees, sea, forest landscape, forest, romantic, aerial
+ok 6 sunrise field 220340 | trail, trees, forest, woods, sunrise, morning, fog, sunlight, wilderness, sunbeams, misty, mystical, scenic, field, outdoors, drenthe, netherlands, nature, landscape
+ok 7 sun rays forest 47213 | waterfalls, river, dolomiti, lake, mountains, alpi, water, panorama, landscape, italy, nature, sun, sunset, clouds, sky, wind, blue, forest, flowers, animals, plant, atmosphere, gopro, 4k, sport
+ok 8 sunrise ocean 199001 | sunrise, sea, ocean, waves, beach, lanzarote, spain, canary islands, morning, early, sun, summer, beautiful, peaceful
+ok 9 sun rays clouds 19365 | sun rays, sunset, ocean, mountain, mood, cloudscape, golden, mountains, clouds, landscape, seascape, scenic, magical, candelaria, tenerife
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 117 New Dawn (Uplifting)
-ok bomdia-20261113 (49.8s, fundo=fotos, voz=pt-BR-AntonioNeural)
-1 vídeo(s) gerado(s)
+  falha na síntese (NoAudioReceived) tentativa 1: Deus, hoje é sábado, 14 de novembro, e eu começo este dia descansando na Tua paz.
+  falha na síntese (NoAudioReceived) tentativa 2: Deus, hoje é sábado, 14 de novembro, e eu começo este dia descansando na Tua paz.
+  trocando a narração inteira para a voz de reserva pt-BR-FranciscaNeural
+trilha 114 Horizon Line (Hopeful)
+[vost#0:0/rawvideo @ 0x557215580c40] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x557215523b80] Error muxing a packet
+[out#0/rawvideo @ 0x557215523b80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x557215523b80] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5c8a3929e600] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5c8a39227fc0] Error muxing a packet
+[out#0/rawvideo @ 0x5c8a39227fc0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5c8a39227fc0] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x6333ecdec4c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x6333ecdec140] Error muxing a packet
+[out#0/rawvideo @ 0x6333ecdec140] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x6333ecdec140] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x56e86f1e5b80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x56e86f1e5800] Error muxing a packet
+[out#0/rawvideo @ 0x56e86f1e5800] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x56e86f1e5800] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x578365a6eb40] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x578365a57480] Error muxing a packet
+[out#0/rawvideo @ 0x578365a57480] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x578365a57480] Terminating thread with return code -32 (Broken pipe)
+ok bomdia-20261114 (50.1s, fundo=videos, voz=pt-BR-FranciscaNeural)
+== bomdia-20261115
+ok 0 sunrise ocean 16943 | man, fun, jump, sea, ocean, nature, sunrise, morning, brown sunrise, brown fun
+ok 1 morning mist lake 196667 | lake, sunrise, water, scenic, landscape, mist, golden, dawn, sky, sun, beautiful, nature, lovely
+ok 2 sun rays clouds 5456500 | grand canyon, sunset, sunbeam, rays, clouds, sky, arizona, nature, sun
+ok 3 morning mist lake 10314734 | canada goose, mist, wet meadow, forest, nature, wildlife, animal, canada, morning dew, animal photography, nature photography, dawn, misty, atmospheric, glow, bird, germany, wetland
+ok 4 sunrise sky clouds 3593420 | sunrise, church, nature, darling, madrid, shades, clouds
+ok 5 morning mist lake 2827252 | lake, mist, water, sun, dock, nature, landscape, summer, outdoor, green, blue sky, fog, light, weather, park, natural, sunrise, dawn, sunlight, sky, scenery, blue, reflection, scenic, coast, tranquil
+ok 6 golden hour meadow 1434536 | flowers, poppies, flower wallpaper, buds, petals, field, meadow, flora, beautiful flowers, sunset, flower background, weed, plants, flowering, nature
+ok 7 morning mist lake 7464192 | foggy, lake, early morning, dawn, sunrise, nature, landscape
+ok 8 sunrise sky clouds 2707458 | california, sunrise, landscape, forest, trees, woods, fog, sky, clouds, nature, outdoors, country, rural, wilderness
+ok 9 sun rays forest 3635629 | light, rays, sun, nature, landscape, sky, trees, forest, mood, sunlight, morning, sunbeam, shadow, android wallpaper, gray sky, gray forest, gray sun, gray light, gray wallpaper, gray morning, gray lights, iphone wallpaper
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+trilha 118 Horizon Line (Inspiring)
+ok bomdia-20261115 (47.0s, fundo=fotos, voz=pt-BR-AntonioNeural)
+== bomdia-20261116
+ok 0 sunrise mountains 103542 | fog, sea of fog, sunrise, alps, switzerland, mountains, time lapse, timelapse
+ok 1 sunrise field 220356 | trees, sunrise, forest, woods, morning, fog, sunlight, wilderness, trail, sunbeams, misty, scenic, field, outdoors, nature, drenthe, netherlands, landscape, man, walking, alone, hiking, lonely
+ok 2 person walking road sunrise 185724 | mushroom, man, leaves, autumn, nature, fall, forest, trees, road, path, walking, hiking, landscape
+ok 3 man walking mountain sunrise 139360 | beach, sand, sunrise, shore, water, sea, ocean, gran canaria, spain, summer, running, man, woman, hiking, walking
+ok 4 path forest light 375903 | nature, forest, trees, landscape, grass, path, trail, sun shower, rain, raining, rainfall, falling, rainy, drops, weather, summer, light, bright, sunny, foliage, scene, scenery, view, horizontal
+ok 5 family walking field 140029 | people, walking, snow, winter, cold, walk, nature, outdoors, park, season, lifestyle, family, person, holiday, snowy, fun, female, landscape
+ok 6 sunrise sky clouds 204990 | mountains, sunset, sky, sunrise, dawn, dusk, clouds, scenery, nature, landscape
+ok 7 sun rays forest 88684 | grass, sun, forest, glare, rays, nature
+ok 8 sunrise mountains 143027 | waterfall, cascade, rock, plant, aerial drone, drone, green, crystal water, water, sport, canyon, torrent, waves, river, national park, italy, wood, village, dawn, sunrise, sunset, fall, mountains
+ok 9 sun rays clouds 215858 | clouds, sunrise, sunset, sun rays, leaves, sky, motion, atmosphere, colorful, nature
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+  falha na síntese (NoAudioReceived) tentativa 1: Deus, hoje é segunda-feira, 16 de novembro, e eu começo a semana com esperança.
+  falha na síntese (NoAudioReceived) tentativa 1: Obrigado por me acordar com saúde e por mais uma chance de recomeçar.
+  falha na síntese (NoAudioReceived) tentativa 1: Toma conta do meu trabalho, das minhas tarefas e das minhas decisões.
+  falha na síntese (NoAudioReceived) tentativa 1: Abençoa a minha família e guarda cada um que sai de casa hoje.
+  falha na síntese (NoAudioReceived) tentativa 1: Que esta semana seja de paz, de fé e de pequenas vitórias.
+  falha na síntese (NoAudioReceived) tentativa 2: Que esta semana seja de paz, de fé e de pequenas vitórias.
+  trocando a narração inteira para a voz de reserva pt-BR-FranciscaNeural
+trilha 510 The First Dance (Hopeful)
+[vost#0:0/rawvideo @ 0x60b8479e4b80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x60b84797de00] Error muxing a packet
+[out#0/rawvideo @ 0x60b84797de00] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x60b84797de00] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x56c7b0b3f540] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x56c7b0b3f440] Error muxing a packet
+[out#0/rawvideo @ 0x56c7b0b3f440] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x56c7b0b3f440] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x59fb7f7b6c80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x59fb7f7b7240] Error muxing a packet
+[out#0/rawvideo @ 0x59fb7f7b7240] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x59fb7f7b7240] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5f3574cbedc0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5f3574cbea40] Error muxing a packet
+[out#0/rawvideo @ 0x5f3574cbea40] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5f3574cbea40] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x65454784fcc0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x654547856680] Error muxing a packet
+[out#0/rawvideo @ 0x654547856680] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x654547856680] Terminating thread with return code -32 (Broken pipe)
+ok bomdia-20261116 (49.2s, fundo=videos, voz=pt-BR-FranciscaNeural)
+== curainterior-20261116-noite
+ok 0 woman thinking window 1678414 | white and black, window, girl, black and white, light, darkness, monochrome, woman, room, dark, shadow, window, window, window, window, window, shadow
+ok 1 river stream forest 1804487 | pacific northwest, washington, landscape, scenic, river, water, rapids, cascade, waterfall, mountains, rocky, falls, forest, trees, woods, autumn, fall, country, countryside, wilderness, hdr, brown waterfall, nature, brown river
+ok 2 sunbeam forest 4619023 | forest, sunbeam, nature, trees, landscape, sunlight, mood, fall, leaves, forest path, green, environment
+ok 3 sun rays clouds 7055368 | river, sun, clouds, nature, sky, light, sun rays, water, landscape
+ok 4 calm lake 9571013 | lake, sunset, evening atmosphere, evening light, dusk, evening sky, mystical, landscape, contrails, bavaria, nature, mobile wallpaper
+ok 5 hands holding 344759 | hands, holding hands, together, peace, team, couple, support, man, woman, holding hands, team, team, team, team, support, support, support, support, support
+ok 6 river stream forest 5623603 | waterfall, stream, nature, cliff, rocks, stones, water, river, creek, brook, scenery, countryside
+ok 7 candle light 7081935 | daffodils, tea, flower vase, nature, yellow flowers, window, candle, pearl earings, spring, easter, relax, still life
+ok 8 cross sunset 767047 | cross, christian, freedom, necklace, religion, jesus, christ, christianity, god, religious, church, faith, easter, belief, holy, resurrection, catholic, spirituality, crucifix, crucifixion, sky, spiritual, heaven, nature, silhouette, divine, prayer, design, believe, light, peace, hope, sacred, sacrifice, worship, spirit, pray, salvation, bible, savior, ancient, sunset, hipster
+ok 9 river stream forest 1983874 | cascade, river, water, nature, waterfall, pierre, landscape, forest, fall
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+trilha 97 Weightless (Peaceful)
+ok curainterior-20261116-noite (49.6s, fundo=fotos, voz=pt-BR-AntonioNeural)
+== nossasenhora-20261114-noite
+ok 0 woman thinking window 814213 | window wax, window cleaning, bucket, subtractor, woman, people, profession, window washer, to clean, to polish, vacation job, jobstudente, student, window cleaning, window cleaning, window cleaning, window cleaning, window cleaning, window washer, window washer, window washer, to clean
+ok 1 virgin mary statue 6736479 | madonna, jesus, statue, nativity, christ, mary, saint, sculpture, christianity, stone statue, catholic, religion, closeup, madonna, madonna, madonna, jesus, jesus, jesus, jesus, jesus, mary
+ok 2 candle light dark 4832387 | candlelight, candle, flame, dark, black candle, black candles
+ok 3 virgin mary statue 3184247 | grotto, maria, marienfigur, christian art, ceramic, figure, religion, madonna, mother of god, christian, statue, virgin mary, old, isolated, vintage, transparent, grotto, madonna, virgin mary, virgin mary, virgin mary, virgin mary, virgin mary
+ok 4 virgin mary 1608487 | panagia, virgin mary, iconography, church, orthodox, christianity, religion, cyprus, avgorou, ayios kyriakos, virgin mary, virgin mary, virgin mary, virgin mary, virgin mary
+ok 5 virgin mary statue 2754799 | stone, statue, woman, cemetery, madonna, graveyard, praying, pray, religion, female, mary, christian, religious, sculpture, old, hand, face, faith, prayer, monument, saint, catholic, gray pray, gray death, gray prayer
+ok 6 calm lake 211034 | sunrise, landscape, scenic, lake, morning, water, nature, sun, reflection, weather, glowing red, colorful, canim lake, british columbia, canada, brown sunrise, brown lake, brown morning
+ok 7 rosary 5281414 | stained glass, window, church, people, angels, violin, married, jesus, child, mother, monk, holy, dominique, discount, rosary, catholic, religion, faith, people, jesus, rosary, rosary, rosary, rosary, rosary
+ok 8 hands holding 1476294 | hands, child, flower, rustic, garden, farm, flower wallpaper, childhood, flower background, fingers, little, young, play, fun, children, holding hands, colorful, kid, beautiful flowers, holding, love, human, nature, cute, happiness, lovely, togetherness, friendship, springtime
+ok 9 rosary 665745 | wooden rosary, wood, wooden, rosary, bead, beaded, silver, plated, catholic, christian, cross, necklace, mary, jesus, rosary, rosary, rosary, rosary, rosary
+ok 10 rosary 665740 | wooden rosary, wood, wooden, rosary, bead, beaded, silver, plated, catholic, christian, cross, necklace, mary, jesus, rosary, rosary, rosary, rosary, rosary
+ok 11 sun rays clouds 377796 | sun, sky, sunset, sunlight, dusk, red sky, setting sun, scenery, twilight, skyscape, nature, clouds
+ok 12 rosary 4753472 | stained glass, window, church, woman, holy, married, immaculate conception, crowned, halo, beautiful, belt, blue, roses, rosary, feet, faith, religion, nd de lourdes, immaculate conception, immaculate conception, immaculate conception, immaculate conception, immaculate conception
+ok 13 rosary 4834240 | statues, mother, child, woman, married, jesus, rosary, virgin, spiritual, christianity, religion, portugal, rosary, rosary, rosary, rosary, rosary
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+trilha 457 Inner Calm (Peaceful)
+ok nossasenhora-20261114-noite (66.3s, fundo=fotos, voz=pt-BR-AntonioNeural)
+== terco-20261115-noite
+ok 0 cathedral light 42126 | castle, church, wall, stone, ancient, europe, germany, cathedral, fort, knight, king, door, medieval, architecture
+ok 1 cathedral light 150922 | monastery, orthodox, old, river, religion, water, faith, church, cathedral, architecture
+ok 2 cathedral light 36728 | church, glass, stained, color, window, jesus, catholic, religion, cathedral, faith, architecture, light, pray, holy, old, christian, europe, european, german, germany, bible, cross, christianity, prayer, italy
+ok 3 cathedral light 4990 | montreal, cathedral, spirit, holy, jesus, church
+ok 4 sun rays clouds 328628 | heaven, clouds, sun, light rays, sunlight, silhouette, forest, trees
+ok 5 cathedral light 36992 | church, glass, window, cathedral, stained, color, colors, jesus, catholic, religion, faith, architecture, light, pray, holy, old, christian, europe, germany, cologne, bible, cross, medieval
+ok 6 cathedral light 210104 | church, cathedral, architecture, religion, history, clouds, mysticism, nature
+ok 7 our lady statue 22260 | chapel, ronchamp, architecture, modern, fall, our, lady, drone
+ok 8 cathedral light 128066 | cathedral, beach, spain, castro urdiales, cantabria, urdiales, travel, Castro Urdiales, Spain, Cantabria
+ok 9 cathedral light 173723 | cathedral, church, architecture, religion, history, landscape, park, ancient, drone, 4k, historical, chiapas, mexico, people
+ok 10 cathedral light 202843 | church, cathedral, duomo, catholic, italy, south of italy, drone
+ok 11 cathedral light 272166 | spain, church, cathedral, architecture, seville, travel, europe, famous, land mark
+ok 12 candle light dark 48568 | candlestick, burns, fire, supplication, candle, decorations, dark, lighting, iron, old, rusty, decoration, illumination, bright, lights, glowing
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+  falha na síntese (NoAudioReceived) tentativa 1: Reze comigo o terço dos mistérios gloriosos.
+  falha na síntese (NoAudioReceived) tentativa 1: No primeiro mistério, contemplamos a Ressurreição de Jesus.
+  falha na síntese (NoAudioReceived) tentativa 1: No segundo, Ele sobe ao céu e promete não nos deixar sozinhos.
+  falha na síntese (NoAudioReceived) tentativa 1: No quarto, Nossa Senhora é elevada ao céu, de corpo e alma.
+  falha na síntese (NoAudioReceived) tentativa 1: Com a minha Mãe, eu entrego a Deus tudo o que eu vivi.
+  falha na síntese (NoAudioReceived) tentativa 1: Santa Maria, Mãe de Deus, rogai por nós agora e na hora da nossa morte, amém.
+trilha 96 Floating Light (Peaceful)
+[vost#0:0/rawvideo @ 0x592e57717c80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x592e57717900] Error muxing a packet
+[out#0/rawvideo @ 0x592e57717900] Task finished with error code: -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x596adfff9600] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x596adff56080] Error muxing a packet
+[out#0/rawvideo @ 0x596adff56080] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x596adff56080] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x55d452984d00] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x55d452984980] Error muxing a packet
+[out#0/rawvideo @ 0x55d452984980] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x55d452984980] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5c60a09a9440] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5c60a09b1040] Error muxing a packet
+[out#0/rawvideo @ 0x5c60a09b1040] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5c60a09b1040] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5a0dda4009c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5a0dda41b840] Error muxing a packet
+[out#0/rawvideo @ 0x5a0dda41b840] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5a0dda41b840] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x58f77c5d8080] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x58f77c5d7d00] Error muxing a packet
+[out#0/rawvideo @ 0x58f77c5d7d00] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x58f77c5d7d00] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5a51dfb27480] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5a51dfafcac0] Error muxing a packet
+[out#0/rawvideo @ 0x5a51dfafcac0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5a51dfafcac0] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5e98b5c3ef00] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5e98b5c3eb80] Error muxing a packet
+[out#0/rawvideo @ 0x5e98b5c3eb80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5e98b5c3eb80] Terminating thread with return code -32 (Broken pipe)
+ok terco-20261115-noite (72.1s, fundo=videos, voz=pt-BR-ThalitaMultilingualNeural)
+6 vídeo(s) gerado(s)
+[vost#0:0/rawvideo @ 0x65469a29f780] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x65469a29f400] Error muxing a packet
+[out#0/rawvideo @ 0x65469a29f400] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x65469a29f400] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x62dc79b1ab80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x62dc79b1af00] Error muxing a packet
+[out#0/rawvideo @ 0x62dc79b1af00] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x62dc79b1af00] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5653166a6a80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5653166a6700] Error muxing a packet
+[out#0/rawvideo @ 0x5653166a6700] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5653166a6700] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x65469a29f400] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x65469a29f400] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5653166a6700] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5653166a6700] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x62dc79b1af00] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x62dc79b1af00] Error closing file: Broken pipe
