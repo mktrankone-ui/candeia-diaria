@@ -20,21 +20,27 @@
     "Que eu termine este dia com o coração em *paz*.",
     "Em nome de Jesus, *amém*."
   ],
-  "referencia": {"linha": 2, "texto": "Salmo 46(45),2"},
+  "referencia": {
+    "linha": 2,
+    "texto": "Salmo 46(45),2"
+  },
   "cta_tipo": "enviar",
   "cenas": [
     "sunrise mountains",
     "sunrise ocean",
     "mountain peak sunrise",
     "road mountains sunrise",
-    "hands holding sunset",
+    "praying hands light",
     "family walking beach sunset",
     "virgin mary statue",
     "golden hour meadow",
     "sunrise cross",
     "sun rays clouds"
   ],
-  "cta": ["Envie este bom dia para quem você *ama*", "Uma oração pode mudar o dia de alguém"],
+  "cta": [
+    "Envie este bom dia para quem você *ama*",
+    "Uma oração pode mudar o dia de alguém"
+  ],
   "cta_falado": "Envie este bom dia para a sua mãe, o seu pai ou quem você ama.",
   "legenda": "Bom dia, Deus 🙏 Terça-feira, 17 de novembro\n\nHoje é dia de Santa Isabel da Hungria, a rainha que servia os pobres com as próprias mãos. Envie este bom dia para quem você ama e escreva AMÉM para começar o dia com fé.\n\n#bomdia #bomdiadeus #tercafeira #oracao #candeiadiaria #catolico #santaisabel #fé",
   "slot": "bomdia",

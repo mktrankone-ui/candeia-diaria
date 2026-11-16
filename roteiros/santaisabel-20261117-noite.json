@@ -1,7 +1,7 @@
 {
   "id": "santaisabel-20261117-noite",
   "serie": "Santa Isabel da Hungria",
-  "tema": "pessoas",
+  "tema": "fe",
   "trilha_tema": "paz",
   "fundo": "videos",
   "voz": "feminina",
@@ -23,13 +23,16 @@
     "Ensina-nos a servir com alegria quem está ao nosso *lado*.",
     "Por Cristo, nosso Senhor, *amém*."
   ],
-  "referencia": {"linha": 9, "texto": "1 João 3,18"},
+  "referencia": {
+    "linha": 9,
+    "texto": "1 João 3,18"
+  },
   "cta_tipo": "enviar",
   "cenas": [
     "church interior light",
     "sunrise field",
     "couple walking sunset",
-    "hands holding",
+    "sunbeam forest",
     "white roses",
     "mother child sunset",
     "lonely road sunset",
@@ -39,9 +42,12 @@
     "woman praying nature",
     "family hug sunset",
     "cross sunset",
-    "light through trees"
+    "cross hill sky"
   ],
-  "cta": ["Envie para quem *precisa*", "Uma oração pode mudar o dia de alguém"],
+  "cta": [
+    "Envie para quem *precisa*",
+    "Uma oração pode mudar o dia de alguém"
+  ],
   "cta_falado": "Envie este vídeo para a sua mãe ou para alguém que vive servindo os outros.",
   "legenda": "Hoje a Igreja celebra Santa Isabel da Hungria 🌹 Princesa, esposa, mãe, viúva aos 20 anos e serva dos pobres até o fim.\n\nQual santo inspira você? Escreva AMÉM e envie para a sua mãe ou para alguém que vive servindo os outros.\n\n#santaisabel #santodehoje #catolico #igrejacatolica #oração #fé #santos #candeiadiaria",
   "slot": "noite",
