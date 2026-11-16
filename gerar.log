@@ -1,1 +1,86 @@
-0 vídeo(s) gerado(s)
+== bomdia-20261117
+ok 0 sunrise mountains 280484 | mountains, landscape, nature, sky, blue, sunrise, aerial, drone
+ok 1 sunrise ocean 134095 | beach, ocean, sunrise, chairs, adirondack, waves, sky
+ok 2 mountain peak sunrise 8669 | sunset, snowy, beautiful, nature, landscape, mountain, hill, frozen, cold, ice, icy, frost, scenery, harsh conditions, sunlight, colorful, peak
+ok 3 road mountains sunrise 134908 | sunrise, road, path, fog, mist, haze, nature
+ok 4 sunrise field 245681 | golden hour, wheat, field, nature, barley, grain, landscape, rural, countryside, harvest, sunset, sunrise, golden, gold, orange, sun, light, beautiful, wheat field, wind, breeze
+ok 5 family walking beach sunset 125900 | beach, girl, ocean, walking, female, holiday, lifestyle, people, relax, resort, sand, sea, summer, sunny, sunset, travel, water, nature
+ok 6 sun rays forest 12125 | rays, light, forest, sun rays, nature, summer, evening, landscape, background, tree, sunset, trees
+ok 7 sunrise mountains 175688 | river, canyon, rocks, plant, crystal water, water, trekking, yosemite national park, waves, national park, italy, dawn, sunrise, sunset, yellowstone, mountains
+ok 8 sunrise field 220362 | trees, forest, sunrise, woods, fog, trail, sunbeams, misty, scenic, field, outdoors, drenthe, netherlands, nature, landscape
+ok 9 sun rays clouds 237673 | sunset, clouds, golden, sun, light rays
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+trilha 115 New Dawn (Hopeful)
+[vost#0:0/rawvideo @ 0x59438b082f40] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x59438afd8b40] Error muxing a packet
+[out#0/rawvideo @ 0x59438afd8b40] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x59438afd8b40] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x6484428c2200] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x6484428a2180] Error muxing a packet
+[out#0/rawvideo @ 0x6484428a2180] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x6484428a2180] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x60594c0d0fc0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x60594c0c7d80] Error muxing a packet
+[out#0/rawvideo @ 0x60594c0c7d80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x60594c0c7d80] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x638f4ec4e000] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x638f4ec4dc80] Error muxing a packet
+[out#0/rawvideo @ 0x638f4ec4dc80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x638f4ec4dc80] Terminating thread with return code -32 (Broken pipe)
+ok bomdia-20261117 (49.0s, fundo=videos, voz=pt-BR-AntonioNeural)
+== santaisabel-20261117-noite
+ok 1 sunrise field 220339 | trail, trees, forest, woods, sunrise, morning, fog, sunlight, wilderness, sunbeams, misty, mystical, scenic, field, outdoors, drenthe, netherlands, nature, landscape
+ok 2 couple walking sunset 197545 | couple, palm tree, tree, sunset, sun, light, energy, sky, nature, lanzarote, canary islands
+ok 3 sunbeam forest 12687 | trees, forest, nature, landscape, plants, green, sunbeam, sunlight, sunset
+ok 4 white roses 38492 | flowers, garden, nature, spring, bloom, plant, blossom, purple, flora, summer, petals, red, blue, heart, love, pink, roses, pond, romantic, white, anemone, tender
+ok 6 lonely road sunset 9798 | from the air, from above, bernese oberland, switzerland, road, forest, mountain road, mountain trail, houses, fir trees, along the road, hilly, pitch, dji phantom professional, drone, copter, bird's eye view, midland, canton bern, summer, warm, farm yard, hotel, parking spot, excursion, nature, off the beaten track, lonely, the difference in height, perpendicular, air, 4k, 25fps
+ok 8 candle light dark 21663 | fire, black, orange, flame, burn, heat, candle, red, hot, coal, dark, smoke, night, light, bright, yellow, bonfire, wood, match
+ok 9 sun rays clouds 2109 | landscape, cuba, sunrise, sun, clouds, sky, nature, rays, summer, golden, vacation
+ok 11 family hug sunset 199106 | family, sunset, sunrise, lanzarote, spain, canary islands, sun, summer, late, afternoon
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+trilha 458 Still Waters (Peaceful)
+[vost#0:0/rawvideo @ 0x5a2671969fc0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5a26719ff3c0] Error muxing a packet
+[out#0/rawvideo @ 0x5a26719ff3c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5a26719ff3c0] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x583b14055880] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x583b13ff8180] Error muxing a packet
+[out#0/rawvideo @ 0x583b13ff8180] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x583b13ff8180] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x61627b214140] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x61627b213dc0] Error muxing a packet
+[out#0/rawvideo @ 0x61627b213dc0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x61627b213dc0] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x556afd910500] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x556afd8e7780] Error muxing a packet
+[out#0/rawvideo @ 0x556afd8e7780] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x556afd8e7780] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x583ef4dc5880] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x583ef4d68180] Error muxing a packet
+[out#0/rawvideo @ 0x583ef4d68180] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x583ef4d68180] Terminating thread with return code -32 (Broken pipe)
+ok santaisabel-20261117-noite (75.1s, fundo=videos, voz=pt-BR-ThalitaMultilingualNeural)
+2 vídeo(s) gerado(s)
+[vost#0:0/rawvideo @ 0x60373e0c4300] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x60373e05ff40] Error muxing a packet
+[out#0/rawvideo @ 0x60373e05ff40] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x60373e05ff40] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5f94dd0798c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5f94dd079540] Error muxing a packet
+[out#0/rawvideo @ 0x5f94dd079540] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5f94dd079540] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x60373e05ff40] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x60373e05ff40] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5f94dd079540] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5f94dd079540] Error closing file: Broken pipe
