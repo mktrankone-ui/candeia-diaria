@@ -628,5 +628,41 @@
   "cta_tipo": "seguir",
   "formato": "terco",
   "motor_voz": "edge"
+ },
+ "bomdia-20261117": {
+  "arquivo": "bomdia-20261117.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261117.mp4",
+  "serie": "Terça-feira",
+  "legenda": "Bom dia, Deus 🙏 Terça-feira, 17 de novembro\n\nHoje é dia de Santa Isabel da Hungria, a rainha que servia os pobres com as próprias mãos. Envie este bom dia para quem você ama e escreva AMÉM para começar o dia com fé.\n\n#bomdia #bomdiadeus #tercafeira #oracao #candeiadiaria #catolico #santaisabel #fé",
+  "duracao": 49.0,
+  "fundo": "videos",
+  "trilha": {
+   "id": 117,
+   "titulo": "New Dawn (Uplifting)",
+   "url": "https://media.snipsound.com/audio/rf_cin02b_new_dawn_uplifting.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "santaisabel-20261117-noite": {
+  "arquivo": "santaisabel-20261117-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/santaisabel-20261117-noite.mp4",
+  "serie": "Santa Isabel da Hungria",
+  "legenda": "Hoje a Igreja celebra Santa Isabel da Hungria 🌹 Princesa, esposa, mãe, viúva aos 20 anos e serva dos pobres até o fim.\n\nQual santo inspira você? Escreva AMÉM e envie para a sua mãe ou para alguém que vive servindo os outros.\n\n#santaisabel #santodehoje #catolico #igrejacatolica #oração #fé #santos #candeiadiaria",
+  "duracao": 75.1,
+  "fundo": "videos",
+  "trilha": {
+   "id": 96,
+   "titulo": "Floating Light (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_amb01a_floating_light_peaceful.mp3"
+  },
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "enviar",
+  "formato": "santo",
+  "motor_voz": "edge"
  }
 }
