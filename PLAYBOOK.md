@@ -65,7 +65,7 @@ Varie sempre. Junte passagens bíblicas bonitas com textos originais que acolham
 **Manhã (formato `bom_dia`, publicado 22:00 da véspera)** — tema leve e luminoso, dentro da oração do dia:
 gratidão pelo novo dia · entregar o dia a Deus · oferecimento do dia · proteção ao sair de casa · trabalho e sustento · emprego · estudos e provas · família · filhos · marido/esposa · casamento · amigos · decisões importantes · força para recomeçar · esperança · coragem · fé que move montanhas · "Leão de Judá" (força) · Santo Anjo da Guarda · consagração a Nossa Senhora · Espírito Santo · Salmo do dia (Sl 23, 27, 91, 121, 139, 46, 34, 103, 62, 118) · santo do dia · domingo: alegria da ressurreição e missa.
 
-**Noite (20:30)** — tema emocional e de cura:
+**Noite (18:30, ver `estrategia.json`)** — tema emocional e de cura:
 ansiedade · medo · insônia e sono tranquilo · cura interior · cura de feridas emocionais · perdão (pedir e dar) · luto e saudade · solidão · tristeza e depressão (com cuidado) · doença na família · pessoa internada · crise no casamento · filho afastado · vícios na família · dívidas e aflição financeira · injustiça · cansaço · noite difícil · entrega das preocupações · exame de consciência · Salve Rainha · terço da noite · Nossa Senhora Desatadora dos Nós · Sagrado Coração · Salmos de confiança (Sl 4, 16, 31, 42, 46, 56, 63, 86, 130, 131).
 
 **Formatos de série** (campo `serie`, curto — vira o título):
@@ -145,7 +145,7 @@ Sem `cenas`, o sistema usa `busca` (4 a 7 termos) ou o catálogo do `tema`. Tema
 
 ## Horários
 
-Definidos em `estrategia.json` (`horarios`): **bom dia às 22:00 da véspera** (slot `bomdia`, teste iniciado em 02/11 — antes era 08:00) e **noite às 20:30** (America/Sao_Paulo). Publica **todo dia**, inclusive sábado e domingo. O roteiro de bom dia tem `"slot": "bomdia"` e `"data"` = o dia a que a oração se refere; o agendamento é na véspera às 22:00.
+Definidos em `estrategia.json` (`horarios`): **bom dia às 22:00 da véspera** (slot `bomdia`, desde 02/11, confirmado em 16/11) e **noite às 18:30** (teste desde 17/11 — antes 20:30; vale sempre o que estiver em `estrategia.json`) (America/Sao_Paulo). Publica **todo dia**, inclusive sábado e domingo. O roteiro de bom dia tem `"slot": "bomdia"` e `"data"` = o dia a que a oração se refere; o agendamento é na véspera às 22:00.
 
 ## Rotina diária de produção (seg a sex, horário comercial)
 

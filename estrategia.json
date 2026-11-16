@@ -1,10 +1,10 @@
 {
- "atualizado_em": "2026-11-09",
+ "atualizado_em": "2026-11-16",
  "horarios": {
   "bomdia": "22:00 da véspera",
-  "noite": "20:30",
+  "noite": "18:30",
   "fuso": "America/Sao_Paulo",
-  "teste": "bom dia às 22:00 da véspera desde 02/11 (antes 08:00). 09/11: no IG a mediana do bom dia subiu para 370 views (antes 130,5 às 08h) e trouxe quase todos os compartilhamentos; TikTok igual (~190). Manter; confirmar em 16/11."
+  "teste": "bom dia às 22:00 da véspera: teste encerrado em 16/11 e mantido (2 semanas acima da noite nas duas redes: IG mediana 370,5 e 186 views x noite 125 e 144; TK 192 e 271 x 187,5 e 190). Novo teste desde 17/11: noite às 18:30 (antes 20:30). Motivo: Metricool aponta 18h bem acima de 20h nas duas redes por 2 semanas seguidas, e a noite às 20h30 está parada em ~115–155 views no IG. Comparar em 23/11 e 30/11 com a mediana da noite às 20h30 (IG 144, TK 190); se não melhorar, voltar para 20:30."
  },
  "pesos_series": {
   "Oração da manhã": 1.0,
@@ -29,7 +29,7 @@
  },
  "pesos_fundo": {
   "fotos": 1.0,
-  "videos": 1.0
+  "videos": 1.1
  },
  "evitar": [
   "iscas tipo 'não pule este vídeo' / 'Jesus tem um recado'",
@@ -55,7 +55,16 @@
   "Salvamentos continuam quase zero (5 no IG na semana) mesmo com 'Salve este vídeo' na legenda. Testar o pedido dentro do vídeo, na última frase falada, com motivo concreto ('salve para rezar amanhã quando acordar').",
   "Ideia de gancho para a noite, derivada do melhor post: levar para a oração da noite o que funciona no bom dia — dia da semana/devoção na 1ª frase + pedido de envio com destinatário ('envie para sua mãe', 'para quem está desempregado').",
   "Voz: masculina com retenção IG um pouco maior (23,5% x 17,7% do vídeo), feminina com views TK um pouco maiores (200 x 178,5). Diferença pequena, sem mudança.",
-  "Comentários subiram (IG 24, TK 45 na semana; Terça bom dia teve 12 no TK e Salve Rainha 8). O Metricool não traz o texto dos comentários — Fernando precisa responder e anotar temas pedidos."
+  "Comentários subiram (IG 24, TK 45 na semana; Terça bom dia teve 12 no TK e Salve Rainha 8). O Metricool não traz o texto dos comentários — Fernando precisa responder e anotar temas pedidos.",
+  "16/11 (3ª análise, semana 09–15/11, pistas): IG +13 seguidores (15→28), TK +28 (20→48). Views da semana: IG 2.356, TK 3.129 (13 vídeos maduros). TikTok saiu do patamar de ~190: bom dias com 393 (Quarta, São Martinho), 352 (Sexta, N. Sra. de Fátima) e 300 (Sábado). IG caiu: mediana do bom dia 186 (antes 370,5) e 70 shares (antes 205).",
+  "Bom dia do IG dividido em dois grupos nesta semana: voz feminina + fundo vídeos (10, 12, 14/11: 368, 381, 235 views; 52, 8, 5 shares) x voz masculina + fundo fotos (11, 13, 15/11: 137, 128, 119; 1, 0, 0 shares). No TK foi o contrário (masc+fotos 352 x fem+vídeos 242). Voz e fundo andaram juntos, então não dá para separar; na semana passada não houve esse padrão. Próxima semana: não casar sempre voz com fundo no bom dia, para isolar o efeito.",
+  "Domingo 15/11 foi o único bom dia com CTA 'amem' em vez de 'enviar' e teve 0 shares no IG e o menor alcance do bom dia (108). Pista de que o 'envie este bom dia para…' é o que espalha: manter 'enviar' em todo bom dia.",
+  "Post mais compartilhado da semana: Bom dia terça 10/11 (São Leão Magno), 52 shares = 17,4% do alcance no IG. Junto com o Sábado de N. Sra. (139) e a Primeira sexta (39), confirma: santo/devoção do dia na 1ª frase + envio é a fórmula do compartilhamento.",
+  "Noite: nenhuma oração da noite teve share no IG com CTA 'nome' (emprego, ansiedade, Desatadora: 0, 0, 2) e o formato 'enviar' ficou abaixo da mediana das duas redes pela 2ª semana. Pedir o nome nos comentários não está virando comentário no IG (0 em emprego e ansiedade). Peso de 'enviar' 1,0→0,9 e CTA 'nome' 1,0→0,9.",
+  "TK — Pai-Nosso e Ave-Maria 13/11 (tradicional, 77 s): 265 views, 30 curtidas e 12 comentários, o mais comentado da semana. Tradicionais completas seguem sendo as noites mais fortes do TikTok (2ª semana), mesmo fracas no IG. Manter peso 1,5.",
+  "Retenção no IG piorou: mediana de 13,3% do vídeo assistido (antes ~18%). Pior do perfil: Terço dos Mistérios Gloriosos 15/11 (4,2 s de 72 s = 5,8%; 14% passam dos 3 s), com CTA 'seguir'. O Terço de terça (masc, fotos) segurou bem (17,5 s, 38% passam dos 3 s). CTA 'seguir' 0,9→0,8.",
+  "Ideia de gancho (derivada do campeão de shares): começar a noite também pelo santo/devoção do dia ('Hoje é dia de Santa Isabel da Hungria, a rainha que…') e fechar com envio a uma pessoa concreta ('envie para a sua mãe'). Testar 2 vezes na semana.",
+  "Ainda não vêm do Metricool (tentado no período todo e nos últimos 7 dias): retenção % do IG (IGRE27), alcance, tempo médio, % assistido e % For You do TikTok (TKPO11/13/15/16), ganhos e perdas diárias do IG (IGEV43/44). Seguidores do TK via TKEV07."
  ],
  "pesos_voz": {
   "feminina": 1.0,
@@ -63,15 +72,15 @@
  },
  "pesos_cta": {
   "amem": 1.0,
-  "enviar": 1.0,
-  "seguir": 0.9,
-  "nome": 1.0
+  "enviar": 1.1,
+  "seguir": 0.8,
+  "nome": 0.9
  },
  "pesos_formato": {
   "bom_dia": "fixo na manhã",
   "tradicional": 1.5,
   "oracao": 1.0,
-  "enviar": 1.0,
+  "enviar": 0.9,
   "salmo": 0.9,
   "evangelho": 1.0,
   "santo": 1.2,
