@@ -599,5 +599,39 @@
   "cta_tipo": "amem",
   "duracao": 49.6,
   "metricool_id": 427045980
+ },
+ {
+  "id": "bomdia-20261117",
+  "data": "2026-11-17",
+  "slot": "bomdia",
+  "serie": "Terça-feira",
+  "formato": "bom_dia",
+  "tema": "amanhecer",
+  "referencia": "Salmo 46(45),2",
+  "fundo": "videos",
+  "estilo": "classico",
+  "layout": "centro",
+  "trilha": "New Dawn (Hopeful)",
+  "voz": "masculina",
+  "cta_tipo": "enviar",
+  "duracao": 49.0,
+  "metricool_id": 430068703
+ },
+ {
+  "id": "santaisabel-20261117-noite",
+  "data": "2026-11-17",
+  "slot": "noite",
+  "serie": "Santa Isabel da Hungria",
+  "formato": "santo",
+  "tema": "paz",
+  "referencia": "1 João 3,18",
+  "fundo": "fotos",
+  "estilo": "montserrat",
+  "layout": "baixo",
+  "trilha": "Weightless (Peaceful)",
+  "voz": "feminina",
+  "cta_tipo": "enviar",
+  "duracao": 75.1,
+  "metricool_id": 430068736
  }
 ]
