@@ -664,5 +664,41 @@
   "cta_tipo": "enviar",
   "formato": "santo",
   "motor_voz": "edge"
+ },
+ "bomdia-20261118": {
+  "arquivo": "bomdia-20261118.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261118.mp4",
+  "serie": "Quarta-feira",
+  "legenda": "Bom dia, Deus 🙏 Quarta-feira, 18 de novembro\n\nQuarta-feira é dia de São José, o guardião da Sagrada Família. Envie este bom dia para quem você ama e escreva AMÉM para entregar a sua casa e o seu trabalho a Deus.\n\n#bomdia #bomdiadeus #quartafeira #oracao #candeiadiaria #catolico #saojose #fé",
+  "duracao": 56.8,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 114,
+   "titulo": "Horizon Line (Hopeful)",
+   "url": "https://media.snipsound.com/audio/rf_cin02a_2_horizon_line_hopeful.mp3"
+  },
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "salmo91-20261118-noite": {
+  "arquivo": "salmo91-20261118-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/salmo91-20261118-noite.mp4",
+  "serie": "Reze comigo o Salmo 91",
+  "legenda": "Reze comigo o Salmo 91 antes de dormir 🙏 O salmo da proteção de Deus para quem anda com medo, preocupado ou sem conseguir descansar.\n\nSalve para rezar de novo amanhã à noite, escreva AMÉM e envie para alguém que precisa dormir em paz.\n\n#salmo91 #oracaodanoite #catolico #igrejacatolica #oração #fé #Deus #proteção #candeiadiaria",
+  "duracao": 75.1,
+  "fundo": "videos",
+  "trilha": {
+   "id": 464,
+   "titulo": "Night Light (Sleepy)",
+   "url": "https://media.snipsound.com/audio/rf_med02a_2_night_light_sleepy.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "amem",
+  "formato": "tradicional",
+  "motor_voz": "edge"
  }
 }
