@@ -1,0 +1,50 @@
+{
+  "id": "bomdia-20261118",
+  "serie": "Quarta-feira",
+  "tema": "amanhecer",
+  "trilha_tema": "amanhecer",
+  "fundo": "fotos",
+  "voz": "feminina",
+  "formato": "bom_dia",
+  "estilo": "classico",
+  "layout": "baixo",
+  "rodape": "Bom dia!",
+  "linhas": [
+    "Deus, hoje é quarta-feira, 18 de novembro, e eu começo este dia Te *agradecendo*.",
+    "Obrigada pelo descanso, pela vida e por mais uma *chance*.",
+    "Quarta-feira é dia de São José, o homem justo que confiou em *Ti*.",
+    "Como ele, quero trabalhar em silêncio e deixar tudo em Tuas *mãos*.",
+    "Se o Senhor não constrói a casa, em vão trabalham os que a *constroem*.",
+    "Então vem, Senhor, e constrói Tu a minha casa e a minha *família*.",
+    "Abençoa o meu trabalho, o meu sustento e cada passo que eu *der*.",
+    "São José, guarda quem eu amo como guardaste Jesus e *Maria*.",
+    "Nossa Senhora, passa à minha frente em tudo o que eu viver *hoje*.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {
+    "linha": 4,
+    "texto": "Salmo 127(126),1"
+  },
+  "cta_tipo": "enviar",
+  "cenas": [
+    "sunrise field",
+    "morning mist lake",
+    "father son nature",
+    "man walking mountain sunrise",
+    "family walking field",
+    "family walking beach sunset",
+    "road mountains sunrise",
+    "mother child sunset",
+    "virgin mary statue",
+    "sunrise cross",
+    "sun rays clouds"
+  ],
+  "cta": [
+    "Envie este bom dia para quem você *ama*",
+    "Uma oração pode mudar o dia de alguém"
+  ],
+  "cta_falado": "Envie este bom dia para o seu pai, a sua mãe ou quem você ama.",
+  "legenda": "Bom dia, Deus 🙏 Quarta-feira, 18 de novembro\n\nQuarta-feira é dia de São José, o guardião da Sagrada Família. Envie este bom dia para quem você ama e escreva AMÉM para entregar a sua casa e o seu trabalho a Deus.\n\n#bomdia #bomdiadeus #quartafeira #oracao #candeiadiaria #catolico #saojose #fé",
+  "slot": "bomdia",
+  "data": "2026-11-18"
+}
