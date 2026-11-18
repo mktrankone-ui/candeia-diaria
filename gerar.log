@@ -1,16 +1,47 @@
-== bomdia-20261118
-ok 0 sunrise field 6347688 | cornfield, rural, sunrise, dawn, morning, field, farm, harvest, trees, landscape, countryside, mountains, nature, thailand
-ok 1 morning mist lake 4243026 | fog, foggy path, nature, landscape, trees, mist, light, morning, mood, away, magic, scenic, leaves, cold, mysterious, green, outdoor
-ok 2 father son nature 6247383 | father, child, love, care, kid, toddler, young, son, boy, man, fatherhood, parent, happy, family
-ok 3 sun rays forest 6901428 | winter, forest, snow, nature, sun, outdoors
-ok 4 sunrise field 5572964 | sunrise, fog, landscape, mist, morning, dawn, twilight, trees, foliage, meadow, field, grassland, hill, countryside, nature
-ok 5 golden hour meadow 7466919 | nature, field, sunset, trees, fall, landscape, meadow, countryside, dark clouds, evening atmosphere, dusk, rural scene, country, eve, autumn, cloudy
-ok 6 road mountains sunrise 181538 | sunrise, beaumont, morning, road, sky, clouds, outdoors, tranquil, weather, meteorology, cloudscape, view, landscape, wilderness, scenery, natural, wild, outdoor, environment, scenic, land, nature
-ok 7 family hug sunset 1363920 | mother, son, bear, love, hug, family, family, family, family, family, family
-ok 8 sunrise mountains 4967403 | sun, sunset, sunrise, landscape, sky, nature, dawn, orange, meditation, clouds, light, mountains, freedom, dusk
-ok 9 morning mist lake 1989298 | mist, morning, lake, shore, light, nature, natural, sunlight, forest, landscape, gray forest, gray light, gray lake, gray natural, gray morning, gray lights
-ok 10 sun rays clouds 7730901 | sunset, sun, nature, beautiful wallpaper, sky, background, clouds, beautiful, bright, golden sunset, sunshine, sunlight, sky background, dusk
+== bomdia-20261119
+ok 0 sunrise mountains 214938 | mountains, mount fuji, before sunrise, landscape
+ok 1 sunrise sky clouds 32790 | clouds, mountains, sunrise, natural, sky
+ok 2 sunrise field 298693 | drenthe, netherlands, morning, fog, mist, early, sun, glare, forest, nature, landscape, scenic, dwingelderveld, wat, field, sunrise
+ok 3 golden hour meadow 387578 | falling leaves, autumn, season, meadow, aspen, golden, leaves, fall, falling, beautiful, nature, picturesque, grass, breeze, wind, outdoors, mountains, forest, field, fall season, aspens, aspen meadow, leaf, foliage
+ok 4 sunrise field 70858 | sheep, herd, shepherd, animal, farming, lamb, pasture, field, flock, goat, grass, graze, nature, agriculture, countryside, farm, ranch, running, scenery, sunrise, landscape
+ok 5 wheat field sunset 239782 | mountain, field, clouds, sunset, jungle, sky, nature, landscape
+ok 6 family walking field 10069 | man and woman are on the road, human, people, family, summer, field, road, dust, conversation, talk, horizon, sky, clouds, step, walking, go, primer
+ok 7 morning mist lake 242905 | fog, morning mist, nature, haze, tomorrow, morning light, mist, mood
+ok 8 path forest light 240624 | trees, forest, woods, rain, path, fog, autumn, outdoors, colombia, nature
+ok 9 morning mist lake 164360 | fogging, landscape, forest, grasslands, nature, morning mist, fog
+ok 10 sun rays clouds 32002 | sun, sea, clouds, rays, landscape, nature, sky
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 119 New Dawn (Inspiring)
-ok bomdia-20261118 (56.8s, fundo=fotos, voz=pt-BR-ThalitaMultilingualNeural)
-1 vídeo(s) gerado(s)
+trilha 115 New Dawn (Hopeful)
+[vost#0:0/rawvideo @ 0x5a9dcd7bc280] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5a9dcd73fc80] Error muxing a packet
+[out#0/rawvideo @ 0x5a9dcd73fc80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5a9dcd73fc80] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x56e89c625800] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x56e89c625480] Error muxing a packet
+[out#0/rawvideo @ 0x56e89c625480] Task finished with error code: -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x575ffe2fadc0] ok bomdia-20261119 (53.6s, fundo=videos, voz=pt-BR-AntonioNeural)
+== evangelho-20261119-noite
+ok 0 rain window 777269 | rain, raindrops, water, drop, nature, liquid, glass, window, rainfall, raining, gray rain
+ok 1 night sky stars 1837191 | nature, night, silhouette, sky, starry, starry sky, night sky, stars, trees
+ok 2 calm lake 7078340 | seagulls, lake, dock, posts, birds, nature, animals, port, row, lake balaton, water, siófok
+ok 3 woman thinking window 7927629 | thinking, woman, dark, girl, nature, pose, creativity, backlit, sun, artwork
+ok 4 lonely road sunset 2665950 | landscape, road, travel, nature, outdoors, country, rural, forest, trees, woods, sunrise, sunset, glow, brown road, brown sunrise
+ok 5 milky way 5718302 | milky way, stars, night, evening, night sky, starry sky, dark, beach, scenery, scenic, nature, milky way, night sky, night sky, night sky, night sky, starry sky, starry sky, starry sky, starry sky, starry sky, scenery, scenery
+ok 6 night lake moon 4245400 | moon, lonely, night sky, tree, landscape, sky, mood, loneliness, mystical, clouds, gloomy, silhouette, darkness, night, nature
+ok 7 candle light dark 5181374 | candle, candlelight, flame, candle flame, fire, black background, wick, burning candle, black candle, black candles, iphone wallpaper
+ok 8 night sky stars 7371732 | sky, milky way, nature, night, stars, space, night sky, field, landscape, starry, meadow, evening
+ok 9 night sky stars 1869755 | clouds, nature, night, sky, night sky, stars, trees, blue stars
+ok 10 moon clouds night 349862 | full moon, moon, nightsky, night, pitch black, dark, gray moon, gray night, pitch black, pitch black, pitch black, pitch black, pitch black
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+trilha 457 Inner Calm (Peaceful)
+ok evangelho-20261119-noite (51.5s, fundo=fotos, voz=pt-BR-ThalitaMultilingualNeural)
+2 vídeo(s) gerado(s)
+[vost#0:0/rawvideo @ 0x62f967f567c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x62f967f643c0] Error muxing a packet
+[out#0/rawvideo @ 0x62f967f643c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x62f967f643c0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x62f967f643c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x62f967f643c0] Error closing file: Broken pipe

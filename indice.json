@@ -700,5 +700,41 @@
   "cta_tipo": "amem",
   "formato": "tradicional",
   "motor_voz": "edge"
+ },
+ "bomdia-20261119": {
+  "arquivo": "bomdia-20261119.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261119.mp4",
+  "serie": "Quinta-feira",
+  "legenda": "Bom dia, Deus 🙏 Quinta-feira, 19 de novembro\n\nQuinta-feira é dia de agradecer pela Eucaristia e rezar pelos padres. Envie este bom dia para quem você ama e escreva AMÉM se Jesus é o pão da sua vida.\n\n#bomdia #bomdiadeus #quintafeira #oracao #candeiadiaria #catolico #eucaristia #fé",
+  "duracao": 53.6,
+  "fundo": "videos",
+  "trilha": {
+   "id": 115,
+   "titulo": "New Dawn (Hopeful)",
+   "url": "https://media.snipsound.com/audio/rf_cin02a_new_dawn_hopeful.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "evangelho-20261119-noite": {
+  "arquivo": "evangelho-20261119-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/evangelho-20261119-noite.mp4",
+  "serie": "Evangelho do dia",
+  "legenda": "Jesus também chorou 🙏 No Evangelho de hoje (Lucas 19,41-44), Ele chora por Jerusalém, que não reconheceu a paz que estava perto.\n\nEscreva AMÉM e envie para alguém que chorou hoje. Se a tristeza não passa, procure também ajuda: um padre, um psicólogo ou o CVV (188).\n\n#evangelhododia #oracaodanoite #catolico #igrejacatolica #oração #fé #Jesus #paz #candeiadiaria",
+  "duracao": 51.5,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 457,
+   "titulo": "Inner Calm (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_med01a_inner_calm_peaceful.mp3"
+  },
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "enviar",
+  "formato": "evangelho",
+  "motor_voz": "edge"
  }
 }
