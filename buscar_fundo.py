@@ -59,7 +59,7 @@ PROIBIDAS = {
     "buddha", "buddhism", "hindu", "ganesha", "shiva", "temple", "mosque", "islam", "muslim", "pagoda", "zen",
     "angel statue", "cupid", "bikini", "sexy", "model", "fashion", "party", "money", "dollar", "car", "cars",
     "computer", "laptop", "phone", "smartphone", "business", "office", "shopping", "cat", "dog", "pet", "selfie",
-    "covid", "covid-19", "coronavirus", "virus", "soap", "hygiene", "washing", "bathroom", "mask", "strawberry",
+    "horror", "haunted", "haunted house", "ghost", "creepy", "scary", "clock", "pendulum clock", "covid", "covid-19", "coronavirus", "virus", "soap", "hygiene", "washing", "bathroom", "mask", "strawberry",
     "fruit", "abstract", "digital", "technology", "brain", "intelligence", "artificial", "cyber", "futuristic",
     "fantasy", "particles", "network", "data", "city", "skyline", "skyscraper", "skyscrapers", "building",
     "buildings", "urban", "street", "traffic", "honeymoon", "lovers", "kiss", "wedding dress", "graffiti", "bride", "wedding", "fish", "fishing", "angler", "grapes", "vermicelli", "loaves", "romance", "landmark", "text", "lettering", "sign", "logo", "advertisement", "cartoon", "illustration", "3d", "render",
