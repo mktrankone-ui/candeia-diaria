@@ -667,5 +667,39 @@
   "cta_tipo": "amem",
   "duracao": 75.1,
   "metricool_id": 431444265
+ },
+ {
+  "id": "bomdia-20261119",
+  "data": "2026-11-19",
+  "slot": "bomdia",
+  "serie": "Quinta-feira",
+  "formato": "bom_dia",
+  "tema": "amanhecer",
+  "referencia": "João 6,35",
+  "fundo": "videos",
+  "estilo": "classico",
+  "layout": "centro",
+  "trilha": "New Dawn (Hopeful)",
+  "voz": "masculina",
+  "cta_tipo": "enviar",
+  "duracao": 53.6,
+  "metricool_id": 432816940
+ },
+ {
+  "id": "evangelho-20261119-noite",
+  "data": "2026-11-19",
+  "slot": "noite",
+  "serie": "Evangelho do dia",
+  "formato": "evangelho",
+  "tema": "noite",
+  "referencia": "Lucas 19,41-42",
+  "fundo": "fotos",
+  "estilo": "montserrat",
+  "layout": "centro",
+  "trilha": "Inner Calm (Peaceful)",
+  "voz": "feminina",
+  "cta_tipo": "enviar",
+  "duracao": 51.5,
+  "metricool_id": 432868669
  }
 ]
