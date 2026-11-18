@@ -1,0 +1,49 @@
+{
+  "id": "evangelho-20261119-noite",
+  "serie": "Evangelho do dia",
+  "tema": "noite",
+  "trilha_tema": "paz",
+  "fundo": "fotos",
+  "voz": "feminina",
+  "formato": "evangelho",
+  "estilo": "montserrat",
+  "layout": "centro",
+  "linhas": [
+    "Se você chorou hoje, saiba que Jesus também *chorou*.",
+    "No Evangelho de hoje, Ele olha para Jerusalém e chora pela *cidade*.",
+    "Chora porque o povo não reconheceu a *paz* que estava tão perto.",
+    "Jesus não é indiferente às suas *lágrimas*.",
+    "Ele conhece o peso que você carregou o dia *inteiro*.",
+    "E a paz que você procura está mais perto do que *parece*.",
+    "Senhor, esta noite eu deixo as minhas lágrimas em Tuas *mãos*.",
+    "Visita o meu coração e me ensina a reconhecer a Tua *presença*.",
+    "Nossa Senhora, mãe das dores, fica comigo até eu *adormecer*.",
+    "Por Cristo, nosso Senhor, *amém*."
+  ],
+  "referencia": {
+    "linha": 1,
+    "texto": "Lucas 19,41-42"
+  },
+  "cta_tipo": "enviar",
+  "cenas": [
+    "rain window",
+    "cross hill sky",
+    "calm lake",
+    "woman thinking window",
+    "lonely road sunset",
+    "light through trees",
+    "praying hands light",
+    "candle light dark",
+    "virgin mary statue",
+    "night sky stars",
+    "moon clouds night"
+  ],
+  "cta": [
+    "Envie para quem *precisa*",
+    "Uma oração pode mudar o dia de alguém"
+  ],
+  "cta_falado": "Envie esta oração para alguém que chorou hoje e precisa saber que Deus está perto.",
+  "legenda": "Jesus também chorou 🙏 No Evangelho de hoje (Lucas 19,41-44), Ele chora por Jerusalém, que não reconheceu a paz que estava perto.\n\nEscreva AMÉM e envie para alguém que chorou hoje. Se a tristeza não passa, procure também ajuda: um padre, um psicólogo ou o CVV (188).\n\n#evangelhododia #oracaodanoite #catolico #igrejacatolica #oração #fé #Jesus #paz #candeiadiaria",
+  "slot": "noite",
+  "data": "2026-11-19"
+}

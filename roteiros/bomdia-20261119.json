@@ -1,0 +1,50 @@
+{
+  "id": "bomdia-20261119",
+  "serie": "Quinta-feira",
+  "tema": "amanhecer",
+  "trilha_tema": "amanhecer",
+  "fundo": "videos",
+  "voz": "masculina",
+  "formato": "bom_dia",
+  "estilo": "classico",
+  "layout": "centro",
+  "rodape": "Bom dia!",
+  "linhas": [
+    "Deus, hoje é quinta-feira, 19 de novembro, e eu venho Te dizer *obrigado*.",
+    "Obrigado pela noite que passou e por este novo *amanhecer*.",
+    "Hoje eu lembro da Última Ceia, quando Jesus Se deu a nós no *pão*.",
+    "Senhor, Tu és o pão da vida, e quem vem a Ti não passa *fome*.",
+    "Alimenta a minha fé e preenche o que falta no meu *coração*.",
+    "Abençoa o meu trabalho e o sustento da minha *casa*.",
+    "Cuida da minha família, dos meus filhos e de quem eu *amo*.",
+    "Abençoa também os padres, que todos os dias nos trazem *Jesus*.",
+    "Santo Anjo da Guarda, me acompanha em cada *caminho* de hoje.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {
+    "linha": 3,
+    "texto": "João 6,35"
+  },
+  "cta_tipo": "enviar",
+  "cenas": [
+    "sunrise mountains",
+    "sunrise sky clouds",
+    "church altar",
+    "communion host",
+    "light through window",
+    "wheat field sunset",
+    "family walking field",
+    "chalice church",
+    "path forest light",
+    "cross sunset",
+    "sun rays clouds"
+  ],
+  "cta": [
+    "Envie este bom dia para quem você *ama*",
+    "Uma oração pode mudar o dia de alguém"
+  ],
+  "cta_falado": "Envie este bom dia para a sua família e para alguém que você ama.",
+  "legenda": "Bom dia, Deus 🙏 Quinta-feira, 19 de novembro\n\nQuinta-feira é dia de agradecer pela Eucaristia e rezar pelos padres. Envie este bom dia para quem você ama e escreva AMÉM se Jesus é o pão da sua vida.\n\n#bomdia #bomdiadeus #quintafeira #oracao #candeiadiaria #catolico #eucaristia #fé",
+  "slot": "bomdia",
+  "data": "2026-11-19"
+}
