@@ -1,47 +1,53 @@
 == bomdia-20261119
-ok 0 sunrise mountains 214938 | mountains, mount fuji, before sunrise, landscape
-ok 1 sunrise sky clouds 32790 | clouds, mountains, sunrise, natural, sky
-ok 2 sunrise field 298693 | drenthe, netherlands, morning, fog, mist, early, sun, glare, forest, nature, landscape, scenic, dwingelderveld, wat, field, sunrise
-ok 3 golden hour meadow 387578 | falling leaves, autumn, season, meadow, aspen, golden, leaves, fall, falling, beautiful, nature, picturesque, grass, breeze, wind, outdoors, mountains, forest, field, fall season, aspens, aspen meadow, leaf, foliage
-ok 4 sunrise field 70858 | sheep, herd, shepherd, animal, farming, lamb, pasture, field, flock, goat, grass, graze, nature, agriculture, countryside, farm, ranch, running, scenery, sunrise, landscape
-ok 5 wheat field sunset 239782 | mountain, field, clouds, sunset, jungle, sky, nature, landscape
-ok 6 family walking field 10069 | man and woman are on the road, human, people, family, summer, field, road, dust, conversation, talk, horizon, sky, clouds, step, walking, go, primer
-ok 7 morning mist lake 242905 | fog, morning mist, nature, haze, tomorrow, morning light, mist, mood
-ok 8 path forest light 240624 | trees, forest, woods, rain, path, fog, autumn, outdoors, colombia, nature
-ok 9 morning mist lake 164360 | fogging, landscape, forest, grasslands, nature, morning mist, fog
-ok 10 sun rays clouds 32002 | sun, sea, clouds, rays, landscape, nature, sky
+ok 0 sunrise mountains 235859 | fog, foggy, trees, forest, mist, sunrise, haze, woods, misty, hill, mountains, woodlands, stream, weather, sky, lake, scenery, mountain, sri lanka, nuwara eliya, clouds, nature, landscape
+ok 1 sunrise sky clouds 163910 | mountains, sunrise, orange, clouds, sky, nature
+ok 2 sunrise sky clouds 149958 | flowers, sunrise, sunset, sky, clouds, mountain, fall, nature
+ok 3 sunrise ocean 213035 | waterfall, sea, ice, snow, water, nature, sunset, ocean, landscape, lake, beach, reflection, sunrise, dusk, forest
+ok 4 sun rays forest 6405 | forest, sunbeams, quiet, trees, calm, peaceful, recreation, peace, silence, sun, light, light rays, birds, chirp, tweet, chirrup, chirping of birds, leaves, green, backlighting, lighting mood, mood, atmospheric, meditation, meditative, wellness
+ok 5 wheat field sunset 107633 | wheat, green wheat, close wheat field, agriculture, field, wheat herbs, herbs, nature
+ok 6 family walking field 2678 | lamb, livestock, rural, sheep, mother, running, walking, white, farm, animal, wool, nature, field
+ok 7 sun rays forest 382579 | netherlands, sun rays, misty forest, sunlight, fog, woodland, nature, sunbeams, trees, morning light, atmospheric, forest
+ok 8 path forest light 378708 | forest, nature, wood, path, landscape, trees, light, sunlight, autumn, leaves, sun, morning, relax, meditation
+ok 9 sun rays forest 258799 | morning, fog, winter, forest, netherlands, grass, trees, drenthe, sun, quiet, silence, calm
+ok 10 sun rays clouds 10072 | sun rays, to get, clouds, wave, sea, sun, ray, shine, bright, sky, beach, the ledge, break, mountain, sand, landscape, nature, wind, water, summer, dawn, vacation, sea of azov, beauty, seaside, seascape, silence
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 115 New Dawn (Hopeful)
-[vost#0:0/rawvideo @ 0x5a9dcd7bc280] Error submitting a packet to the muxer: Broken pipe
+trilha 114 Horizon Line (Hopeful)
+[vost#0:0/rawvideo @ 0x609408449340] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x5a9dcd73fc80] Error muxing a packet
-[out#0/rawvideo @ 0x5a9dcd73fc80] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5a9dcd73fc80] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x56e89c625800] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x6094084a8f00] Error muxing a packet
+[out#0/rawvideo @ 0x6094084a8f00] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x6094084a8f00] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x572c5df63200] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x56e89c625480] Error muxing a packet
-[out#0/rawvideo @ 0x56e89c625480] Task finished with error code: -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x575ffe2fadc0] ok bomdia-20261119 (53.6s, fundo=videos, voz=pt-BR-AntonioNeural)
+[out#0/rawvideo @ 0x572c5dfda500] Error muxing a packet
+[out#0/rawvideo @ 0x572c5dfda500] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x572c5dfda500] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x62329642f280] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x62329642ef00] Error muxing a packet
+[out#0/rawvideo @ 0x62329642ef00] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x62329642ef00] Terminating thread with return code -32 (Broken pipe)
+ok bomdia-20261119 (53.6s, fundo=videos, voz=pt-BR-AntonioNeural)
 == evangelho-20261119-noite
-ok 0 rain window 777269 | rain, raindrops, water, drop, nature, liquid, glass, window, rainfall, raining, gray rain
-ok 1 night sky stars 1837191 | nature, night, silhouette, sky, starry, starry sky, night sky, stars, trees
-ok 2 calm lake 7078340 | seagulls, lake, dock, posts, birds, nature, animals, port, row, lake balaton, water, siófok
-ok 3 woman thinking window 7927629 | thinking, woman, dark, girl, nature, pose, creativity, backlit, sun, artwork
-ok 4 lonely road sunset 2665950 | landscape, road, travel, nature, outdoors, country, rural, forest, trees, woods, sunrise, sunset, glow, brown road, brown sunrise
-ok 5 milky way 5718302 | milky way, stars, night, evening, night sky, starry sky, dark, beach, scenery, scenic, nature, milky way, night sky, night sky, night sky, night sky, starry sky, starry sky, starry sky, starry sky, starry sky, scenery, scenery
-ok 6 night lake moon 4245400 | moon, lonely, night sky, tree, landscape, sky, mood, loneliness, mystical, clouds, gloomy, silhouette, darkness, night, nature
-ok 7 candle light dark 5181374 | candle, candlelight, flame, candle flame, fire, black background, wick, burning candle, black candle, black candles, iphone wallpaper
-ok 8 night sky stars 7371732 | sky, milky way, nature, night, stars, space, night sky, field, landscape, starry, meadow, evening
-ok 9 night sky stars 1869755 | clouds, nature, night, sky, night sky, stars, trees, blue stars
-ok 10 moon clouds night 349862 | full moon, moon, nightsky, night, pitch black, dark, gray moon, gray night, pitch black, pitch black, pitch black, pitch black, pitch black
+ok 0 rain window 5993453 | rain, nature, drops, window, glass, weather, Russia, Orenburg, Orenburg Oblast
+ok 1 night lake moon 8977707 | moon, full moon, night, sky, night sky, nature, moonlight, space, astronomy
+ok 2 lake mountains reflection 6706217 | lake, boats, nature, rowboats, reflection, water, mountain, alps, forest, trees, mountain lake, scenic
+ok 3 woman thinking window 2462252 | young woman, vacations, to sit, window, balcony, port, rain, bad weather, relax, alone, outlook, italy, garda, woman, young, female, girl, recreation, person, water, boats, legs, summer, warmth, mood, nature, think, recover, quiet, lake
+ok 4 lonely road sunset 1025017 | sense, snow, road, path, along the way, footprints, imprint, nature, footprint, winter, central stripe, road post, alone, nobody, abandoned, lonely
+ok 5 night lake moon 4710216 | winter, night, moon, nature, mountain
+ok 6 moon clouds night 2732993 | moon, sunset, starry sky, water, reflection, night shot, heaven, nature, landscape, night sky, mystical, the atmosphere, night, mood, space, dark
+ok 7 candle light dark 7091738 | vintage clock, timepiece, vintage aesthetic, clock, candle, pendulum clock, vintage aesthetic, pendulum clock, pendulum clock, pendulum clock, pendulum clock, pendulum clock
+ok 8 night sky stars 4576072 | sky, milky, way, cosmos, night, dark, space, night sky, astronomy, galaxy, star, constellation, landscape, galaxies, mystical, atmosphere, starry, nature, science, watch, tower, blue nature, blue sky, blue landscape, blue science, blue stars, blue galaxy, blue night, blue universe, blue dark, blue watch, blue natural
+ok 9 night sky stars 4742287 | starry sky, mountains, landscape, stars, night sky, space, heaven, universe, night, nature, astronomy, galaxy, milky way, the atmosphere, cosmos, scenic, winter, trees, winter landscape, snow, forest, outlook, alps
+ok 10 moon clouds night 2908276 | moon, night, night sky
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 457 Inner Calm (Peaceful)
+trilha 96 Floating Light (Peaceful)
 ok evangelho-20261119-noite (51.5s, fundo=fotos, voz=pt-BR-ThalitaMultilingualNeural)
 2 vídeo(s) gerado(s)
-[vost#0:0/rawvideo @ 0x62f967f567c0] Error submitting a packet to the muxer: Broken pipe
+[vost#0:0/rawvideo @ 0x62b24111f040] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x62f967f643c0] Error muxing a packet
-[out#0/rawvideo @ 0x62f967f643c0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x62f967f643c0] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x62f967f643c0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x62f967f643c0] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x62b24111eac0] Error muxing a packet
+[out#0/rawvideo @ 0x62b24111eac0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x62b24111eac0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x62b24111eac0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x62b24111eac0] Error closing file: Broken pipe

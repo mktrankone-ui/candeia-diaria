@@ -709,9 +709,9 @@
   "duracao": 53.6,
   "fundo": "videos",
   "trilha": {
-   "id": 115,
-   "titulo": "New Dawn (Hopeful)",
-   "url": "https://media.snipsound.com/audio/rf_cin02a_new_dawn_hopeful.mp3"
+   "id": 114,
+   "titulo": "Horizon Line (Hopeful)",
+   "url": "https://media.snipsound.com/audio/rf_cin02a_2_horizon_line_hopeful.mp3"
   },
   "voz": "pt-BR-AntonioNeural",
   "tipo_voz": "masculina",
@@ -727,9 +727,9 @@
   "duracao": 51.5,
   "fundo": "fotos",
   "trilha": {
-   "id": 457,
-   "titulo": "Inner Calm (Peaceful)",
-   "url": "https://media.snipsound.com/audio/rf_med01a_inner_calm_peaceful.mp3"
+   "id": 96,
+   "titulo": "Floating Light (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_amb01a_floating_light_peaceful.mp3"
   },
   "voz": "pt-BR-ThalitaMultilingualNeural",
   "tipo_voz": "feminina",
