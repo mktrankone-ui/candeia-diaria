@@ -736,5 +736,41 @@
   "cta_tipo": "enviar",
   "formato": "evangelho",
   "motor_voz": "edge"
+ },
+ "bomdia-20261120": {
+  "arquivo": "bomdia-20261120.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261120.mp4",
+  "serie": "Sexta-feira",
+  "legenda": "Bom dia, Deus 🙏 Sexta-feira, 20 de novembro\n\nSexta-feira é dia de olhar para a cruz e entregar o coração a Jesus. Envie este bom dia para quem você ama e escreva AMÉM: Sagrado Coração de Jesus, eu confio em Vós.\n\n#bomdia #bomdiadeus #sextafeira #oracao #candeiadiaria #catolico #sagradocoracao #fé",
+  "duracao": 56.8,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 117,
+   "titulo": "New Dawn (Uplifting)",
+   "url": "https://media.snipsound.com/audio/rf_cin02b_new_dawn_uplifting.mp3"
+  },
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "credo-20261120-noite": {
+  "arquivo": "credo-20261120-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/credo-20261120-noite.mp4",
+  "serie": "Reze comigo o Credo",
+  "legenda": "Reze comigo o Credo 🙏 Quando a fé fica fraca, a Igreja nos dá esta oração para professar, palavra por palavra, tudo o que cremos.\n\nSe você crê, escreva AMÉM. Salve este vídeo para rezar o Credo de novo amanhã e envie para quem está com a fé cansada.\n\n#credo #oração #fé #Deus #Jesus #catolico #igrejacatolica #oracaodanoite #candeiadiaria",
+  "duracao": 70.8,
+  "fundo": "videos",
+  "trilha": {
+   "id": 466,
+   "titulo": "Night Light (Calm)",
+   "url": "https://media.snipsound.com/audio/rf_med02b_2_night_light_calm.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "amem",
+  "formato": "tradicional",
+  "motor_voz": "edge"
  }
 }
