@@ -1,57 +1,67 @@
 == credo-20261120-noite
-ok 0 candle flame 99964 | book flipping, flipping, antique book, new book, candle, hand, book, 4k, candle flame
-ok 1 milky way 75635 | milky way, night, evening sky, forest, outdoors, landscape
-ok 2 sunrise mountains 319665 | sea of fog, fog, alps, mountains, landscape, sunrise, clouds, nature, sunbeams
-ok 3 cross sky 379247 | field, poland, cross, jesus, nature, sun, landscape, sky, clouds
-ok 4 milky way 104597 | bad bevensen, milky way, stars, germany, milkyway
-ok 5 crucifix 200387 | bible cover, book, christianity, religion, prayer, jesus, church, god, faith, religious, cross, crucifix, texture
-ok 6 sunrise clouds 244379 | sunrise, sunlight, sun, forest, fog, clouds, sunbeams, nature
-ok 7 clouds sky 133823 | clouds, blue sky, white, spring clouds
-ok 8 moon clouds night 50554 | moon, night, clouds, frogs
-ok 9 white dove 366119 | white dove, flying dove, 4k, green screen, chroma key, dove flying, white bird, bird in flight, flying bird, peace dove, wings spread, dove isolated, isolated bird, airborne, flight, soaring, freedom, peace, hope, purity, spirituality, faith, holy spirit, religious symbol
-ok 10 moon clouds night 2145 | full moon, clouds, moon, night, sky, dark, moonlight, midnight, lunar, mysterious, magic, darkness, mystery, light, misty, mystical
-ok 11 milky way 283431 | night view, yamada's rice fields, rice farming, rice terraces, starry sky, milky way, reflection on the water surface, japan
-ok 12 calm lake 58743 | lake, river, waterfall, forest, park, nature, water, calm, reflection, trees
-ok 13 moon clouds night 13041 | moon, moon set, night, heaven, clouds, eve, ache, crescent moon, time lapse, timelapse
-ok 14 starry sky 285663 | starry sky, milky way, cloud, mountain hut
+ok 0 candle flame 147505 | candle, flame, fire, heat, memory, solitude, relax
+ok 1 moon clouds night 17967 | night, moon, landscape, clouds, armenia
+ok 2 sunrise mountains 264823 | river, view, nature, dd, forest, that, waterfall, moss, mountain, cascade, sunrise, mountains, beautiful wallpaper, goal, reflections, peace, background, beautiful, paradise, summer, sunny, spring, drop, vault, flow, stream
+ok 3 cross sky 253912 | cross, jesus, god, pray, sky, clouds, sand, jerusalem, israel, history, historic
+ok 4 milky way 119213 | starry sky, milky way, night sky, universe, night, time lapse, healing, natural, milkyway
+ok 5 milky way 234077 | universe, stars, space, milky way, sky, silhouette, outdoor, night, nebula, motion, galaxy, cosmos, astronomy, twinkle, cosmic, starry, science, outer, nature, background
+ok 6 sunrise clouds 254330 | clouds, sun, sunrise, power pole, high voltage, trees
+ok 7 clouds sky 34608 | mountain, sky, fog, hills, aerial, forest, gloomy, woods, scenic, landscape, nature, clouds, natural, trees, earth day
+ok 8 moon clouds night 87251 | moon, moonlight, clouds, cloudy, night
+ok 9 sunbeam dark clouds 9783 | sunset, time lapse, clouds, mood, heaven, sun, the atmosphere, landscape, blue, red, orange, sunbeams, afterglow, evening sky, eve, evening atmosphere, nature, dusk, romantic, shine, silhouette, summer, atmospheric, sunbeam, light, sunlight
+ok 10 candle light dark 123891 | candlelight, candle, light, fire, flame, burn
+ok 11 milky way 375595 | milky way, stars, sihlsee, settle down, lake, night, lights, reflection, heaven, reflections, firmament, willerzell
+ok 12 calm lake 28417 | water, lake, water surface, lake surface, autumn, colors, nature, natural, calm, chill, relax, wave, waves, distortion, trees, reflection, reflecting, view, meditation, leaves, texture, green, yellow
+ok 13 moon clouds night 127643 | moon, night clouds, night, sky, mysterious, full moon
+ok 14 starry sky 1341 | night lapse, night, time, nature, sky, astronomy, landscape, starry, trail, evening, space, lapse, dark, tree, outdoors
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 466 Night Light (Calm)
-[vost#0:0/rawvideo @ 0x629f9ead4d40] Error submitting a packet to the muxer: Broken pipe
+trilha 464 Night Light (Sleepy)
+[vost#0:0/rawvideo @ 0x588cdcc6ec40] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x629f9eae1fc0] Error muxing a packet
-[out#0/rawvideo @ 0x629f9eae1fc0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x629f9eae1fc0] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5c359ffb1ec0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x588cdcc2ff40] Error muxing a packet
+[out#0/rawvideo @ 0x588cdcc2ff40] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x588cdcc2ff40] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5e1a59081200] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x5c359ffb1b40] Error muxing a packet
-[out#0/rawvideo @ 0x5c359ffb1b40] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5c359ffb1b40] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x630be45b5c80] [vost#0:0/rawvideo @ 0x632150882dc0] [vost#0:0/rawvideo @ 0x62a6dc94f700] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5e1a59067580] Error muxing a packet
+[out#0/rawvideo @ 0x5e1a59067580] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5e1a59067580] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x55e128ef1800] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x62a6dc95fb00] Error muxing a packet
-[out#0/rawvideo @ 0x62a6dc95fb00] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x62a6dc95fb00] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5917aa204180] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55e128ef1480] Error muxing a packet
+[out#0/rawvideo @ 0x55e128ef1480] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x55e128ef1480] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5832fd2a3f40] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x5917aa203e00] Error muxing a packet
-[out#0/rawvideo @ 0x5917aa203e00] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5917aa203e00] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x62a883926b80] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5832fd293e00] Error muxing a packet
+[out#0/rawvideo @ 0x5832fd293e00] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5832fd293e00] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x59538d5679c0] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x62a88393fe40] Error muxing a packet
-[out#0/rawvideo @ 0x62a88393fe40] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x62a88393fe40] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x634f6ae36840] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x59538d567640] Error muxing a packet
+[out#0/rawvideo @ 0x59538d567640] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x59538d567640] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x57b131e81380] [vost#0:0/rawvideo @ 0x5ca1deac9b40] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x634f6ae27b80] Error muxing a packet
-[out#0/rawvideo @ 0x634f6ae27b80] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x634f6ae27b80] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5ca1deac7340] Error muxing a packet
+[out#0/rawvideo @ 0x5ca1deac7340] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5ca1deac7340] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5cf87a6a1b40] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5cf87a6a17c0] Error muxing a packet
+[out#0/rawvideo @ 0x5cf87a6a17c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5cf87a6a17c0] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5bdb9b6c03c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5bdb9b6c0040] Error muxing a packet
+[out#0/rawvideo @ 0x5bdb9b6c0040] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5bdb9b6c0040] Terminating thread with return code -32 (Broken pipe)
 ok credo-20261120-noite (70.8s, fundo=videos, voz=pt-BR-AntonioNeural)
 1 vídeo(s) gerado(s)
-[vost#0:0/rawvideo @ 0x5987f15ffe80] Error submitting a packet to the muxer: Broken pipe
+[vost#0:0/rawvideo @ 0x556716d1b1c0] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x5987f15ffb00] Error muxing a packet
-[out#0/rawvideo @ 0x5987f15ffb00] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5987f15ffb00] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x5987f15ffb00] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5987f15ffb00] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x556716da8dc0] Error muxing a packet
+[out#0/rawvideo @ 0x556716da8dc0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x556716da8dc0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x556716da8dc0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x556716da8dc0] Error closing file: Broken pipe
