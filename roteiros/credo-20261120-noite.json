@@ -1,0 +1,57 @@
+{
+  "id": "credo-20261120-noite",
+  "serie": "Reze comigo o Credo",
+  "tema": "fe",
+  "trilha_tema": "noite",
+  "fundo": "videos",
+  "voz": "masculina",
+  "formato": "tradicional",
+  "estilo": "montserrat",
+  "layout": "baixo",
+  "linhas": [
+    "Se a sua fé anda fraca, reze comigo o *Credo* antes de dormir.",
+    "Como o pai do Evangelho, diga: Senhor, eu creio, mas aumenta a minha *fé*.",
+    "Creio em Deus Pai todo-poderoso, criador do *céu* e da terra.",
+    "E em Jesus Cristo, seu único Filho, nosso *Senhor*,",
+    "que foi concebido pelo poder do Espírito Santo, nasceu da *Virgem Maria*;",
+    "padeceu sob Pôncio Pilatos, foi *crucificado*, morto e sepultado.",
+    "Desceu à mansão dos mortos, *ressuscitou* ao terceiro dia,",
+    "subiu aos céus, está sentado à direita de Deus Pai *todo-poderoso*,",
+    "donde há de vir a julgar os *vivos* e os mortos.",
+    "Creio no *Espírito Santo* e na Santa Igreja Católica,",
+    "na comunhão dos *santos* e na remissão dos pecados,",
+    "na ressurreição da carne e na vida *eterna*.",
+    "Esta noite eu entrego a Ti as minhas dúvidas e adormeço em *paz*.",
+    "Por Cristo, nosso Senhor, *amém*."
+  ],
+  "referencia": {
+    "linha": 1,
+    "texto": "Marcos 9,24"
+  },
+  "cta_tipo": "amem",
+  "cenas": [
+    "candle light dark",
+    "praying hands light",
+    "sunrise mountains",
+    "cross sunset",
+    "virgin mary statue",
+    "crucifix church",
+    "sunrise sky clouds",
+    "sun rays clouds",
+    "cross hill sky",
+    "dove flying sky",
+    "church interior light",
+    "cathedral light",
+    "night sky stars",
+    "night lake moon",
+    "starry sky mountains"
+  ],
+  "cta": [
+    "Se você crê, escreva *AMÉM*",
+    "Siga para orar todos os dias"
+  ],
+  "cta_falado": "Se você crê, escreva amém nos comentários.",
+  "legenda": "Reze comigo o Credo 🙏 Quando a fé fica fraca, a Igreja nos dá esta oração para professar, palavra por palavra, tudo o que cremos.\n\nSe você crê, escreva AMÉM. Salve este vídeo para rezar o Credo de novo amanhã e envie para quem está com a fé cansada.\n\n#credo #oração #fé #Deus #Jesus #catolico #igrejacatolica #oracaodanoite #candeiadiaria",
+  "slot": "noite",
+  "data": "2026-11-20"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "bomdia-20261120",
+  "serie": "Sexta-feira",
+  "tema": "amanhecer",
+  "trilha_tema": "amanhecer",
+  "fundo": "fotos",
+  "voz": "feminina",
+  "formato": "bom_dia",
+  "estilo": "classico",
+  "layout": "baixo",
+  "rodape": "Bom dia!",
+  "linhas": [
+    "Deus, hoje é sexta-feira, 20 de novembro, e eu começo o dia Te *agradecendo*.",
+    "Obrigada pelo descanso desta noite e pelo ar que eu *respiro*.",
+    "Na sexta-feira eu lembro da cruz, onde Jesus me amou até o *fim*.",
+    "No Evangelho de hoje, Jesus ensina que a casa de Deus é casa de *oração*.",
+    "Faz do meu coração uma casa de oração, livre de toda *mágoa*.",
+    "Abençoa o meu trabalho, o meu descanso e o sustento da minha *casa*.",
+    "Coloca a Tua mão sobre a minha família e sobre cada pessoa que eu *amo*.",
+    "Sagrado Coração de Jesus, neste dia inteiro eu confio em *Vós*.",
+    "Nossa Senhora, passa à minha frente em cada passo de *hoje*.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {
+    "linha": 3,
+    "texto": "Lucas 19,46"
+  },
+  "cta_tipo": "enviar",
+  "cenas": [
+    "sunrise ocean",
+    "morning mist lake",
+    "cross sunset",
+    "church interior light",
+    "light through window",
+    "person walking road sunrise",
+    "family walking beach sunset",
+    "praying hands light",
+    "our lady statue",
+    "sun rays clouds",
+    "golden hour meadow"
+  ],
+  "cta": [
+    "Envie este bom dia para quem você *ama*",
+    "Uma oração pode mudar o dia de alguém"
+  ],
+  "cta_falado": "Envie este bom dia para a sua família e para alguém que você ama.",
+  "legenda": "Bom dia, Deus 🙏 Sexta-feira, 20 de novembro\n\nSexta-feira é dia de olhar para a cruz e entregar o coração a Jesus. Envie este bom dia para quem você ama e escreva AMÉM: Sagrado Coração de Jesus, eu confio em Vós.\n\n#bomdia #bomdiadeus #sextafeira #oracao #candeiadiaria #catolico #sagradocoracao #fé",
+  "slot": "bomdia",
+  "data": "2026-11-20"
+}
