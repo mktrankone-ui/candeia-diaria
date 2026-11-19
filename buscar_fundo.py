@@ -62,7 +62,7 @@ PROIBIDAS = {
     "horror", "knight", "crusader", "monument", "ink", "inking", "stipple", "drawing", "sketch", "wind turbines", "wind turbine", "energy", "electricity", "haunted", "haunted house", "ghost", "creepy", "scary", "clock", "pendulum clock", "covid", "covid-19", "coronavirus", "virus", "soap", "hygiene", "washing", "bathroom", "mask", "strawberry",
     "fruit", "abstract", "digital", "technology", "brain", "intelligence", "artificial", "cyber", "futuristic",
     "fantasy", "particles", "network", "data", "city", "skyline", "skyscraper", "skyscrapers", "building",
-    "buildings", "urban", "street", "traffic", "honeymoon", "lovers", "kiss", "wedding dress", "graffiti", "bride", "wedding", "fish", "fishing", "angler", "grapes", "vermicelli", "loaves", "romance", "landmark", "text", "lettering", "sign", "logo", "advertisement", "cartoon", "illustration", "3d", "render",
+    "buildings", "urban", "street", "traffic", "honeymoon", "lovers", "kiss", "wedding dress", "graffiti", "bride", "wedding", "fish", "fishing", "angler", "grapes", "vermicelli", "loaves", "romance", "landmark", "text", "lettering", "sign", "logo", "advertisement", "cartoon", "illustration", "3d", "render", "green screen", "greenscreen", "chroma key", "chroma", "isolated",
 }
 # Palavras genéricas da busca que não servem para confirmar se a mídia tem a ver com o termo.
 GENERICAS = {"light", "sky", "nature", "people", "person", "golden", "hour", "calm", "gentle", "dark", "soft"}
