@@ -701,5 +701,39 @@
   "cta_tipo": "enviar",
   "duracao": 51.5,
   "metricool_id": 432868669
+ },
+ {
+  "id": "bomdia-20261120",
+  "data": "2026-11-20",
+  "slot": "bomdia",
+  "serie": "Sexta-feira",
+  "formato": "bom_dia",
+  "tema": "amanhecer",
+  "referencia": "Lucas 19,46",
+  "fundo": "fotos",
+  "estilo": "classico",
+  "layout": "baixo",
+  "trilha": "New Dawn (Uplifting)",
+  "voz": "feminina",
+  "cta_tipo": "enviar",
+  "duracao": 56.8,
+  "metricool_id": 434194044
+ },
+ {
+  "id": "credo-20261120-noite",
+  "data": "2026-11-20",
+  "slot": "noite",
+  "serie": "Reze comigo o Credo",
+  "formato": "tradicional",
+  "tema": "noite",
+  "referencia": "Marcos 9,24",
+  "fundo": "videos",
+  "estilo": "montserrat",
+  "layout": "baixo",
+  "trilha": "Night Light (Sleepy)",
+  "voz": "masculina",
+  "cta_tipo": "amem",
+  "duracao": 70.8,
+  "metricool_id": 434208072
  }
 ]
