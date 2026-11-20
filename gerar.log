@@ -1,80 +1,42 @@
-== cristorei-20261122-noite
-ok 0 storm clouds light 4846855 | lighthouse, evening, nature, beacon, light, sky, clouds, glow, rays, reflection, atmospheric, darkness, dark, atmosphere, night, rain clouds, thunderstorm, storm clouds, night sky, lighting, gloomy, watchtower, navigation
-ok 1 sun rays clouds 4749859 | landscape, water, tree, nature, heaven, clouds, sun
-ok 2 path forest light 5896642 | forest, forest path, pathway, trail, trees, leaves, foliage, nature
-ok 3 lion portrait 7577038 | lion, lioness, wildlife, zoo, mammal, predator, view, nature, animal portrait
-ok 4 lamb 7163645 | lamb, sheep, baby, cute, nature, livestock, animal, farm, landscape
-ok 5 crucifix church 1105419 | cross, christ, the shade, crucifixion, good friday, jesus, faith, jesus christ, suffering, path of suffering, load, pains, curtain, church cross, christ cross, crucifix, god, crucifixion, good friday, good friday, good friday, good friday, good friday, jesus, curtain
-ok 6 lion portrait 10419791 | lion, wild animal, african, lion face, portrait, wilderness, savanna, fur, muscular, mane, nature, gaze, zoo, king, predator, powerful, ferocious, visage, landscape, conservation, king of the jungle
-ok 7 night sky stars 5718301 | star trails, night sky, field, stars, starry sky, night, evening, grasses, meadow, scenery, star gazing, scenic, nature, night sky, stars, stars, stars, stars, stars
-ok 8 crucifix church 952347 | cross, christ, jesus, christianity, church, hohenpeissenberg, religion, faith, hope, love, jesus christ, crucifix, forgiveness, resurrection, god, jesus christ, jesus christ, jesus christ, jesus christ, jesus christ, crucifix, crucifix, crucifix, crucifix, crucifix, forgiveness, forgiveness
-ok 9 candle light dark 4562179 | candle, candlelight, shiny, mourning, romantic, mood, decoration, deco, flame, bright, brown candle, brown candles, candle, candle, candle, candle, candle, candlelight
-AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 97 Weightless (Peaceful)
-ok cristorei-20261122-noite (53.3s, fundo=fotos, voz=pt-BR-AntonioNeural)
 == espiritosanto-20261123-noite
-ok 0 night sky stars 137617 | stars, starry sky, night sky, heaven, night, daybreak
-ok 1 milky way 1407 | k2, mountain, himalaya, peak, 8000, 8k, summit, universe, night, 8k wallpaper, sky, space, nature, star, landscape, astronomy, galaxy, constellation, milky way, camp, basecamp, mountaineering, celestial, 145271222
-ok 2 candle flame 142380 | christmas, candle, flame, burn, light, candlelight, flicker, advent, christmas time, festive season, bokeh
-ok 3 sun rays clouds 110264 | sun rays, clouds, moutains, colombia
-ok 4 fog mountains 85787 | mountains, cliff, fog, clouds, cumulus, ocean, nature
-ok 5 night sky stars 144597 | stars, night sky, starry sky, night, universe
-ok 6 calm lake 244733 | waterfall, rocks, moss, peaceful, calm, water, ripples, liquid, waves, reflection, sea, fountain, splash, snowdonia, wales, mountains, lake, scenery, nature
-ok 7 moon clouds night 291398 | moon, clouds, zoom, night sky, satellite
-ok 8 moon clouds night 200955 | moon, dark, clouds, satellite, celestial bodies, universe, space, night sky, cosmos, astronomy
-ok 9 moon clouds night 218508 | moon, night, sky, moonlight, universe, lunar, scenery, clouds, crater, calming, calm, peaceful, relaxing, nature
-ok 10 moon clouds night 291400 | moon, clouds, zoom, night sky, satellite
-ok 11 moon clouds night 174891 | moon, space, night, clouds, sky, galaxy, universe, nature, moonlight, outdoor
-ok 12 candle light dark 138011 | candle, light, christmas, candlelight, flame, burn, warmth, mood, advent, religion, tea light
-ok 13 candle light dark 51749 | candle, flame, light, dark, fire, heat, black, spirituality, pray, spiritual, memorial, burning
-ok 14 moon clouds night 12421 | moon, clouds, window, night, sky, night view, fantastic, night clouds, lights, night shooting, autumn
+ok 0 moon clouds night 153559 | boat, sea, moon, sky, moon light, moon magic, clouds, night
+ok 1 moon clouds night 227185 | moon, sky, clouds, night, dark, eve, dusk
+ok 2 candle flame 90451 | candle, flame, light, candlelight, night
+ok 3 sun rays clouds 18979 | landscape, clouds, moutains, sun rays, colombia
+ok 4 fog mountains 330323 | landscape, winter, mountains, woods, snow, rime, fog, extreme sensation, japan
+ok 5 moon clouds night 258130 | moon, night, dark, night sky, astronomy, satellite, clouds
+ok 6 calm lake 44192 | lake, dock, landscape, scenic, relaxing, alone, mountains, outdoor, whistler, water, pier, nature, calm, tennessee, sky, clouds, dark, travel, epic, sunset
+ok 7 candle light dark 93480 | candle, flame, bokeh, burning candle, candlelight, light, cozy, christmas, holidays, atmosphere, moody, christmas decorations, christmas lights, christmas decor, holiday decor, warm aesthetic, christmas tree, many candles, meditation mood, 4k, blowing, turn of candle
+ok 8 candle light dark 240498 | candle, candlelight, light, flame, tea lights, orange, mood, burn
+ok 9 candle light dark 143419 | candle, light, flame, burn, match, candlelight, christmas, advent
+ok 10 candle light dark 240499 | candle, candlelight, light, flame, tea lights, orange, mood, burn
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 465 Drifting Off (Calm)
-[vost#0:0/rawvideo @ 0x648c39937900] Error submitting a packet to the muxer: Broken pipe
+trilha 464 Night Light (Sleepy)
+[vost#0:0/rawvideo @ 0x636c542c9a00] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x648c39947c40] Error muxing a packet
-[out#0/rawvideo @ 0x648c39947c40] Task finished with error code: -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x559247aa1340] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x636c542d9400] Error muxing a packet
+[out#0/rawvideo @ 0x636c542d9400] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x636c542d9400] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x567b5709f280] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x559247a88740] Error muxing a packet
-[out#0/rawvideo @ 0x559247a88740] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x559247a88740] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5e54bcee53c0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x567b57085640] Error muxing a packet
+[out#0/rawvideo @ 0x567b57085640] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x567b57085640] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x608d287a8880] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x5e54bce24a80] Error muxing a packet
-[out#0/rawvideo @ 0x5e54bce24a80] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5e54bce24a80] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x64261508cd40] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x608d287a7dc0] Error muxing a packet
+[out#0/rawvideo @ 0x608d287a7dc0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x608d287a7dc0] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5deeedd7aa00] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x64261508c9c0] Error muxing a packet
-[out#0/rawvideo @ 0x64261508c9c0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x64261508c9c0] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x58b05776cd80] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5deeedd8a400] Error muxing a packet
+[out#0/rawvideo @ 0x5deeedd8a400] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5deeedd8a400] ok espiritosanto-20261123-noite (74.4s, fundo=videos, voz=pt-BR-ThalitaMultilingualNeural)
+1 vídeo(s) gerado(s)
+[vost#0:0/rawvideo @ 0x651e1bf192c0] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x58b057773540] Error muxing a packet
-[out#0/rawvideo @ 0x58b057773540] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x58b057773540] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x596e8bfe0140] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x596e8bfdfdc0] Error muxing a packet
-[out#0/rawvideo @ 0x596e8bfdfdc0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x596e8bfdfdc0] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5703dd46de00] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5703dd45fb40] Error muxing a packet
-[out#0/rawvideo @ 0x5703dd45fb40] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5703dd45fb40] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x616c7ff3b580] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x616c7fed0e00] Error muxing a packet
-[out#0/rawvideo @ 0x616c7fed0e00] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x616c7fed0e00] Terminating thread with return code -32 (Broken pipe)
-ok espiritosanto-20261123-noite (74.4s, fundo=videos, voz=pt-BR-ThalitaMultilingualNeural)
-2 vídeo(s) gerado(s)
-[vost#0:0/rawvideo @ 0x58eee7633240] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x58eee7622ec0] Error muxing a packet
-[out#0/rawvideo @ 0x58eee7622ec0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x58eee7622ec0] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x58eee7622ec0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x58eee7622ec0] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x651e1bf213c0] Error muxing a packet
+[out#0/rawvideo @ 0x651e1bf213c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x651e1bf213c0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x651e1bf213c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x651e1bf213c0] Error closing file: Broken pipe
