@@ -772,5 +772,113 @@
   "cta_tipo": "amem",
   "formato": "tradicional",
   "motor_voz": "edge"
+ },
+ "bomdia-20261121": {
+  "arquivo": "bomdia-20261121.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261121.mp4",
+  "serie": "Sábado",
+  "legenda": "Bom dia, Deus 🙏 Sábado, 21 de novembro\n\nHoje é dia da Apresentação de Nossa Senhora, e sábado é dia de Maria. Envie este bom dia para quem você ama e escreva AMÉM se você entrega este dia nas mãos de Deus. Qual é o título de Nossa Senhora da sua devoção?\n\n#bomdia #bomdiadeus #sabado #oracao #candeiadiaria #nossasenhora #catolico #fé",
+  "duracao": 47.7,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 119,
+   "titulo": "New Dawn (Inspiring)",
+   "url": "https://media.snipsound.com/audio/rf_cin02c_new_dawn_inspiring.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "bomdia-20261122": {
+  "arquivo": "bomdia-20261122.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261122.mp4",
+  "serie": "Domingo",
+  "legenda": "Bom dia, Deus 🙏 Domingo, 22 de novembro\n\nHoje é a festa de Cristo Rei, o último domingo do ano litúrgico. Envie este bom dia para quem você ama e escreva AMÉM se Jesus é o Rei da sua vida.\n\n#bomdia #bomdiadeus #domingo #cristorei #oracao #candeiadiaria #catolico #missa",
+  "duracao": 49.1,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 114,
+   "titulo": "Horizon Line (Hopeful)",
+   "url": "https://media.snipsound.com/audio/rf_cin02a_2_horizon_line_hopeful.mp3"
+  },
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "bomdia-20261123": {
+  "arquivo": "bomdia-20261123.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261123.mp4",
+  "serie": "Segunda-feira",
+  "legenda": "Bom dia, Deus 🙏 Segunda-feira, 23 de novembro\n\nComeço de semana é hora de entregar tudo a Deus, até o pouco que a gente tem. Envie este bom dia para quem você ama e escreva AMÉM se você entrega a sua semana a Ele.\n\n#bomdia #bomdiadeus #segundafeira #oracao #candeiadiaria #catolico #fé #espiritosanto",
+  "duracao": 48.0,
+  "fundo": "videos",
+  "trilha": {
+   "id": 114,
+   "titulo": "Horizon Line (Hopeful)",
+   "url": "https://media.snipsound.com/audio/rf_cin02a_2_horizon_line_hopeful.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "cristorei-20261122-noite": {
+  "arquivo": "cristorei-20261122-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/cristorei-20261122-noite.mp4",
+  "serie": "Oração a Cristo Rei",
+  "legenda": "Oração a Cristo Rei 🙏 Hoje a Igreja encerra o ano litúrgico proclamando Jesus Rei do universo. Entregue a Ele esta noite, os seus medos e a sua família.\n\nEscreva AMÉM e o nome de quem você quer entregar a Jesus. Vamos rezar juntos.\n\n#cristorei #oração #Jesus #fé #Deus #catolico #igrejacatolica #oracaodanoite #candeiadiaria",
+  "duracao": 53.3,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 97,
+   "titulo": "Weightless (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_amb01a_2_weightless_peaceful.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "nome",
+  "formato": "oracao",
+  "motor_voz": "edge"
+ },
+ "espiritosanto-20261123-noite": {
+  "arquivo": "espiritosanto-20261123-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/espiritosanto-20261123-noite.mp4",
+  "serie": "Reze comigo antes de dormir",
+  "legenda": "Reze comigo três orações antes de dormir 🕯️🙏 Vinde, Espírito Santo, Santo Anjo e Glória: orações simples que a Igreja reza há séculos, para entregar a noite a Deus.\n\nSalve para rezar de novo amanhã, escreva AMÉM e envie para alguém que anda dormindo mal.\n\n#espiritosanto #santoanjo #oracaodanoite #catolico #igrejacatolica #oração #fé #Deus #candeiadiaria",
+  "duracao": 74.4,
+  "fundo": "videos",
+  "trilha": {
+   "id": 465,
+   "titulo": "Drifting Off (Calm)",
+   "url": "https://media.snipsound.com/audio/rf_med02b_drifting_off_calm.mp3"
+  },
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "amem",
+  "formato": "tradicional",
+  "motor_voz": "edge"
+ },
+ "terco-20261121-noite": {
+  "arquivo": "terco-20261121-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/terco-20261121-noite.mp4",
+  "serie": "Terço de sábado — Mistérios Gozosos",
+  "legenda": "Sábado é dia de Nossa Senhora e dos mistérios gozosos. Reze comigo o quarto mistério, a Apresentação de Jesus no Templo, e termine a noite com a Ave-Maria. 📿🕯️\n\nSe você espera uma resposta de Deus há muito tempo, entregue essa espera a Maria. Escreva AMÉM se rezou junto e salve para rezar de novo amanhã.\n\n#terço #misteriosgozosos #nossasenhora #avemaria #catolico #igrejacatolica #oração #fé #candeiadiaria",
+  "duracao": 72.8,
+  "fundo": "videos",
+  "trilha": {
+   "id": 464,
+   "titulo": "Night Light (Sleepy)",
+   "url": "https://media.snipsound.com/audio/rf_med02a_2_night_light_sleepy.mp3"
+  },
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "amem",
+  "formato": "terco",
+  "motor_voz": "edge"
  }
 }
