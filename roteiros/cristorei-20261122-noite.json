@@ -1,0 +1,47 @@
+{
+  "id": "cristorei-20261122-noite",
+  "serie": "Oração a Cristo Rei",
+  "tema": "jesus",
+  "trilha_tema": "paz",
+  "fundo": "fotos",
+  "voz": "masculina",
+  "formato": "oracao",
+  "estilo": "montserrat",
+  "layout": "centro",
+  "linhas": [
+    "Se a sua vida parece fora de controle, entregue esta noite a Cristo *Rei*.",
+    "No último domingo do ano litúrgico, a Igreja proclama: Jesus é Rei do *universo*.",
+    "Um Rei que não veio para ser servido, mas para *servir*.",
+    "Na cruz, um ladrão pediu: Jesus, lembra-te de mim quando vieres no teu *reino*.",
+    "Hoje eu faço o mesmo pedido: Senhor, lembra-Te de *mim*.",
+    "Reina sobre os meus medos, as minhas dívidas e as minhas *feridas*.",
+    "Reina na minha família e traz de volta quem se *afastou*.",
+    "Coloco aos Teus pés esta noite e o meu *sono*.",
+    "Jesus, Rei da minha vida, eu confio em *Ti*. Amém."
+  ],
+  "referencia": {
+    "linha": 3,
+    "texto": "Lucas 23,42"
+  },
+  "cenas": [
+    "storm clouds light",
+    "sun rays clouds",
+    "hands holding",
+    "cross hill sky",
+    "praying hands light",
+    "sunbeam dark clouds",
+    "family hug sunset",
+    "night sky stars",
+    "crucifix church",
+    "candle light dark"
+  ],
+  "cta": [
+    "Escreva o *nome* de quem você entrega a Jesus",
+    "Vamos rezar juntos"
+  ],
+  "cta_falado": "Escreva nos comentários o nome de quem você quer entregar a Cristo Rei esta noite.",
+  "cta_tipo": "nome",
+  "legenda": "Oração a Cristo Rei 🙏 Hoje a Igreja encerra o ano litúrgico proclamando Jesus Rei do universo. Entregue a Ele esta noite, os seus medos e a sua família.\n\nEscreva AMÉM e o nome de quem você quer entregar a Jesus. Vamos rezar juntos.\n\n#cristorei #oração #Jesus #fé #Deus #catolico #igrejacatolica #oracaodanoite #candeiadiaria",
+  "slot": "noite",
+  "data": "2026-11-22"
+}

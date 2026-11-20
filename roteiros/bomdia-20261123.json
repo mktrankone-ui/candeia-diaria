@@ -1,0 +1,48 @@
+{
+  "tema": "amanhecer",
+  "trilha_tema": "amanhecer",
+  "formato": "bom_dia",
+  "estilo": "classico",
+  "rodape": "Bom dia!",
+  "cta_tipo": "enviar",
+  "cta": [
+    "Envie este bom dia para quem você *ama*",
+    "Uma oração pode mudar o dia de alguém"
+  ],
+  "cta_falado": "Envie este bom dia para a sua família e para alguém que você ama.",
+  "slot": "bomdia",
+  "id": "bomdia-20261123",
+  "serie": "Segunda-feira",
+  "fundo": "videos",
+  "voz": "masculina",
+  "layout": "centro",
+  "data": "2026-11-23",
+  "linhas": [
+    "Deus, hoje é segunda-feira, 23 de novembro, e eu Te entrego esta nova *semana*.",
+    "Obrigado por me acordar com vida e com mais uma *chance*.",
+    "No Evangelho de hoje, uma viúva pobre deu tudo o que *tinha*.",
+    "Eu também quero Te dar o meu pouco, de coração *inteiro*.",
+    "Abençoa o meu trabalho, os meus estudos e o sustento da minha *casa*.",
+    "Dá emprego a quem procura e paciência a quem está *cansado*.",
+    "Protege a minha família em cada saída e em cada *volta*.",
+    "Espírito Santo, ilumina cada decisão que eu tomar *hoje*.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {
+    "linha": 2,
+    "texto": "Lucas 21,4"
+  },
+  "cenas": [
+    "sunrise field",
+    "sunrise mountains",
+    "praying hands light",
+    "person arms open sunrise",
+    "road mountains sunrise",
+    "man walking mountain sunrise",
+    "family walking field",
+    "white dove sky",
+    "cross sunset",
+    "sun rays clouds"
+  ],
+  "legenda": "Bom dia, Deus 🙏 Segunda-feira, 23 de novembro\n\nComeço de semana é hora de entregar tudo a Deus, até o pouco que a gente tem. Envie este bom dia para quem você ama e escreva AMÉM se você entrega a sua semana a Ele.\n\n#bomdia #bomdiadeus #segundafeira #oracao #candeiadiaria #catolico #fé #espiritosanto"
+}

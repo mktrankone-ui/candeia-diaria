@@ -1,0 +1,55 @@
+{
+  "id": "terco-20261121-noite",
+  "serie": "Terço de sábado — Mistérios Gozosos",
+  "tema": "terco",
+  "trilha_tema": "noite",
+  "fundo": "videos",
+  "voz": "feminina",
+  "formato": "terco",
+  "estilo": "poppins",
+  "layout": "baixo",
+  "linhas": [
+    "Se a sua noite está pesada, reze comigo o terço deste *sábado*.",
+    "Quarto mistério gozoso: Jesus é apresentado no *Templo*.",
+    "Hoje a Igreja lembra também a Apresentação de *Nossa Senhora*.",
+    "No Templo, o velho Simeão tomou o Menino nos braços e louvou a *Deus*.",
+    "Ele rezou: agora, Senhor, podes deixar o teu servo ir em *paz*.",
+    "Simeão esperou a vida inteira, e Deus *cumpriu* a promessa.",
+    "Talvez você também esteja esperando há muito *tempo*.",
+    "Entregue essa espera nas mãos de Maria, como ela entregou o seu *Filho*.",
+    "Agora, reze comigo a Ave-Maria, bem *devagar*.",
+    "Ave Maria, cheia de graça, o Senhor é *convosco*;",
+    "bendita sois vós entre as mulheres, e bendito é o fruto do vosso ventre, *Jesus*.",
+    "Santa Maria, Mãe de Deus, rogai por nós, *pecadores*,",
+    "agora e na hora da nossa morte. *Amém*."
+  ],
+  "referencia": {
+    "linha": 4,
+    "texto": "Lucas 2,29"
+  },
+  "cenas": [
+    "candle light dark",
+    "church interior light",
+    "virgin mary statue",
+    "cathedral light",
+    "night lake moon",
+    "sun rays clouds",
+    "woman sitting lake",
+    "rosary hands",
+    "praying hands rosary",
+    "our lady statue",
+    "white roses",
+    "church candles",
+    "starry sky mountains",
+    "rosary bible"
+  ],
+  "cta": [
+    "Se você rezou, escreva *AMÉM*",
+    "Salve para rezar o terço amanhã"
+  ],
+  "cta_falado": "Se você rezou comigo, escreva amém e salve este vídeo para rezar de novo amanhã.",
+  "cta_tipo": "amem",
+  "legenda": "Sábado é dia de Nossa Senhora e dos mistérios gozosos. Reze comigo o quarto mistério, a Apresentação de Jesus no Templo, e termine a noite com a Ave-Maria. 📿🕯️\n\nSe você espera uma resposta de Deus há muito tempo, entregue essa espera a Maria. Escreva AMÉM se rezou junto e salve para rezar de novo amanhã.\n\n#terço #misteriosgozosos #nossasenhora #avemaria #catolico #igrejacatolica #oração #fé #candeiadiaria",
+  "slot": "noite",
+  "data": "2026-11-21"
+}
