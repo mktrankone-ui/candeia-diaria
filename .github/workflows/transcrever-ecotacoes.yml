@@ -1,33 +1,45 @@
 name: Transcrever voz (aula e-cotações)
+# O áudio fica no ramo só criptografado. A chave chega cifrada com uma chave RSA
+# gerada na hora pelo próprio runner (a privada nunca sai da máquina).
 on:
   push:
     branches: [narracao-ecotacoes]
-    paths: [narracao-ecotacoes/voz.enc]
+    paths: [narracao-ecotacoes/pedido.txt]
 permissions:
   contents: write
 jobs:
   transcrever:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
+      - name: Chave temporária
+        run: |
+          git config user.name "candeia-bot"; git config user.email "actions@github.com"
+          openssl genrsa -out /tmp/priv.pem 3072 2>/dev/null
+          openssl rsa -in /tmp/priv.pem -pubout -out narracao-ecotacoes/runner_pub.pem
+          git add narracao-ecotacoes/runner_pub.pem && git commit -qm "chave pública temporária" && git push -q origin HEAD:narracao-ecotacoes
       - run: pip install -q faster-whisper
       - uses: actions/cache@v4
         with:
           path: ~/.cache/huggingface
           key: whisper-small-v1
-      - name: Decifrar e transcrever
-        env:
-          K: ${{ secrets.ECOT_AUDIO_KEY }}
+      - name: Esperar a chave e transcrever
         run: |
-          openssl enc -d -aes-256-cbc -pbkdf2 -in narracao-ecotacoes/voz.enc -out /tmp/voz.wav -pass env:K
+          for i in $(seq 1 90); do
+            git pull -q origin narracao-ecotacoes || true
+            [ -f narracao-ecotacoes/chave.enc ] && break
+            sleep 10
+          done
+          base64 -d narracao-ecotacoes/chave.enc > /tmp/k.bin
+          K=$(openssl pkeyutl -decrypt -inkey /tmp/priv.pem -pkeyopt rsa_padding_mode:oaep -in /tmp/k.bin)
+          openssl enc -d -aes-256-cbc -pbkdf2 -in narracao-ecotacoes/voz.enc -out /tmp/voz.wav -pass pass:$K
           python3 -u narracao-ecotacoes/transcrever.py
-          rm -f /tmp/voz.wav
-      - name: Salvar transcrição
+          rm -f /tmp/voz.wav /tmp/priv.pem /tmp/k.bin
+      - name: Salvar transcrição e apagar arquivos temporários
         run: |
-          git config user.name "candeia-bot"; git config user.email "actions@github.com"
-          git rm -q --cached narracao-ecotacoes/voz.enc; rm -f narracao-ecotacoes/voz.enc
+          git rm -q narracao-ecotacoes/voz.enc narracao-ecotacoes/chave.enc narracao-ecotacoes/runner_pub.pem
           git add narracao-ecotacoes/transcricao.json
           git commit -qm "Transcrição da voz (aula e-cotações)" && git push -q origin HEAD:narracao-ecotacoes
