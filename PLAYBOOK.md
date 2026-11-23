@@ -184,8 +184,27 @@ YouTube (desde jul/2025, reforçado em jul/2026) e TikTok cortam monetização d
   - `terco` — mistério do terço do dia (gozosos seg/sáb, dolorosos ter/sex, gloriosos qua/dom, luminosos qui) com meditação curta
   - `misericordia` — Hora da Misericórdia / Terço da Misericórdia
   - `exame` — exame de consciência da noite (perguntas, silêncio, entrega)
-  - `historia` — **história de santo, mártir, milagre ou episódio da Igreja contada como narrativa** (TESTE desde 24/11, 2x por semana no slot da noite). Ex.: Santa Isabel da Hungria, São João Paulo II e o comunismo na Polônia, São Maximiliano Kolbe em Auschwitz, Santa Josefina Bakhita, Carlo Acutis, Santa Rita, São Francisco e o lobo, Nossa Senhora de Guadalupe. Regras:
-    - **Gancho de curiosidade na 1ª frase**, como pergunta ou fato surpreendente: "Você conhece a história da rainha que escondia pão para os pobres?", "O Papa que enfrentou o comunismo sem disparar um tiro". Nunca isca vazia.
+  - `historia` — **história de santo, mártir, milagre ou episódio da Igreja contada como narrativa** (TESTE desde 24/11, 2x por semana no slot da noite). Escolha histórias com **drama, reviravolta ou algo surpreendente** (sacrifício, perseguição, conversão radical, milagre famoso, ligação com o Brasil); evite vidas "sem virada" e santos já usados nos últimos 60 dias. Banco de histórias (prioridade de cima para baixo; ao usar, registre no historico.json):
+    - São Maximiliano Kolbe: o padre que trocou de lugar com um pai de família em Auschwitz
+    - São João Paulo II: perdoou na prisão o homem que atirou nele; o Papa que enfrentou o comunismo na Polônia
+    - Santa Josefina Bakhita: sequestrada e vendida como escrava ainda criança, virou santa e perdoou quem a escravizou
+    - Beato/São Carlo Acutis: o adolescente que gostava de videogame e virou o "padroeiro da internet"
+    - Santa Dulce dos Pobres (Irmã Dulce): começou um hospital num galinheiro em Salvador
+    - Nossa Senhora Aparecida: três pescadores, a rede vazia e a imagem no rio Paraíba (1717)
+    - Nossa Senhora de Guadalupe: Juan Diego, as rosas no inverno e a imagem no manto
+    - Santa Gianna Beretta Molla: a médica que escolheu salvar a vida da filha
+    - São Padre Pio: o frade que passou 50 anos com os estigmas e confessava o dia inteiro
+    - Santa Rita de Cássia: a santa das causas impossíveis e a rosa que floresceu no inverno (conta a tradição)
+    - Fátima: três crianças pastoras e o milagre do sol diante de milhares de pessoas (1917)
+    - Santa Bernadette e Lourdes: a menina pobre que ninguém acreditava e a fonte que até hoje recebe doentes
+    - Santa Joana d'Arc: a camponesa de 17 anos que liderou um exército e morreu na fogueira
+    - São Damião de Molokai: o padre que foi viver com os leprosos e morreu da mesma doença
+    - São José de Anchieta: o padre que escreveu um poema a Nossa Senhora na areia da praia
+    - Santo Antônio: o sermão aos peixes; São Francisco e o lobo de Gubbio (conta a tradição)
+    - Chiara Badano (Beata): a jovem de 18 anos que enfrentou o câncer com alegria
+    - Santa Teresinha: a "chuva de rosas" e o pequeno caminho
+    A análise semanal pode reordenar o banco conforme os resultados. Regras:
+    - **Gancho de curiosidade na 1ª frase**, como pergunta ou fato surpreendente: "O padre que trocou de lugar com um condenado à morte", "Ela foi vendida como escrava e virou santa", "O Papa que perdoou o homem que atirou nele". Nunca isca vazia.
     - Narrativa com começo (quem era), virada/tensão (o desafio, a perseguição, a escolha) e desfecho (o que a fé fez), terminando com uma oração curta de intercessão ("Santa Isabel, rogai por nós. Amém.").
     - 45 a 75 s (10 a 15 frases); é o formato que mais justifica vídeo longo.
     - **Só fatos verificados**: pesquise antes (WebSearch) e registre 1 a 3 fontes no campo `fontes` do roteiro (vaticannews.va, vatican.va, canção nova, Wikipédia para datas). Lendas e milagres tradicionais vão como "conta a tradição…". Nunca inventar falas: citação direta só se for documentada e com fonte; na dúvida, contar com palavras próprias.
