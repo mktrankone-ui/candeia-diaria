@@ -1,10 +1,10 @@
 {
- "atualizado_em": "2026-11-16",
+ "atualizado_em": "2026-11-23",
  "horarios": {
   "bomdia": "22:00 da véspera",
   "noite": "18:30",
   "fuso": "America/Sao_Paulo",
-  "teste": "bom dia às 22:00 da véspera: teste encerrado em 16/11 e mantido (2 semanas acima da noite nas duas redes: IG mediana 370,5 e 186 views x noite 125 e 144; TK 192 e 271 x 187,5 e 190). Novo teste desde 17/11: noite às 18:30 (antes 20:30). Motivo: Metricool aponta 18h bem acima de 20h nas duas redes por 2 semanas seguidas, e a noite às 20h30 está parada em ~115–155 views no IG. Comparar em 23/11 e 30/11 com a mediana da noite às 20h30 (IG 144, TK 190); se não melhorar, voltar para 20:30."
+  "teste": "bom dia às 22:00 da véspera: mantido (teste encerrado em 16/11). Teste da noite às 18:30 (desde 17/11), 1ª semana: abaixo da noite às 20h30 nas duas redes (mediana IG 113 x 134; TK 154 x 189, comparando com os números de hoje das noites de 03–16/11), mas o perfil todo caiu na semana (bom dia TK 242→187,5). Fica até 30/11 como planejado; se a noite às 18:30 ficar de novo abaixo de IG 134 / TK 189, volta para 20:30 a partir de 01/12."
  },
  "pesos_series": {
   "Oração da manhã": 1.0,
@@ -29,12 +29,14 @@
  },
  "pesos_fundo": {
   "fotos": 1.0,
-  "videos": 1.1
+  "videos": 1.0
  },
  "evitar": [
   "iscas tipo 'não pule este vídeo' / 'Jesus tem um recado'",
   "frases motivacionais genéricas",
-  "áudio de outros perfis"
+  "áudio de outros perfis",
+  "CTA 'nome' (escreva o nome de quem…) como pedido principal da noite: entre os piores 2 semanas seguidas (Ansiedade e Desatadora em 09–15/11; Cristo Rei em 16–22/11: TK 130 views, 0 share, nenhum nome nos comentários). Usar só como pedido secundário na legenda.",
+  "Mesmo santo no bom dia e na noite do mesmo dia (Santa Isabel 17/11: bom dia IG 138 com 3,2 s de tempo médio e noite IG 59, o pior desde a 1ª semana)."
  ],
  "observacoes": [
   "Início do perfil: testar variedade de séries e fundos nas primeiras 2 semanas antes de concentrar.",
@@ -64,7 +66,17 @@
   "TK — Pai-Nosso e Ave-Maria 13/11 (tradicional, 77 s): 265 views, 30 curtidas e 12 comentários, o mais comentado da semana. Tradicionais completas seguem sendo as noites mais fortes do TikTok (2ª semana), mesmo fracas no IG. Manter peso 1,5.",
   "Retenção no IG piorou: mediana de 13,3% do vídeo assistido (antes ~18%). Pior do perfil: Terço dos Mistérios Gloriosos 15/11 (4,2 s de 72 s = 5,8%; 14% passam dos 3 s), com CTA 'seguir'. O Terço de terça (masc, fotos) segurou bem (17,5 s, 38% passam dos 3 s). CTA 'seguir' 0,9→0,8.",
   "Ideia de gancho (derivada do campeão de shares): começar a noite também pelo santo/devoção do dia ('Hoje é dia de Santa Isabel da Hungria, a rainha que…') e fechar com envio a uma pessoa concreta ('envie para a sua mãe'). Testar 2 vezes na semana.",
-  "Ainda não vêm do Metricool (tentado no período todo e nos últimos 7 dias): retenção % do IG (IGRE27), alcance, tempo médio, % assistido e % For You do TikTok (TKPO11/13/15/16), ganhos e perdas diárias do IG (IGEV43/44). Seguidores do TK via TKEV07."
+  "Ainda não vêm do Metricool (tentado no período todo e nos últimos 7 dias): retenção % do IG (IGRE27), alcance, tempo médio, % assistido e % For You do TikTok (TKPO11/13/15/16), ganhos e perdas diárias do IG (IGEV43/44). Seguidores do TK via TKEV07.",
+  "23/11 (4ª análise, semana 16–22/11, ainda pistas): IG +11 seguidores (28→39), TK +28 (48→76). Views da semana: IG 1.911 (antes 2.356), TK 2.675 (antes 3.129), 13 vídeos. Mediana IG 123, TK 172 (antes 144 e 210). Comentários IG 11, TK 28; shares IG 39, TK 45; salvamentos IG 2.",
+  "Bom dia do IG em queda há 3 semanas: mediana 359 → 192 → 174 views e shares 222 → 69 → 35. O que espalha não é o bom dia em si, é a data forte: Sábado de N. Sra. 07/11 (139 shares), S. Leão Magno 10/11 (52), Sagrado Coração 20/11 (23, 13,9% do alcance, com a jaculatória 'Sagrado Coração de Jesus, eu confio em Vós' no CTA).",
+  "Melhor da semana nas duas redes: Bom dia domingo 22/11, Solenidade de Cristo Rei (IG 264 views, 14,2 s de tempo médio = 28,9% do vídeo, melhor retenção da semana; TK 569 views, 50 curtidas, 25 shares, o maior do TK desde Todos os Santos). Padrão do TK: os 3 maiores do perfil são grandes festas (Todos os Santos 605, Cristo Rei 569, Sábado de N. Sra. 31/10 504). Grande solenidade = vídeo especial, com o nome da festa na 1ª frase e na capa.",
+  "Calendário que vem (aproveitar o padrão acima): 29/11 1º Domingo do Advento (abre o ano litúrgico); 30/11 Santo André; 08/12 Imaculada Conceição (a novena começa em 29/11); 12/12 N. Sra. de Guadalupe; 25/12 Natal. Ideia forte para a marca: série 'Acenda a vela comigo' em cada domingo do Advento (coroa do Advento, uma vela por semana: combina com o nome Candeia) e uma 'Novena da Imaculada' diária de 29/11 a 07/12 na noite, que dá motivo para voltar e seguir.",
+  "Noite no IG travada em ~110–125 views há 4 semanas, qualquer formato e horário; shares da noite quase zero (4 na semana). No TK a noite caiu de ~190 para ~154. A novena/série do Advento é o teste para a noite: conteúdo em sequência ('dia 3 de 9') em vez de oração solta.",
+  "Voz e fundo separados no bom dia desta vez: no IG, fotos foram melhor (fem+fotos 189, masc+fotos 259 x masc+vídeos 138 e 159); no TK, vídeos foram melhor (256 x 169,5). Na semana passada foi o contrário nas duas redes. Sem padrão: pesos de fundo voltam a 1,0/1,0. Voz masculina segura um pouco mais no IG pela 3ª semana (16,3% x 10,6% do vídeo), sem diferença em views; sem mudança.",
+  "Credo 20/11: melhor retenção da noite no IG (40,5% passam dos 3 s; 12 s de tempo médio) mas pior views do TK na semana (122, 0 share). Salmo 91: médio nas duas. Tradicionais perderam a vantagem no TK nesta semana (mediana 153): peso 1,5→1,4.",
+  "Santa Isabel (formato santo na noite, 75 s, 'envie para a sua mãe'): IG 59 views, pior do perfil desde 30/10. Uma tentativa só, mas o gancho repetiu o santo do bom dia. Peso santo 1,2→1,0; se testar de novo, santo diferente do bom dia e gancho com a história ('Ela tinha 20 anos e já era viúva…').",
+  "Ideia de gancho derivada do melhor post: abrir com a festa em tom de anúncio ('Hoje é o último domingo do ano da Igreja' / 'Hoje começa o Advento') + fechar com a jaculatória curta da devoção do dia para a pessoa escrever nos comentários ('Jesus, eu confio em Vós'). Comentário fácil de escrever rende mais que pedir nome.",
+  "Ainda não vêm do Metricool (23/11, período todo e últimos 7 dias): retenção % do IG (IGRE27), alcance, tempo médio, % assistido e % For You do TikTok (TKPO11/13/15/16); IGEV43/44 só 0. Seguidores do TK via TKEV07."
  ],
  "pesos_voz": {
   "feminina": 1.0,
@@ -74,17 +86,17 @@
   "amem": 1.0,
   "enviar": 1.1,
   "seguir": 0.8,
-  "nome": 0.9
+  "nome": 0.6
  },
  "pesos_formato": {
   "bom_dia": "fixo na manhã",
-  "tradicional": 1.5,
-  "oracao": 1.0,
+  "tradicional": 1.4,
+  "oracao": 0.9,
   "enviar": 0.9,
   "salmo": 0.9,
   "evangelho": 1.0,
-  "santo": 1.2,
-  "terco": 1.2,
+  "santo": 1.0,
+  "terco": 1.1,
   "misericordia": 1.0,
   "exame": 1.0
  },
