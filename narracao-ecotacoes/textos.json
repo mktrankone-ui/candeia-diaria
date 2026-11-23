@@ -1,0 +1,83 @@
+{
+ "voz": "pt-BR-AntonioNeural",
+ "rate": "-6%",
+ "pitch": "-8Hz",
+ "cenas": [
+  {
+   "id": "s01",
+   "texto": "Olá! Seja bem-vindo à aula do e-cotações. Em poucos minutos, você vai ver como configurar a sua marca, cadastrar seus produtos e serviços, montar e enviar um orçamento, e acompanhar tudo até fechar a venda."
+  },
+  {
+   "id": "s02",
+   "texto": "Esse é o seu painel. Logo de cara, você vê quantas propostas estão em andamento, o valor que ainda está pendente, o que já foi fechado e a sua taxa de conversão."
+  },
+  {
+   "id": "s03",
+   "texto": "Mais abaixo ficam as propostas recentes. E, do lado, o quadro Esperando retorno mostra quem ainda não respondeu. Com um clique em Conversar, você chama o cliente no WhatsApp."
+  },
+  {
+   "id": "s04",
+   "texto": "O primeiro passo é deixar o sistema com a cara da sua empresa. Em Configurações, na aba Marca, envie a sua logo, confira o nome e escolha a cor principal. Ela aparece no cabeçalho do orçamento, no link e no PDF."
+  },
+  {
+   "id": "s05",
+   "texto": "Em Dados da empresa, preencha o CNPJ ou CPF, o e-mail, o telefone e o endereço. Essas informações saem no orçamento e passam mais confiança para o seu cliente."
+  },
+  {
+   "id": "s06",
+   "texto": "Em Pagamentos, deixe prontas as formas que você aceita, como Pix, cartão, boleto, ou uma condição livre, por exemplo, entrada mais parcelas. Na hora de orçar, é só escolher."
+  },
+  {
+   "id": "s07",
+   "texto": "Agora, o catálogo. Em Serviços, você cadastra tudo o que oferece. Cada item fica salvo com nome, descrição, foto e preço, e você nunca mais começa do zero."
+  },
+  {
+   "id": "s08",
+   "texto": "Clique em Novo serviço. Use um nome claro, coloque o preço e, na descrição, diga o que está incluso e o que não está. Depois de salvar, adicione uma foto. O Kit de cadastro profissional, que vem de bônus, tem modelos prontos para copiar."
+  },
+  {
+   "id": "s09",
+   "texto": "Se você vende produtos, o cadastro é parecido, em Produtos. Ali você também informa a unidade, como kit, caixa ou metro, e um código de referência, se usar."
+  },
+  {
+   "id": "s10",
+   "texto": "Em Clientes, cadastre quem vai receber as propostas. O mais importante é preencher o WhatsApp ou o e-mail, porque é por ali que o orçamento vai chegar."
+  },
+  {
+   "id": "s11",
+   "texto": "Com tudo cadastrado, montar um orçamento é rápido. Em Propostas, clique em Nova proposta. Escolha o cliente e, em Adicionar item, busque os produtos e serviços do seu catálogo. O total é calculado na hora."
+  },
+  {
+   "id": "s12",
+   "texto": "Do lado direito, defina a validade da proposta e, se quiser, um desconto geral, em porcentagem ou em reais. Mais abaixo, escolha a condição de pagamento e, se precisar, escreva observações para o cliente."
+  },
+  {
+   "id": "s13",
+   "texto": "Tudo certo? Clique em Salvar e compartilhar."
+  },
+  {
+   "id": "s14",
+   "texto": "Você envia pelo WhatsApp, com a mensagem já pronta, manda por e-mail, copia o link ou baixa o PDF."
+  },
+  {
+   "id": "s15",
+   "texto": "O seu cliente abre a proposta direto no celular, sem precisar de cadastro, e vê tudo organizado, com a sua logo, as suas cores, os itens e o total."
+  },
+  {
+   "id": "s16",
+   "texto": "E você acompanha cada passo. Em Atividade, aparece quando o cliente abriu a proposta e quantas vezes voltou a ver. Esse é o melhor momento para chamar e tirar dúvidas."
+  },
+  {
+   "id": "s17",
+   "texto": "Quando ele responder, use o menu da proposta para marcar como aprovada ou como perdida. Assim, o painel mostra o que está em aberto, o que foi ganho e o que foi perdido."
+  },
+  {
+   "id": "s18",
+   "texto": "Na lista de Propostas, use os filtros por status para ver rapidinho quem precisa de retorno. Proposta parada esfria, e o e-cotações não deixa você esquecer."
+  },
+  {
+   "id": "s19",
+   "texto": "Para fechar, três dicas: cadastre seus itens com capricho, envie o orçamento no mesmo dia do pedido e chame o cliente logo depois que ele abrir. Ficou com dúvida? Fale com o nosso suporte. Bons negócios!"
+  }
+ ]
+}
