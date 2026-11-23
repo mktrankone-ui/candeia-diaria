@@ -78,7 +78,8 @@
   "Ideia de gancho derivada do melhor post: abrir com a festa em tom de anúncio ('Hoje é o último domingo do ano da Igreja' / 'Hoje começa o Advento') + fechar com a jaculatória curta da devoção do dia para a pessoa escrever nos comentários ('Jesus, eu confio em Vós'). Comentário fácil de escrever rende mais que pedir nome.",
   "Ainda não vêm do Metricool (23/11, período todo e últimos 7 dias): retenção % do IG (IGRE27), alcance, tempo médio, % assistido e % For You do TikTok (TKPO11/13/15/16); IGEV43/44 só 0. Seguidores do TK via TKEV07.",
   "23/11 (Fernando aprovou): TESTE noite curta. Vídeos da noite com até 40 s (7 a 8 frases), pedido de oração já na 1ª frase/1º segundo (ex.: 'Se o seu coração está apertado hoje, reze comigo') e fechamento com CTA 'enviar' para um destinatário específico (mãe, quem está doente, quem procura emprego). Motivo: noite tem mediana 0 compartilhamento no TikTok contra 3 do bom dia; vídeos de 60 s+ não tiveram mais views que os curtos. Vídeos longos (60–75 s) só nos formatos terco, salmo ou evangelho e no máximo 1 a cada 4 vídeos até o perfil se aproximar dos requisitos de monetização. Medir até 07/12.",
-  "23/11: compartilhamento é a alavanca para passar de 500 views no TikTok. Melhor vídeo recente: bom dia de domingo de Cristo Rei (569 views, 25 shares). Priorizar CTA 'enviar' com destinatário específico e aproveitar festas e datas litúrgicas no bom dia."
+  "23/11: compartilhamento é a alavanca para passar de 500 views no TikTok. Melhor vídeo recente: bom dia de domingo de Cristo Rei (569 views, 25 shares). Priorizar CTA 'enviar' com destinatário específico e aproveitar festas e datas litúrgicas no bom dia.",
+  "23/11 (ideia do Fernando): TESTE formato 'historia' (história de santo/milagre/episódio da Igreja com gancho de curiosidade, ex.: 'Você conhece a história de Santa Isabel?', 'O Papa que desafiou o comunismo'), 2x por semana na noite, 45–75 s, só fatos com fonte. Medir até 07/12: views, shares e retenção no TikTok contra a mediana da noite (TK 186). O antigo 'santo' (17/11 Santa Isabel, sem gancho de história: TK 172, 0 shares) não serve de comparação direta: o teste é o formato narrativo com curiosidade."
  ],
  "pesos_voz": {
   "feminina": 1.0,
@@ -100,7 +101,8 @@
   "santo": 1.0,
   "terco": 1.1,
   "misericordia": 1.0,
-  "exame": 1.0
+  "exame": 1.0,
+  "historia": 1.5
  },
  "pesos_duracao": {
   "curto": 3.0,

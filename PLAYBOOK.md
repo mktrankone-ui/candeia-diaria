@@ -184,12 +184,20 @@ YouTube (desde jul/2025, reforçado em jul/2026) e TikTok cortam monetização d
   - `terco` — mistério do terço do dia (gozosos seg/sáb, dolorosos ter/sex, gloriosos qua/dom, luminosos qui) com meditação curta
   - `misericordia` — Hora da Misericórdia / Terço da Misericórdia
   - `exame` — exame de consciência da noite (perguntas, silêncio, entrega)
+  - `historia` — **história de santo, mártir, milagre ou episódio da Igreja contada como narrativa** (TESTE desde 24/11, 2x por semana no slot da noite). Ex.: Santa Isabel da Hungria, São João Paulo II e o comunismo na Polônia, São Maximiliano Kolbe em Auschwitz, Santa Josefina Bakhita, Carlo Acutis, Santa Rita, São Francisco e o lobo, Nossa Senhora de Guadalupe. Regras:
+    - **Gancho de curiosidade na 1ª frase**, como pergunta ou fato surpreendente: "Você conhece a história da rainha que escondia pão para os pobres?", "O Papa que enfrentou o comunismo sem disparar um tiro". Nunca isca vazia.
+    - Narrativa com começo (quem era), virada/tensão (o desafio, a perseguição, a escolha) e desfecho (o que a fé fez), terminando com uma oração curta de intercessão ("Santa Isabel, rogai por nós. Amém.").
+    - 45 a 75 s (10 a 15 frases); é o formato que mais justifica vídeo longo.
+    - **Só fatos verificados**: pesquise antes (WebSearch) e registre 1 a 3 fontes no campo `fontes` do roteiro (vaticannews.va, vatican.va, canção nova, Wikipédia para datas). Lendas e milagres tradicionais vão como "conta a tradição…". Nunca inventar falas: citação direta só se for documentada e com fonte; na dúvida, contar com palavras próprias.
+    - Episódios históricos/políticos (ex.: comunismo) contados pelo lado da fé e da história, sem opinião sobre partidos ou política atual.
+    - Fundos: igrejas, vitrais, velas, paisagens da época/região, mãos rezando, pão, rosas (o que a história pedir); nada de rosto que pareça o santo "de verdade" gerado por IA.
+    - CTA: "envie para quem precisa conhecer essa história" ou "comente AMÉM e siga para conhecer mais santos"; pode virar série ("Santos que mudaram a história #1").
 - **Visual** — alterne `estilo` (`montserrat`, `poppins`, `classico`) e `layout` (`centro`, `baixo`). Não usar a mesma combinação formato + estilo + layout dois dias seguidos.
 - **Texto** — gancho (primeira frase) sempre diferente; nunca reaproveitar frases de roteiros anteriores; o título (`serie`) pode variar dentro do formato ("Salmo 23 para hoje", "Terço de quinta-feira").
 - **Mídia própria** — se houver fotos/vídeos do Fernando em `midia/<pasta>` (paróquia, terço nas mãos, vela acesa, natureza da região), usar `"midia_propria": "midia/<pasta>"` em pelo menos 1 vídeo por semana. É o que mais prova originalidade.
 
 ### 2. Duração (TikTok só paga vídeo com mais de 1 minuto)
-- Desde 24/11, **no máximo 1 a cada 4 vídeos com 60–75 s**, só nos formatos `terco`, `salmo` ou `evangelho` (teste da noite curta, ver `estrategia.json`); antes era 1 a cada 3 (12 a 15 frases em `linhas`). Formatos que pedem mais tempo: `terco`, `salmo`, `evangelho`, `santo`, `misericordia`, `exame`.
+- Desde 24/11, **no máximo 1 a cada 4 vídeos com 60–75 s**, só nos formatos `historia`, `terco`, `salmo` ou `evangelho` (teste da noite curta, ver `estrategia.json`); antes era 1 a cada 3 (12 a 15 frases em `linhas`). Formatos que pedem mais tempo: `terco`, `salmo`, `evangelho`, `santo`, `misericordia`, `exame`.
 - Os curtos (35–45 s) continuam para crescer. A análise semanal compara a retenção dos longos com a dos curtos; ao se aproximar de 10 mil seguidores no TikTok, a maioria passa a ser longa.
 
 ### 3. Voz licenciada
