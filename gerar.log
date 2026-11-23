@@ -1,65 +1,18 @@
-== bomdia-20261124
-ok 0 sunrise ocean 5162263 | sunrise, sea, ocean, beach, travel, nature, landscape, sun, calm, morning, summer, reflection, meditation, tropical, burgas, black sea, sunrise, sunrise, sunrise, sunrise, sunrise
-ok 1 sunrise ocean 4322536 | coast, sunrise, bicycle, plant, nature, jeju island, landscape, ocean, plants, rest, relaxation, healing, break, the nature of the
-ok 2 wooden cross 220448 | cross, wood, wooden, brick wall, brickwall, background, brick, beautiful wallpaper, symbol, icon, religion, religious, brown cross, iphone wallpaper
-ok 3 person mountain top sunrise 7866362 | mountain, sunrise, snow, landscape, nature, winter, landscape, landscape, landscape, landscape, landscape
-ok 4 sun rays forest 4568688 | nature, fall, forest, haze, sun, fog, green
-ok 5 calm lake 7767626 | boat, sailboat, lake, nature, lake como, sunrise, mist, italy, bellagio
-ok 6 family sunset 1342100 | sunset, sea, the baltic sea, characters, people, family, maternity, evening, the sun, nature, the coast, silhouette, twilight, mood, silence, peace of mind, love, expectancy
-ok 7 mary statue church 3679106 | religion, virgin mary, madonna, baby jesus, statue, christ, holy, praise, bible scripture, belief, christianity, biblical, devotion, xmas, spiritual, sculpture, sacred, gospel, faith, church, divinity, theology, blessed, symbol, worship, virgin mary, virgin mary, virgin mary, virgin mary, virgin mary, baby jesus, baby jesus, baby jesus
-ok 8 cross sky 1837748 | summit cross, summit, cross, rough horn, alps, allgäu alps
-ok 9 morning mist lake 2688019 | sunrise, lake, mist, boat, sail boat, dock, water, landscape, nature, sky, summer, morning, sun, outdoor, blue sky, tree, light, scenic, sunlight, blue, dawn, coast, scenery, calm
-AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 115 New Dawn (Hopeful)
-ok bomdia-20261124 (48.2s, fundo=fotos, voz=pt-BR-ThalitaMultilingualNeural)
 == terco-20261124-noite
-ok 0 candle flame 6587 | candle stick, firecracker, burning, fire, flame, light, burn, candle, wick, heat
-ok 3 moon night 157352 | moon, trees, stars, night
-ok 5 sunbeam forest 168445 | sheep, trees, field, pasture, woods, sunlight, sunrise, sunrays, sunbeam, nature, landscape, animals, birds, forest
-ok 6 dark clouds sun 64804 | fields, hedgerows, early, morning, countryside, dark clouds, sun rays
-ok 7 river stream forest 71648 | waterfall, river, lake, stream, water, dolomites, alpes, mountains, national park, nature, italy, sunset, sunrise, forest, woods, trees, stones, panorama, landscape
-ok 8 cross mountain 11442 | lithuania, mountain of crosses, memorial, cross, religion, viewpoint, faith
-ok 9 lonely road sunset 157084 | mountain, road, sunset, sky, nature, pink, winter, snow, landscape, forrest, woods
-ok 12 starry sky 242060 | night sky, starry sky, fogging, fog, night shot, ratzeburg, nature
-ok 14 praying woman 253242 | pray, praying, hand, meditation, spiritual, god, religion, jesus, woman
+ok 0 cross sunset silhouette 10424010 | sunset, grass, nature, horizon, evening, silhouette, twilight, sky, summer, orange, peaceful, red-yellow, ancient, dawn, calm, golden, tranquil, evening sun, romantic, aesthetic
+ok 1 cathedral light 4343174 | russia, moscow, red square, church, saint basil's cathedral, religion, bulbs, color, design, colorful, russia, russia, russia, russia, russia, moscow
+ok 2 praying hands 316266 | carving, praying, hands, headstone, symbol, detail, granite, grave, gray pray
+ok 3 night lake moon 3144654 | moon, star, girl, child, space, sky, night, blue, astronomy, galaxy, blue sky, planet, dark, night sky, light, universe, nature, cosmos
+ok 4 crucifix 3700877 | catholic, catholicism, crucifix, christ, christianity, crucifix, crucifix, crucifix, crucifix, crucifix
+ok 5 sunbeam forest 6331799 | trees, forest, roots, spring, deciduous forest, trunks, sunbeam, sunshine, nature, panorama, woods, path, trail in the forest, forest, forest, forest, forest, forest
+ok 6 crown of thorns 2597190 | faith, cross, jesus, religion, christianity, christian, holy, wooden cross, crucifixion, church, christi, christians, christ, jesus christ, son of god, symbol, catholic, crown of thorns, christian faith, jesus, jesus, jesus, jesus, jesus, jesus christ, jesus christ
+ok 7 storm clouds sunlight 7011360 | clouds, cumulus, sky, sunlight, atmosphere, nature
+ok 8 cross hill 2354398 | hill of tara, ireland, cross, christianity, celtic, stone, irish, ancient, hill, tara, mystical, christian, mythology, gray cross
+ok 9 path forest light 4447584 | nature, flora, late summer, fall, sun, leaves, forest, path
+ok 10 jesus cross 1455449 | cross, crucifixion, good friday, christ, jesus, hope, suffering, pain, loss, resurrection, faith, christianity, religion, christian, heaven, easter
+ok 12 starry sky 749673 | planet, astronaut, space, pyramid, universe, astronautics, night sky, research, stars, starry sky, pre austronautik, astronaut, astronaut, astronaut, astronaut, pyramid, pyramid, pyramid, pyramid, pyramid
+ok 14 cross sky clouds 4886742 | cross, wood, resurrection, christianity, religion, faith, christ, symbol, passion, heaven, nature, blue, clouds, easter
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 457 Inner Calm (Peaceful)
-[vost#0:0/rawvideo @ 0x55f9363c4d00] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x55f936391e80] Error muxing a packet
-[out#0/rawvideo @ 0x55f936391e80] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x55f936391e80] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5a08061f4440] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5a08061f40c0] Error muxing a packet
-[out#0/rawvideo @ 0x5a08061f40c0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5a08061f40c0] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5d04a495ae40] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5d04a4927e00] Error muxing a packet
-[out#0/rawvideo @ 0x5d04a4927e00] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5d04a4927e00] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5b708219a700] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5b708219a380] Error muxing a packet
-[out#0/rawvideo @ 0x5b708219a380] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5b708219a380] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x6259710fbd00] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x6259710fb980] Error muxing a packet
-[out#0/rawvideo @ 0x6259710fb980] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x6259710fb980] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x64bc22c76d00] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x64bc22c43e80] Error muxing a packet
-[out#0/rawvideo @ 0x64bc22c43e80] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x64bc22c43e80] Terminating thread with return code -32 (Broken pipe)
-ok terco-20261124-noite (68.6s, fundo=videos, voz=pt-BR-AntonioNeural)
-2 vídeo(s) gerado(s)
-[vost#0:0/rawvideo @ 0x5c0b26a11440] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5c0b26a110c0] Error muxing a packet
-[out#0/rawvideo @ 0x5c0b26a110c0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5c0b26a110c0] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x5c0b26a110c0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5c0b26a110c0] Error closing file: Broken pipe
+trilha 96 Floating Light (Peaceful)
+ok terco-20261124-noite (68.6s, fundo=fotos, voz=pt-BR-AntonioNeural)
+1 vídeo(s) gerado(s)
