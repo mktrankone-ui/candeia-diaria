@@ -889,9 +889,9 @@
   "duracao": 48.2,
   "fundo": "fotos",
   "trilha": {
-   "id": 114,
-   "titulo": "Horizon Line (Hopeful)",
-   "url": "https://media.snipsound.com/audio/rf_cin02a_2_horizon_line_hopeful.mp3"
+   "id": 115,
+   "titulo": "New Dawn (Hopeful)",
+   "url": "https://media.snipsound.com/audio/rf_cin02a_new_dawn_hopeful.mp3"
   },
   "voz": "pt-BR-ThalitaMultilingualNeural",
   "tipo_voz": "feminina",
@@ -907,9 +907,9 @@
   "duracao": 68.6,
   "fundo": "videos",
   "trilha": {
-   "id": 458,
-   "titulo": "Still Waters (Peaceful)",
-   "url": "https://media.snipsound.com/audio/rf_med01a_2_still_waters_peaceful.mp3"
+   "id": 457,
+   "titulo": "Inner Calm (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_med01a_inner_calm_peaceful.mp3"
   },
   "voz": "pt-BR-AntonioNeural",
   "tipo_voz": "masculina",
