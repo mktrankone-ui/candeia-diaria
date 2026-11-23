@@ -1,7 +1,7 @@
 {
   "id": "terco-20261124-noite",
   "serie": "Terço de terça — Mistérios Dolorosos",
-  "tema": "terco",
+  "tema": "noite",
   "trilha_tema": "paz",
   "fundo": "videos",
   "voz": "masculina",
@@ -24,25 +24,31 @@
     "Senhor, pela Vossa paixão, dai paz a quem sofre esta *noite*.",
     "Por Cristo, nosso Senhor, *amém*."
   ],
-  "referencia": {"linha": 5, "texto": "Isaías 53,5"},
+  "referencia": {
+    "linha": 5,
+    "texto": "Isaías 53,5"
+  },
   "cenas": [
-    "candle light dark",
-    "rosary hands",
-    "praying hands light",
-    "night lake moon",
-    "crucifix church",
+    "candle flame",
+    "rosary prayer",
+    "praying hands",
+    "moon night",
+    "crucifix",
     "sunbeam forest",
-    "storm clouds light",
+    "dark clouds sun",
     "river stream forest",
-    "cross hill sky",
+    "cross mountain",
     "lonely road sunset",
-    "cross sunset",
-    "virgin mary statue",
-    "starry sky mountains",
-    "church candles",
-    "praying hands rosary"
+    "cross silhouette",
+    "mary statue",
+    "starry sky",
+    "candles church",
+    "praying woman"
   ],
-  "cta": ["Escreva nos comentários:", "*Jesus*, eu confio em Vós"],
+  "cta": [
+    "Escreva: *Jesus*, eu confio em Vós",
+    "e envie para quem está sofrendo"
+  ],
   "cta_falado": "Se você crê, escreva nos comentários: Jesus, eu confio em Vós.",
   "cta_tipo": "amem",
   "legenda": "Terço de terça-feira: os Mistérios Dolorosos 📿✝️\n\nPara quem está carregando uma cruz pesada nesta noite. Jesus conhece cada dor e caminha ao nosso lado. Escreva nos comentários \"Jesus, eu confio em Vós\", salve para rezar de novo na próxima terça e envie para alguém que está sofrendo.\n\n#terço #misteriosdolorosos #tercafeira #catolico #igrejacatolica #oração #fé #nossasenhora #candeiadiaria",

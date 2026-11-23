@@ -20,20 +20,26 @@
     "Nossa Senhora, cobre o meu lar com o teu *manto*.",
     "Em nome de Jesus, *amém*."
   ],
-  "referencia": {"linha": 4, "texto": "Lucas 21,9"},
+  "referencia": {
+    "linha": 4,
+    "texto": "Lucas 21,9"
+  },
   "cenas": [
     "sunrise ocean",
-    "golden hour meadow",
-    "church candles",
+    "sunrise field",
+    "wooden cross",
     "person mountain top sunrise",
     "sun rays clouds",
     "calm lake",
-    "family walking field",
-    "virgin mary statue",
-    "cross sunset",
+    "family sunset",
+    "mary statue church",
+    "cross sky",
     "sunrise sky clouds"
   ],
-  "cta": ["Envie este bom dia para quem você *ama*", "Uma oração pode mudar o dia de alguém"],
+  "cta": [
+    "Envie este bom dia para quem você *ama*",
+    "Uma oração pode mudar o dia de alguém"
+  ],
   "cta_falado": "Envie este bom dia para a sua família e para alguém que você ama.",
   "cta_tipo": "enviar",
   "legenda": "Bom dia, Deus 🙏 Terça-feira, 24 de novembro\n\nHoje a Igreja lembra os mártires do Vietnã, que viveram a fé sem medo. Que a gente comece o dia com essa coragem. Envie este bom dia para quem você ama e escreva AMÉM se você entrega o seu dia a Deus.\n\n#bomdia #bomdiadeus #tercafeira #oracao #candeiadiaria #catolico #fé #nossasenhora",
