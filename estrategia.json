@@ -1,10 +1,10 @@
 {
  "atualizado_em": "2026-11-23",
  "horarios": {
-  "bomdia": "22:00 da véspera",
+  "bomdia": "06:30 do próprio dia",
   "noite": "18:30",
   "fuso": "America/Sao_Paulo",
-  "teste": "bom dia às 22:00 da véspera: mantido (teste encerrado em 16/11). Teste da noite às 18:30 (desde 17/11), 1ª semana: abaixo da noite às 20h30 nas duas redes (mediana IG 113 x 134; TK 154 x 189, comparando com os números de hoje das noites de 03–16/11), mas o perfil todo caiu na semana (bom dia TK 242→187,5). Fica até 30/11 como planejado; se a noite às 18:30 ficar de novo abaixo de IG 134 / TK 189, volta para 20:30 a partir de 01/12."
+  "teste": "TESTE desde 24/11 (pedido do Fernando, 23/11): bom dia às 06:30 do próprio dia em vez de 22:00 da véspera. Motivo: views do TikTok travadas em ~200 por vídeo há 3 semanas (mediana 191/217/171) e os 2 vídeos acima de 500 do início saíram às 8h; quem vê 'bom dia' de manhã compartilha na hora. Medir até 07/12: mediana de views e compartilhamentos do bom dia às 06:30 x bom dia às 22:00 (TK mediana 202, 3 shares/vídeo em 29/10-22/11). Se ficar abaixo, volta para 22:00 da véspera. Noite às 18:30 segue em teste até 30/11 (se ficar abaixo de IG 134 / TK 189, volta para 20:30 a partir de 01/12)."
  },
  "pesos_series": {
   "Oração da manhã": 1.0,
@@ -76,7 +76,9 @@
   "Credo 20/11: melhor retenção da noite no IG (40,5% passam dos 3 s; 12 s de tempo médio) mas pior views do TK na semana (122, 0 share). Salmo 91: médio nas duas. Tradicionais perderam a vantagem no TK nesta semana (mediana 153): peso 1,5→1,4.",
   "Santa Isabel (formato santo na noite, 75 s, 'envie para a sua mãe'): IG 59 views, pior do perfil desde 30/10. Uma tentativa só, mas o gancho repetiu o santo do bom dia. Peso santo 1,2→1,0; se testar de novo, santo diferente do bom dia e gancho com a história ('Ela tinha 20 anos e já era viúva…').",
   "Ideia de gancho derivada do melhor post: abrir com a festa em tom de anúncio ('Hoje é o último domingo do ano da Igreja' / 'Hoje começa o Advento') + fechar com a jaculatória curta da devoção do dia para a pessoa escrever nos comentários ('Jesus, eu confio em Vós'). Comentário fácil de escrever rende mais que pedir nome.",
-  "Ainda não vêm do Metricool (23/11, período todo e últimos 7 dias): retenção % do IG (IGRE27), alcance, tempo médio, % assistido e % For You do TikTok (TKPO11/13/15/16); IGEV43/44 só 0. Seguidores do TK via TKEV07."
+  "Ainda não vêm do Metricool (23/11, período todo e últimos 7 dias): retenção % do IG (IGRE27), alcance, tempo médio, % assistido e % For You do TikTok (TKPO11/13/15/16); IGEV43/44 só 0. Seguidores do TK via TKEV07.",
+  "23/11 (Fernando aprovou): TESTE noite curta. Vídeos da noite com até 40 s (7 a 8 frases), pedido de oração já na 1ª frase/1º segundo (ex.: 'Se o seu coração está apertado hoje, reze comigo') e fechamento com CTA 'enviar' para um destinatário específico (mãe, quem está doente, quem procura emprego). Motivo: noite tem mediana 0 compartilhamento no TikTok contra 3 do bom dia; vídeos de 60 s+ não tiveram mais views que os curtos. Vídeos longos (60–75 s) só nos formatos terco, salmo ou evangelho e no máximo 1 a cada 4 vídeos até o perfil se aproximar dos requisitos de monetização. Medir até 07/12.",
+  "23/11: compartilhamento é a alavanca para passar de 500 views no TikTok. Melhor vídeo recente: bom dia de domingo de Cristo Rei (569 views, 25 shares). Priorizar CTA 'enviar' com destinatário específico e aproveitar festas e datas litúrgicas no bom dia."
  ],
  "pesos_voz": {
   "feminina": 1.0,
@@ -101,7 +103,7 @@
   "exame": 1.0
  },
  "pesos_duracao": {
-  "curto": 2.0,
-  "longo": 1.0
+  "curto": 3.0,
+  "longo": 0.7
  }
 }

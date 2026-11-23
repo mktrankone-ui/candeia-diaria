@@ -38,7 +38,7 @@ O dono do perfil é **católico**. Todo conteúdo segue a fé e a teologia cató
 ## Formatos campeões (aprendidos dos concorrentes — ver `referencias/concorrentes-2026-11-02.md`)
 
 ### Manhã = "Bom dia, Deus" com a data (formato `bom_dia`)
-- **Publicado às 22:00 da véspera** (slot `bomdia`): o vídeo de terça é publicado segunda às 22:00.
+- **Horário: o de `estrategia.json` (`horarios.bomdia`)** (slot `bomdia`). Desde 24/11 em teste: **06:30 do próprio dia** (antes 22:00 da véspera).
 - Gancho **sempre com o dia da semana e a data**: "Deus, hoje é terça-feira, 3 de novembro, e eu…". Datas litúrgicas entram aqui ("…dia de Finados", "…Imaculada Conceição").
 - Oração única em 1ª pessoa, 8 a 10 frases (45–55 s): agradecer pelo dia → entregar o dia/preocupações → pedir pela família e pelo trabalho → proteção (Nossa Senhora / Santo Anjo quando couber) → "em nome de Jesus, amém".
 - Visual de cartão: `"estilo": "classico"`, `"serie": "<Dia da semana>"` (ex.: "Terça-feira"), `"rodape": "Bom dia!"`. Fundos de amanhecer, paisagens luminosas, pessoas caminhando na luz.
@@ -62,7 +62,7 @@ O dono do perfil é **católico**. Todo conteúdo segue a fé e a teologia cató
 
 Varie sempre. Junte passagens bíblicas bonitas com textos originais que acolham quem precisa de oração.
 
-**Manhã (formato `bom_dia`, publicado 22:00 da véspera)** — tema leve e luminoso, dentro da oração do dia:
+**Manhã (formato `bom_dia`, horário em `estrategia.json`; teste 06:30 do próprio dia desde 24/11)** — tema leve e luminoso, dentro da oração do dia:
 gratidão pelo novo dia · entregar o dia a Deus · oferecimento do dia · proteção ao sair de casa · trabalho e sustento · emprego · estudos e provas · família · filhos · marido/esposa · casamento · amigos · decisões importantes · força para recomeçar · esperança · coragem · fé que move montanhas · "Leão de Judá" (força) · Santo Anjo da Guarda · consagração a Nossa Senhora · Espírito Santo · Salmo do dia (Sl 23, 27, 91, 121, 139, 46, 34, 103, 62, 118) · santo do dia · domingo: alegria da ressurreição e missa.
 
 **Noite (18:30, ver `estrategia.json`)** — tema emocional e de cura:
@@ -145,7 +145,7 @@ Sem `cenas`, o sistema usa `busca` (4 a 7 termos) ou o catálogo do `tema`. Tema
 
 ## Horários
 
-Definidos em `estrategia.json` (`horarios`): **bom dia às 22:00 da véspera** (slot `bomdia`, desde 02/11, confirmado em 16/11) e **noite às 18:30** (teste desde 17/11 — antes 20:30; vale sempre o que estiver em `estrategia.json`) (America/Sao_Paulo). Publica **todo dia**, inclusive sábado e domingo. O roteiro de bom dia tem `"slot": "bomdia"` e `"data"` = o dia a que a oração se refere; o agendamento é na véspera às 22:00.
+Definidos em `estrategia.json` (`horarios`): **bom dia às 06:30 do próprio dia** (slot `bomdia`, teste desde 24/11; antes 22:00 da véspera, de 02/11 a 23/11) e **noite às 18:30** (teste desde 17/11 — antes 20:30; vale sempre o que estiver em `estrategia.json`) (America/Sao_Paulo). Publica **todo dia**, inclusive sábado e domingo. O roteiro de bom dia tem `"slot": "bomdia"` e `"data"` = o dia a que a oração se refere; o agendamento segue `horarios.bomdia` (hoje: 06:30 do próprio dia; se voltar para 22:00, é na véspera).
 
 ## Rotina diária de produção (seg a sex, horário comercial)
 
@@ -189,7 +189,7 @@ YouTube (desde jul/2025, reforçado em jul/2026) e TikTok cortam monetização d
 - **Mídia própria** — se houver fotos/vídeos do Fernando em `midia/<pasta>` (paróquia, terço nas mãos, vela acesa, natureza da região), usar `"midia_propria": "midia/<pasta>"` em pelo menos 1 vídeo por semana. É o que mais prova originalidade.
 
 ### 2. Duração (TikTok só paga vídeo com mais de 1 minuto)
-- Desde já, **1 a cada 3 vídeos com 60–75 s** (12 a 15 frases em `linhas`). Formatos que pedem mais tempo: `terco`, `salmo`, `evangelho`, `santo`, `misericordia`, `exame`.
+- Desde 24/11, **no máximo 1 a cada 4 vídeos com 60–75 s**, só nos formatos `terco`, `salmo` ou `evangelho` (teste da noite curta, ver `estrategia.json`); antes era 1 a cada 3 (12 a 15 frases em `linhas`). Formatos que pedem mais tempo: `terco`, `salmo`, `evangelho`, `santo`, `misericordia`, `exame`.
 - Os curtos (35–45 s) continuam para crescer. A análise semanal compara a retenção dos longos com a dos curtos; ao se aproximar de 10 mil seguidores no TikTok, a maioria passa a ser longa.
 
 ### 3. Voz licenciada
