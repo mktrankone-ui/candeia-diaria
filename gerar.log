@@ -1,42 +1,44 @@
-== espiritosanto-20261123-noite
-ok 0 moon clouds night 153559 | boat, sea, moon, sky, moon light, moon magic, clouds, night
-ok 1 moon clouds night 227185 | moon, sky, clouds, night, dark, eve, dusk
-ok 2 candle flame 90451 | candle, flame, light, candlelight, night
-ok 3 sun rays clouds 18979 | landscape, clouds, moutains, sun rays, colombia
-ok 4 fog mountains 330323 | landscape, winter, mountains, woods, snow, rime, fog, extreme sensation, japan
-ok 5 moon clouds night 258130 | moon, night, dark, night sky, astronomy, satellite, clouds
-ok 6 calm lake 44192 | lake, dock, landscape, scenic, relaxing, alone, mountains, outdoor, whistler, water, pier, nature, calm, tennessee, sky, clouds, dark, travel, epic, sunset
-ok 7 candle light dark 93480 | candle, flame, bokeh, burning candle, candlelight, light, cozy, christmas, holidays, atmosphere, moody, christmas decorations, christmas lights, christmas decor, holiday decor, warm aesthetic, christmas tree, many candles, meditation mood, 4k, blowing, turn of candle
-ok 8 candle light dark 240498 | candle, candlelight, light, flame, tea lights, orange, mood, burn
-ok 9 candle light dark 143419 | candle, light, flame, burn, match, candlelight, christmas, advent
-ok 10 candle light dark 240499 | candle, candlelight, light, flame, tea lights, orange, mood, burn
+== bomdia-20261124
+ok 0 sunrise ocean 5354475 | lighthouse, sunset, sea, coast, light, ocean, water, landscape, nature, dusk, clouds, beach, sky, sunrise, boat, iceland, mood, evening, twilight, greece, beacon, lake, scotland, portugal, lighthouse, sea, landscape, beach, sunrise, sunrise, boat, iceland, greece, greece, greece, scotland, scotland, scotland, scotland, scotland, portugal, portugal, portugal, portugal, portugal
+ok 1 golden hour meadow 8250006 | woman, flowers, flower wallpaper, beauty, portrait, meadow, summer, romantic, nature, beautiful flowers, flower background, dreamy
+ok 2 golden hour meadow 8628355 | bird, goose, sunset, nature, animal, meadow, field, landscape
+ok 3 person mountain top sunrise 5649827 | mountain, sunrise, sun, clouds, alpine, weather, nature, freedom, hiking, people, Germany, Bavaria, Obermaiselstein
+ok 4 sun rays clouds 4720236 | sun, sunlight, nature, landscape, clouds, mood, sea
+ok 5 calm lake 3625657 | great arber lake, arber, lake, bavarian forest, reflection, forest, lines, mountain lake, mountains, landscape, nature, water, hike, quiet, arber, arber, arber, arber, arber, forest, mountains, mountains, mountains, mountains, mountains, landscape, landscape, landscape, nature
+ok 6 sun rays forest 5014436 | sunbeams, spring, tree, nature, forest, plant, landscape, summer, sun, garden, awakening, sunshine, opposites
+ok 7 sun rays forest 4867807 | forest, tree trunk, autumn leaves, forest floor, nature, wood, tree, tribe, landscape, branches, quiet, green, environment, leaves, fog, haze, beam of light, sunbeams, morning sun
+ok 8 golden hour meadow 8102965 | poppy, flower wallpaper, flower, plant, flower background, red flower, petals, bloom, blossom, summer, beautiful flowers, meadow, nature, closeup
+ok 9 morning mist lake 10359150 | snow covered lake, mountain reflection, winter landscape, calm water, mist, soft light, cloudy sky, peaceful, tranquil, natural beauty, postcard, water reflection, peaceful landscape, snowy mountains, winter calm, afternoon light, meditative, calm lake, cloud reflection
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 464 Night Light (Sleepy)
-[vost#0:0/rawvideo @ 0x636c542c9a00] Error submitting a packet to the muxer: Broken pipe
+trilha 114 Horizon Line (Hopeful)
+ok bomdia-20261124 (48.2s, fundo=fotos, voz=pt-BR-ThalitaMultilingualNeural)
+== terco-20261124-noite
+ok 5 sunbeam forest 61228 | trees, forest, fog, morning, sunlight, sunbeam, sunrise, dawn, light, nature, landscape
+ok 6 storm clouds light 218078 | sky, clouds, cloudy, weather, wind, sun, skyscape, light, summer, spring, outdoors, scenic, sunlight, peaceful, fluffy, smoke, storm, nature, atmosphere, cloudscape, daylight, heaven
+ok 7 river stream forest 263874 | waterfall, river, forest, nature, moss, mountain, trip, fall, cascade, rocks, paradise, climate, season, sunny, stream
+ok 9 lonely road sunset 212491 | sunset, road, afternoon, sun, red, water, trees, forest, landscape
+AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
+trilha 458 Still Waters (Peaceful)
+[vost#0:0/rawvideo @ 0x62d9e0e62340] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x636c542d9400] Error muxing a packet
-[out#0/rawvideo @ 0x636c542d9400] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x636c542d9400] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x567b5709f280] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x62d9e0e61fc0] Error muxing a packet
+[out#0/rawvideo @ 0x62d9e0e61fc0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x62d9e0e61fc0] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x55abf40a0d40] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x567b57085640] Error muxing a packet
-[out#0/rawvideo @ 0x567b57085640] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x567b57085640] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x608d287a8880] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55abf4007f40] Error muxing a packet
+[out#0/rawvideo @ 0x55abf4007f40] Task finished with error code: -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x58c765f7dcc0] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x608d287a7dc0] Error muxing a packet
-[out#0/rawvideo @ 0x608d287a7dc0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x608d287a7dc0] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5deeedd7aa00] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x58c765f7d940] Error muxing a packet
+[out#0/rawvideo @ 0x58c765f7d940] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x58c765f7d940] Terminating thread with return code -32 (Broken pipe)
+ok terco-20261124-noite (68.6s, fundo=videos, voz=pt-BR-AntonioNeural)
+2 vídeo(s) gerado(s)
+[vost#0:0/rawvideo @ 0x5a3f10420d40] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x5deeedd8a400] Error muxing a packet
-[out#0/rawvideo @ 0x5deeedd8a400] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5deeedd8a400] ok espiritosanto-20261123-noite (74.4s, fundo=videos, voz=pt-BR-ThalitaMultilingualNeural)
-1 vídeo(s) gerado(s)
-[vost#0:0/rawvideo @ 0x651e1bf192c0] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x651e1bf213c0] Error muxing a packet
-[out#0/rawvideo @ 0x651e1bf213c0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x651e1bf213c0] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x651e1bf213c0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x651e1bf213c0] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5a3f10387f40] Error muxing a packet
+[out#0/rawvideo @ 0x5a3f10387f40] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5a3f10387f40] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5a3f10387f40] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5a3f10387f40] Error closing file: Broken pipe

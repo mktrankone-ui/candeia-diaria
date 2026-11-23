@@ -880,5 +880,41 @@
   "cta_tipo": "amem",
   "formato": "terco",
   "motor_voz": "edge"
+ },
+ "bomdia-20261124": {
+  "arquivo": "bomdia-20261124.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261124.mp4",
+  "serie": "Terça-feira",
+  "legenda": "Bom dia, Deus 🙏 Terça-feira, 24 de novembro\n\nHoje a Igreja lembra os mártires do Vietnã, que viveram a fé sem medo. Que a gente comece o dia com essa coragem. Envie este bom dia para quem você ama e escreva AMÉM se você entrega o seu dia a Deus.\n\n#bomdia #bomdiadeus #tercafeira #oracao #candeiadiaria #catolico #fé #nossasenhora",
+  "duracao": 48.2,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 114,
+   "titulo": "Horizon Line (Hopeful)",
+   "url": "https://media.snipsound.com/audio/rf_cin02a_2_horizon_line_hopeful.mp3"
+  },
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "terco-20261124-noite": {
+  "arquivo": "terco-20261124-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/terco-20261124-noite.mp4",
+  "serie": "Terço de terça — Mistérios Dolorosos",
+  "legenda": "Terço de terça-feira: os Mistérios Dolorosos 📿✝️\n\nPara quem está carregando uma cruz pesada nesta noite. Jesus conhece cada dor e caminha ao nosso lado. Escreva nos comentários \"Jesus, eu confio em Vós\", salve para rezar de novo na próxima terça e envie para alguém que está sofrendo.\n\n#terço #misteriosdolorosos #tercafeira #catolico #igrejacatolica #oração #fé #nossasenhora #candeiadiaria",
+  "duracao": 68.6,
+  "fundo": "videos",
+  "trilha": {
+   "id": 458,
+   "titulo": "Still Waters (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_med01a_2_still_waters_peaceful.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "amem",
+  "formato": "terco",
+  "motor_voz": "edge"
  }
 }
