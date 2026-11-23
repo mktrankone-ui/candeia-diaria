@@ -1,11 +1,11 @@
 {
  "voz": "pt-BR-AntonioNeural",
- "rate": "-6%",
+ "rate": "+4%",
  "pitch": "-8Hz",
  "cenas": [
   {
    "id": "s01",
-   "texto": "Olá! Seja bem-vindo à aula do e-cotações. Em poucos minutos, você vai ver como configurar a sua marca, cadastrar seus produtos e serviços, montar e enviar um orçamento, e acompanhar tudo até fechar a venda."
+   "texto": "Olá! Seja bem-vindo à aula do ê-cotações. Em poucos minutos, você vai ver como configurar a sua marca, cadastrar seus produtos e serviços, montar e enviar um orçamento, e acompanhar tudo até fechar a venda."
   },
   {
    "id": "s02",
@@ -73,7 +73,7 @@
   },
   {
    "id": "s18",
-   "texto": "Na lista de Propostas, use os filtros por status para ver rapidinho quem precisa de retorno. Proposta parada esfria, e o e-cotações não deixa você esquecer."
+   "texto": "Na lista de Propostas, use os filtros por status para ver rapidinho quem precisa de retorno. Proposta parada esfria, e o ê-cotações não deixa você esquecer."
   },
   {
    "id": "s19",
