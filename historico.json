@@ -837,5 +837,40 @@
   "cta_tipo": "amem",
   "duracao": 74.4,
   "metricool_id": 435585115
+ },
+ {
+  "id": "bomdia-20261124",
+  "data": "2026-11-24",
+  "slot": "bomdia",
+  "serie": "Terça-feira",
+  "formato": "bom_dia",
+  "tema": "amanhecer",
+  "referencia": "Lucas 21,9",
+  "fundo": "fotos",
+  "estilo": "classico",
+  "layout": "baixo",
+  "trilha": "New Dawn (Hopeful)",
+  "voz": "feminina",
+  "cta_tipo": "enviar",
+  "duracao": 48.2,
+  "metricool_id": 438773623
+ },
+ {
+  "id": "terco-20261124-noite",
+  "data": "2026-11-24",
+  "slot": "noite",
+  "serie": "Terço de terça — Mistérios Dolorosos",
+  "formato": "terco",
+  "tema": "terco",
+  "referencia": "Isaías 53,5",
+  "fundo": "videos",
+  "estilo": "montserrat",
+  "layout": "baixo",
+  "trilha": "Still Waters (Peaceful)",
+  "voz": "masculina",
+  "cta_tipo": "amem",
+  "duracao": 68.6,
+  "metricool_id": 438784594,
+  "obs": "agendado com a 1ª versão gerada (commit ddad6d9 do ramo videos); as 2 regerações tiveram fundos fora da linha"
  }
 ]
