@@ -1,0 +1,33 @@
+name: Transcrever voz (aula e-cotações)
+on:
+  push:
+    branches: [narracao-ecotacoes]
+    paths: [narracao-ecotacoes/voz.enc]
+permissions:
+  contents: write
+jobs:
+  transcrever:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q faster-whisper
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-small-v1
+      - name: Decifrar e transcrever
+        env:
+          K: ${{ secrets.ECOT_AUDIO_KEY }}
+        run: |
+          openssl enc -d -aes-256-cbc -pbkdf2 -in narracao-ecotacoes/voz.enc -out /tmp/voz.wav -pass env:K
+          python3 -u narracao-ecotacoes/transcrever.py
+          rm -f /tmp/voz.wav
+      - name: Salvar transcrição
+        run: |
+          git config user.name "candeia-bot"; git config user.email "actions@github.com"
+          git rm -q --cached narracao-ecotacoes/voz.enc; rm -f narracao-ecotacoes/voz.enc
+          git add narracao-ecotacoes/transcricao.json
+          git commit -qm "Transcrição da voz (aula e-cotações)" && git push -q origin HEAD:narracao-ecotacoes
