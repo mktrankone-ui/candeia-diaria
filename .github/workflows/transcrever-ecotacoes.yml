@@ -18,6 +18,7 @@ jobs:
       - name: Chave temporária
         run: |
           git config user.name "candeia-bot"; git config user.email "actions@github.com"
+          git rm -q --ignore-unmatch narracao-ecotacoes/chave.enc narracao-ecotacoes/voz.enc narracao-ecotacoes/runner_pub.pem
           openssl genrsa -out /tmp/priv.pem 3072 2>/dev/null
           openssl rsa -in /tmp/priv.pem -pubout -out narracao-ecotacoes/runner_pub.pem
           git add narracao-ecotacoes/runner_pub.pem && git commit -qm "chave pública temporária" && git push -q origin HEAD:narracao-ecotacoes
