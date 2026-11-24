@@ -916,5 +916,41 @@
   "cta_tipo": "amem",
   "formato": "terco",
   "motor_voz": "edge"
+ },
+ "bomdia-20261125": {
+  "arquivo": "bomdia-20261125.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261125.mp4",
+  "serie": "Quarta-feira",
+  "legenda": "Bom dia, Deus 🙏 Quarta-feira, 25 de novembro\n\nHoje a Igreja lembra Santa Catarina de Alexandria, padroeira dos estudantes. Que Deus dê força a quem está cansado e não pode desistir. Envie este bom dia para essa pessoa e escreva AMÉM se você entrega o seu dia a Deus.\n\n#bomdia #bomdiadeus #quartafeira #oracao #candeiadiaria #catolico #santacatarina #fé",
+  "duracao": 53.0,
+  "fundo": "videos",
+  "trilha": {
+   "id": 115,
+   "titulo": "New Dawn (Hopeful)",
+   "url": "https://media.snipsound.com/audio/rf_cin02a_new_dawn_hopeful.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "maedefilho-20261125-noite": {
+  "arquivo": "maedefilho-20261125-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/maedefilho-20261125-noite.mp4",
+  "serie": "Oração de mãe por um filho",
+  "legenda": "Para toda mãe que vai dormir pensando em um filho 🙏\n\nDeus conhece o nome dele e nunca se esquece de quem é Seu. Envie esta oração para uma mãe que está com o coração apertado e escreva AMÉM por todos os filhos.\n\n#oração #oracaopelosfilhos #mae #fé #Deus #catolico #nossasenhora #candeiadiaria",
+  "duracao": 41.0,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 96,
+   "titulo": "Floating Light (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_amb01a_floating_light_peaceful.mp3"
+  },
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "enviar",
+  "formato": "enviar",
+  "motor_voz": "edge"
  }
 }
