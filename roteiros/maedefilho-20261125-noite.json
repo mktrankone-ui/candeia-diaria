@@ -1,0 +1,39 @@
+{
+  "id": "maedefilho-20261125-noite",
+  "serie": "Oração de mãe por um filho",
+  "tema": "familia",
+  "trilha_tema": "noite",
+  "fundo": "fotos",
+  "voz": "feminina",
+  "formato": "enviar",
+  "estilo": "poppins",
+  "layout": "centro",
+  "linhas": [
+    "Se o seu coração de mãe está apertado por um *filho*, reze comigo.",
+    "Senhor, Tu conheces o nome dele e cada passo que ele *dá*.",
+    "Onde os meus braços não alcançam, chega Tu com o Teu *amor*.",
+    "Mesmo que uma mãe esquecesse o seu filho, Tu não nos *esqueces*.",
+    "Protege o meu filho de todo mal, de dia e de *noite*.",
+    "Nossa Senhora, mãe que também chorou por um Filho, cuida *dele*.",
+    "E me dá a paz de dormir *confiando* em Ti.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {"linha": 3, "texto": "Isaías 49,15"},
+  "cenas": [
+    "mother child sunset",
+    "man walking mountain",
+    "hands holding sunset",
+    "sun rays clouds",
+    "night sky stars",
+    "virgin mary statue",
+    "candle light dark",
+    "cross sunset",
+    "family hug sunset"
+  ],
+  "cta": ["Envie para uma *mãe* que reza por um filho", "Uma oração pode mudar a noite de alguém"],
+  "cta_falado": "Envie esta oração para uma mãe que está rezando por um filho hoje.",
+  "cta_tipo": "enviar",
+  "legenda": "Para toda mãe que vai dormir pensando em um filho 🙏\n\nDeus conhece o nome dele e nunca se esquece de quem é Seu. Envie esta oração para uma mãe que está com o coração apertado e escreva AMÉM por todos os filhos.\n\n#oração #oracaopelosfilhos #mae #fé #Deus #catolico #nossasenhora #candeiadiaria",
+  "slot": "noite",
+  "data": "2026-11-25"
+}

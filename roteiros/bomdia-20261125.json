@@ -1,0 +1,42 @@
+{
+  "id": "bomdia-20261125",
+  "serie": "Quarta-feira",
+  "tema": "amanhecer",
+  "trilha_tema": "amanhecer",
+  "fundo": "videos",
+  "voz": "masculina",
+  "formato": "bom_dia",
+  "estilo": "classico",
+  "layout": "centro",
+  "rodape": "Bom dia!",
+  "linhas": [
+    "Deus, hoje é quarta-feira, 25 de novembro, e eu começo este dia *Contigo*.",
+    "Obrigado por mais uma manhã e pela chance de *recomeçar*.",
+    "Hoje a Igreja lembra Santa Catarina de Alexandria, padroeira dos *estudantes*.",
+    "Abençoa quem estuda, quem faz prova e quem pede *sabedoria*.",
+    "No Evangelho de hoje, Jesus ensina que é perseverando que salvamos a *vida*.",
+    "Então me dá força para não desistir do que Tu colocaste no meu *caminho*.",
+    "Cuida da minha família, do meu trabalho e de todos que eu *amo*.",
+    "Santo Anjo do Senhor, guarda os meus passos neste *dia*.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {"linha": 4, "texto": "Lucas 21,19"},
+  "cenas": [
+    "sunrise mountains",
+    "morning mist lake",
+    "church interior light",
+    "praying hands light",
+    "person walking road sunrise",
+    "path forest light",
+    "family walking field",
+    "sun rays clouds",
+    "cross hill sky",
+    "sunrise ocean"
+  ],
+  "cta": ["Envie este bom dia para quem está *cansado*", "e não pode desistir"],
+  "cta_falado": "Envie este bom dia para alguém que está cansado, mas não pode desistir.",
+  "cta_tipo": "enviar",
+  "legenda": "Bom dia, Deus 🙏 Quarta-feira, 25 de novembro\n\nHoje a Igreja lembra Santa Catarina de Alexandria, padroeira dos estudantes. Que Deus dê força a quem está cansado e não pode desistir. Envie este bom dia para essa pessoa e escreva AMÉM se você entrega o seu dia a Deus.\n\n#bomdia #bomdiadeus #quartafeira #oracao #candeiadiaria #catolico #santacatarina #fé",
+  "slot": "bomdia",
+  "data": "2026-11-25"
+}
