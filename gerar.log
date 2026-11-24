@@ -1,14 +1,36 @@
 == maedefilho-20261125-noite
-ok 0 mother child sunset 9712621 | mom, baby, child, love, portrait, mother, motherhood, parent, cute, nature
-ok 1 lonely road sunset 1025016 | sense, snow, road, path, along the way, footprints, imprint, footprint, winter, nature, central stripe, road post, alone, nobody, abandoned, lonely
-ok 2 mother child sunset 4111503 | family, kids, mother with children, a mother and child, boys, parents and children, baby, together, happy, happiness, mother, love, parent, childhood, boy, woman, family photo shoot, family photo, family, family photo, family photo, family photo, family photo, family photo
-ok 3 mother child sunset 10512838 | tianjin, mother and son, parent and child, straw hat, autumn foliage, backlight, golden light, outdoor, family love, happy moment, bokeh effect, bouquet and flowers, smile, motherhood, children, parenting, den, festive, november weather, covered plants
-ok 4 night sky stars 2953440 | night sky, stars, night sky stars, starry night, cosmos, night sky, night sky, night sky, starry night, starry night, starry night, starry night, starry night, cosmos, cosmos, cosmos, cosmos, cosmos
-ok 5 mother child sunset 4106873 | family, kids, mother with children, a mother and child, boys, parents and children, baby, together, happy, happiness, mother, love, parent, childhood, boy, woman, family photo shoot, family photo, family, family photo, family photo, family photo, family photo, family photo
-ok 6 candle light dark 4665891 | lantern, light, candle, night, mood, dark, straw, barn, christmas, advent
-ok 7 father son nature 557078 | family, father, children, dad, together, son, child, people, happy, parent, portrait, family, father, dad, dad, dad, dad, dad, people, parent
-ok 8 mother child sunset 6957327 | mother and child, meadow, family, park, lakeside, outdoors, nature
+ok 0 couple walking sunset 169562 | couple, sunset, trees, grass, forest, evening, netherlands, drenthe, dwingelderveld, national park, nature, landscape
+ok 1 lonely road sunset 146936 | sunset, girl, airplane, joy, happiness, road trip, field, nature
+ok 2 family walking field 286763 | highland lagoon, interior, lake, field, plantations, panorama, cycling, environment, family farming, harvest, agua, sky, horizon, nature, linear, holy spirit
+ok 3 sun rays clouds 3520 | clouds, heaven, covered sky, layers of clouds, light, sun, air, wind, oxygen, the atmosphere, cloudy, cloud, cummulus, summer
+ok 4 family walking field 118956 | sunset, man, bench, trees, field, forest, afternoon, walking, hiking, sitting, nature
+ok 5 father son nature 416 | wanderers, hiking, people, walking, tree, outdoors, wandering, autumn, fall, gloomy, sunset, dusk, father and son, together, to, 134831063
+ok 6 family walking field 249447 | trees, morning, nature, sunrise, fog, forest, dawn, meadow, field, shadow, grass, walking, sunlight, pasture, haze, landscape
+ok 7 family walking field 2677 | lamb, sheep, flock, walking, white, farm, animal, wool, nature, field, feeding
+ok 8 couple walking sunset 260656 | autumn, fall, nature, leaves, foliage, maple, forest, tree, season, park, fog, landscape, sunset, walking
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 466 Night Light (Calm)
-ok maedefilho-20261125-noite (41.0s, fundo=fotos, voz=pt-BR-ThalitaMultilingualNeural)
+trilha 464 Night Light (Sleepy)
+[vost#0:0/rawvideo @ 0x5b812c20a980] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5b812c1ed280] Error muxing a packet
+[out#0/rawvideo @ 0x5b812c1ed280] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5b812c1ed280] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5f2af3156800] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5f2af3156480] Error muxing a packet
+[out#0/rawvideo @ 0x5f2af3156480] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5f2af3156480] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5cfdc4929200] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5cfdc4928e80] Error muxing a packet
+[out#0/rawvideo @ 0x5cfdc4928e80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5cfdc4928e80] Terminating thread with return code -32 (Broken pipe)
+ok maedefilho-20261125-noite (41.0s, fundo=videos, voz=pt-BR-ThalitaMultilingualNeural)
 1 vídeo(s) gerado(s)
+[vost#0:0/rawvideo @ 0x57a5dee8d3c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x57a5dee1c200] Error muxing a packet
+[out#0/rawvideo @ 0x57a5dee1c200] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x57a5dee1c200] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x57a5dee1c200] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x57a5dee1c200] Error closing file: Broken pipe
