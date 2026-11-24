@@ -1,45 +1,14 @@
-== bomdia-20261125
-ok 0 sunrise mountains 130866 | mountains, sunrise, fjord, norway, drone
-ok 1 morning mist lake 62385 | path, fog, mist, haze, forest, morning, early, hiking, walking, panning, 4k, calm, silent
-ok 2 morning mist lake 56477 | trees, fog, path, nature, morning, cycling, landscape, mist, sunrise, sky, magical
-ok 3 sunrise ocean 262326 | sunrise, nature, landscape, sunset, morning, sun, dusk, ocean, mountain, grass, meadow, sky, sunlight, outdoors
-ok 4 person walking road sunrise 202753 | man, path, walking, sunrise, netherlands, drenthe, alone
-ok 5 path forest light 221333 | path, forest, trees, to walk, spring, nature, landscape
-ok 6 family walking field 47886 | man, walking, alone, single, hiking, forest, young, nature, landscape, green, summer, environment, grass, tree, garden, spring, clouds, flower, field
-ok 7 sun rays clouds 145785 | sunrise, east, mountain, sunset, sky, clouds, sun, vassilis lappas, sun rays, nature, landscape
-ok 8 morning mist lake 198696 | lake, cherry blossoms, morning, lake biwa, waterfowl, spring, japan
-ok 9 sunrise ocean 201308 | beach, ocean, sunset, sea, nature, sky, sun, sunrise, summer, outdoors
-AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 115 New Dawn (Hopeful)
-[vost#0:0/rawvideo @ 0x5c423c855100] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5c423c840b40] Error muxing a packet
-[out#0/rawvideo @ 0x5c423c840b40] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5c423c840b40] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5c7bd593ed40] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5c7bd5893c80] Error muxing a packet
-[out#0/rawvideo @ 0x5c7bd5893c80] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5c7bd5893c80] Terminating thread with return code -32 (Broken pipe)
-ok bomdia-20261125 (53.0s, fundo=videos, voz=pt-BR-AntonioNeural)
 == maedefilho-20261125-noite
-ok 0 mother child sunset 331231 | mother, child, baby, holding, happy, infant, suckling, parent, daughter, family, girl, kid, people, blue happy, blue happiness, mother, baby, baby, baby, baby, baby, family, family, family, family, people
-ok 1 man walking mountain 2436925 | old, grandpa, bridge, old man, retirement, face, man, portrait, person, human, recover, way, glasses, pensioners, close up, think, relax, well read, father, senior, walking stick, hospital, lame, portugal, porto, old man, old man, walking stick, walking stick, walking stick, walking stick, walking stick, lame, lame, lame, lame
-ok 2 couple walking sunset 7483347 | couple, holding hands, walking, park, young couple, casual, alley, lakeshore, lifestyle, couple, couple, couple, couple, couple
-ok 3 mother child sunset 1178635 | motherhood, boy, parent, happy mother, newborn baby, mother and baby, mother baby, baby, mother, family, baby boy, mother and son, caucasian, child, baby, baby, baby, baby, baby, mother, family
-ok 4 night sky stars 5531581 | astro, astrophotography, milky way, night sky, skyscape, space, galaxy, nature, universe, stars, moon, trees, astronomy, light, constellations, starry skies, cosmos
-ok 5 couple walking sunset 1739559 | silhouette, sea, nature, sunset, summer, couple
-ok 6 candle light dark 1385099 | candle, light, fire, lighting, heat, burning, night, black fire, black candle, black candles
-ok 7 couple walking sunset 9165730 | couple, happy, nature, walking, casual, young, together, alley, parka, tree, lake, lifestyle, relaxation
-ok 8 father son nature 6247384 | father, child, love, care, kid, toddler, young, son, boy, man, fatherhood, parent, family, fathers day, father, fatherhood, fatherhood, fatherhood, fatherhood, fatherhood, fathers day
+ok 0 mother child sunset 9712621 | mom, baby, child, love, portrait, mother, motherhood, parent, cute, nature
+ok 1 lonely road sunset 1025016 | sense, snow, road, path, along the way, footprints, imprint, footprint, winter, nature, central stripe, road post, alone, nobody, abandoned, lonely
+ok 2 mother child sunset 4111503 | family, kids, mother with children, a mother and child, boys, parents and children, baby, together, happy, happiness, mother, love, parent, childhood, boy, woman, family photo shoot, family photo, family, family photo, family photo, family photo, family photo, family photo
+ok 3 mother child sunset 10512838 | tianjin, mother and son, parent and child, straw hat, autumn foliage, backlight, golden light, outdoor, family love, happy moment, bokeh effect, bouquet and flowers, smile, motherhood, children, parenting, den, festive, november weather, covered plants
+ok 4 night sky stars 2953440 | night sky, stars, night sky stars, starry night, cosmos, night sky, night sky, night sky, starry night, starry night, starry night, starry night, starry night, cosmos, cosmos, cosmos, cosmos, cosmos
+ok 5 mother child sunset 4106873 | family, kids, mother with children, a mother and child, boys, parents and children, baby, together, happy, happiness, mother, love, parent, childhood, boy, woman, family photo shoot, family photo, family, family photo, family photo, family photo, family photo, family photo
+ok 6 candle light dark 4665891 | lantern, light, candle, night, mood, dark, straw, barn, christmas, advent
+ok 7 father son nature 557078 | family, father, children, dad, together, son, child, people, happy, parent, portrait, family, father, dad, dad, dad, dad, dad, people, parent
+ok 8 mother child sunset 6957327 | mother and child, meadow, family, park, lakeside, outdoors, nature
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 96 Floating Light (Peaceful)
+trilha 466 Night Light (Calm)
 ok maedefilho-20261125-noite (41.0s, fundo=fotos, voz=pt-BR-ThalitaMultilingualNeural)
-2 vídeo(s) gerado(s)
-[vost#0:0/rawvideo @ 0x592ad0941bc0] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x592ad0942200] Error muxing a packet
-[out#0/rawvideo @ 0x592ad0942200] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x592ad0942200] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x592ad0942200] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x592ad0942200] Error closing file: Broken pipe
+1 vídeo(s) gerado(s)
