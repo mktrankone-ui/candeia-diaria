@@ -952,5 +952,41 @@
   "cta_tipo": "enviar",
   "formato": "enviar",
   "motor_voz": "edge"
+ },
+ "bomdia-20261126": {
+  "arquivo": "bomdia-20261126.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261126.mp4",
+  "serie": "Quinta-feira",
+  "legenda": "Bom dia, Deus 🙏 Quinta-feira, 26 de novembro\n\nHoje é o Dia Nacional de Ação de Graças. Pense em uma pessoa a quem você é grato e envie este bom dia para ela. Escreva AMÉM se você começa o dia agradecendo.\n\n#bomdia #bomdiadeus #quintafeira #oracao #gratidao #acaodegracas #candeiadiaria #catolico",
+  "duracao": 51.8,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 114,
+   "titulo": "Horizon Line (Hopeful)",
+   "url": "https://media.snipsound.com/audio/rf_cin02a_2_horizon_line_hopeful.mp3"
+  },
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "kolbe-20261126-noite": {
+  "arquivo": "kolbe-20261126-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/kolbe-20261126-noite.mp4",
+  "serie": "Santos que mudaram a história #1",
+  "legenda": "Em Auschwitz, um padre pediu para morrer no lugar de um pai de família 🕯️\n\nSão Maximiliano Kolbe ficou duas semanas no porão da fome rezando com os companheiros. O homem que ele salvou viveu para ver o padre ser declarado santo em 1982. Envie esta história para alguém que precisa saber até onde vai o amor e escreva AMÉM.\n\n#santos #maximilianokolbe #historiadossantos #fé #catolico #igrejacatolica #oração #candeiadiaria",
+  "duracao": 81.5,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 216,
+   "titulo": "Against All Odds (Emotional)",
+   "url": "https://media.snipsound.com/audio/rf_cin04c_against_all_odds_emotional.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "enviar",
+  "formato": "historia",
+  "motor_voz": "edge"
  }
 }
