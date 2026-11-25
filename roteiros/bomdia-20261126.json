@@ -14,26 +14,32 @@
     "Hoje é o Dia Nacional de Ação de Graças, e eu tenho tanto a *agradecer*.",
     "Obrigada pela vida, pelo ar que eu respiro e por esta nova *manhã*.",
     "Obrigada pela minha família, pelo pão de cada dia e pelo meu *trabalho*.",
-    "No Evangelho de hoje, Jesus pede que a gente levante a cabeça, porque a libertação está *próxima*.",
+    "Hoje Jesus nos pede para levantar a cabeça, pois a libertação está *próxima*.",
     "Então eu levanto a cabeça e entrego em Tuas mãos tudo o que me *preocupa*.",
     "Abençoa quem eu amo e quem está passando por um tempo *difícil*.",
     "Nossa Senhora, cobre a minha casa com o teu *manto*.",
     "Em nome de Jesus, *amém*."
   ],
-  "referencia": {"linha": 4, "texto": "Lucas 21,28"},
+  "referencia": {
+    "linha": 4,
+    "texto": "Lucas 21,28"
+  },
   "cenas": [
     "sunrise field",
-    "wheat field sunset",
-    "person arms open sunrise",
-    "family walking field",
+    "praying hands light",
+    "sunrise mountains",
+    "family hug sunset",
     "sun rays clouds",
     "person mountain top sunrise",
     "hands holding sunset",
-    "virgin mary statue",
+    "our lady statue",
     "sunrise cross",
     "golden hour meadow"
   ],
-  "cta": ["Envie este bom dia para alguém a quem você é *grato*", "Agradecer também é rezar"],
+  "cta": [
+    "Envie este bom dia para alguém a quem você é *grato*",
+    "Agradecer também é rezar"
+  ],
   "cta_falado": "Envie este bom dia para alguém a quem você é grato hoje.",
   "cta_tipo": "enviar",
   "legenda": "Bom dia, Deus 🙏 Quinta-feira, 26 de novembro\n\nHoje é o Dia Nacional de Ação de Graças. Pense em uma pessoa a quem você é grato e envie este bom dia para ela. Escreva AMÉM se você começa o dia agradecendo.\n\n#bomdia #bomdiadeus #quintafeira #oracao #gratidao #acaodegracas #candeiadiaria #catolico",
