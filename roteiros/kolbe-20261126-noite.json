@@ -9,21 +9,23 @@
   "estilo": "montserrat",
   "layout": "centro",
   "linhas": [
-    "Um padre entregou a própria vida para salvar um *desconhecido*. Você conhece essa história?",
+    "Um padre deu a vida para salvar um *desconhecido*. Você conhece essa história?",
     "Ele se chamava Maximiliano Kolbe, um frade franciscano da *Polônia*.",
-    "Em 1941, foi preso pelos nazistas e levado para o campo de *Auschwitz*.",
+    "Em 1941, os nazistas o levaram para *Auschwitz*.",
     "Depois de uma fuga no campo, dez prisioneiros foram escolhidos para morrer de *fome*.",
     "Um deles, um sargento polonês, chorou pela esposa e pelos *filhos*.",
     "Então o padre Kolbe deu um passo à frente e pediu para morrer no lugar *dele*.",
-    "O pedido foi aceito, e ele desceu ao porão da fome com os outros *nove*.",
-    "Lá embaixo, em vez de desespero, ele rezava e cantava com os *companheiros*.",
+    "No porão da fome, em vez de desespero, ele rezava e cantava com os *companheiros*.",
     "Duas semanas depois, em 14 de agosto, foi morto com uma *injeção*.",
     "O homem que ele salvou sobreviveu à guerra e voltou para a *família*.",
     "Em 1982, ele estava em Roma quando o padre Kolbe foi declarado *santo*.",
     "Ninguém tem amor maior do que aquele que dá a vida pelos seus *amigos*.",
     "São Maximiliano Kolbe, rogai por nós. *Amém*."
   ],
-  "referencia": {"linha": 11, "texto": "João 15,13"},
+  "referencia": {
+    "linha": 10,
+    "texto": "João 15,13"
+  },
   "cenas": [
     "church candles",
     "monk praying",
@@ -31,7 +33,6 @@
     "barbed wire sunset",
     "family walking field",
     "light through window",
-    "candle light dark",
     "praying hands light",
     "sunset clouds",
     "family hug sunset",
@@ -40,8 +41,11 @@
     "church interior light",
     "sun rays clouds"
   ],
-  "cta": ["Envie para quem precisa conhecer essa *história*", "Um amor que dá a vida pelo outro"],
-  "cta_falado": "Envie esta história para alguém que precisa saber até onde vai o amor.",
+  "cta": [
+    "Envie para quem precisa conhecer essa *história*",
+    "Um amor que dá a vida pelo outro"
+  ],
+  "cta_falado": "Envie esta história para alguém que precisa conhecê-la.",
   "cta_tipo": "enviar",
   "fontes": [
     "https://vaticannews.va/en/church/news/2021-08/saint-maximilian-kolbe-martyr-august14-1941-80-years.html",
