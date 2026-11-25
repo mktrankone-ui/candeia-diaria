@@ -1,28 +1,37 @@
-== kolbe-20261126-noite
-ok 2 barbed wire 14730 | macro, barbed wire is, ants, colombia
-ok 3 barbed wire fence 147189 | barbed wire, fence, field, sunset, garden, sun, sky, nature
-ok 7 sunset clouds 235694 | sun, clouds, sunset, night sky, dusk, eve, nature
-ok 12 sun rays clouds 128580 | trees, countryside, grasslands, grass, meadow, rural, sun rays, sunlight, sunset, sunrise, sky, clouds, dawn, early morning
+== bomdia-20261126
+ok 0 sunrise field 238403 | sunrise, sun, morning, fog, tree, sky, light, dawn, horizon, clouds, atmosphere, weather, rural, field, meadow, grass, mist, haze, nature, landscape
+ok 1 wheat field sunset 122879 | cocksfoot, wheat, grain, grain field, agriculture
+ok 2 sunrise mountains 204095 | lake, mountain, sunrise, reflection, serene, peaks, moraine lake, banff, beautiful, forest, pristine, still, calming, peaceful, perfect, destination, travel, canada, alberta, tourism, summer, summer mountains, nature
+ok 3 wheat field sunset 131838 | sunset, field, wheat, sky, view, trees, horizon, sun, nature
+ok 4 sun rays clouds 111177 | forest, trees, nature, steps, landscape, morning, dawn, sun, rays
+ok 5 person walking road sunrise 139364 | beach, sand, sunrise, shore, water, sea, ocean, gran canaria, spain, summer, running, man, woman, hiking, walking
+ok 6 sunrise mountains 279684 | mountains, sunrise, landscape, sonnenaufgang, nature, sky, austria, spring
+ok 7 waterfall sunlight 138123 | kegon falls, sunlight, natural, landscape, autumn, view, autumnal leaves, autumn leaves, japan, superb view, waterfall
+ok 8 wheat field sunset 223618 | field, sunset, sunflare, summer, countryside, blue sky, wheat, grain, nature, landscape
+ok 9 sunrise ocean 87715 | beach, ocean, sea, sunrise, bargara beach, dawn, soothing, morning, clouds
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 215 One More Mile (Emotional)
-[vost#0:0/rawvideo @ 0x5b0b4710ec40] Error submitting a packet to the muxer: Broken pipe
+trilha 115 New Dawn (Hopeful)
+[vost#0:0/rawvideo @ 0x6402787490c0] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x5b0b4710b340] Error muxing a packet
-[out#0/rawvideo @ 0x5b0b4710b340] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5b0b4710b340] Terminating thread with return code -32 (Broken pipe)
-ok kolbe-20261126-noite (73.0s, fundo=videos, voz=pt-BR-AntonioNeural)
+[out#0/rawvideo @ 0x6402786c8c80] Error muxing a packet
+[out#0/rawvideo @ 0x6402786c8c80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x6402786c8c80] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x64f16bdb1dc0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x64f16bd332c0] Error muxing a packet
+[out#0/rawvideo @ 0x64f16bd332c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x64f16bd332c0] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5b6c6675d500] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5b6c666e3740] Error muxing a packet
+[out#0/rawvideo @ 0x5b6c666e3740] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5b6c666e3740] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x6138c5434340] ok bomdia-20261126 (50.8s, fundo=videos, voz=pt-BR-ThalitaMultilingualNeural)
 1 vídeo(s) gerado(s)
-[vost#0:0/rawvideo @ 0x61e08fac5240] Error submitting a packet to the muxer: Broken pipe
-[vost#0:0/rawvideo @ 0x5a557ff68c40]     Last message repeated 1 times
-Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x61e08fa5b5c0] Error muxing a packet
-[out#0/rawvideo @ 0x61e08fa5b5c0] Task finished with error code: -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x59f67fab5640] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x5a557ff65340] Error muxing a packet
-[out#0/rawvideo @ 0x5a557ff65340] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x61e08fa5b5c0] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x5a557ff65340] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x5a557ff65340] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5a557ff65340] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x61e08fa5b5c0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x61e08fa5b5c0] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x59f67fa4dd80] Error muxing a packet
+[out#0/rawvideo @ 0x59f67fa4dd80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x59f67fa4dd80] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x59f67fa4dd80] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x59f67fa4dd80] Error closing file: Broken pipe
