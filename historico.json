@@ -1000,5 +1000,63 @@
    "https://www.britannica.com/biography/Saint-Maximilian-Kolbe"
   ],
   "historia": "São Maximiliano Kolbe (Auschwitz, 1941)"
+ },
+ {
+  "id": "bomdia-20261127",
+  "data": "2026-11-27",
+  "slot": "bomdia",
+  "serie": "Sexta-feira",
+  "formato": "bom_dia",
+  "tema": "nossa_senhora",
+  "fundo": "fotos",
+  "estilo": "classico",
+  "layout": "centro",
+  "voz": "masculina",
+  "cta_tipo": "enviar",
+  "referencia": "Lucas 1,28",
+  "trilha": "Horizon Line (Hopeful)",
+  "duracao": 53.2,
+  "horario_publicacao": "2026-11-27T06:30:00-03:00",
+  "metricool_id": 443100714,
+  "cenas": [
+   "virgin mary statue",
+   "sunrise mountains",
+   "sun rays clouds",
+   "white roses",
+   "person walking road sunrise",
+   "family walking field",
+   "golden hour meadow",
+   "rosary hands",
+   "cross hill sky",
+   "mother child sunset"
+  ]
+ },
+ {
+  "id": "santoanjo-20261127-noite",
+  "data": "2026-11-27",
+  "slot": "noite",
+  "serie": "Reze comigo ao Santo Anjo",
+  "formato": "tradicional",
+  "tema": "noite",
+  "fundo": "fotos",
+  "estilo": "poppins",
+  "layout": "baixo",
+  "voz": "feminina",
+  "cta_tipo": "enviar",
+  "referencia": "Êxodo 23,20",
+  "trilha": "Night Light (Sleepy)",
+  "duracao": 41.9,
+  "horario_publicacao": "2026-11-27T18:30:00-03:00",
+  "metricool_id": 443100742,
+  "cenas": [
+   "candle light dark",
+   "cathedral light",
+   "light through window",
+   "path forest light",
+   "person standing ocean sunset",
+   "moon clouds night",
+   "crucifix church",
+   "starry sky mountains"
+  ]
  }
 ]
