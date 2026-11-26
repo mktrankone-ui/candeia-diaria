@@ -988,5 +988,41 @@
   "cta_tipo": "enviar",
   "formato": "historia",
   "motor_voz": "edge"
+ },
+ "bomdia-20261127": {
+  "arquivo": "bomdia-20261127.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261127.mp4",
+  "serie": "Sexta-feira",
+  "legenda": "Bom dia, Deus 🙏 Sexta-feira, 27 de novembro\n\nHoje é dia de Nossa Senhora das Graças, a da Medalha Milagrosa. Envie este bom dia para a sua mãe ou para quem está precisando de uma graça, e escreva nos comentários: Ó Maria concebida sem pecado, rogai por nós.\n\n#bomdia #bomdiadeus #sextafeira #oracao #nossasenhoradasgracas #medalhamilagrosa #candeiadiaria #catolico",
+  "duracao": 53.2,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 114,
+   "titulo": "Horizon Line (Hopeful)",
+   "url": "https://media.snipsound.com/audio/rf_cin02a_2_horizon_line_hopeful.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "santoanjo-20261127-noite": {
+  "arquivo": "santoanjo-20261127-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/santoanjo-20261127-noite.mp4",
+  "serie": "Reze comigo ao Santo Anjo",
+  "legenda": "Santo Anjo do Senhor, meu zeloso guardador 🕯️\n\nA oração que muita gente aprendeu com a mãe ou a avó para rezar antes de dormir. Envie para alguém que você ama e que está longe de casa hoje, e escreva AMÉM.\n\n#santoanjo #anjodaguarda #oração #oracaodanoite #fé #catolico #igrejacatolica #candeiadiaria",
+  "duracao": 40.7,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 464,
+   "titulo": "Night Light (Sleepy)",
+   "url": "https://media.snipsound.com/audio/rf_med02a_2_night_light_sleepy.mp3"
+  },
+  "voz": "pt-BR-FranciscaNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "enviar",
+  "formato": "tradicional",
+  "motor_voz": "edge"
  }
 }
