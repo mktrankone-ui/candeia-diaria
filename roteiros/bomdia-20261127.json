@@ -1,0 +1,42 @@
+{
+  "id": "bomdia-20261127",
+  "serie": "Sexta-feira",
+  "tema": "nossa_senhora",
+  "trilha_tema": "amanhecer",
+  "fundo": "fotos",
+  "voz": "masculina",
+  "formato": "bom_dia",
+  "estilo": "classico",
+  "layout": "centro",
+  "rodape": "Bom dia!",
+  "linhas": [
+    "Deus, hoje é sexta-feira, 27 de novembro, dia de Nossa Senhora das *Graças*.",
+    "Obrigado por esta manhã e por cada graça que eu nem *percebi*.",
+    "Como o anjo saudou Maria, eu também digo hoje: Ave, cheia de *graça*.",
+    "Mãe da Medalha Milagrosa, coloca o meu dia debaixo do teu *manto*.",
+    "Senhor, eu entrego em Tuas mãos as preocupações que trago desde *ontem*.",
+    "Abençoa a minha família, o meu trabalho e quem está *doente*.",
+    "Que eu leve paz a cada pessoa que eu *encontrar* hoje.",
+    "Ó Maria concebida sem pecado, rogai por nós que recorremos a *vós*.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {"linha": 2, "texto": "Lucas 1,28"},
+  "cenas": [
+    "virgin mary statue",
+    "sunrise mountains",
+    "sun rays clouds",
+    "white roses",
+    "person walking road sunrise",
+    "family walking field",
+    "golden hour meadow",
+    "rosary hands",
+    "cross hill sky",
+    "mother child sunset"
+  ],
+  "cta": ["Envie este bom dia para a sua *mãe*", "e peça uma graça por ela"],
+  "cta_falado": "Envie este bom dia para a sua mãe ou para alguém que está precisando de uma graça hoje.",
+  "cta_tipo": "enviar",
+  "legenda": "Bom dia, Deus 🙏 Sexta-feira, 27 de novembro\n\nHoje é dia de Nossa Senhora das Graças, a da Medalha Milagrosa. Envie este bom dia para a sua mãe ou para quem está precisando de uma graça, e escreva nos comentários: Ó Maria concebida sem pecado, rogai por nós.\n\n#bomdia #bomdiadeus #sextafeira #oracao #nossasenhoradasgracas #medalhamilagrosa #candeiadiaria #catolico",
+  "slot": "bomdia",
+  "data": "2026-11-27"
+}

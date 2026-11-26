@@ -1,0 +1,39 @@
+{
+  "id": "santoanjo-20261127-noite",
+  "serie": "Reze comigo ao Santo Anjo",
+  "tema": "noite",
+  "trilha_tema": "noite",
+  "fundo": "fotos",
+  "voz": "feminina",
+  "formato": "tradicional",
+  "estilo": "poppins",
+  "layout": "baixo",
+  "linhas": [
+    "Se a noite chegou pesada, reze comigo a oração ao Santo *Anjo*.",
+    "Santo Anjo do Senhor, meu zeloso *guardador*,",
+    "se a ti me confiou a piedade *divina*,",
+    "sempre me rege, me guarda, me governa, me *ilumina*. Amém.",
+    "Deus manda um anjo à nossa frente para nos guardar no *caminho*.",
+    "Santo Anjo, guarda também quem eu amo e está longe de *mim*.",
+    "Fica perto de nós e protege o nosso sono esta *noite*.",
+    "Por Cristo, nosso Senhor, *amém*."
+  ],
+  "referencia": {"linha": 4, "texto": "Êxodo 23,20"},
+  "cenas": [
+    "candle light dark",
+    "sun rays clouds",
+    "sunbeam forest",
+    "light through window",
+    "path forest light",
+    "person standing ocean sunset",
+    "moon clouds night",
+    "cross sunset",
+    "starry sky mountains"
+  ],
+  "cta": ["Envie para quem você *ama* e está longe", "O Santo Anjo cuida de quem você não alcança"],
+  "cta_falado": "Envie esta oração para alguém que você ama e que está longe de casa hoje.",
+  "cta_tipo": "enviar",
+  "legenda": "Santo Anjo do Senhor, meu zeloso guardador 🕯️\n\nA oração que muita gente aprendeu com a mãe ou a avó para rezar antes de dormir. Envie para alguém que você ama e que está longe de casa hoje, e escreva AMÉM.\n\n#santoanjo #anjodaguarda #oração #oracaodanoite #fé #catolico #igrejacatolica #candeiadiaria",
+  "slot": "noite",
+  "data": "2026-11-27"
+}
