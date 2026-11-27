@@ -1,0 +1,48 @@
+{
+  "id": "bomdia-20261129",
+  "serie": "Domingo",
+  "tema": "amanhecer",
+  "trilha_tema": "esperanca",
+  "fundo": "videos",
+  "voz": "masculina",
+  "formato": "bom_dia",
+  "estilo": "classico",
+  "layout": "centro",
+  "rodape": "Bom dia!",
+  "linhas": [
+    "Deus, hoje é domingo, 29 de novembro, e começa o *Advento*.",
+    "Hoje a Igreja acende a primeira vela e começa a esperar o *Natal*.",
+    "Obrigado por um novo ano da Igreja e por mais uma chance de *recomeçar*.",
+    "No Evangelho de hoje, Jesus pede que a gente fique atento e *vigie*.",
+    "Acende em mim a luz da esperança que nenhum escuro *apaga*.",
+    "Abençoa a minha família na Missa deste *domingo*.",
+    "Prepara a minha casa e o meu coração para receber o Teu *Filho*.",
+    "Maria, que esperou Jesus com tanto amor, ensina-me a *esperar*.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {
+    "linha": 3,
+    "texto": "Marcos 13,33"
+  },
+  "cenas": [
+    "sunrise sky clouds",
+    "church candles",
+    "sunrise field",
+    "morning mist lake",
+    "candle light dark",
+    "church interior light",
+    "family walking field",
+    "virgin mary statue",
+    "sunrise cross",
+    "sun rays forest"
+  ],
+  "cta": [
+    "Envie este bom dia para quem vai à *Missa* com você",
+    "Feliz Advento!"
+  ],
+  "cta_falado": "Envie este bom dia para quem vai à Missa com você hoje. Feliz Advento!",
+  "cta_tipo": "enviar",
+  "legenda": "Bom dia, Deus 🙏 Domingo, 29 de novembro\n\nHoje começa o Advento e um novo ano da Igreja: a primeira vela da coroa já pode ser acesa. Envie este bom dia para quem vai à Missa com você e escreva nos comentários: Vem, Senhor Jesus.\n\n#bomdia #bomdiadeus #domingo #advento #oracao #candeiadiaria #catolico #igrejacatolica",
+  "slot": "bomdia",
+  "data": "2026-11-29"
+}

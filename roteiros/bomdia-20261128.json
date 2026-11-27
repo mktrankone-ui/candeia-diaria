@@ -1,0 +1,48 @@
+{
+  "id": "bomdia-20261128",
+  "serie": "Sábado",
+  "tema": "nossa_senhora",
+  "trilha_tema": "amanhecer",
+  "fundo": "videos",
+  "voz": "feminina",
+  "formato": "bom_dia",
+  "estilo": "classico",
+  "layout": "baixo",
+  "rodape": "Bom dia!",
+  "linhas": [
+    "Deus, hoje é sábado, 28 de novembro, o último dia do ano da *Igreja*.",
+    "Obrigada por cada dia deste ano que eu vivi ao Teu *lado*.",
+    "Sábado é dia de Nossa Senhora, e eu coloco este dia nas mãos da *Mãe*.",
+    "Como Maria cantou, eu também digo: o Senhor fez em mim *maravilhas*.",
+    "Eu Te entrego o que ficou para trás, as quedas e os *recomeços*.",
+    "Abençoa a minha família, a minha casa e o meu *trabalho*.",
+    "Prepara o meu coração para o Advento que começa *amanhã*.",
+    "Nossa Senhora, passa à frente de tudo o que eu viver *hoje*.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {
+    "linha": 3,
+    "texto": "Lucas 1,49"
+  },
+  "cenas": [
+    "sunrise ocean",
+    "sunrise mountains",
+    "virgin mary statue",
+    "white roses",
+    "path forest light",
+    "family walking field",
+    "candle light",
+    "rosary hands",
+    "sun rays clouds",
+    "person walking road sunrise"
+  ],
+  "cta": [
+    "Envie este bom dia para quem *caminhou* com você este ano",
+    "e agradeça a Deus por essa pessoa"
+  ],
+  "cta_falado": "Envie este bom dia para alguém que caminhou com você este ano e agradeça a Deus por essa pessoa.",
+  "cta_tipo": "enviar",
+  "legenda": "Bom dia, Deus 🙏 Sábado, 28 de novembro\n\nÚltimo dia do ano da Igreja e dia de Nossa Senhora. Envie este bom dia para alguém que caminhou com você este ano e escreva nos comentários: Nossa Senhora, passa à frente.\n\n#bomdia #bomdiadeus #sabado #oracao #nossasenhora #candeiadiaria #catolico #igrejacatolica",
+  "slot": "bomdia",
+  "data": "2026-11-28"
+}

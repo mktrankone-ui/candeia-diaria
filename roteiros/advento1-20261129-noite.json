@@ -1,0 +1,45 @@
+{
+  "id": "advento1-20261129-noite",
+  "serie": "Acenda a vela comigo",
+  "tema": "noite",
+  "trilha_tema": "paz",
+  "fundo": "fotos",
+  "voz": "feminina",
+  "formato": "oracao",
+  "estilo": "poppins",
+  "layout": "baixo",
+  "linhas": [
+    "Hoje começa o Advento: acenda uma vela e reze *comigo*.",
+    "A primeira vela da coroa é a vela da *esperança*.",
+    "Senhor, a Tua palavra é lâmpada para os meus pés e luz no meu *caminho*.",
+    "Onde está escuro na minha vida, acende a Tua *luz*.",
+    "Na minha casa, na minha família e no meu *coração*.",
+    "Mesmo pequena, uma chama acesa já vence a *escuridão*.",
+    "Que esta vela me lembre, todos os dias, que Tu *vens*.",
+    "Vem, Senhor Jesus, *amém*."
+  ],
+  "referencia": {
+    "linha": 2,
+    "texto": "Salmo 119(118),105"
+  },
+  "cenas": [
+    "candle flame dark",
+    "advent wreath",
+    "path forest light",
+    "sunbeam dark clouds",
+    "candle light",
+    "church candles",
+    "starry sky mountains",
+    "sunrise cross",
+    "candle light dark"
+  ],
+  "cta": [
+    "Envie para quem está precisando de *esperança*",
+    "Uma vela por semana até o Natal"
+  ],
+  "cta_falado": "Envie esta oração para alguém que está precisando de esperança neste Advento.",
+  "cta_tipo": "enviar",
+  "legenda": "1º Domingo do Advento 🕯️\n\nHoje acendemos a primeira vela da coroa, a vela da esperança. Cada domingo até o Natal, uma vela e uma oração aqui na Candeia. Envie para alguém que está precisando de esperança e escreva: Vem, Senhor Jesus.\n\n#advento #coroadoadvento #oração #esperança #fé #catolico #igrejacatolica #candeiadiaria",
+  "slot": "noite",
+  "data": "2026-11-29"
+}

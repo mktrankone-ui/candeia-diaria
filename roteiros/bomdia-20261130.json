@@ -1,0 +1,48 @@
+{
+  "id": "bomdia-20261130",
+  "serie": "Segunda-feira",
+  "tema": "amanhecer",
+  "trilha_tema": "amanhecer",
+  "fundo": "fotos",
+  "voz": "feminina",
+  "formato": "bom_dia",
+  "estilo": "classico",
+  "layout": "baixo",
+  "rodape": "Bom dia!",
+  "linhas": [
+    "Deus, hoje é segunda-feira, 30 de novembro, festa do apóstolo Santo *André*.",
+    "Obrigada por esta nova semana que começa nas Tuas *mãos*.",
+    "André era pescador, ouviu o Teu chamado e deixou as redes na *hora*.",
+    "Foi ele quem levou o próprio irmão, Pedro, até *Jesus*.",
+    "Dá-me coragem para largar o que me prende e Te *seguir*.",
+    "Abençoa o meu trabalho, os meus estudos e cada pessoa da minha *casa*.",
+    "Que eu também leve alguém que eu amo para perto de *Ti*.",
+    "Santo André, rogai por nós nesta *semana*.",
+    "Em nome de Jesus, *amém*."
+  ],
+  "referencia": {
+    "linha": 2,
+    "texto": "Mateus 4,20"
+  },
+  "cenas": [
+    "sunrise ocean",
+    "sunrise mountains",
+    "boat lake sunrise",
+    "sea of galilee",
+    "person walking road sunrise",
+    "golden hour meadow",
+    "family hug sunset",
+    "church interior light",
+    "cross hill sky",
+    "friends hug"
+  ],
+  "cta": [
+    "Envie este bom dia para o seu *irmão* ou irmã",
+    "como André levou o irmão até Jesus"
+  ],
+  "cta_falado": "Envie este bom dia para o seu irmão ou para a sua irmã, como André levou o irmão até Jesus.",
+  "cta_tipo": "enviar",
+  "legenda": "Bom dia, Deus 🙏 Segunda-feira, 30 de novembro\n\nHoje é festa de Santo André, o pescador que levou o próprio irmão até Jesus. Envie este bom dia para o seu irmão ou para a sua irmã e escreva: Santo André, rogai por nós.\n\n#bomdia #bomdiadeus #segundafeira #santoandre #oracao #candeiadiaria #catolico #igrejacatolica",
+  "slot": "bomdia",
+  "data": "2026-11-30"
+}

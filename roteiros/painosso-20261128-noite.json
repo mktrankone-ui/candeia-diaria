@@ -1,0 +1,45 @@
+{
+  "id": "painosso-20261128-noite",
+  "serie": "Reze comigo o Pai-Nosso",
+  "tema": "noite",
+  "trilha_tema": "noite",
+  "fundo": "videos",
+  "voz": "masculina",
+  "formato": "tradicional",
+  "estilo": "montserrat",
+  "layout": "centro",
+  "linhas": [
+    "Se o seu coração está apertado hoje, reze comigo o *Pai-Nosso*.",
+    "Pai nosso, que estais nos céus, santificado seja o vosso *nome*;",
+    "venha a nós o vosso Reino, seja feita a vossa vontade, assim na terra como no *céu*.",
+    "O pão nosso de cada dia nos dai *hoje*;",
+    "perdoai-nos as nossas ofensas, assim como nós perdoamos a quem nos tem *ofendido*;",
+    "e não nos deixeis cair em tentação, mas livrai-nos do *mal*. Amém.",
+    "Pai, cuida esta noite de quem eu amo e está *sofrendo*.",
+    "Por Cristo, nosso Senhor, *amém*."
+  ],
+  "referencia": {
+    "linha": 0,
+    "texto": "Lucas 11,1"
+  },
+  "cenas": [
+    "candle light dark",
+    "starry sky mountains",
+    "sun rays clouds",
+    "wheat field sunset",
+    "praying hands light",
+    "moon clouds night",
+    "hands holding",
+    "crucifix church",
+    "night lake moon"
+  ],
+  "cta": [
+    "Envie para quem está passando por uma noite *difícil*",
+    "Ninguém precisa rezar sozinho"
+  ],
+  "cta_falado": "Envie esta oração para alguém que está passando por uma noite difícil, e rezem juntos.",
+  "cta_tipo": "enviar",
+  "legenda": "Pai nosso, que estais nos céus 🕯️\n\nA oração que o próprio Jesus nos ensinou, para rezar devagar quando o coração aperta. Envie para alguém que está passando por uma noite difícil e escreva AMÉM.\n\n#painosso #oração #oracaodanoite #fé #Jesus #catolico #igrejacatolica #candeiadiaria",
+  "slot": "noite",
+  "data": "2026-11-28"
+}

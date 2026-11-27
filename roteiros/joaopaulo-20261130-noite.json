@@ -1,0 +1,58 @@
+{
+  "id": "joaopaulo-20261130-noite",
+  "serie": "Santos que mudaram a história #2",
+  "tema": "fe",
+  "trilha_tema": "dificil",
+  "fundo": "videos",
+  "voz": "masculina",
+  "formato": "historia",
+  "estilo": "classico",
+  "layout": "centro",
+  "linhas": [
+    "O Papa que foi baleado e depois visitou na prisão o homem que atirou *nele*.",
+    "Era 13 de maio de 1981, na Praça São Pedro, em *Roma*.",
+    "João Paulo II passava no meio do povo quando soaram os *tiros*.",
+    "Ferido no abdômen, ele foi levado às pressas para o *hospital*.",
+    "O atirador, um jovem turco, foi preso ali *mesmo*.",
+    "Quatro dias depois, ainda no hospital, o Papa rezou pelo irmão que o feriu e disse que já o tinha *perdoado*.",
+    "Era dia de Nossa Senhora de Fátima, e ele atribuiu à Mãe de Deus ter *sobrevivido*.",
+    "Em dezembro de 1983, ele entrou na prisão e conversou a sós com o *atirador*.",
+    "Segurou a mão do homem que tentou matá-lo e falou com ele como um *irmão*.",
+    "Mais tarde, a bala foi colocada na coroa de Nossa Senhora de *Fátima*.",
+    "Jesus mandou amar os inimigos, e ele mostrou que isso é *possível*.",
+    "São João Paulo II, rogai por nós e ajudai-nos a *perdoar*. Amém."
+  ],
+  "referencia": {
+    "linha": 10,
+    "texto": "Mateus 5,44"
+  },
+  "fontes": [
+    "https://www.vatican.va/content/john-paul-ii/pt/homilies/1983/documents/hf_jp-ii_hom_19831227_carcere-rebibbia.html",
+    "https://vaticannews.va/en/pope/news/2021-05/gun-shots-fear-prayer-and-forgiveness.html",
+    "https://www.fatima.pt/pt/news/topdf/passam-hoje-45-anos-do-atentado-a-vida-do-papa-joao-paulo-ii"
+  ],
+  "cenas": [
+    "candle light dark",
+    "cathedral interior",
+    "church candles",
+    "storm clouds light",
+    "church candles",
+    "praying hands light",
+    "virgin mary statue",
+    "light through window",
+    "hands holding",
+    "our lady statue",
+    "cross sunset",
+    "sun rays clouds",
+    "church interior light"
+  ],
+  "cta": [
+    "Envie para quem está lutando para *perdoar*",
+    "Santos que mudaram a história"
+  ],
+  "cta_falado": "Envie esta história para alguém que está lutando para perdoar.",
+  "cta_tipo": "enviar",
+  "legenda": "Santos que mudaram a história #2 🕯️\n\nEm 1981, São João Paulo II foi baleado na Praça São Pedro. Dois anos depois, foi até a prisão conversar com o homem que atirou nele. Envie para alguém que está lutando para perdoar e escreva AMÉM. Qual santo você quer ver no próximo?\n\n#joaopauloii #santos #perdão #fé #nossasenhoradefatima #catolico #igrejacatolica #candeiadiaria",
+  "slot": "noite",
+  "data": "2026-11-30"
+}
