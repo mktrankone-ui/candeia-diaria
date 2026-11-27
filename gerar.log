@@ -1,175 +1,34 @@
 == advento1-20261129-noite
-ok 0 candle flame dark 2373327 | fire, flame, in the dark, burn, yellow, background, oil lamp, wind, sin, wood, candle, devil, cook, fireplace, beautiful, hot, beautiful wallpaper, hell, macro, light, passion, photography, studio, iphone wallpaper
-ok 1 advent wreath 232036 | candle, red, wax candle, advent wreath, first advent, light, wax
-ok 2 path forest light 7057281 | ground, forest, sunlight, nature, sun, sunshine, stones, path, twigs, closeup
-ok 3 milky way 1050526 | milky way, stars, night sky, background, texture, night, beautiful wallpaper, star clusters, heaven, iphone wallpaper
-ok 4 candle light 3001341 | advent, christmas time, advent season, advent wreath, 4advent, advent greeting, greeting card, candles, candlelight, contemplative, decoration, flower arrangement, christmas jewelry, christmas, fourth candle, advent candle, christmas wishes, advent, advent, advent wreath, advent wreath, advent wreath, flower arrangement, christmas, christmas, christmas, christmas, christmas, advent candle, christmas wishes
-ok 5 milky way 4576368 | shipwreck, milky way, sea, water, night, sky, astronomy, atmosphere, beach, night sky, galaxy, stars, black wallpaper, nature, black
-ok 6 night sky stars 6589154 | space, stars, milky way, galaxy, nature, nebula, night sky, isle of skye, planet, sky
-ok 7 night lake moon 2418321 | arrow, man, hunt, moon, weapon, hunter, target, design, archery, sport, hunting, gun, blue sky, hobby, outdoors, collection, aim, person, animal, wild, set, equipment, traditional, full, activity, tournament, night sky, athletic, sphere, rubber, circle, leather, white, castle, sea, rocks, sky, blue, nature, dark, shadow, clouds, blue animals, blue sea, blue moon, blue clouds, blue arrow, blue dark, blue sports, blue design, blue rock, blue castle, blue circle, blue gun
-ok 8 candle light dark 4164039 | candle, candles, the flame, light, prayer, mood, brown candle, brown candles, brown prayer, Jerusalem District, Israel, Jerusalem
+ok 0 candle flame dark 2692556 | tea light, light, worships, candlelight, flame, meditation, prayer, candle, contemplative, memorial candle, ecclesiastical, shining, memorial lights, sacrificial candle, sacrificial light, reflection, warmth, burn, grief, seem, consolation, meditation, meditation, meditation, prayer, candle, candle, candle, candle, candle, grief
+ok 1 advent wreath 4707370 | advent, advent wreath, candles, christmas, christmas time, fir branch, pre-christmas time, decoration
+ok 2 path forest light 7119503 | forest, path, trees, walk, nature, way, outdoors, wilderness
+ok 3 milky way 4055838 | road, night, stars, milky way, galaxy, milky way, milky way, galaxy, galaxy, galaxy, galaxy, galaxy
+ok 4 candle light 1012936 | candle, flame, fire, light, burn, wax candle, candlelight, comfortable, darkness, romantic, mood, dark
+ok 5 night sky stars 4416194 | milky way, galaxy, stars, night, nature, sky, cosmos, night sky, bakground
+ok 6 night sky stars 7009453 | meteor shower, starry sky, sky, nature, stars, night, night sky, meteor shower, meteor shower, meteor shower, meteor shower, meteor shower
+ok 7 candle flame dark 7678622 | hanukkah, candle, fire, flame, fireplace, ignition, wicks, hot, candlestick, oil
+ok 8 candle light dark 2541239 | candle, warmth, flame, candlelight, warm, wax, light
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
 trilha 96 Floating Light (Peaceful)
 ok advento1-20261129-noite (42.5s, fundo=fotos, voz=pt-BR-ThalitaMultilingualNeural)
-== bomdia-20261128
-ok 0 sunrise ocean 138278 | sea, coast, sunrise, waves, water, rocky coast, beach, ocean
-ok 1 sunrise mountains 264824 | river, view, nature, dd, forest, that, waterfall, moss, mountain, beautiful wallpaper, cascade, trees, sunrise, mountains, goal, reflections, calm, peace, background, beautiful, paradise, summer, sunny, spring, billet
-ok 4 path forest light 87531 | path, trek, trees, forest, passage, woods, hike, rural, scenic, outdoors, atmospheric, calm, peaceful, mountain
-ok 6 candle light 19621 | candle, red, calls, flame, fire, decor, romantic, light, bright, illumination, christmas, night, festive, december, evening
-ok 8 sun rays clouds 6349 | heaven, sun, clouds, nature, shine, light, light rays, sunbeams, bright, dark
-ok 9 person walking road sunrise 130985 | sunrise, early, morning, nature, forest, man, hiking, walking, alone, fog, mist, quiet, landscape, dwingelderveld, drenthe, netherlands
-AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 117 New Dawn (Uplifting)
-[vost#0:0/rawvideo @ 0x59da933a0d40] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x59da9335f280] Error muxing a packet
-[out#0/rawvideo @ 0x59da9335f280] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x59da9335f280] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x565f2aa85240] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x565f2aa84ec0] Error muxing a packet
-[out#0/rawvideo @ 0x565f2aa84ec0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x565f2aa84ec0] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x58cd5efdd540] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x58cd5ef4a4c0] Error muxing a packet
-[out#0/rawvideo @ 0x58cd5ef4a4c0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x58cd5ef4a4c0] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5802ee7595c0] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5802ee6f1740] Error muxing a packet
-[out#0/rawvideo @ 0x5802ee6f1740] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5802ee6f1740] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5b7e71d4fd40] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5b7e71d0e280] Error muxing a packet
-[out#0/rawvideo @ 0x5b7e71d0e280] Task finished with error code: -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x62301df60340] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x62301df5ffc0] Error muxing a packet
-[out#0/rawvideo @ 0x62301df5ffc0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x62301df5ffc0] Terminating thread with return code -32 (Broken pipe)
-ok bomdia-20261128 (50.4s, fundo=videos, voz=pt-BR-ThalitaMultilingualNeural)
 == bomdia-20261129
-ok 0 sunrise sky clouds 203406 | mountains, sunset, valley, clouds, sky, sunrise, sun, morning, dawn, dusk, silhouette, hill, travel, horizon, light, evening, hills, mist, desert, nature, landscape
-ok 1 sunrise sky clouds 191283 | forest, fortress, sigiriya, sri lanka, ceylon, nature, castle, sunrise, rocks, jungle, sky, clouds, asia, landscape
-ok 2 sunrise field 109145 | grass, field, fog, sunrise, morning, sun, nature
-ok 3 morning mist lake 383326 | morning mist, landscape, nature, fog, forest, autumn forest, waldsee, lake, water, trees, reflection, mood, fall, leaves, season, outdoors, stuttgart, germany, bear lake, bärenschlössle, botnang, pfaffensee, autumn mood, mist
-ok 4 morning mist lake 313145 | fog, wisps of mist, fall, landscape, nature, morning sun, sunlight, forest, autumnal, autumn colors
-ok 5 sunrise sky clouds 32290 | mountain, sunrise, 4k, landscape, sky, clouds, nature, sunshine
-ok 6 sunrise field 129084 | mist, fog, field, trees, birds, morning, farmland, sunrise, netherlands, drenthe, forest
-ok 7 morning mist lake 27111 | morning mist, fog, nature, morning hour, south-tirol, italy, hill, mountains, time lapse, timelapse
-ok 8 sunrise ocean 187354 | ocean, sea, waves, beach, coast, sunset, sunrise, murcia, san pedro del pinatar, mar menor, mediterraneo, water, landscape
-ok 9 sun rays forest 276067 | aspen, birch, sunlight, trees, leaves, sun rays, light, morning, forest, grove, nature, mountains, cinematic, focus, blur, soft focus, branch, scenic, peaceful, extended, green, summer, spring
+ok 0 morning mist lake 1122492 | reflection, nature, two toned, water, natural, landscape, sky, natural beauty, nature landscape, peaceful, outdoor, tranquil, meditation nature, meditation, fog, tree, lake, pond, foggy, haze, misty, morning
+ok 1 sunrise ocean 4701313 | sun, morning, sunrise, sky, red, landscape, cloud, water, nature, ocean, sunset, seagull, sun, sunrise, sunset, sunset, seagull, seagull, seagull, seagull, seagull
+ok 2 morning mist lake 2826762 | lake, fog, morning, water, nature, landscape, trees, summer, outdoor, reflection, blue, green, bright, light, weather, park, natural, sunrise, dawn, blue sky, sunlight, sky, scenery
+ok 3 morning mist lake 4469102 | landscape, nature, clouds, the water, lake, scenic, trees, mood, sky, morning, fall, environment, atmospheric, natural, colors, reflections, quebec, canada, morning, morning, morning, morning, morning, canada, canada
+ok 4 candle light dark 4825401 | candle, smoke, glow, wick, blown out, dark, light, mood
+ok 5 morning mist lake 290688 | early morning, sunrise, clouds, canim lake, british columbia, canada, scenery, weather, beautiful, nature, mood, outdoor, reflections, morning glory, countryside, landscape, fog, tree, british columbia, weather, morning glory, morning glory, morning glory, morning glory, morning glory
+ok 6 morning mist lake 1037923 | night, forest, river, lake, fog, trees, water, dawn, morning, early morning, nature, vacation, travels, journey, beach
+ok 7 sunrise ocean 2816820 | tenby, sunrise, seascape, light, beach, rocks, tide, golden hour, first light, pembrokeshire, wales, uk, beautiful, feel good, seaside, vacation, coast, tourism, britain, alone, sea, ocean, nature, brown sunrise, brown alone
+ok 8 sunrise ocean 2783491 | zanzibar, nature, sea, africa, sunrise, indian ocean
+ok 9 sun rays forest 4572778 | hike, forest, people, fall, uetliberg, zurich, canton, switzerland, few, love, summer, nature, path, light, sun, beam, fir tree, tree, green, leaves
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 510 The First Dance (Hopeful)
-[vost#0:0/rawvideo @ 0x652b9b4d2a40] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x652b9b470fc0] Error muxing a packet
-[out#0/rawvideo @ 0x652b9b470fc0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x652b9b470fc0] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5e707bded5c0] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5e707bdf6100] Error muxing a packet
-[out#0/rawvideo @ 0x5e707bdf6100] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5e707bdf6100] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x577139a04b80] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x577139ab81c0] Error muxing a packet
-[out#0/rawvideo @ 0x577139ab81c0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x577139ab81c0] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5771a4d7f340] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5771a4d2e300] Error muxing a packet
-[out#0/rawvideo @ 0x5771a4d2e300] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5771a4d2e300] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x63e397f11b80] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x63e397eaacc0] Error muxing a packet
-[out#0/rawvideo @ 0x63e397eaacc0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x63e397eaacc0] Terminating thread with return code -32 (Broken pipe)
-ok bomdia-20261129 (49.7s, fundo=videos, voz=pt-BR-AntonioNeural)
-== bomdia-20261130
-ok 0 sunrise ocean 6587621 | sunrise, sea, sky, seascape, dawn, sunset, ocean, dusk, water, scenic, outdoors, sun, clouds, reflection, scenery, nature
-ok 1 golden hour meadow 7368198 | butterfly, bluish, sunrise, entomology, wing, meadow, wiesenknopf, nature, summer
-ok 2 boat lake sunrise 6769665 | lake, jetty, sunset, port, people, boat, pier, harbor, water, reflection, ammersee, germany, backlight, dusk, silhouette, nature, evening
-ok 3 sea of galilee 8449952 | basket to the sea, go basket, marine profession, basket set out to sea, group of baskets, pannier
-ok 4 morning mist lake 270303 | winter, season, cold, snow, icy, landscape, scenery, fog, early morning, sunrise, canim lake, british columbia, canada, weather, nature, mood, morning glory, misty, foggy, gray sunrise, gray morning
-ok 5 golden hour meadow 6815415 | nature, hut, meadow, fog, rural, countryside
-ok 6 golden hour meadow 796195 | pick flowers, girl, person, human, female, meadow, nature, outdoors
-ok 7 sunrise ocean 4590986 | sea, beach, ocean, healing, earth, yellow, gentle, gold, comfort, sun, sky, baby, japan, mother, universe, reflection, color, sunrise, sunset, chill out, grounding, footprint, joy, sound, light, gray earth, gray sun, nature, gray sunset, gray sunrise, gray universe
-ok 8 morning mist lake 2650042 | reflection, water surface, the morning mist
-ok 9 sun rays forest 301184 | tree, nature, sun, sunlight, outside, rays
-AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 117 New Dawn (Uplifting)
-ok bomdia-20261130 (49.1s, fundo=fotos, voz=pt-BR-ThalitaMultilingualNeural)
+trilha 509 Forever (Hopeful)
+ok bomdia-20261129 (49.7s, fundo=fotos, voz=pt-BR-AntonioNeural)
 == joaopaulo-20261130-noite
-ok 3 storm clouds light 38125 | time lapse, dramatic stormy sky, storm system, cloudy, storm, tropical storm, atmosphere, dark grey, dark skies, cloudscape, weather system, tropical climate, climate change, hot climate, tropics, clouds forming, cloud formation, stormy, system, daylight, light, dark, meteorology, overcast
-ok 11 sun rays clouds 44644 | sky, landscape, sunset, mountains, sunrise, summer, wild, wilderness, outdoors, park, national, nature, clouds, motion, fast, cloudscape, time, lapse, yellow, sun, ray, beautiful
+ok 0 candle light dark 3891027 | candle, christmas, light, the atmosphere, christmas motif, advent season, christmas decoration, christmas tree, christmas tree decorations
+ok 3 storm clouds light 5391392 | sky, cloud, sunset, clouds, nature, summer, weather, sun, cumulus, atmosphere, landscapes, storm, magic, dream
 AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 281 Goodbye (Emotional)
-[vost#0:0/rawvideo @ 0x64129918d400] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x641299123f40] Error muxing a packet
-[out#0/rawvideo @ 0x641299123f40] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x641299123f40] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x606559792400] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x606559728f40] Error muxing a packet
-[out#0/rawvideo @ 0x606559728f40] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x606559728f40] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5e23a52f9400] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5e23a528ff40] Error muxing a packet
-[out#0/rawvideo @ 0x5e23a528ff40] Task finished with error code: -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x64abbbe8fa80] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x64abbbe8f700] Error muxing a packet
-[out#0/rawvideo @ 0x64abbbe8f700] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x64abbbe8f700] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5ac338d59a80] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5ac338d59700] Error muxing a packet
-[out#0/rawvideo @ 0x5ac338d59700] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5ac338d59700] Terminating thread with return code -32 (Broken pipe)
-ok joaopaulo-20261130-noite (75.1s, fundo=videos, voz=pt-BR-AntonioNeural)
-== painosso-20261128-noite
-ok 2 sun rays clouds 131765 | sun, golden hour, clouds, crepuscular ray, light, sunshine, sky
-ok 3 wheat field sunset 11124 | rye, ears of corn, bread, field, harvest, corn, mature, abundance, prosperity, farm, agriculture, wheat, cereals
-AVISO: narração pelo edge-tts (não oficial). Cadastre AZURE_SPEECH_KEY antes de monetizar.
-trilha 96 Floating Light (Peaceful)
-[vost#0:0/rawvideo @ 0x566623037240] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x566623037880] Error muxing a packet
-[out#0/rawvideo @ 0x566623037880] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x566623037880] Terminating thread with return code -32 (Broken pipe)
-ok painosso-20261128-noite (48.2s, fundo=videos, voz=pt-BR-AntonioNeural)
-6 vídeo(s) gerado(s)
-[vost#0:0/rawvideo @ 0x58ef6c343c00] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x58ef6c337280] Error muxing a packet
-[out#0/rawvideo @ 0x58ef6c337280] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x58ef6c337280] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x62b8ab237200] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x62b8ab236e80] Error muxing a packet
-[out#0/rawvideo @ 0x62b8ab236e80] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x62b8ab236e80] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5f856e07b240] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5f856e07aec0] Error muxing a packet
-[out#0/rawvideo @ 0x5f856e07aec0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5f856e07aec0] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x6302bb77d400] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x6302bb713f40] Error muxing a packet
-[out#0/rawvideo @ 0x6302bb713f40] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x6302bb713f40] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x5f856e07aec0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5f856e07aec0] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x62b8ab236e80] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x62b8ab236e80] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x58ef6c337280] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x58ef6c337280] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x6302bb713f40] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x6302bb713f40] Error closing file: Broken pipe
+trilha 216 Against All Odds (Emotional)
+ok joaopaulo-20261130-noite (74.2s, fundo=fotos, voz=pt-BR-AntonioNeural)
+3 vídeo(s) gerado(s)
