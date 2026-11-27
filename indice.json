@@ -1024,5 +1024,113 @@
   "cta_tipo": "enviar",
   "formato": "tradicional",
   "motor_voz": "edge"
+ },
+ "advento1-20261129-noite": {
+  "arquivo": "advento1-20261129-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/advento1-20261129-noite.mp4",
+  "serie": "Acenda a vela comigo",
+  "legenda": "1º Domingo do Advento 🕯️\n\nHoje acendemos a primeira vela da coroa, a vela da esperança. Cada domingo até o Natal, uma vela e uma oração aqui na Candeia. Envie para alguém que está precisando de esperança e escreva: Vem, Senhor Jesus.\n\n#advento #coroadoadvento #oração #esperança #fé #catolico #igrejacatolica #candeiadiaria",
+  "duracao": 42.5,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 96,
+   "titulo": "Floating Light (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_amb01a_floating_light_peaceful.mp3"
+  },
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "enviar",
+  "formato": "oracao",
+  "motor_voz": "edge"
+ },
+ "bomdia-20261128": {
+  "arquivo": "bomdia-20261128.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261128.mp4",
+  "serie": "Sábado",
+  "legenda": "Bom dia, Deus 🙏 Sábado, 28 de novembro\n\nÚltimo dia do ano da Igreja e dia de Nossa Senhora. Envie este bom dia para alguém que caminhou com você este ano e escreva nos comentários: Nossa Senhora, passa à frente.\n\n#bomdia #bomdiadeus #sabado #oracao #nossasenhora #candeiadiaria #catolico #igrejacatolica",
+  "duracao": 50.4,
+  "fundo": "videos",
+  "trilha": {
+   "id": 117,
+   "titulo": "New Dawn (Uplifting)",
+   "url": "https://media.snipsound.com/audio/rf_cin02b_new_dawn_uplifting.mp3"
+  },
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "bomdia-20261129": {
+  "arquivo": "bomdia-20261129.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261129.mp4",
+  "serie": "Domingo",
+  "legenda": "Bom dia, Deus 🙏 Domingo, 29 de novembro\n\nHoje começa o Advento e um novo ano da Igreja: a primeira vela da coroa já pode ser acesa. Envie este bom dia para quem vai à Missa com você e escreva nos comentários: Vem, Senhor Jesus.\n\n#bomdia #bomdiadeus #domingo #advento #oracao #candeiadiaria #catolico #igrejacatolica",
+  "duracao": 49.7,
+  "fundo": "videos",
+  "trilha": {
+   "id": 510,
+   "titulo": "The First Dance (Hopeful)",
+   "url": "https://media.snipsound.com/audio/rf_wed01c_2_the_first_dance_hopeful.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "bomdia-20261130": {
+  "arquivo": "bomdia-20261130.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/bomdia-20261130.mp4",
+  "serie": "Segunda-feira",
+  "legenda": "Bom dia, Deus 🙏 Segunda-feira, 30 de novembro\n\nHoje é festa de Santo André, o pescador que levou o próprio irmão até Jesus. Envie este bom dia para o seu irmão ou para a sua irmã e escreva: Santo André, rogai por nós.\n\n#bomdia #bomdiadeus #segundafeira #santoandre #oracao #candeiadiaria #catolico #igrejacatolica",
+  "duracao": 49.1,
+  "fundo": "fotos",
+  "trilha": {
+   "id": 117,
+   "titulo": "New Dawn (Uplifting)",
+   "url": "https://media.snipsound.com/audio/rf_cin02b_new_dawn_uplifting.mp3"
+  },
+  "voz": "pt-BR-ThalitaMultilingualNeural",
+  "tipo_voz": "feminina",
+  "cta_tipo": "enviar",
+  "formato": "bom_dia",
+  "motor_voz": "edge"
+ },
+ "joaopaulo-20261130-noite": {
+  "arquivo": "joaopaulo-20261130-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/joaopaulo-20261130-noite.mp4",
+  "serie": "Santos que mudaram a história #2",
+  "legenda": "Santos que mudaram a história #2 🕯️\n\nEm 1981, São João Paulo II foi baleado na Praça São Pedro. Dois anos depois, foi até a prisão conversar com o homem que atirou nele. Envie para alguém que está lutando para perdoar e escreva AMÉM. Qual santo você quer ver no próximo?\n\n#joaopauloii #santos #perdão #fé #nossasenhoradefatima #catolico #igrejacatolica #candeiadiaria",
+  "duracao": 75.1,
+  "fundo": "videos",
+  "trilha": {
+   "id": 281,
+   "titulo": "Goodbye (Emotional)",
+   "url": "https://media.snipsound.com/audio/rf_pno02c_goodbye_emotional.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "enviar",
+  "formato": "historia",
+  "motor_voz": "edge"
+ },
+ "painosso-20261128-noite": {
+  "arquivo": "painosso-20261128-noite.mp4",
+  "url": "https://raw.githubusercontent.com/mktrankone-ui/candeia-diaria/videos/painosso-20261128-noite.mp4",
+  "serie": "Reze comigo o Pai-Nosso",
+  "legenda": "Pai nosso, que estais nos céus 🕯️\n\nA oração que o próprio Jesus nos ensinou, para rezar devagar quando o coração aperta. Envie para alguém que está passando por uma noite difícil e escreva AMÉM.\n\n#painosso #oração #oracaodanoite #fé #Jesus #catolico #igrejacatolica #candeiadiaria",
+  "duracao": 48.2,
+  "fundo": "videos",
+  "trilha": {
+   "id": 96,
+   "titulo": "Floating Light (Peaceful)",
+   "url": "https://media.snipsound.com/audio/rf_amb01a_floating_light_peaceful.mp3"
+  },
+  "voz": "pt-BR-AntonioNeural",
+  "tipo_voz": "masculina",
+  "cta_tipo": "enviar",
+  "formato": "tradicional",
+  "motor_voz": "edge"
  }
 }
